@@ -27,3 +27,8 @@ All owners outside DME are fictional; unresolved facts are not approved assumpti
 | LCC-OPEN-05 | Review architecture alternatives and affordability disposition | Dr. Moore plus fictional finance/sponsor | Selected architecture/build commitment; trade study, cost baseline and version-bound decision |
 
 Update actuals, forecast and variance at deployment/ORR, acceptance, proposed quarterly operating reviews, material changes, renewal/transfer and exit. Unsupported totals remain TBD; unrelated authorized preparation can continue.
+
+
+## Pre-Azure engineering supplement — 2026-10-10
+
+See [engineering review handoff](07-pre-azure-engineering-handoff.md) and [work breakdown](06-engineering-cost-work-breakdown.md). Preserve this record's existing version and fictional source statements; the new design package v0.1 is a separate prepared increment. No Azure connection, accepted design, actual approval or financial closure is inferred.

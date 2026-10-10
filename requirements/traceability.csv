@@ -1,0 +1,25 @@
+Requirement_ID,Source,Component,Test_ID,Evidence_Path,Result,Gate
+PULSE-FR-001,PULSE-R04,data-ingest,VV-001,Not collected,NOT_EXECUTED,G0
+PULSE-FR-002,PULSE-R04,contract-validator,VV-002,Not collected,NOT_EXECUTED,G0
+PULSE-FR-003,PULSE-R02,evaluation,VV-003,Not collected,NOT_EXECUTED,G2
+PULSE-FR-004,PULSE-R02,eligibility-policy,VV-004,Not collected,NOT_EXECUTED,G2
+PULSE-FR-005,PULSE-R02,fault-classifier,VV-005,Not collected,NOT_EXECUTED,G2
+PULSE-FR-006,PULSE-R02,rul-model,VV-006,Not collected,NOT_EXECUTED,G2
+PULSE-FR-007,PULSE-R03,decision-ledger,VV-007,Not collected,NOT_EXECUTED,G2
+PULSE-FR-008,PULSE-R03,mock-cmms,VV-008,Not collected,NOT_EXECUTED,G1
+PULSE-SR-001,PULSE-R03,authority-boundary,VV-009,Not collected,NOT_EXECUTED,G1
+PULSE-SR-002,PULSE-R05,identity-storage,VV-010,Not collected,NOT_EXECUTED,G1
+PULSE-SR-003,PULSE-R05,identity,VV-011,Not collected,NOT_EXECUTED,G1
+PULSE-SR-004,PULSE-R05,artifact-loader,VV-012,Not collected,NOT_EXECUTED,G2
+PULSE-NFR-001,PULSE-R07,scoring-service,VV-013,Not collected,NOT_EXECUTED,G3
+PULSE-NFR-002,PULSE-R07,scheduler,VV-014,Not collected,NOT_EXECUTED,G3
+PULSE-NFR-003,PULSE-R07,service-monitor,VV-015,Not collected,NOT_EXECUTED,G5
+PULSE-NFR-004,PULSE-R07,recovery,VV-016,Not collected,NOT_EXECUTED,G3
+PULSE-NFR-005,PULSE-R07,backup,VV-017,Not collected,NOT_EXECUTED,G3
+PULSE-NFR-006,PULSE-R05,retention,VV-018,Not collected,NOT_EXECUTED,G3
+PULSE-NFR-007,PULSE-R05,retention,VV-019,Not collected,NOT_EXECUTED,G3
+PULSE-NFR-008,PULSE-R04,split-manifest,VV-020,Not collected,NOT_EXECUTED,G2
+AIG-REQ-001,AIG-C15,evidence-store,VV-021,Not collected,NOT_EXECUTED,G2
+AIG-REQ-002,AIG-C17,release-gate,VV-022,Not collected,NOT_EXECUTED,G5
+AIG-REQ-003,AIG-C12,evidence-ui,VV-023,Not collected,NOT_EXECUTED,G2
+PULSE-COST-REQ-001,PULSE-R08,cost-governance,VV-024,Not collected,NOT_EXECUTED,G1

@@ -1,0 +1,12 @@
+{
+  "scope": "Draft JSON schema validity and synthetic acceptance/rejection checks only; no ingestion/model/site V&V",
+  "schema_standard": "Draft 2020-12",
+  "valid_schemas": 2,
+  "positive_fixtures": 2,
+  "negative_fixtures": 7,
+  "result": "PASS",
+  "limitations": [
+    "Schema does not validate physical signal plausibility, rights, label meaning or cross-file split leakage",
+    "RUL interval ordering and model eligibility require later semantic policy validation"
+  ]
+}

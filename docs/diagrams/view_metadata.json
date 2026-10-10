@@ -1,0 +1,52 @@
+[
+  {
+    "name": "01_system_context",
+    "title": "System Context and Authority",
+    "purpose": "Distinguish reference evidence, future site sources and human authority."
+  },
+  {
+    "name": "02_as_is_conops",
+    "title": "As-Is Workflow and Proposed Handoff",
+    "purpose": "Show the fictional current process and where advisory evidence would enter."
+  },
+  {
+    "name": "03_data_lineage",
+    "title": "Data Architecture and Lineage",
+    "purpose": "Keep rejected data apart and propagate immutable source/split identities."
+  },
+  {
+    "name": "04_model_lifecycle",
+    "title": "AI Capability and Evaluation Lifecycle",
+    "purpose": "Separate anomaly, diagnosis and RUL eligibility; protect the test holdout."
+  },
+  {
+    "name": "05_human_decision",
+    "title": "Advisory Policy and Human Decisions",
+    "purpose": "Model output cannot bypass eligibility or customer approval."
+  },
+  {
+    "name": "06_security_boundaries",
+    "title": "Security and Trust Zones",
+    "purpose": "Separate future plant collection, processing and restricted evidence access."
+  },
+  {
+    "name": "07_deployment_candidate",
+    "title": "Azure Capability Mapping \u2014 Proposed",
+    "purpose": "Map logical capabilities without claiming resources or selecting measured SKUs."
+  },
+  {
+    "name": "08_release_gates",
+    "title": "Release and Promotion Gates",
+    "purpose": "Require evidence and authority; current work stops before cloud entry."
+  },
+  {
+    "name": "09_operations_recovery",
+    "title": "Observability, Degraded Mode and Recovery",
+    "purpose": "Connect runtime signals to accountable human response and revalidation."
+  },
+  {
+    "name": "10_traceability",
+    "title": "Requirements, Risks and Evidence Trace",
+    "purpose": "Join stakeholder needs and controls to evidence-bound review decisions."
+  }
+]

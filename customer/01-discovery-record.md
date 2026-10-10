@@ -48,3 +48,8 @@ Simulated integration inventory: historian vendor is TBD; CMMS vendor is TBD; in
 ## Lifecycle cost supplement — 2026-10-10
 
 Use [PULSE-LCC-001 v0.1](04-lifecycle-cost-model.md), its [cost ledger](lifecycle-cost-lines.csv), and [PULSE-BC-001 v0.1](05-business-case.md). Original fictional responses and IDs are preserved. Q-08 records budget ceilings, not full TCO; finance must reconcile inclusions and operating years. Economic attribution for the 12 covered motors is unresolved. The supplement is prepared for review and does not change the original simulated read-back into approval of these new assumptions.
+
+
+## Pre-Azure engineering supplement — 2026-10-10
+
+See [engineering review handoff](07-pre-azure-engineering-handoff.md) and [work breakdown](06-engineering-cost-work-breakdown.md). Preserve this record's existing version and fictional source statements; the new design package v0.1 is a separate prepared increment. No Azure connection, accepted design, actual approval or financial closure is inferred.

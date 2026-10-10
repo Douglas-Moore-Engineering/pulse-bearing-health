@@ -1,0 +1,38 @@
+%% Azure Capability Mapping — Proposed | Proposed design, not deployed | PULSE v0.1
+flowchart TD
+subgraph sg_operator["Operator and governance"]
+ operator["Dr. Moore approved client path"]
+ gate["Scope, cost and cloud-entry review"]
+end
+subgraph sg_platform["Future nonproduction platform"]
+ network["Private route and DNS"]
+ workspace["Azure ML workspace candidate"]
+ storage[("Governed storage candidate")]
+ identity["Workload identity and secrets"]
+end
+subgraph sg_evidence["Operational evidence"]
+ logs[("Access, usage and recovery records")]
+end
+operator -->|"review accepted parameters"| gate
+gate -.->|"later authorized construction"| network
+network -->|"private client access"| workspace
+workspace -->|"versioned artifacts and datasets"| storage
+identity -->|"scoped authenticated access"| workspace
+workspace -->|"security and cost telemetry"| logs
+class operator human
+class gate policy
+class network,identity security
+class workspace model
+class storage data
+class logs evidence
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_operator fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_platform fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

@@ -1,11 +1,19 @@
 # Project Status
 
-Snapshot: intake/discovery v1.0, 2026-10-08. Fictional planning completeness only.
+PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
-Prepared: discovery answers, stakeholder/authority boundaries, initial scope and exclusions, review template and owned open items.
+Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
-Not delivered in this snapshot: later SOW/architecture/platform/model/site validation, independent assurance or production.
+| Subject | Evidence state |
+|---|---|
+| Customer discovery | Fictional record v1.1; new planning supplements do not create approval |
+| Lifecycle cost | PULSE-LCC-001 v0.1; WBS prepared; sourcing/TCO/ROI unresolved |
+| Standards/SEMP | Public summary-based mapping and plans prepared for review |
+| Requirements | 24 candidate requirements with trace and planned V&V |
+| Architecture | 10 focused proposed views; 8 proposed ADRs |
+| Data | Candidate sources and draft contracts; bytes/rights/splits unqualified |
+| ML/application | Candidate/evaluation plan only; no trained models or runtime implementation |
+| Azure | Not connected or provisioned; entry BLOCKED; user stop boundary active |
+| Site/production | No actual site, operational validation or acceptance |
 
-DME personnel: Dr. Douglas Moore only. All customer roles are fictional.
-
-2026-10-10 supplement: PULSE-LCC-001 v0.1, cost ledger and PULSE-BC-001 v0.1 prepared for review. Discovery/handoff/open-items records revised to v1.1. Three-year evaluation horizon is proposed; budget envelope is fictional; estimated TCO, affordability, ROI/payback and financial approval remain unresolved. No implementation or paid resource activity authorized by this supplement.
+The package is review-ready as documentation. It is not an approved architecture, passed data/model gate, independent assurance, certification or production deployment. See PRE_AZURE_REVIEW.md and cloud-entry conditions.

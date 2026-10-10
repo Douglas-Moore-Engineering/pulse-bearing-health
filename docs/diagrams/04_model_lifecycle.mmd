@@ -1,0 +1,40 @@
+%% AI Capability and Evaluation Lifecycle | Proposed design, not deployed | PULSE v0.1
+flowchart TD
+subgraph sg_data["Qualified evaluation data"]
+ groups["Frozen bearing and run partitions"]
+ labels["Qualified fault and lifetime labels"]
+end
+subgraph sg_models["Analytics and models"]
+ baseline["RMS and kurtosis baseline"]
+ anomaly["Anomaly candidate"]
+ diagnosis["Fault classifier when eligible"]
+ rul["RUL with validated intervals"]
+end
+subgraph sg_review["Evidence and review"]
+ compare["Validation selection then sealed test"]
+ report[("Metrics and limitations")]
+end
+groups -->|"same evaluation conditions"| baseline
+groups -->|"normal training subset"| anomaly
+labels -->|"supported classes"| diagnosis
+labels -->|"failure and censoring endpoints"| rul
+baseline -->|"baseline outcomes"| compare
+anomaly -->|"candidate outcomes"| compare
+diagnosis -->|"eligible class evidence"| compare
+rul -->|"eligible prognostic evidence"| compare
+compare -->|"independent group results"| report
+class groups,labels data
+class baseline,anomaly,diagnosis,rul model
+class compare policy
+class report evidence
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_data fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_models fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_review fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

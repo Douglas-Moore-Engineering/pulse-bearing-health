@@ -1,0 +1,41 @@
+%% Advisory Policy and Human Decisions | Proposed design, not deployed | PULSE v0.1
+flowchart TD
+subgraph sg_model["Analytics output"]
+ inference["Prediction and uncertainty"]
+end
+subgraph sg_policy["Eligibility and authority"]
+ valid{"Within validated envelope?"}
+ unavailable["Unavailable with reason"]
+ advisory["Advisory evidence and limits"]
+end
+subgraph sg_human["Authorized decisions"]
+ review["Reliability reviews evidence"]
+ disposition{"Approve, modify or reject?"}
+ mock["Mock work request"]
+ ledger[("Decision and outcome ledger")]
+end
+inference -->|"versioned evidence"| valid
+valid -->|"no"| unavailable
+valid -->|"yes"| advisory
+unavailable -->|"manual investigation"| review
+advisory -->|"supports review"| review
+review -->|"qualified recommendation"| disposition
+disposition -->|"approved or modified"| mock
+disposition -->|"rejected"| ledger
+mock -->|"records reference disposition"| ledger
+class inference model
+class valid,unavailable,advisory policy
+class review,disposition human
+class mock policy
+class ledger evidence
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_model fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_policy fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_human fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

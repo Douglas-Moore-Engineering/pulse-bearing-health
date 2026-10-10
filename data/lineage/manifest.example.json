@@ -1,0 +1,13 @@
+{
+  "status": "EXAMPLE_ONLY_NOT_DATA_EVIDENCE",
+  "schema_version": "0.1",
+  "dataset_id": "TBD",
+  "source_files": [],
+  "rights_evidence": "TBD",
+  "adapter_digest": "TBD",
+  "split_policy": "bearing/run-disjoint-before-windowing",
+  "split_manifest_digest": "TBD",
+  "feature_config_digest": "TBD",
+  "model_digest": "TBD",
+  "policy_digest": "TBD"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Pulse: validate review package",
+      "type": "shell",
+      "command": "python scripts/validate_review_package.py",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+ID,Type,Applicability,Source,Evidence_Depth,Owner,Status,Trigger
+OBL-01,Data rights,Each source required,data/dataset_register.csv,Publisher statements only; allowed DME use unresolved,Dr. Moore,OPEN,Acquisition/use/redistribution
+OBL-02,Customer contract,Fictional now; actual later,customer/02-customer-review-handoff.md,No actual SOW/signature,Dr. Moore,OPEN,Real engagement/site
+OBL-03,Law/privacy/sector,Jurisdiction and data dependent,governance/AI_IMPACT_ASSESSMENT.md,No formal legal assessment,Qualified obligations owner TBD,OPEN,Actual people data/site/jurisdiction
+OBL-04,Voluntary engineering guidance,Tailored portfolio planning,governance/standards/standards_applicability_matrix.csv,"Public metadata/summary, not full clauses",Dr. Moore,Prepared,Freeze/edition change

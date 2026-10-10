@@ -47,3 +47,8 @@ Discovery supplement and financial planning only. Dr. Moore prepares/maintains t
 
 Finance review disposition and model version: ____________________
 Budget inclusion/affordability conditions: ____________________
+
+
+## Pre-Azure engineering supplement — 2026-10-10
+
+See [engineering review handoff](07-pre-azure-engineering-handoff.md) and [work breakdown](06-engineering-cost-work-breakdown.md). Preserve this record's existing version and fictional source statements; the new design package v0.1 is a separate prepared increment. No Azure connection, accepted design, actual approval or financial closure is inferred.

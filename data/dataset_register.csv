@@ -1,0 +1,5 @@
+Dataset_ID,Candidate,Source,Purpose,Rights_Status,Bytes_Status,Qualification_Status,Limitation,Owner
+DS-CWRU,CWRU bearing data,https://engineering.case.edu/bearingdatacenter/download-data-file,Baseline anomaly and fault classification,Allowed DME use/redistribution unresolved,Not inspected,Not qualified,Seeded faults; no RUL labels inferred,Dr. Moore
+DS-IMS,IMS bearing experiments via NASA,https://data.nasa.gov/dataset/ims-bearings,Degradation/RUL feasibility candidate,Confirm source-specific rights and citation,Not inspected,Not qualified,Inspect run endpoints/censoring; test rig not plant validation,Dr. Moore
+DS-PADERBORN,Paderborn bearing data,https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter,Robustness/classification candidate,CC BY-NC 4.0 per source; commercial permission required,Not inspected,Blocked pending intended-use rights decision,No inference of full lifetime trajectories from short measurements,Dr. Moore
+DS-USER,User-held bearing files,User-reported possession; local path not supplied,Qualify once inventory is available,Unknown,Not inspected,Not qualified,Do not assume dataset identity or completeness,Dr. Moore

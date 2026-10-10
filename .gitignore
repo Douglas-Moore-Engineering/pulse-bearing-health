@@ -1,7 +1,8 @@
-.env
-.env.*
-!.env.example
 __pycache__/
-.vscode/*.log
+.venv/
+.env
 data/raw/
-secrets/
+data/private/
+outputs/private/
+*.pem
+*.key

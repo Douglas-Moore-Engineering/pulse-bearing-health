@@ -1,0 +1,38 @@
+%% Requirements, Risks and Evidence Trace | Proposed design, not deployed | PULSE v0.1
+flowchart TD
+subgraph sg_inputs["Engineering inputs"]
+ need["Customer need and source"]
+ risk["Risk and obligation"]
+end
+subgraph sg_design["Governed design"]
+ req["Atomic requirement"]
+ component["Architecture component and ADR"]
+ test["V&V method and criterion"]
+end
+subgraph sg_review["Evidence and authority"]
+ evidence[("Versioned test evidence")]
+ decision["Authorized review disposition"]
+end
+need -->|"derives with rationale"| req
+risk -->|"allocates controls"| req
+req -->|"allocated function"| component
+req -->|"specified behavior"| test
+component -->|"implemented configuration later"| test
+test -->|"actual result later"| evidence
+evidence -->|"supports bounded decision"| decision
+class need source
+class risk,req policy
+class component data
+class test,evidence evidence
+class decision human
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_inputs fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_design fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_review fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

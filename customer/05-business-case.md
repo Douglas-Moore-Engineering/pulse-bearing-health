@@ -19,3 +19,4 @@ ROI = (attributable benefits − lifecycle costs) / lifecycle costs over the sam
 ## Review and next action
 
 Dr. Moore prepares the analysis; fictional finance reviews costs/attribution and sponsor decides proceed/revise/stop. Current state: prepared for review, no decision evidenced. Qualify data and bearing-health feasibility; reconcile the covered assets' economic baseline and lifecycle assumptions before financial reliance. Refer to [open items](03-open-items.md) and [review handoff](02-customer-review-handoff.md).
+

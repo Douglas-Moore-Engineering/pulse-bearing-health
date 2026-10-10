@@ -1,0 +1,38 @@
+%% Release and Promotion Gates | Proposed design, not deployed | PULSE v0.1
+flowchart TD
+subgraph sg_design["Current preparation"]
+ design["Versioned design package"]
+ review["Dr. Moore reviews and corrects"]
+ cloud{"Cloud-entry evidence and authority?"}
+ hold["Remain pre-Azure"]
+end
+subgraph sg_future["Later engineering and assurance"]
+ platform["Governed platform construction"]
+ vv["Data, model and workflow V&V"]
+ release{"Exact release authorized?"}
+ exposure["Bounded authorized exposure"]
+end
+design -->|"reviewable artifacts"| review
+review -->|"record disposition and conditions"| cloud
+cloud -->|"no: current boundary"| hold
+cloud -.->|"yes: later scope"| platform
+platform -->|"implemented controls"| vv
+vv -->|"fresh evidence and risk review"| release
+release -->|"no"| hold
+release -->|"yes"| exposure
+class design evidence
+class review human
+class cloud,hold,release policy
+class platform data
+class vv evidence
+class exposure human
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_design fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_future fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

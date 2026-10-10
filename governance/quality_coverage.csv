@@ -1,0 +1,10 @@
+Characteristic,Project_Concern,Requirements_or_Plan,Verification_Status
+Functional suitability,Correct bounded advisory capabilities,PULSE-FR-003–008,PLANNED
+Performance efficiency,Measured latency/capacity,PULSE-NFR-001;docs/10-capacity-and-performance-planning.md,PLANNED
+Compatibility,Source and mock/site contracts,data/contracts;PULSE-FR-008,PLANNED
+Interaction capability,Human review and limitations,PULSE-FR-007;AIG-REQ-003,PLANNED
+Reliability,Degraded/manual/recovery behavior,PULSE-NFR-003–005,PLANNED
+Security,Identity/integrity/trust,PULSE-SR-001–004,PLANNED
+Maintainability,Versioned contracts/ADRs/runbooks,docs/systems-engineering-management-plan.md,PLANNED
+Flexibility,Portable core and new-regime review,ADR-007;PULSE-FR-004,PLANNED
+Safety,No protective control or autonomous writes,PULSE-SR-001;governance/AI_IMPACT_ASSESSMENT.md,PLANNED

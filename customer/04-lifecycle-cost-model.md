@@ -62,3 +62,8 @@ Next update: scope/hosting/architecture review, before implementation commitment
 ## Change history
 
 - v0.1: introduced lifecycle coverage, budget-envelope reconciliation, ledger and unresolved affordability; no spending approval or measured cost claim.
+
+
+## Pre-Azure engineering supplement — 2026-10-10
+
+See [engineering review handoff](07-pre-azure-engineering-handoff.md) and [work breakdown](06-engineering-cost-work-breakdown.md). Preserve this record's existing version and fictional source statements; the new design package v0.1 is a separate prepared increment. No Azure connection, accepted design, actual approval or financial closure is inferred.

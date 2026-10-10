@@ -1,0 +1,9 @@
+ID,Assumption_or_Unknown,Evidence_State,Owner,Affected_Decision,Closure
+ASM-01,One plant / 12 motor bearings,Fictional,Dr. Moore + sponsor,Site scope,Actual asset inventory
+ASM-02,Azure preferred / US residency,Fictional preference,Dr. Moore + IT,Cloud mapping,Accepted region/policy
+ASM-03,Data mostly held by user,User statement; files not inspected,Dr. Moore,Data readiness,Paths/bytes/rights inventory
+ASM-04,Three operating years,Proposed,Dr. Moore + finance,Cost horizon,Review disposition
+ASM-05,$60k / $18k budgets,Fictional ceilings,Finance role fictional,Affordability,Sourced estimate and inclusions
+ASM-06,Future site risk,Unknown; provisional G3,Qualified domain reviewer TBD,Site assurance,Hazard/exposure review
+ASM-07,Operator network/identity,Unknown,Dr. Moore,Azure entry,Actual approved route and principal
+ASM-08,Technical numeric criteria,Fictional candidates / model targets TBD,Dr. Moore + reliability,Freeze/release,Predeclared feasible evaluation criteria

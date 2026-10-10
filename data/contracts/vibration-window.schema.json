@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pulse vibration window v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "bearing_id",
+    "run_id",
+    "window_id",
+    "source_sha256",
+    "sample_rate_hz",
+    "unit",
+    "samples",
+    "time_basis",
+    "split"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bearing_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "window_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sample_rate_hz": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "unit": {
+      "enum": [
+        "g",
+        "m/s2"
+      ]
+    },
+    "samples": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "number"
+      }
+    },
+    "time_basis": {
+      "enum": [
+        "source-relative",
+        "utc"
+      ]
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_offset_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "fault_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "time_basis": {
+            "const": "utc"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "timestamp_utc"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "time_basis": {
+            "const": "source-relative"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_offset_seconds"
+        ]
+      }
+    }
+  ]
+}

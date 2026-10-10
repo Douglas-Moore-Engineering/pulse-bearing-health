@@ -1,0 +1,8 @@
+Threat_ID,Scenario,Consequence,Proposed_Control,Requirements,Gate,Owner,Status,Evidence,Residual_Risk
+THR-001,Corrupt/mislabeled data,Wrong diagnostic evidence,Validate checksums/schema/labels; quarantine,PULSE-FR-001;PULSE-FR-002,G0,Dr. Moore,PLANNED,Not tested,Not established
+THR-002,Unsafe model deserialization,Code execution / tampering,Approved formats; digest allowlist; dependency/loader review,PULSE-SR-004,G2,Dr. Moore,PLANNED,Not tested,Not established
+THR-003,Credential leakage or broad role,Data disclosure / unwanted spend,No secrets in repo; scoped identity; permission review,PULSE-SR-003,G1,Dr. Moore,PLANNED,Not tested,Not established
+THR-004,OT/CMMS write path,Unauthorized physical action,No control-write interfaces; mock CMMS; separate authority,PULSE-SR-001;PULSE-FR-008,G1,Dr. Moore,PLANNED,Not tested,Not established
+THR-005,Public artifact exposure,Data/model leakage,Private route and authenticated data plane; negative access test,PULSE-SR-002,G1,Dr. Moore,PLANNED,Not tested,Not established
+THR-006,Evidence/approval tamper,Unsafe promotion or misleading audit,Digests; protected approval binding; actor/time trace,AIG-REQ-001;AIG-REQ-002,G5,Dr. Moore,PLANNED,Not tested,Not established
+THR-007,Burst resource consumption,Cost and availability loss,Bounded batches; budgets/alerts; no always-on compute by default,PULSE-COST-REQ-001,G1,Dr. Moore,PLANNED,Not tested,Not established
