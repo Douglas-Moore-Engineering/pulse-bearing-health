@@ -1,6 +1,6 @@
 # Customer Intake & Discovery Review
 
-PULSE-INTAKE-001 v1.0 · 2026-10-08 · FICTIONAL PORTFOLIO EXAMPLE
+PULSE-INTAKE-001 v1.1 · 2026-10-08 · FICTIONAL PORTFOLIO EXAMPLE
 
 Prepared by Dr. Douglas Moore, Founder & Lead Architect, Douglas Moore Engineering, LLC.
 
@@ -16,7 +16,9 @@ DME/Dr. Moore prepares engineering and delivery records. Customer sponsor approv
 
 ## Documents covered
 
-- Discovery: customer/01-discovery-record.md, PULSE-DISC-001-INTAKE v1.0
+- Discovery: customer/01-discovery-record.md, PULSE-DISC-001-INTAKE v1.1
+- Lifecycle cost: [PULSE-LCC-001 v0.1](04-lifecycle-cost-model.md), with [cost ledger](lifecycle-cost-lines.csv), prepared for review.
+- Business case: [PULSE-BC-001 v0.1](05-business-case.md), ROI/payback and affordability unresolved.
 - Open items: customer/03-open-items.md v1.0
 - Next-stage proposal/SOW: Not attached in this first-step snapshot; required before actual paid work.
 
@@ -38,3 +40,10 @@ Proposal/SOW ID and version: ____________________
 IT/OT/data/finance concurrence where required: ____________________
 
 Approval binds to the stated document versions and conditions. It is not finished-system acceptance, evidence of target achievement or production authorization. Simulated approval in an exercise never supplies an actual signature.
+
+## Cost review handoff — 2026-10-10
+
+Discovery supplement and financial planning only. Dr. Moore prepares/maintains the model; fictional finance reviews assumptions and sponsor decides commitment. No new approval is evidenced. Proposed horizon: Year 0 plus three operating years; support after Year 1 and all sourced line estimates remain open. Next update is scope/hosting/architecture review before build commitment. Close LCC-OPEN-01–05 with evidence; return cost-model version, affordability disposition and conditions to engineering and standards assurance. Current permission remains scoped planning; this change authorizes no purchases, cloud provisioning or production work.
+
+Finance review disposition and model version: ____________________
+Budget inclusion/affordability conditions: ____________________

@@ -1,6 +1,6 @@
 # Open Items — Intake Snapshot
 
-Version 1.0 · All customer details fictional. Gate-relative scheduling actions are deliberate; no real due dates or appointments are asserted.
+Version 1.1 · All customer details fictional. Gate-relative scheduling actions are deliberate; no real due dates or appointments are asserted.
 
 | Item | Owner | Resolve before / closure evidence |
 |---|---|---|
@@ -13,3 +13,17 @@ Version 1.0 · All customer details fictional. Gate-relative scheduling actions 
 | Independent reviewer if required by risk | DME with customer authority | Release; authentic competence/conflict/review record |
 
 Schedule owner reviews during next-stage planning. Record source, impacts, evidence, disposition and changes; never replace unknown technical facts with simulated success.
+
+## Lifecycle cost closure actions — 2026-10-10
+
+All owners outside DME are fictional; unresolved facts are not approved assumptions. Master model: [PULSE-LCC-001 v0.1](04-lifecycle-cost-model.md).
+
+| ID | Open condition | Owner | Resolve before / evidence |
+|---|---|---|---|
+| LCC-OPEN-01 | Confirm three-year horizon, timing, growth and financial basis | Dr. Moore plus fictional finance | Financial reliance; reviewed basis and version |
+| LCC-OPEN-02 | Reconcile budget inclusions, payer and every cost line; source quantities/rates | Dr. Moore plus fictional finance/IT | Build commitment; sourced estimate, exclusions, low/base/high and contingency |
+| LCC-OPEN-03 | Establish 12-motor share of losses and benefit attribution | Fictional reliability/finance; Dr. Moore documents | ROI/payback claim; asset-linked exposure and counterfactual evidence |
+| LCC-OPEN-04 | Resolve Years 2–3 staffing/support, upgrades and exit responsibilities | Fictional service owner/sponsor | Lifecycle affordability baseline; support/exit scope and costs |
+| LCC-OPEN-05 | Review architecture alternatives and affordability disposition | Dr. Moore plus fictional finance/sponsor | Selected architecture/build commitment; trade study, cost baseline and version-bound decision |
+
+Update actuals, forecast and variance at deployment/ORR, acceptance, proposed quarterly operating reviews, material changes, renewal/transfer and exit. Unsupported totals remain TBD; unrelated authorized preparation can continue.

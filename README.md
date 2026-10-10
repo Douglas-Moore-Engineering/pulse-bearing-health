@@ -8,6 +8,9 @@ Douglas Moore Engineering, LLC · Fictional customer portfolio engagement
 
 - [Customer discovery](customer/01-discovery-record.md)
 - [Customer review and handoff](customer/02-customer-review-handoff.md)
+- [Lifecycle cost model](customer/04-lifecycle-cost-model.md)
+- [Cost ledger](customer/lifecycle-cost-lines.csv)
+- [Initial business case](customer/05-business-case.md)
 - [Open items](customer/03-open-items.md)
 - [Project status](PROJECT_STATUS.md)
 - [Data handling](SECURITY.md)
@@ -31,3 +34,7 @@ Review the discovery summary and authorize scoped feasibility/requirements work 
 ## Confidentiality and reuse
 
 Contains fictional planning only. Do not add customer data, credentials or proprietary evidence to this reference workspace. No public publication authorization is assumed. Repository visibility should remain private until Dr. Moore requests otherwise.
+
+## Lifecycle cost review
+
+PULSE-LCC-001 v0.1 is prepared for review. The $60,000 implementation and $18,000 annual operations figures are fictional budget ceilings. A proposed three-year envelope totals $114,000; estimated TCO, affordability, ROI and payback remain unresolved. Review cost coverage and supporting evidence before build commitment. See the linked model, ledger and business case.

@@ -1,6 +1,6 @@
 # Pulse — Intake and Discovery
 
-Record PULSE-DISC-001-INTAKE v1.0 · 2026-10-08
+Record PULSE-DISC-001-INTAKE v1.1 · 2026-10-08
 
 Fictional portfolio exercise. All customer answers and role approvals are simulated. No real client, site, costs, measured outcomes or production approval is claimed. Extracted from planning baseline v0.9; later phases are outside this initial repository snapshot.
 
@@ -44,3 +44,7 @@ These are scenario decisions, not evidence of a real environment. Azure preferen
 
 Simulated integration inventory: historian vendor is TBD; CMMS vendor is TBD; initial reference uses versioned file/API contracts and mocks. ERP and MES are not required for the initial scope because cost/production-exposure records can be supplied as approved exports. This is a justified planning exclusion, reviewable if outcome measurement needs additional interfaces. Identity will use the scenario's organization-managed authentication; product/service selection is deferred.
 
+
+## Lifecycle cost supplement — 2026-10-10
+
+Use [PULSE-LCC-001 v0.1](04-lifecycle-cost-model.md), its [cost ledger](lifecycle-cost-lines.csv), and [PULSE-BC-001 v0.1](05-business-case.md). Original fictional responses and IDs are preserved. Q-08 records budget ceilings, not full TCO; finance must reconcile inclusions and operating years. Economic attribution for the 12 covered motors is unresolved. The supplement is prepared for review and does not change the original simulated read-back into approval of these new assumptions.
