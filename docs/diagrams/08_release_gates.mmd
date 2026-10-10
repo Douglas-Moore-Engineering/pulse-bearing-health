@@ -1,31 +1,35 @@
-%% Release and Promotion Gates | Proposed design, not deployed | PULSE v0.1
+%% Release and Promotion | Proposed design; unimplemented | Pulse architecture v0.2
 flowchart TD
-subgraph sg_design["Current preparation"]
- design["Versioned design package"]
- review["Dr. Moore reviews and corrects"]
- cloud{"Cloud-entry evidence and authority?"}
- hold["Remain pre-Azure"]
+subgraph sg_candidate["Candidate preparation — planned"]
+  source["Code and registered model version"]
+  ci["Contract, security and V&V checks"]
+  manifest[("Release manifest and evidence")]
 end
-subgraph sg_future["Later engineering and assurance"]
- platform["Governed platform construction"]
- vv["Data, model and workflow V&V"]
- release{"Exact release authorized?"}
- exposure["Bounded authorized exposure"]
+subgraph sg_gate["Scoped promotion authority"]
+  approve{"Exact release authorized?"}
+  stage["Stage verified bundle in target"]
+  check{"Target checks pass?"}
 end
-design -->|"reviewable artifacts"| review
-review -->|"record disposition and conditions"| cloud
-cloud -->|"no: current boundary"| hold
-cloud -.->|"yes: later scope"| platform
-platform -->|"implemented controls"| vv
-vv -->|"fresh evidence and risk review"| release
-release -->|"no"| hold
-release -->|"yes"| exposure
-class design evidence
-class review human
-class cloud,hold,release policy
-class platform data
-class vv evidence
-class exposure human
+subgraph sg_result["Release disposition"]
+  hold["Hold; no new exposure"]
+  run["Activate approved scope; monitor"]
+  incident["Rollback or withdrawal; view 08b"]
+end
+source -->|"pinned inputs; no latest"| ci
+ci -->|"passed applicable checks"| manifest
+ci -->|"fail"| hold
+manifest -->|"digests, target, evidence and authority"| approve
+approve -->|"no; current Azure stop"| hold
+approve -->|"yes; exact approved scope"| stage
+stage -->|"integrity, access, contract and smoke tests"| check
+check -->|"no"| hold
+check -->|"yes"| run
+run -->|"stop criterion or incident"| incident
+class source source
+class ci,manifest evidence
+class approve,check,hold policy
+class stage,run model
+class incident security
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
   classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
@@ -33,6 +37,7 @@ class exposure human
   classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
   classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
-  style sg_design fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_future fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_candidate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_gate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_result fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px

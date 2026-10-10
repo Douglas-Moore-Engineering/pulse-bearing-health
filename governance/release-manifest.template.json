@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.2",
+  "status": "TEMPLATE_NOT_AUTHORIZED",
+  "release_id": null,
+  "scope": {
+    "capability_envelope_ref": null,
+    "reference_or_site": null,
+    "target_environment": null,
+    "exposure_level": null
+  },
+  "source": {
+    "code_commit": null,
+    "source_rights_manifest_digest": null,
+    "split_manifest_digest": null,
+    "training_run_id": null
+  },
+  "artifacts": {
+    "model_name": null,
+    "model_version": null,
+    "model_digest": null,
+    "artifact_format": null,
+    "preprocessing_code_digest": null,
+    "fitted_transform_digest": null,
+    "feature_schema_digest": null,
+    "input_contract_digest": null,
+    "output_contract_digest": null,
+    "threshold_config_digest": null,
+    "policy_digest": null,
+    "environment_lock_or_image_digest": null,
+    "target_config_digest": null
+  },
+  "evidence": {
+    "test_report_refs": [],
+    "risk_review_ref": null,
+    "limitations_ref": null,
+    "cost_baseline_ref": null
+  },
+  "recovery": {
+    "prior_eligible_manifest_digest": null,
+    "runbook_ref": null,
+    "compatibility_evidence_ref": null
+  },
+  "approval_record_ref": null,
+  "approval_binding_rule": "External approval record binds digest of completed manifest bytes, target, scope, actor authority, timestamp, expiry and revocation state. No self-referential manifest hash."
+}

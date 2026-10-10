@@ -1,5 +1,9 @@
 # Change Log
 
+## pre-azure-architecture-v0.2 — 2026-10-10
+
+Corrected overview-only MLOps/release and deployment views. Expanded 04, 07 and 08; added 04b inference/monitoring and 07b network/identity and 08b recovery companion views, a release-manifest template and corresponding design/handoff records. Thirteen unique views now exist. Preserved all gates, requirement IDs and Azure stop instructions. Four previously proposed additional architecture views remain backlog; no exhaustive architecture-completeness or runtime claim.
+
 ## pre-azure-design-v0.1 — 2026-10-10
 
 Prepared standards/SEMP/tailoring, 24 candidate requirements and V&V trace, 8 proposed ADRs, 10 architecture views, contracts/dataset qualification, security and AI governance, capacity/cost work breakdown, and a blocked cloud-entry review. Latest user boundary stops before Azure connection; no provisioning/training/site validation is claimed.

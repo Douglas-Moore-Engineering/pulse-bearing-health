@@ -1,6 +1,6 @@
 # Pulse — Pre-Azure Review Package
 
-PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
@@ -24,3 +24,9 @@ Review the reference-versus-site scope, proposed requirements, advisory-only aut
 ## Material open conditions
 
 Dataset bytes/rights/labels, measured workload, source-unit split feasibility, supported fault regimes, independent site-risk review, actual subscription/operator identity, region policy, private access path and sourced costs are unresolved. Azure entry is BLOCKED. This is a concrete package ready for your review, not a passed architecture or deployment gate.
+
+## Architecture correction — v0.2
+
+The original package used overview diagrams where detailed MLOps/release and deployment relationships were needed. Views 04, 07 and 08 are expanded, with focused companions 04b, 07b and 08b. Review exact version binding, promotion denial, inference/monitoring/retraining, rollback, environment separation, private access, identities and logging in the [architecture index](architecture/README.md), [AI/ML design](05-ai-ml-and-decision-intelligence.md), [release design](08-testing-release-gates-and-acceptance.md) and [platform plan](../infra/azure/PLATFORM_PLAN.md).
+
+This correction completes those specified design expansions for review. It does not establish implementation readiness or exhaustive architecture-view coverage. The previously identified functional decomposition, integration, threat/defense and critical runtime sequence views remain separate design backlog items. Their relevant behavior is described in existing design records, but those additional views have not been authored in this correction. All cloud-entry conditions and runtime V&V dispositions remain open.

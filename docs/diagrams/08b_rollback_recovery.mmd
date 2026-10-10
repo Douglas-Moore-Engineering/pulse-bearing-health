@@ -1,0 +1,45 @@
+%% Rollback and Safe Recovery | Proposed design; unimplemented | Pulse architecture v0.2
+flowchart TD
+subgraph sg_contain["Incident containment — proposed"]
+  alert["Release, model or integrity incident"]
+  withdraw["Withdraw affected advisory"]
+  evidence[("Retained incident and release evidence")]
+end
+subgraph sg_decide["Accountable recovery decision"]
+  owner["Release owner checks recovery authority"]
+  prior{"Prior release still eligible?"}
+  manual["Unavailable; manual workflow"]
+end
+subgraph sg_restore["Exact bundle recovery"]
+  restore["Restore approved manifest bundle"]
+  checks["Integrity, compatibility and reconciliation"]
+  valid{"Recovery checks pass?"}
+  resume["Resume bounded exposure; monitor"]
+end
+alert -->|"contain invalid outputs"| withdraw
+withdraw -->|"preserve versions and timing"| evidence
+evidence -->|"supports recovery review"| owner
+owner -->|"rights, security and approval still valid"| prior
+prior -->|"no"| manual
+prior -->|"yes"| restore
+restore -->|"model, transforms, policy and environment"| checks
+checks -->|"include target smoke tests"| valid
+valid -->|"no"| manual
+valid -->|"yes; authorized recovery only"| resume
+class alert,withdraw security
+class evidence,checks evidence
+class owner human
+class prior,manual,valid policy
+class restore data
+class resume model
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_contain fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_decide fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_restore fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

@@ -1,16 +1,36 @@
 # Architecture Views
 
-PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
-View correspondence: source/run/evidence IDs and authority boundaries must agree across all views, requirements and ADRs. Dashed edges represent future scope or unbuilt transitions, never existing connections. All controls and cloud resources are proposals. Sources and labels differ by view purpose; no graphic grants authority.
+## Diagram index
+
+Thirteen unique views; `.mmd`, `.svg` and `.png` are source, scalable preview and image export of the same diagram. Views 04/04b, 07/07b and 08/08b form the v0.2 correction. Other views retain v0.1.
+
+| View | Purpose |
+|---|---|
+| [System Context and Authority](../diagrams/01_system_context.svg) | Distinguish reference evidence, future site sources and human authority. |
+| [As-Is Workflow and Proposed Handoff](../diagrams/02_as_is_conops.svg) | Show the fictional current process and where advisory evidence would enter. |
+| [Data Architecture and Lineage](../diagrams/03_data_lineage.svg) | Keep rejected data apart and propagate immutable source/split identities. |
+| [AI/ML Training and Registration](../diagrams/04_model_lifecycle.svg) | Trace qualified signals through leakage-safe preparation, candidate evaluation and versioned registration; registration does not authorize release. |
+| [Inference, Monitoring and Revalidation](../diagrams/04b_inference_monitoring.svg) | Bind scoring to the released preprocessing/model/policy versions, preserve abstention and human authority, and route change signals to reviewed revalidation. |
+| [Advisory Policy and Human Decisions](../diagrams/05_human_decision.svg) | Model output cannot bypass eligibility or customer approval. |
+| [Security and Trust Zones](../diagrams/06_security_boundaries.svg) | Separate future plant collection, processing and restricted evidence access. |
+| [Proposed Azure Environment Topology](../diagrams/07_deployment_candidate.svg) | Separate reference development, release validation and later site deployment; show storage, compute, model assets and operational evidence without binding resources. |
+| [Proposed Network and Identity Paths](../diagrams/07b_network_identity.svg) | Distinguish private inbound client access from managed compute egress and identity authorization; resource placement is logical, not an implemented network. |
+| [Release and Promotion](../diagrams/08_release_gates.svg) | Bind each promotion to verified artifacts, an exact destination, current evidence and release authority; failures deny new exposure. |
+| [Rollback and Safe Recovery](../diagrams/08b_rollback_recovery.svg) | Withdraw affected advisories, assess the prior release and recover the full approved bundle or remain unavailable. |
+| [Observability, Degraded Mode and Recovery](../diagrams/09_operations_recovery.svg) | Connect runtime signals to accountable human response and revalidation. |
+| [Requirements, Risks and Evidence Trace](../diagrams/10_traceability.svg) | Join stakeholder needs and controls to evidence-bound review decisions. |
+
+All components and controls are proposed. Solid edges describe intended interactions, not existing connections; dashed edges mark later site scope. Resource groups are administrative boundaries, not network isolation. Identity authorization does not create a route. Related versions and authority must agree across views.
 
 ## System Context and Authority
 
-Distinguish reference evidence, future site sources and human authority. Status: proposed/unimplemented. Requirements: PULSE-SR-001;PULSE-FR-007;AIG-REQ-003.
+Distinguish reference evidence, future site sources and human authority. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-SR-001;PULSE-FR-007;AIG-REQ-003.
 
-[Editable source](../diagrams/01_system_context.mmd) · [SVG preview](../diagrams/01_system_context.svg)
+[Editable source](../diagrams/01_system_context.mmd) · [SVG preview](../diagrams/01_system_context.svg) · [PNG export](../diagrams/01_system_context.png)
 
 ```mermaid
 %% System Context and Authority | Proposed design, not deployed | PULSE v0.1
@@ -49,13 +69,13 @@ class reviewer,planner human
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Blue—sources; Teal—data; Green—people; Purple—evidence.
 
 ## As-Is Workflow and Proposed Handoff
 
-Show the fictional current process and where advisory evidence would enter. Status: proposed/unimplemented. Requirements: PULSE-FR-007;PULSE-FR-008.
+Show the fictional current process and where advisory evidence would enter. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-FR-007;PULSE-FR-008.
 
-[Editable source](../diagrams/02_as_is_conops.mmd) · [SVG preview](../diagrams/02_as_is_conops.svg)
+[Editable source](../diagrams/02_as_is_conops.mmd) · [SVG preview](../diagrams/02_as_is_conops.svg) · [PNG export](../diagrams/02_as_is_conops.png)
 
 ```mermaid
 %% As-Is Workflow and Proposed Handoff | Proposed design, not deployed | PULSE v0.1
@@ -94,13 +114,13 @@ class mock policy
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Blue—sources; Gold—policy; Green—people; Purple—evidence.
 
 ## Data Architecture and Lineage
 
-Keep rejected data apart and propagate immutable source/split identities. Status: proposed/unimplemented. Requirements: PULSE-FR-001;PULSE-FR-002;PULSE-NFR-008.
+Keep rejected data apart and propagate immutable source/split identities. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-FR-001;PULSE-FR-002;PULSE-NFR-008.
 
-[Editable source](../diagrams/03_data_lineage.mmd) · [SVG preview](../diagrams/03_data_lineage.svg)
+[Editable source](../diagrams/03_data_lineage.mmd) · [SVG preview](../diagrams/03_data_lineage.svg) · [PNG export](../diagrams/03_data_lineage.png)
 
 ```mermaid
 %% Data Architecture and Lineage | Proposed design, not deployed | PULSE v0.1
@@ -143,44 +163,51 @@ class manifest,lineage evidence
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Blue—sources; Teal—data; Indigo—models; Purple—evidence.
 
-## AI Capability and Evaluation Lifecycle
+## AI/ML Training and Registration
 
-Separate anomaly, diagnosis and RUL eligibility; protect the test holdout. Status: proposed/unimplemented. Requirements: PULSE-FR-003;PULSE-FR-005;PULSE-FR-006.
+Trace qualified signals through leakage-safe preparation, candidate evaluation and versioned registration; registration does not authorize release. Status: proposed/unimplemented; view v0.2. Requirements: PULSE-FR-001;PULSE-FR-003;PULSE-FR-005;PULSE-FR-006;PULSE-NFR-008;AIG-REQ-001.
 
-[Editable source](../diagrams/04_model_lifecycle.mmd) · [SVG preview](../diagrams/04_model_lifecycle.svg)
+[Editable source](../diagrams/04_model_lifecycle.mmd) · [SVG preview](../diagrams/04_model_lifecycle.svg) · [PNG export](../diagrams/04_model_lifecycle.png)
 
 ```mermaid
-%% AI Capability and Evaluation Lifecycle | Proposed design, not deployed | PULSE v0.1
+%% AI/ML Training and Registration | Proposed design; unimplemented | Pulse architecture v0.2
 flowchart TD
-subgraph sg_data["Qualified evaluation data"]
- groups["Frozen bearing and run partitions"]
- labels["Qualified fault and lifetime labels"]
+subgraph sg_data["Qualified data and reproducible preparation"]
+  data[("Accepted signals and label provenance")]
+  split["Freeze bearing/run partitions"]
+  prep["Train-fit signal and feature pipeline"]
 end
-subgraph sg_models["Analytics and models"]
- baseline["RMS and kurtosis baseline"]
- anomaly["Anomaly candidate"]
- diagnosis["Fault classifier when eligible"]
- rul["RUL with validated intervals"]
+subgraph sg_models["Experiments and capability eligibility"]
+  baseline["RMS / kurtosis baseline"]
+  candidates["Anomaly; eligible diagnosis / RUL"]
+  validation["Validation selection and freeze"]
+  test["Sealed test; limits and uncertainty"]
 end
-subgraph sg_review["Evidence and review"]
- compare["Validation selection then sealed test"]
- report[("Metrics and limitations")]
+subgraph sg_register["Governed candidate assets"]
+  runs[("Run, code, data and environment evidence")]
+  gate{"Evidence and integrity acceptable?"}
+  rejected["Retain failed candidate evidence"]
+  registry[("Model name, version and digest")]
+  manifest["Assemble release manifest; view 08"]
 end
-groups -->|"same evaluation conditions"| baseline
-groups -->|"normal training subset"| anomaly
-labels -->|"supported classes"| diagnosis
-labels -->|"failure and censoring endpoints"| rul
-baseline -->|"baseline outcomes"| compare
-anomaly -->|"candidate outcomes"| compare
-diagnosis -->|"eligible class evidence"| compare
-rul -->|"eligible prognostic evidence"| compare
-compare -->|"independent group results"| report
-class groups,labels data
-class baseline,anomaly,diagnosis,rul model
-class compare policy
-class report evidence
+data -->|"source groups before windows"| split
+split -->|"assigned train / validation / test"| prep
+prep -->|"same partitions and time basis"| baseline
+prep -->|"train only; qualified labels"| candidates
+baseline -->|"reference metrics"| validation
+candidates -->|"eligible capability metrics"| validation
+validation -->|"frozen model, thresholds and policy"| test
+test -->|"results; never retune on test"| runs
+runs -->|"version-bound review package"| gate
+gate -->|"no"| rejected
+gate -->|"yes; candidate only"| registry
+registry -->|"immutable artifact reference"| manifest
+class data,split data
+class prep,baseline,candidates model
+class validation,gate,manifest policy
+class test,runs,rejected,registry evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
   classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
@@ -190,17 +217,86 @@ class report evidence
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
   style sg_data fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   style sg_models fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_review fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_register fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Teal—data; Indigo—models; Gold—policy; Purple—evidence.
+
+## Inference, Monitoring and Revalidation
+
+Bind scoring to the released preprocessing/model/policy versions, preserve abstention and human authority, and route change signals to reviewed revalidation. Status: proposed/unimplemented; view v0.2. Requirements: PULSE-FR-002;PULSE-FR-004;PULSE-FR-007;PULSE-SR-004;AIG-REQ-001;AIG-REQ-002.
+
+[Editable source](../diagrams/04b_inference_monitoring.mmd) · [SVG preview](../diagrams/04b_inference_monitoring.svg) · [PNG export](../diagrams/04b_inference_monitoring.png)
+
+```mermaid
+%% Inference, Monitoring and Revalidation | Proposed design; unimplemented | Pulse architecture v0.2
+flowchart TD
+subgraph sg_run["Released advisory runtime — future"]
+  input["Contract-accepted observations"]
+  bundle["Verify release and artifact digests"]
+  features["Apply frozen preprocessing"]
+  score["Score enabled capabilities"]
+  valid{"Data, regime and output eligible?"}
+end
+subgraph sg_decision["Evidence and human authority"]
+  unavailable["Unavailable with reason"]
+  advisory["Version-bound advisory evidence"]
+  review["Reliability review; mock disposition"]
+  ledger[("Decision and outcome ledger")]
+end
+subgraph sg_change["Monitoring and controlled change"]
+  monitor["Data, service and model signals"]
+  triage["Owner triages alert and evidence"]
+  incident["Contain; rollback via view 08b"]
+  proposal["Data / model change proposal"]
+  retrain["Authorized requalification and training"]
+  release["New evidence and release review; view 08"]
+end
+input -->|"units, shape, freshness"| features
+bundle -->|"verified model and transforms"| features
+bundle -->|"failed verification; block load"| unavailable
+features -->|"training-compatible features"| score
+score -->|"result and uncertainty"| valid
+valid -->|"no"| unavailable
+valid -->|"yes"| advisory
+advisory -->|"supports review"| review
+unavailable -->|"manual review"| review
+review -->|"actor, time and rationale"| ledger
+input -->|"quality / freshness signals"| monitor
+score -->|"latency and output distributions"| monitor
+ledger -->|"reviewed outcomes; delayed labels"| monitor
+monitor -->|"threshold breach or material change"| triage
+triage -->|"incident"| incident
+triage -->|"evidence supports investigation"| proposal
+proposal -->|"scope and cost authorized"| retrain
+retrain -->|"re-enter view 04; no auto-promotion"| release
+class input data
+class features,score,retrain model
+class bundle,incident security
+class valid,unavailable,proposal,release policy
+class review,triage human
+class advisory,ledger,monitor evidence
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_run fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_decision fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_change fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
 
 ## Advisory Policy and Human Decisions
 
-Model output cannot bypass eligibility or customer approval. Status: proposed/unimplemented. Requirements: PULSE-FR-004;PULSE-FR-007;PULSE-SR-001.
+Model output cannot bypass eligibility or customer approval. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-FR-004;PULSE-FR-007;PULSE-SR-001.
 
-[Editable source](../diagrams/05_human_decision.mmd) · [SVG preview](../diagrams/05_human_decision.svg)
+[Editable source](../diagrams/05_human_decision.mmd) · [SVG preview](../diagrams/05_human_decision.svg) · [PNG export](../diagrams/05_human_decision.png)
 
 ```mermaid
 %% Advisory Policy and Human Decisions | Proposed design, not deployed | PULSE v0.1
@@ -246,13 +342,13 @@ class ledger evidence
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Indigo—models; Gold—policy; Green—people; Purple—evidence.
 
 ## Security and Trust Zones
 
-Separate future plant collection, processing and restricted evidence access. Status: proposed/unimplemented. Requirements: PULSE-SR-001;PULSE-SR-002;PULSE-SR-003;PULSE-SR-004.
+Separate future plant collection, processing and restricted evidence access. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-SR-001;PULSE-SR-002;PULSE-SR-003;PULSE-SR-004.
 
-[Editable source](../diagrams/06_security_boundaries.mmd) · [SVG preview](../diagrams/06_security_boundaries.svg)
+[Editable source](../diagrams/06_security_boundaries.mmd) · [SVG preview](../diagrams/06_security_boundaries.svg) · [PNG export](../diagrams/06_security_boundaries.png)
 
 ```mermaid
 %% Security and Trust Zones | Proposed design, not deployed | PULSE v0.1
@@ -293,41 +389,54 @@ class artifacts,viewer evidence
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Blue—sources; Teal—data; Purple—evidence; Rose—security.
 
-## Azure Capability Mapping — Proposed
+## Proposed Azure Environment Topology
 
-Map logical capabilities without claiming resources or selecting measured SKUs. Status: proposed/unimplemented. Requirements: PULSE-SR-002;PULSE-SR-003;PULSE-COST-REQ-001.
+Separate reference development, release validation and later site deployment; show storage, compute, model assets and operational evidence without binding resources. Status: proposed/unimplemented; view v0.2. Requirements: PULSE-SR-002;PULSE-SR-003;AIG-REQ-001;AIG-REQ-002;PULSE-COST-REQ-001.
 
-[Editable source](../diagrams/07_deployment_candidate.mmd) · [SVG preview](../diagrams/07_deployment_candidate.svg)
+[Editable source](../diagrams/07_deployment_candidate.mmd) · [SVG preview](../diagrams/07_deployment_candidate.svg) · [PNG export](../diagrams/07_deployment_candidate.png)
 
 ```mermaid
-%% Azure Capability Mapping — Proposed | Proposed design, not deployed | PULSE v0.1
+%% Proposed Azure Environment Topology | Proposed design; unimplemented | Pulse architecture v0.2
 flowchart TD
-subgraph sg_operator["Operator and governance"]
- operator["Dr. Moore approved client path"]
- gate["Scope, cost and cloud-entry review"]
+operator["Named operator; private route in 07b"]
+subgraph sg_dev["Reference development — proposed"]
+  devws["Azure ML workspace; model assets"]
+  compute["Bounded training / batch compute"]
+  devstore[("Qualified data and artifact storage")]
+  devdeps["Scoped identity, vault and image dependencies"]
 end
-subgraph sg_platform["Future nonproduction platform"]
- network["Private route and DNS"]
- workspace["Azure ML workspace candidate"]
- storage[("Governed storage candidate")]
- identity["Workload identity and secrets"]
+subgraph sg_release["Release authority"]
+  release["Exact artifact and target review; view 08"]
 end
-subgraph sg_evidence["Operational evidence"]
- logs[("Access, usage and recovery records")]
+subgraph sg_val["Isolated validation — proposed"]
+  valws["Validation workspace / job runtime"]
+  valstore[("Validation artifacts and evidence")]
+  valdeps["Separate identity and dependency scopes"]
+  viewer["Reference viewer / mock CMMS"]
 end
-operator -->|"review accepted parameters"| gate
-gate -.->|"later authorized construction"| network
-network -->|"private client access"| workspace
-workspace -->|"versioned artifacts and datasets"| storage
-identity -->|"scoped authenticated access"| workspace
-workspace -->|"security and cost telemetry"| logs
+subgraph sg_evidence["Restricted operational evidence"]
+  logs[("Azure Monitor / environment-scoped logs")]
+end
+site["Later isolated site environment; separate gates"]
+operator -->|"identity plus scoped operations"| devws
+devws -->|"schedules versioned jobs"| compute
+devdeps -->|"authorized dependency access"| compute
+compute -->|"reads inputs; writes job artifacts"| devstore
+devstore -->|"manifest and candidate evidence"| release
+release -->|"approved digests; no rebuild"| valws
+valdeps -->|"authorized dependency access"| valws
+valws -->|"scoped results"| valstore
+valstore -->|"bounded reference evidence"| viewer
+devws -->|"diagnostics, access and usage"| logs
+valws -->|"diagnostics, access and usage"| logs
+viewer -.->|"evidence only; later site authorization"| site
 class operator human
-class gate policy
-class network,identity security
-class workspace model
-class storage data
+class devws,compute,valws model
+class devstore,valstore data
+class devdeps,valdeps security
+class release,viewer,site policy
 class logs evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
@@ -336,49 +445,61 @@ class logs evidence
   classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
   classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
-  style sg_operator fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_platform fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_dev fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_release fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_val fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   style sg_evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
 
-## Release and Promotion Gates
+## Proposed Network and Identity Paths
 
-Require evidence and authority; current work stops before cloud entry. Status: proposed/unimplemented. Requirements: AIG-REQ-002;AIG-REQ-003.
+Distinguish private inbound client access from managed compute egress and identity authorization; resource placement is logical, not an implemented network. Status: proposed/unimplemented; view v0.2. Requirements: PULSE-SR-001;PULSE-SR-002;PULSE-SR-003;PULSE-SR-004.
 
-[Editable source](../diagrams/08_release_gates.mmd) · [SVG preview](../diagrams/08_release_gates.svg)
+[Editable source](../diagrams/07b_network_identity.mmd) · [SVG preview](../diagrams/07b_network_identity.svg) · [PNG export](../diagrams/07b_network_identity.png)
 
 ```mermaid
-%% Release and Promotion Gates | Proposed design, not deployed | PULSE v0.1
+%% Proposed Network and Identity Paths | Proposed design; unimplemented | Pulse architecture v0.2
 flowchart TD
-subgraph sg_design["Current preparation"]
- design["Versioned design package"]
- review["Dr. Moore reviews and corrects"]
- cloud{"Cloud-entry evidence and authority?"}
- hold["Remain pre-Azure"]
+subgraph sg_client["Authorized client boundary"]
+  actor["Operator or approved release runner"]
+  entra["Entra identity; scoped RBAC"]
 end
-subgraph sg_future["Later engineering and assurance"]
- platform["Governed platform construction"]
- vv["Data, model and workflow V&V"]
- release{"Exact release authorized?"}
- exposure["Bounded authorized exposure"]
+subgraph sg_inbound["Customer-managed access VNet"]
+  route["Approved private route and DNS"]
+  amlpe["Workspace private endpoint"]
+  datape["Dependency private endpoints"]
 end
-design -->|"reviewable artifacts"| review
-review -->|"record disposition and conditions"| cloud
-cloud -->|"no: current boundary"| hold
-cloud -.->|"yes: later scope"| platform
-platform -->|"implemented controls"| vv
-vv -->|"fresh evidence and risk review"| release
-release -->|"no"| hold
-release -->|"yes"| exposure
-class design evidence
-class review human
-class cloud,hold,release policy
-class platform data
-class vv evidence
-class exposure human
+subgraph sg_service["Managed Azure service — outside client VNet"]
+  workspace["Azure ML workspace service"]
+end
+subgraph sg_egress["Azure ML managed network"]
+  compute["Job compute; workload identity"]
+  egress["Approved outbound / private endpoint rules"]
+end
+subgraph sg_dependencies["Scoped dependencies and telemetry"]
+  stores[("Storage, vault and image artifacts")]
+  telemetry[("Restricted monitoring destination")]
+end
+actor -->|"sign in or federated authentication"| entra
+actor -->|"separately established connectivity"| route
+route -->|"resolve workspace private address"| amlpe
+amlpe -->|"private workspace API access"| workspace
+route -->|"authorized direct dependency access"| datape
+datape -->|"private data plane"| stores
+entra -->|"authorize operations; not connectivity"| workspace
+workspace -->|"schedule authorized jobs"| compute
+compute -->|"identity-scoped requests"| egress
+egress -->|"approved dependency paths"| stores
+egress -->|"approved diagnostic path"| telemetry
+workspace -->|"configured resource diagnostics"| telemetry
+class actor human
+class entra,route,amlpe,datape,egress security
+class workspace,compute model
+class stores data
+class telemetry evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
   classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
@@ -386,18 +507,131 @@ class exposure human
   classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
   classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
-  style sg_design fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_future fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_client fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_inbound fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_service fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_egress fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_dependencies fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Teal—data; Indigo—models; Green—people; Purple—evidence; Rose—security.
+
+## Release and Promotion
+
+Bind each promotion to verified artifacts, an exact destination, current evidence and release authority; failures deny new exposure. Status: proposed/unimplemented; view v0.2. Requirements: AIG-REQ-001;AIG-REQ-002;AIG-REQ-003;PULSE-SR-004;PULSE-NFR-004.
+
+[Editable source](../diagrams/08_release_gates.mmd) · [SVG preview](../diagrams/08_release_gates.svg) · [PNG export](../diagrams/08_release_gates.png)
+
+```mermaid
+%% Release and Promotion | Proposed design; unimplemented | Pulse architecture v0.2
+flowchart TD
+subgraph sg_candidate["Candidate preparation — planned"]
+  source["Code and registered model version"]
+  ci["Contract, security and V&V checks"]
+  manifest[("Release manifest and evidence")]
+end
+subgraph sg_gate["Scoped promotion authority"]
+  approve{"Exact release authorized?"}
+  stage["Stage verified bundle in target"]
+  check{"Target checks pass?"}
+end
+subgraph sg_result["Release disposition"]
+  hold["Hold; no new exposure"]
+  run["Activate approved scope; monitor"]
+  incident["Rollback or withdrawal; view 08b"]
+end
+source -->|"pinned inputs; no latest"| ci
+ci -->|"passed applicable checks"| manifest
+ci -->|"fail"| hold
+manifest -->|"digests, target, evidence and authority"| approve
+approve -->|"no; current Azure stop"| hold
+approve -->|"yes; exact approved scope"| stage
+stage -->|"integrity, access, contract and smoke tests"| check
+check -->|"no"| hold
+check -->|"yes"| run
+run -->|"stop criterion or incident"| incident
+class source source
+class ci,manifest evidence
+class approve,check,hold policy
+class stage,run model
+class incident security
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_candidate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_gate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_result fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Blue—sources; Indigo—models; Gold—policy; Purple—evidence; Rose—security.
+
+## Rollback and Safe Recovery
+
+Withdraw affected advisories, assess the prior release and recover the full approved bundle or remain unavailable. Status: proposed/unimplemented; view v0.2. Requirements: PULSE-SR-004;PULSE-NFR-004;PULSE-NFR-005;AIG-REQ-001;AIG-REQ-002.
+
+[Editable source](../diagrams/08b_rollback_recovery.mmd) · [SVG preview](../diagrams/08b_rollback_recovery.svg) · [PNG export](../diagrams/08b_rollback_recovery.png)
+
+```mermaid
+%% Rollback and Safe Recovery | Proposed design; unimplemented | Pulse architecture v0.2
+flowchart TD
+subgraph sg_contain["Incident containment — proposed"]
+  alert["Release, model or integrity incident"]
+  withdraw["Withdraw affected advisory"]
+  evidence[("Retained incident and release evidence")]
+end
+subgraph sg_decide["Accountable recovery decision"]
+  owner["Release owner checks recovery authority"]
+  prior{"Prior release still eligible?"}
+  manual["Unavailable; manual workflow"]
+end
+subgraph sg_restore["Exact bundle recovery"]
+  restore["Restore approved manifest bundle"]
+  checks["Integrity, compatibility and reconciliation"]
+  valid{"Recovery checks pass?"}
+  resume["Resume bounded exposure; monitor"]
+end
+alert -->|"contain invalid outputs"| withdraw
+withdraw -->|"preserve versions and timing"| evidence
+evidence -->|"supports recovery review"| owner
+owner -->|"rights, security and approval still valid"| prior
+prior -->|"no"| manual
+prior -->|"yes"| restore
+restore -->|"model, transforms, policy and environment"| checks
+checks -->|"include target smoke tests"| valid
+valid -->|"no"| manual
+valid -->|"yes; authorized recovery only"| resume
+class alert,withdraw security
+class evidence,checks evidence
+class owner human
+class prior,manual,valid policy
+class restore data
+class resume model
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_contain fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_decide fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_restore fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
 
 ## Observability, Degraded Mode and Recovery
 
-Connect runtime signals to accountable human response and revalidation. Status: proposed/unimplemented. Requirements: PULSE-NFR-003;PULSE-NFR-004;PULSE-NFR-005.
+Connect runtime signals to accountable human response and revalidation. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-NFR-003;PULSE-NFR-004;PULSE-NFR-005.
 
-[Editable source](../diagrams/09_operations_recovery.mmd) · [SVG preview](../diagrams/09_operations_recovery.svg)
+[Editable source](../diagrams/09_operations_recovery.mmd) · [SVG preview](../diagrams/09_operations_recovery.svg) · [PNG export](../diagrams/09_operations_recovery.png)
 
 ```mermaid
 %% Observability, Degraded Mode and Recovery | Proposed design, not deployed | PULSE v0.1
@@ -443,13 +677,13 @@ class verify security
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
 
 ## Requirements, Risks and Evidence Trace
 
-Join stakeholder needs and controls to evidence-bound review decisions. Status: proposed/unimplemented. Requirements: AIG-REQ-001;AIG-REQ-002.
+Join stakeholder needs and controls to evidence-bound review decisions. Status: proposed/unimplemented; view v0.1. Requirements: AIG-REQ-001;AIG-REQ-002.
 
-[Editable source](../diagrams/10_traceability.mmd) · [SVG preview](../diagrams/10_traceability.svg)
+[Editable source](../diagrams/10_traceability.mmd) · [SVG preview](../diagrams/10_traceability.svg) · [PNG export](../diagrams/10_traceability.png)
 
 ```mermaid
 %% Requirements, Risks and Evidence Trace | Proposed design, not deployed | PULSE v0.1
@@ -492,4 +726,4 @@ class decision human
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Gold—policy; Green—people; Purple—evidence; Rose—security.
+Legend: Blue—sources; Teal—data; Gold—policy; Green—people; Purple—evidence.

@@ -16,8 +16,17 @@
   },
   {
     "name": "04_model_lifecycle",
-    "title": "AI Capability and Evaluation Lifecycle",
-    "purpose": "Separate anomaly, diagnosis and RUL eligibility; protect the test holdout."
+    "title": "AI/ML Training and Registration",
+    "purpose": "Trace qualified signals through leakage-safe preparation, candidate evaluation and versioned registration; registration does not authorize release.",
+    "requirements": "PULSE-FR-001;PULSE-FR-003;PULSE-FR-005;PULSE-FR-006;PULSE-NFR-008;AIG-REQ-001",
+    "version": "0.2"
+  },
+  {
+    "name": "04b_inference_monitoring",
+    "title": "Inference, Monitoring and Revalidation",
+    "purpose": "Bind scoring to the released preprocessing/model/policy versions, preserve abstention and human authority, and route change signals to reviewed revalidation.",
+    "requirements": "PULSE-FR-002;PULSE-FR-004;PULSE-FR-007;PULSE-SR-004;AIG-REQ-001;AIG-REQ-002",
+    "version": "0.2"
   },
   {
     "name": "05_human_decision",
@@ -31,13 +40,31 @@
   },
   {
     "name": "07_deployment_candidate",
-    "title": "Azure Capability Mapping \u2014 Proposed",
-    "purpose": "Map logical capabilities without claiming resources or selecting measured SKUs."
+    "title": "Proposed Azure Environment Topology",
+    "purpose": "Separate reference development, release validation and later site deployment; show storage, compute, model assets and operational evidence without binding resources.",
+    "requirements": "PULSE-SR-002;PULSE-SR-003;AIG-REQ-001;AIG-REQ-002;PULSE-COST-REQ-001",
+    "version": "0.2"
+  },
+  {
+    "name": "07b_network_identity",
+    "title": "Proposed Network and Identity Paths",
+    "purpose": "Distinguish private inbound client access from managed compute egress and identity authorization; resource placement is logical, not an implemented network.",
+    "requirements": "PULSE-SR-001;PULSE-SR-002;PULSE-SR-003;PULSE-SR-004",
+    "version": "0.2"
   },
   {
     "name": "08_release_gates",
-    "title": "Release and Promotion Gates",
-    "purpose": "Require evidence and authority; current work stops before cloud entry."
+    "title": "Release and Promotion",
+    "purpose": "Bind each promotion to verified artifacts, an exact destination, current evidence and release authority; failures deny new exposure.",
+    "requirements": "AIG-REQ-001;AIG-REQ-002;AIG-REQ-003;PULSE-SR-004;PULSE-NFR-004",
+    "version": "0.2"
+  },
+  {
+    "name": "08b_rollback_recovery",
+    "title": "Rollback and Safe Recovery",
+    "purpose": "Withdraw affected advisories, assess the prior release and recover the full approved bundle or remain unavailable.",
+    "requirements": "PULSE-SR-004;PULSE-NFR-004;PULSE-NFR-005;AIG-REQ-001;AIG-REQ-002",
+    "version": "0.2"
   },
   {
     "name": "09_operations_recovery",

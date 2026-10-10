@@ -54,7 +54,8 @@ for p in ROOT.rglob('*.json'):
         errors.append(f'JSON parse failure {p.relative_to(ROOT)}: {exc}')
 checks.append({'check':'JSON syntax','scope':'Includes draft contracts; not schema runtime validation'})
 
-for r in rows('architecture/architecture_viewpoints.csv'):
+viewpoints = rows('architecture/architecture_viewpoints.csv')
+for r in viewpoints:
     source = ROOT / r['View']
     if not source.exists():
         errors.append(f"Missing viewpoint source {r['View']}")
@@ -64,7 +65,16 @@ for r in rows('architecture/architecture_viewpoints.csv'):
     for ext in ['.svg', '.png']:
         if not source.with_suffix(ext).exists():
             errors.append(f'Missing rendered preview {source.with_suffix(ext).name}')
-checks.append({'check':'view sources, requirement references and rendered exports exist','count':10})
+checks.append({'check':'view sources, requirement references and rendered exports exist','count':len(viewpoints)})
+
+index_text = (ROOT/'docs/architecture/README.md').read_text()
+for r in viewpoints:
+    if (ROOT/r['View']).read_text().strip() not in index_text:
+        errors.append(f"Diagram index/source mismatch: {r['View']}")
+metadata = json.loads((ROOT/'docs/diagrams/view_metadata.json').read_text())
+if {r['name'] for r in metadata} != {Path(r['View']).stem for r in viewpoints}:
+    errors.append('Diagram metadata/viewpoint mismatch')
+checks.append({'check':'diagram index and metadata match canonical sources','count':len(viewpoints)})
 
 for r in rows('governance/cloud_entry_criteria.csv'):
     if r['Status'] != 'BLOCKED':
@@ -77,7 +87,7 @@ digests = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdige
            for p in sorted(ROOT.rglob('*')) if p.is_file()
            and p.relative_to(ROOT).as_posix() not in ['governance/evidence/design-validation.json']
            and '.git' not in p.parts and '__pycache__' not in p.parts}
-report = {'package':'Pulse pre-Azure v0.1','result':'PASS' if not errors else 'FAIL',
+report = {'package':'Pulse pre-Azure v0.2','result':'PASS' if not errors else 'FAIL',
           'scope':'Offline design consistency only; no runtime V&V, independent assurance or cloud gate approval',
           'checks':checks,'errors':errors,'artifact_sha256':digests}
 output = ROOT/'governance/evidence/design-validation.json'

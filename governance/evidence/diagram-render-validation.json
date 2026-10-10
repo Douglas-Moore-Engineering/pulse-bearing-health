@@ -24,10 +24,19 @@
     },
     {
       "name": "04_model_lifecycle",
-      "width": 1319.359375,
-      "height": 1021.4495849609375,
+      "width": 696,
+      "height": 2410.74609375,
       "parsed": true,
-      "rendered": true
+      "rendered": true,
+      "version": "0.2"
+    },
+    {
+      "name": "04b_inference_monitoring",
+      "width": 1076.45166015625,
+      "height": 2781.58203125,
+      "parsed": true,
+      "rendered": true,
+      "version": "0.2"
     },
     {
       "name": "05_human_decision",
@@ -45,17 +54,35 @@
     },
     {
       "name": "07_deployment_candidate",
-      "width": 1020.1640625,
-      "height": 1210.5820922851562,
+      "width": 1217.45703125,
+      "height": 2052.1641845703125,
       "parsed": true,
-      "rendered": true
+      "rendered": true,
+      "version": "0.2"
+    },
+    {
+      "name": "07b_network_identity",
+      "width": 1203.79443359375,
+      "height": 1675.58203125,
+      "parsed": true,
+      "rendered": true,
+      "version": "0.2"
     },
     {
       "name": "08_release_gates",
-      "width": 854.5625,
-      "height": 1865,
+      "width": 782.3828125,
+      "height": 2171.56640625,
       "parsed": true,
-      "rendered": true
+      "rendered": true,
+      "version": "0.2"
+    },
+    {
+      "name": "08b_rollback_recovery",
+      "width": 860.53125,
+      "height": 2398.58203125,
+      "parsed": true,
+      "rendered": true,
+      "version": "0.2"
     },
     {
       "name": "09_operations_recovery",

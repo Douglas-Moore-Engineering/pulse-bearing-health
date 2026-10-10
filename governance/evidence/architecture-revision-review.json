@@ -1,0 +1,125 @@
+{
+  "revision": "architecture-v0.2",
+  "date": "2026-10-10",
+  "scope": "Six changed design views only; no model, deployment, independent assurance or runtime test evidence",
+  "checks": [
+    {
+      "view": "04_model_lifecycle",
+      "source_sha256": "ed9b6cbbda48d8574415411063f7dedc0a83c00ee87c29d434320dd6bb55afd1",
+      "svg_sha256": "5c4a5dc9ff1185584b48ede27ca31265140f9a6ca733a3d1828a9b897ac3ef1f",
+      "png_sha256": "afd714e3787d748170b04e9b5f5df898be3c4d2bf375892e4f055fe642bad321",
+      "png_alpha_extrema": [
+        0,
+        255
+      ],
+      "png_dimensions": [
+        696,
+        2411
+      ],
+      "unfilled_group_count": 3,
+      "parse_render": "PASS",
+      "visual_review": "Inspected light-surface render; headings and labels readable after layout correction"
+    },
+    {
+      "view": "04b_inference_monitoring",
+      "source_sha256": "503815b66b1cbc7ddf4b6e1a061db39b4b3061235f4c00be2353b6bded426054",
+      "svg_sha256": "7c4c53c33256e8f2f1cd72913973afc855dcfc7d3a08008c8a632d3a113ab8b4",
+      "png_sha256": "155ccf4fef4b4bba2022308c22b390816275d6eaef1e3040db8f746643ee8acd",
+      "png_alpha_extrema": [
+        0,
+        255
+      ],
+      "png_dimensions": [
+        1077,
+        2782
+      ],
+      "unfilled_group_count": 3,
+      "parse_render": "PASS",
+      "visual_review": "Inspected light-surface render; headings and labels readable after layout correction"
+    },
+    {
+      "view": "07_deployment_candidate",
+      "source_sha256": "6d2db48bc025673d470d3dfccdaf33a89b0d03b14d0122dda4d2743aa941b612",
+      "svg_sha256": "591f33fa5c6667b9ee91bff84524c5109fce834d5e8bd73c1ddd0a2689fb9473",
+      "png_sha256": "0c858c5c53e04b5023c6bc6a98d0822f1a78fc4a9558b9b546003ca9277287b8",
+      "png_alpha_extrema": [
+        0,
+        255
+      ],
+      "png_dimensions": [
+        1218,
+        2053
+      ],
+      "unfilled_group_count": 4,
+      "parse_render": "PASS",
+      "visual_review": "Inspected light-surface render; headings and labels readable after layout correction"
+    },
+    {
+      "view": "07b_network_identity",
+      "source_sha256": "d1b7d95e3dbfd789c1bf64c332e26b8553e52a59b7e2cc8d92fec801966f5e12",
+      "svg_sha256": "1176331658a24566331bf8124e782bc610bf86062161f2d2cc8026fa758d7cd4",
+      "png_sha256": "9a355e6b13836378f990f51d51902e6b4a62cd6c7dfafe218048be4bf987cb30",
+      "png_alpha_extrema": [
+        0,
+        255
+      ],
+      "png_dimensions": [
+        1204,
+        1676
+      ],
+      "unfilled_group_count": 5,
+      "parse_render": "PASS",
+      "visual_review": "Inspected light-surface render; headings and labels readable after layout correction"
+    },
+    {
+      "view": "08_release_gates",
+      "source_sha256": "c0aced6014d3b05df3d32a24ba3ecb21322efd9bf300528b6a0a003c651e36f1",
+      "svg_sha256": "ff4692643df0d6194c8bdb41fe0678c64ce0a19fa7c5150baac36d02df688da3",
+      "png_sha256": "c86ae8958758dd699c66d37ba30b7708d51453594ce8831fcab6eb65947c86bf",
+      "png_alpha_extrema": [
+        0,
+        255
+      ],
+      "png_dimensions": [
+        783,
+        2172
+      ],
+      "unfilled_group_count": 3,
+      "parse_render": "PASS",
+      "visual_review": "Inspected light-surface render; headings and labels readable after layout correction"
+    },
+    {
+      "view": "08b_rollback_recovery",
+      "source_sha256": "7e4f2344784580856d18671e3fd5b2bf5cd0a24752ffc00190976f22e436d4f2",
+      "svg_sha256": "9aedd6a935d85a927743885bd95fd53ff542ae9fbf6d5ed142aea7ee772a12e8",
+      "png_sha256": "a93e80d8d50a5bb2a19fd3f3867322ff3ec46b0738702175c4acfe23962b64ba",
+      "png_alpha_extrema": [
+        0,
+        255
+      ],
+      "png_dimensions": [
+        861,
+        2399
+      ],
+      "unfilled_group_count": 3,
+      "parse_render": "PASS",
+      "visual_review": "Inspected light-surface render; headings and labels readable after layout correction"
+    }
+  ],
+  "semantic_review": [
+    "Training-only fitted preprocessing and group-held-out evaluation retained",
+    "Model registration separated from exposure authority",
+    "Retraining returns to qualification and release review; no automatic promotion",
+    "Manifest binding and rejection paths explicit",
+    "Rollback requires eligible prior complete bundle and authority; otherwise manual/unavailable",
+    "Inbound private network access separated from managed egress and identity permissions",
+    "Environment boundaries and dependencies remain proposals; no actual access configured"
+  ],
+  "remaining_design_views": [
+    "functional decomposition",
+    "integration architecture",
+    "threat / defense in depth",
+    "critical runtime sequence"
+  ],
+  "cloud_entry": "BLOCKED"
+}

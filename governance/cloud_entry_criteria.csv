@@ -2,10 +2,10 @@ Criterion_ID,Criterion,Current_Evidence,Status,Owner,Closure_Evidence,Decision_S
 CLOUD-01,Scope and pre-Azure review,"Prepared, not accepted",BLOCKED,Dr. Moore,Version-bound review disposition,Appropriate scoped cloud entry
 CLOUD-02,Data rights and bytes,Not inspected,BLOCKED,Dr. Moore,"Source rights, inventory, checksums and profile",Appropriate scoped cloud entry
 CLOUD-03,Measured workload and cost inputs,Unknown,BLOCKED,Dr. Moore,File/record rate and retention/cost calculations,Appropriate scoped cloud entry
-CLOUD-04,Actual identity/RBAC,Unknown,BLOCKED,Dr. Moore / actual subscription owner,Named principal and scoped roles,Appropriate scoped cloud entry
-CLOUD-05,Private access path and trust boundary,Proposed,BLOCKED,Dr. Moore / IT owner,Approved route/DNS and network plan,Appropriate scoped cloud entry
+CLOUD-04,Actual identity/RBAC,Proposed identity allocation v0.2; actual principals/roles unresolved,BLOCKED,Dr. Moore / actual subscription owner,Named principal and scoped roles,Appropriate scoped cloud entry
+CLOUD-05,Private access path and trust boundary,Proposed inbound/egress topology v0.2; actual route/DNS unverified,BLOCKED,Dr. Moore / IT owner,Approved route/DNS and network plan,Appropriate scoped cloud entry
 CLOUD-06,Region and residency,US preference only,BLOCKED,Dr. Moore,Approved subscription region/policy and resource eligibility,Appropriate scoped cloud entry
-CLOUD-07,V&V criteria / manifest,Planned,BLOCKED,Dr. Moore / reviewer,Frozen evaluation/manifest and feasibility disposition,Appropriate scoped cloud entry
+CLOUD-07,V&V criteria / manifest,V&V planned; release-manifest v0.2 template unpopulated/unauthorized,BLOCKED,Dr. Moore / reviewer,Frozen evaluation/manifest and feasibility disposition,Appropriate scoped cloud entry
 CLOUD-08,Lifecycle cost and affordability,Unresolved,BLOCKED,Dr. Moore / cost owner,Sourced estimate and scoped funding disposition,Appropriate scoped cloud entry
 CLOUD-09,Threat/architecture trade study,Prepared,BLOCKED,Dr. Moore / reviewer,Versioned architecture/security review,Appropriate scoped cloud entry
 CLOUD-10,User Azure boundary,Connection prohibited in current increment,BLOCKED,Dr. Moore,Later explicit authorized scope; not assumed,Appropriate scoped cloud entry

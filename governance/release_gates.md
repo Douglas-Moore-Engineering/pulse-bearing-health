@@ -16,3 +16,5 @@ Fictional customer scenario; proposed design, not implementation or customer app
 | G7 Bounded automation | Separate safety/authority case and validated protective boundary | Outside approved scope; BLOCKED |
 
 The pre-Azure document review is not G1 runtime PASS. Azure workspace entry has its own scoped criteria in cloud_entry_criteria.csv. AI governance gates AIG-G0–G7 are distinct from engineering gates and risk tiers G1–G4. No authentic approval is supplied by fictional decisions.
+
+The v0.2 [promotion design](../docs/08-testing-release-gates-and-acceptance.md) and [manifest template](release-manifest.template.json) make artifact/target/approval binding explicit. [Recovery view](../docs/diagrams/08b_rollback_recovery.svg) requires an eligible prior release or continued unavailable/manual operation. Gate dispositions above remain unchanged; no enforcement or runtime evidence is claimed.

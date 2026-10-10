@@ -1,29 +1,42 @@
-%% Azure Capability Mapping — Proposed | Proposed design, not deployed | PULSE v0.1
+%% Proposed Azure Environment Topology | Proposed design; unimplemented | Pulse architecture v0.2
 flowchart TD
-subgraph sg_operator["Operator and governance"]
- operator["Dr. Moore approved client path"]
- gate["Scope, cost and cloud-entry review"]
+operator["Named operator; private route in 07b"]
+subgraph sg_dev["Reference development — proposed"]
+  devws["Azure ML workspace; model assets"]
+  compute["Bounded training / batch compute"]
+  devstore[("Qualified data and artifact storage")]
+  devdeps["Scoped identity, vault and image dependencies"]
 end
-subgraph sg_platform["Future nonproduction platform"]
- network["Private route and DNS"]
- workspace["Azure ML workspace candidate"]
- storage[("Governed storage candidate")]
- identity["Workload identity and secrets"]
+subgraph sg_release["Release authority"]
+  release["Exact artifact and target review; view 08"]
 end
-subgraph sg_evidence["Operational evidence"]
- logs[("Access, usage and recovery records")]
+subgraph sg_val["Isolated validation — proposed"]
+  valws["Validation workspace / job runtime"]
+  valstore[("Validation artifacts and evidence")]
+  valdeps["Separate identity and dependency scopes"]
+  viewer["Reference viewer / mock CMMS"]
 end
-operator -->|"review accepted parameters"| gate
-gate -.->|"later authorized construction"| network
-network -->|"private client access"| workspace
-workspace -->|"versioned artifacts and datasets"| storage
-identity -->|"scoped authenticated access"| workspace
-workspace -->|"security and cost telemetry"| logs
+subgraph sg_evidence["Restricted operational evidence"]
+  logs[("Azure Monitor / environment-scoped logs")]
+end
+site["Later isolated site environment; separate gates"]
+operator -->|"identity plus scoped operations"| devws
+devws -->|"schedules versioned jobs"| compute
+devdeps -->|"authorized dependency access"| compute
+compute -->|"reads inputs; writes job artifacts"| devstore
+devstore -->|"manifest and candidate evidence"| release
+release -->|"approved digests; no rebuild"| valws
+valdeps -->|"authorized dependency access"| valws
+valws -->|"scoped results"| valstore
+valstore -->|"bounded reference evidence"| viewer
+devws -->|"diagnostics, access and usage"| logs
+valws -->|"diagnostics, access and usage"| logs
+viewer -.->|"evidence only; later site authorization"| site
 class operator human
-class gate policy
-class network,identity security
-class workspace model
-class storage data
+class devws,compute,valws model
+class devstore,valstore data
+class devdeps,valdeps security
+class release,viewer,site policy
 class logs evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
@@ -32,7 +45,8 @@ class logs evidence
   classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
   classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
-  style sg_operator fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_platform fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_dev fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_release fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_val fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   style sg_evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px

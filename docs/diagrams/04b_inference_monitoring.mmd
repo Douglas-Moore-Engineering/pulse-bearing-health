@@ -1,0 +1,58 @@
+%% Inference, Monitoring and Revalidation | Proposed design; unimplemented | Pulse architecture v0.2
+flowchart TD
+subgraph sg_run["Released advisory runtime — future"]
+  input["Contract-accepted observations"]
+  bundle["Verify release and artifact digests"]
+  features["Apply frozen preprocessing"]
+  score["Score enabled capabilities"]
+  valid{"Data, regime and output eligible?"}
+end
+subgraph sg_decision["Evidence and human authority"]
+  unavailable["Unavailable with reason"]
+  advisory["Version-bound advisory evidence"]
+  review["Reliability review; mock disposition"]
+  ledger[("Decision and outcome ledger")]
+end
+subgraph sg_change["Monitoring and controlled change"]
+  monitor["Data, service and model signals"]
+  triage["Owner triages alert and evidence"]
+  incident["Contain; rollback via view 08b"]
+  proposal["Data / model change proposal"]
+  retrain["Authorized requalification and training"]
+  release["New evidence and release review; view 08"]
+end
+input -->|"units, shape, freshness"| features
+bundle -->|"verified model and transforms"| features
+bundle -->|"failed verification; block load"| unavailable
+features -->|"training-compatible features"| score
+score -->|"result and uncertainty"| valid
+valid -->|"no"| unavailable
+valid -->|"yes"| advisory
+advisory -->|"supports review"| review
+unavailable -->|"manual review"| review
+review -->|"actor, time and rationale"| ledger
+input -->|"quality / freshness signals"| monitor
+score -->|"latency and output distributions"| monitor
+ledger -->|"reviewed outcomes; delayed labels"| monitor
+monitor -->|"threshold breach or material change"| triage
+triage -->|"incident"| incident
+triage -->|"evidence supports investigation"| proposal
+proposal -->|"scope and cost authorized"| retrain
+retrain -->|"re-enter view 04; no auto-promotion"| release
+class input data
+class features,score,retrain model
+class bundle,incident security
+class valid,unavailable,proposal,release policy
+class review,triage human
+class advisory,ledger,monitor evidence
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_run fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_decision fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_change fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px

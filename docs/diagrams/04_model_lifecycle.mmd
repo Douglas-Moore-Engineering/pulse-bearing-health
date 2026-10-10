@@ -1,32 +1,39 @@
-%% AI Capability and Evaluation Lifecycle | Proposed design, not deployed | PULSE v0.1
+%% AI/ML Training and Registration | Proposed design; unimplemented | Pulse architecture v0.2
 flowchart TD
-subgraph sg_data["Qualified evaluation data"]
- groups["Frozen bearing and run partitions"]
- labels["Qualified fault and lifetime labels"]
+subgraph sg_data["Qualified data and reproducible preparation"]
+  data[("Accepted signals and label provenance")]
+  split["Freeze bearing/run partitions"]
+  prep["Train-fit signal and feature pipeline"]
 end
-subgraph sg_models["Analytics and models"]
- baseline["RMS and kurtosis baseline"]
- anomaly["Anomaly candidate"]
- diagnosis["Fault classifier when eligible"]
- rul["RUL with validated intervals"]
+subgraph sg_models["Experiments and capability eligibility"]
+  baseline["RMS / kurtosis baseline"]
+  candidates["Anomaly; eligible diagnosis / RUL"]
+  validation["Validation selection and freeze"]
+  test["Sealed test; limits and uncertainty"]
 end
-subgraph sg_review["Evidence and review"]
- compare["Validation selection then sealed test"]
- report[("Metrics and limitations")]
+subgraph sg_register["Governed candidate assets"]
+  runs[("Run, code, data and environment evidence")]
+  gate{"Evidence and integrity acceptable?"}
+  rejected["Retain failed candidate evidence"]
+  registry[("Model name, version and digest")]
+  manifest["Assemble release manifest; view 08"]
 end
-groups -->|"same evaluation conditions"| baseline
-groups -->|"normal training subset"| anomaly
-labels -->|"supported classes"| diagnosis
-labels -->|"failure and censoring endpoints"| rul
-baseline -->|"baseline outcomes"| compare
-anomaly -->|"candidate outcomes"| compare
-diagnosis -->|"eligible class evidence"| compare
-rul -->|"eligible prognostic evidence"| compare
-compare -->|"independent group results"| report
-class groups,labels data
-class baseline,anomaly,diagnosis,rul model
-class compare policy
-class report evidence
+data -->|"source groups before windows"| split
+split -->|"assigned train / validation / test"| prep
+prep -->|"same partitions and time basis"| baseline
+prep -->|"train only; qualified labels"| candidates
+baseline -->|"reference metrics"| validation
+candidates -->|"eligible capability metrics"| validation
+validation -->|"frozen model, thresholds and policy"| test
+test -->|"results; never retune on test"| runs
+runs -->|"version-bound review package"| gate
+gate -->|"no"| rejected
+gate -->|"yes; candidate only"| registry
+registry -->|"immutable artifact reference"| manifest
+class data,split data
+class prep,baseline,candidates model
+class validation,gate,manifest policy
+class test,runs,rejected,registry evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
   classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
@@ -36,5 +43,5 @@ class report evidence
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
   style sg_data fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   style sg_models fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_review fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_register fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px

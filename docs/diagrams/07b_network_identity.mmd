@@ -1,0 +1,52 @@
+%% Proposed Network and Identity Paths | Proposed design; unimplemented | Pulse architecture v0.2
+flowchart TD
+subgraph sg_client["Authorized client boundary"]
+  actor["Operator or approved release runner"]
+  entra["Entra identity; scoped RBAC"]
+end
+subgraph sg_inbound["Customer-managed access VNet"]
+  route["Approved private route and DNS"]
+  amlpe["Workspace private endpoint"]
+  datape["Dependency private endpoints"]
+end
+subgraph sg_service["Managed Azure service — outside client VNet"]
+  workspace["Azure ML workspace service"]
+end
+subgraph sg_egress["Azure ML managed network"]
+  compute["Job compute; workload identity"]
+  egress["Approved outbound / private endpoint rules"]
+end
+subgraph sg_dependencies["Scoped dependencies and telemetry"]
+  stores[("Storage, vault and image artifacts")]
+  telemetry[("Restricted monitoring destination")]
+end
+actor -->|"sign in or federated authentication"| entra
+actor -->|"separately established connectivity"| route
+route -->|"resolve workspace private address"| amlpe
+amlpe -->|"private workspace API access"| workspace
+route -->|"authorized direct dependency access"| datape
+datape -->|"private data plane"| stores
+entra -->|"authorize operations; not connectivity"| workspace
+workspace -->|"schedule authorized jobs"| compute
+compute -->|"identity-scoped requests"| egress
+egress -->|"approved dependency paths"| stores
+egress -->|"approved diagnostic path"| telemetry
+workspace -->|"configured resource diagnostics"| telemetry
+class actor human
+class entra,route,amlpe,datape,egress security
+class workspace,compute model
+class stores data
+class telemetry evidence
+  classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+  classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+  classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+  classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+  classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+  classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+  classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+  style sg_client fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_inbound fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_service fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_egress fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_dependencies fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  linkStyle default stroke:#425466,stroke-width:1.5px
