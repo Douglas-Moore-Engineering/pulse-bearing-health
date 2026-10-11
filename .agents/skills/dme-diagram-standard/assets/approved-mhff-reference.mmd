@@ -1,0 +1,54 @@
+%% MHFF proposed logical architecture. Visual review only; implementation is not claimed.
+%% Color roles: blue = source; teal = data; indigo = models;
+%% gold = policy; green = human decisions; purple = evidence.
+flowchart TD
+
+subgraph group_data["Data foundation"]
+  node_ingest["Authorized ingestion"]
+  node_contracts["Contract and quality validation"]
+  node_state[("Validated asset and event data")]
+end
+
+subgraph group_models["Analytics and models"]
+  node_features["Versioned feature processing"]
+  node_anomaly["Anomaly detection"]
+  node_forecast["Forecast when eligible"]
+  node_policy["Validity and alert policy"]
+end
+
+subgraph group_decision["Decision intelligence"]
+  node_evidence["Advisory evidence"]
+  node_review["Human review and disposition"]
+  node_ledger[("Decision and outcome ledger")]
+end
+
+node_sources["Customer telemetry and asset records"]
+
+node_sources -->|"authorized read or export"| node_ingest
+node_ingest -->|"emits source records"| node_contracts
+node_contracts -->|"accepts valid records"| node_state
+node_state -->|"supplies validated context"| node_features
+node_features -->|"provides versioned inputs"| node_anomaly
+node_features -->|"provides eligible inputs"| node_forecast
+node_anomaly -->|"reports detection results"| node_policy
+node_forecast -->|"reports forecast or abstention"| node_policy
+node_policy -->|"publishes advisory or abstention"| node_evidence
+node_evidence -->|"supports a customer decision"| node_review
+node_review -->|"records disposition and outcome"| node_ledger
+
+classDef toneBlue fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef toneTeal fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef toneIndigo fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef toneGold fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef toneGreen fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef tonePurple fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+class node_sources toneBlue
+class node_ingest,node_contracts,node_state toneTeal
+class node_features,node_anomaly,node_forecast toneIndigo
+class node_policy toneGold
+class node_review toneGreen
+class node_evidence,node_ledger tonePurple
+style group_data fill:none,stroke:#32746E,stroke-width:1.5px,color:#111111
+style group_models fill:none,stroke:#42558B,stroke-width:1.5px,color:#111111
+style group_decision fill:none,stroke:#4C713E,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

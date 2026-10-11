@@ -13,6 +13,7 @@ Fictional customer scenario; proposed design, not implementation or customer app
 | Architecture | 13 proposed views; MLOps/release/topology expanded; four further views remain backlog; 9 proposed ADRs |
 | Data | Bronze/Silver/Gold design and layer register prepared; sources/contracts remain unqualified |
 | ML/application | Candidate/evaluation plan only; no trained models or runtime implementation |
+| DME skills / VS Code | Five complete repository packages and explicit inventory added 2026-10-11; offline package checks passed; discovery on the user's IDE must be confirmed there |
 | Azure | Not connected or provisioned; entry BLOCKED; user stop boundary active |
 | Site/production | No actual site, operational validation or acceptance |
 

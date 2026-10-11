@@ -1,0 +1,14 @@
+interface:
+  display_name: DME Diagram Standard
+  short_description: Approved Mermaid architecture style for DME work
+  default_prompt: Use $dme-diagram-standard to create or update a diagram in my approved
+    style.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

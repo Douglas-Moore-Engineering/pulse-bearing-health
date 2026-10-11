@@ -11,6 +11,7 @@ Douglas Moore Engineering, LLC · Private fictional customer portfolio engagemen
 ## Contents
 
 - [Start here: pre-Azure review](docs/PRE_AZURE_REVIEW.md)
+- [DME skills and VS Code setup](docs/DME_SKILLS.md) and [repository agent instructions](AGENTS.md)
 - [Customer discovery](customer/01-discovery-record.md), [review](customer/02-customer-review-handoff.md), [open items](customer/03-open-items.md)
 - [Lifecycle cost model](customer/04-lifecycle-cost-model.md), [business case](customer/05-business-case.md), [work breakdown](customer/06-engineering-cost-work-breakdown.md)
 - [Engineering handoff](customer/07-pre-azure-engineering-handoff.md)
@@ -40,7 +41,7 @@ Dr. Douglas Moore is DME's sole founder, architect, engineer and delivery lead. 
 
 customer/ holds governed engagement/economic records; docs/ holds engineering plans and Mermaid views; requirements/ and architecture/ hold registers/ADRs; governance/ holds standards, risk, V&V and gate records; data/ holds draft contracts/qualification; infra/azure/ holds an unprovisioned plan; runbooks/ holds proposed procedures; scripts/ validates this design package. No production data/model code or deployment automation is included at this boundary.
 
-Open pulse.code-workspace in VS Code. Run `python scripts/validate_review_package.py` to check document/schema/register consistency. The check is offline and connects to no cloud service. It does not execute runtime V&V tests or grant gate approval.
+Open pulse.code-workspace in VS Code. Five DME skills are bundled under `.agents/skills/`; follow [DME skills setup](docs/DME_SKILLS.md) to verify their availability in Codex. Run `python scripts/validate_review_package.py` to check document/schema/register consistency. The check is offline and connects to no cloud service. It does not execute runtime V&V tests or grant gate approval.
 
 ## Next phase
 

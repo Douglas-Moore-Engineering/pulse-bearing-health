@@ -1,5 +1,9 @@
 # Change Log
 
+## dme-skills-bundle-v1 — 2026-10-11
+
+Added all five existing DME skill packages to `.agents/skills/`, preserving source content, references, metadata and approved diagram assets. Added root agent instructions, an explicit skill inventory, source-commit/file-hash manifest, VS Code refresh steps, and offline inventory/integrity checks. This fixes missing repository skill distribution; IDE discovery still requires verification in the user's session. Pre-Azure design remains v0.3 and no authorization or gate changed.
+
 ## pre-azure-data-v0.3 — 2026-10-10
 
 Made the Bronze/Silver/Gold decision explicit in ADR-009 and the existing data-lineage view. Added a layer register, promotion/quality/access/retention rules and ML/platform correspondence. Thirteen unique diagrams remain; nine proposed ADRs. Data and platform controls remain unimplemented, and no cloud gate or approval changed.

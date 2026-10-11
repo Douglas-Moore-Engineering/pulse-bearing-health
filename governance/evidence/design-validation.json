@@ -9,7 +9,7 @@
     },
     {
       "check": "local Markdown links exist",
-      "count": 216
+      "count": 239
     },
     {
       "check": "JSON syntax",
@@ -30,20 +30,56 @@
     {
       "check": "design-only boundary retained",
       "scope": "Documentation consistency; not technical enforcement"
+    },
+    {
+      "check": "DME skill inventory, frontmatter names and pinned file hashes",
+      "skills": 5,
+      "files": 28,
+      "scope": "Files and provenance format only; not IDE discovery or workflow execution"
     }
   ],
   "errors": [],
   "artifact_sha256": {
+    ".agents/skills/ai-governance-and-assurance/SKILL.md": "ec953863b4f2715d9609916f6ba177151f7cb3396809710259ccbceeaaa055df",
+    ".agents/skills/ai-governance-and-assurance/agents/openai.yaml": "08a5d8c2a19d87ffe0c5cbbc0bcb7d550ba062862f45696305f78c5b3b4a8541",
+    ".agents/skills/ai-governance-and-assurance/assets/icon.svg": "83edb7ff1fcb54461e60f8bab4147bf6e24b4f9bb9e5d29283c614f40b811039",
+    ".agents/skills/ai-governance-and-assurance/references/control-library.md": "0eb40a12f88c39d117e7a4654541e5e391baa2ed6291f6133fe7bcbba0f13a99",
+    ".agents/skills/ai-governance-and-assurance/references/records-and-gates.md": "084b4567787d18669c49b9fade043c274a610917ed1cf379c7c774491f515a0b",
+    ".agents/skills/ai-governance-and-assurance/references/sources-and-crosswalk.md": "9d611a2362d5b207dcc6c127c027f3cc1b3865be3fdb767c3ef73a87048b956d",
+    ".agents/skills/build-production-ai-systems/SKILL.md": "c6864ed0b1a21598a0f65d1c4f6bbf2c0aa5d8aae772be98f25ec8d3a951a647",
+    ".agents/skills/build-production-ai-systems/agents/openai.yaml": "f20484d8a0c88bd5d26abad2d696102c621272f3f9aa88feac55d352853006ad",
+    ".agents/skills/build-production-ai-systems/assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+    ".agents/skills/customer-delivery-service-operations/SKILL.md": "22cbab0534f09621a85e9347a872a9035f580ab609f585a1655ba36012516ea2",
+    ".agents/skills/customer-delivery-service-operations/agents/openai.yaml": "69df2aa503a3b01005f9aaec5cd30f94dc6df3f5125855755b57ba9927498d0b",
+    ".agents/skills/customer-delivery-service-operations/assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+    ".agents/skills/customer-delivery-service-operations/references/customer-delivery-standard.md": "6b6982536795c7285a227bac3c3ee384f252561a7463ca9d754de7f3ae525e05",
+    ".agents/skills/customer-delivery-service-operations/references/customer-discovery-questionnaire.md": "bdbc629c506f4b7683bd962c2697cc2fbb710880b72318b5af6953275c9289e9",
+    ".agents/skills/customer-delivery-service-operations/references/discovery-record-template.md": "8304e5993a363165bdae2893d28447f98736d2833865268a1686f4b508a9c166",
+    ".agents/skills/customer-delivery-service-operations/references/lifecycle-handoffs.md": "cfcab5f6332a57f24178657752921c3c1c6a90b96ad4593a22d00cc3a09f84e1",
+    ".agents/skills/dme-diagram-standard/SKILL.md": "0fff7453a323a93c2ef15c6f4f36cf2d7555a494fd3b6d751df782a2e83ca2be",
+    ".agents/skills/dme-diagram-standard/agents/openai.yaml": "412feee338956ee866505ed99973bb8a1eb508218642b6b68b559d9b0d95755b",
+    ".agents/skills/dme-diagram-standard/assets/approved-mhff-reference.mmd": "bacc7bf7b2cbc2c03fbd34e270635f47bdf294e7dafb98232727cb62ee31305d",
+    ".agents/skills/dme-diagram-standard/assets/approved-mhff-reference.png": "66ed9a1991e328747e437306f965bff1ed67ab2e6baaf405fe863c4051da1b66",
+    ".agents/skills/dme-diagram-standard/assets/architecture-template.mmd": "007053cc710b020fe9855697cf042b0bd08275fc1fb5caaf9bc728c5a7cf3afc",
+    ".agents/skills/dme-diagram-standard/assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+    ".agents/skills/dme-diagram-standard/assets/mermaid-config.json": "1f64908e7edcdcf21fb764fc770504c0b78d33ec1adbcabe7b387dae4cd91f13",
+    ".agents/skills/dme-diagram-standard/references/visual-standard.md": "723838f573e037374d5f804987a26823c4b58b517f4d31266ab5546ea592ba43",
+    ".agents/skills/systems-engineering-standards-assurance/SKILL.md": "dbe0b605184ab86fc315f5eab2fec3130a74b1a1a9ddf5776a76dd5375176509",
+    ".agents/skills/systems-engineering-standards-assurance/agents/openai.yaml": "e8d132d2e365e1034a7f7d48df4e2ec6dfa0e4cfd6777a86549274572f129bd0",
+    ".agents/skills/systems-engineering-standards-assurance/assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+    ".agents/skills/systems-engineering-standards-assurance/references/standards-assurance-standard.md": "c0e77b1485c7e706d0c8d974b8bd14144b92e3b9732b5dccf742d8d7880400eb",
+    ".agents/skills-manifest.json": "93953dd2615a3ba3ac0e8c2484311ab80c55dd3d77cf63db541544e363fe5123",
     ".env.example": "28af796d89e686da9ad7b40d545b0741ff3732c93a0c7b679ddf812f761f25c9",
     ".gitignore": "e6fc7ed9e37b46f8789c9802365b52d4ee0b6a341d2a30cbced5b4bc6afb62e9",
     ".vscode/extensions.json": "6f65ae904451635f9a15ffb51f7d80fa54dc1385ab803d474efa5cfa0797202a",
     ".vscode/settings.json": "f4e0456b052fdd266ee9a4226291def2718b12b84469d83e5307cb99b9aed95a",
     ".vscode/tasks.json": "77f81246199da087c1a06cf342c71c4c4d3c68b765bcf81c51cce520f82d49f2",
-    "CHANGELOG.md": "51b3ed9b7e5b0b81498e29d0a6ce1cb954761b5a87ea958f2f0d4577b00f084a",
+    "AGENTS.md": "3d8377b254b8a988787c93f66946a5bdc6daab82855a2ac891e1e61e51a46a32",
+    "CHANGELOG.md": "0900994aabb7a763624cef9e8a290aa4b24857864c41faa880f4598e4b1cd2f7",
     "CODEOWNERS": "cbafdb2300d4bbcfcb24e79b49d74c579549c915660186530d56040b8742ddda",
     "CONTRIBUTING.md": "a521235932ee070235a1c67b0cb41de57ef0b2070905b0e8586ed13692226e56",
-    "PROJECT_STATUS.md": "da0165525c4c9110ed6409b014f320fab005e09da90b78a4fa094ef0df4b2841",
-    "README.md": "ef4970009e61f05c843b532e3437511db05544dfde8bf413721ea3dd00594d80",
+    "PROJECT_STATUS.md": "4f0c52aaf46dd69c3f16a0e628a346e00077fe71f42b5c031feb90fec395a48d",
+    "README.md": "8056666461e3e3d67e9d64b3c87c7cff3f5bc3de0d6bea82b9096ae48f93062b",
     "SECURITY.md": "6f285f2f83f9732ebc802f8e50cf6c422dab1d54b136e43360539cc025119d54",
     "architecture/adr/adr-001.md": "4caa90cf09bcac073fefd08bf2cffadb74ea288d92611f139efd9259d0035f68",
     "architecture/adr/adr-002.md": "bebc4631ed41b0778505bf81a2401cf819187d66f88cea35bfd3caa2a4033a78",
@@ -82,8 +118,9 @@
     "docs/11-architecture-trade-studies.md": "ceff2750ee070101cfe463d5acad81df5432605980c7a645570e47f0c55c3175",
     "docs/12-architecture-decisions.md": "1e6be7dea3c70e9cadac928cc2089d8fc5095ecec2ca2eeb5dd9a76660794773",
     "docs/13-runbooks-and-backlog.md": "bdcffdaf426b2736206354d357ad863c1e72dcb05e7404b8b83a0e0a56e343df",
+    "docs/DME_SKILLS.md": "7666e4b9cd6bcba87d59bf20b9c05914bc5c0d56c4f5711c87c8703d5df29938",
     "docs/PRE_AZURE_REVIEW.md": "274dcaca31d9a10877b80785ea015d3d4134c3f2be943cdb249f9049d3a4306e",
-    "docs/README.md": "7e9f9ba211e904f8c112fe9c44bcb253141ca7bfe16ec7311e1d6b2de7bd5e45",
+    "docs/README.md": "bc4f85c39194b06172a5f91c071abd1f48fee07c9a0a576ece28d7dd312b9287",
     "docs/appendix-a-kpi-dictionary.md": "0a91d9e92c286608233d3444e39757422a76b615aebba6a14b40c7e90425ff9b",
     "docs/appendix-b-assumptions-register.csv": "f1daf04b88c30748e6a9ce40f3f11e252a5884070462af1c6205224ab973192c",
     "docs/appendix-c-reference-set.md": "79e9308ab28f4784a956d008b0465618f417999c48902f6f46476a9219d6c162",
@@ -159,6 +196,6 @@
     "requirements/requirements.csv": "0a7957fe71e08539826c02e0db4321c6ab1bd0618521913c3d426aa3961cb964",
     "requirements/traceability.csv": "378fc651a97cf7e4148a490ff1322a072c9431937a42776b717920c024084097",
     "runbooks/README.md": "f9dd9364cd8786ed9dd9cf3f59292da922b1c42bc7119b71f72abc9c2d5560e1",
-    "scripts/validate_review_package.py": "ca76e70d8843ee1a2071d29194ef88261130ddaa7862cca87d5ac7bc98d1234a"
+    "scripts/validate_review_package.py": "ee38decd610013dc9113619e4d6caeb985df4427eeea2ec904c765d873d5108d"
   }
 }

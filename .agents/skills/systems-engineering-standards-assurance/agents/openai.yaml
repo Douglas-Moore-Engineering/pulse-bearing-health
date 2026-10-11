@@ -1,0 +1,14 @@
+interface:
+  display_name: Systems Engineering Standards Assurance
+  short_description: Tailor standards and govern engineering assurance
+  default_prompt: Use $systems-engineering-standards-assurance to assess the applicable
+    standards, tailoring, SEMP, and evidence gaps for this project.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

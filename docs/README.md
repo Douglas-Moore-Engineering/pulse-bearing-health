@@ -4,6 +4,8 @@ PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepare
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
+- [DME skills and VS Code setup](DME_SKILLS.md)
+- [Repository agent instructions](../AGENTS.md)
 - [CHANGELOG.md](../CHANGELOG.md)
 - [CONTRIBUTING.md](../CONTRIBUTING.md)
 - [PROJECT_STATUS.md](../PROJECT_STATUS.md)
