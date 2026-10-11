@@ -76,6 +76,15 @@ if {r['name'] for r in metadata} != {Path(r['View']).stem for r in viewpoints}:
     errors.append('Diagram metadata/viewpoint mismatch')
 checks.append({'check':'diagram index and metadata match canonical sources','count':len(viewpoints)})
 
+layers = rows('data/data_layers.csv')
+if {r['Layer'] for r in layers} != {'Bronze', 'Silver', 'Gold'} or len(layers) != 3:
+    errors.append('Data-layer register must identify three distinct logical layers')
+for layer in layers:
+    for rid in layer['Requirement_Trace'].split(';'):
+        if rid not in ids:
+            errors.append(f"Unknown data-layer requirement: {rid}")
+checks.append({'check':'data-layer identities and requirement trace','count':len(layers)})
+
 for r in rows('governance/cloud_entry_criteria.csv'):
     if r['Status'] != 'BLOCKED':
         errors.append(f"Unexpected cloud entry state {r['Criterion_ID']}")
@@ -87,7 +96,7 @@ digests = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdige
            for p in sorted(ROOT.rglob('*')) if p.is_file()
            and p.relative_to(ROOT).as_posix() not in ['governance/evidence/design-validation.json']
            and '.git' not in p.parts and '__pycache__' not in p.parts}
-report = {'package':'Pulse pre-Azure v0.2','result':'PASS' if not errors else 'FAIL',
+report = {'package':'Pulse pre-Azure v0.3','result':'PASS' if not errors else 'FAIL',
           'scope':'Offline design consistency only; no runtime V&V, independent assurance or cloud gate approval',
           'checks':checks,'errors':errors,'artifact_sha256':digests}
 output = ROOT/'governance/evidence/design-validation.json'

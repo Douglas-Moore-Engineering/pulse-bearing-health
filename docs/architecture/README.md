@@ -1,18 +1,18 @@
 # Architecture Views
 
-PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
 ## Diagram index
 
-Thirteen unique views; `.mmd`, `.svg` and `.png` are source, scalable preview and image export of the same diagram. Views 04/04b, 07/07b and 08/08b form the v0.2 correction. Other views retain v0.1.
+Thirteen unique views; `.mmd`, `.svg` and `.png` are source, scalable preview and image export of the same diagram. Views 04/04b, 07/07b and 08/08b form the v0.2 correction. View 03 now uses explicit Bronze/Silver/Gold design v0.3. Other views retain v0.1.
 
 | View | Purpose |
 |---|---|
 | [System Context and Authority](../diagrams/01_system_context.svg) | Distinguish reference evidence, future site sources and human authority. |
 | [As-Is Workflow and Proposed Handoff](../diagrams/02_as_is_conops.svg) | Show the fictional current process and where advisory evidence would enter. |
-| [Data Architecture and Lineage](../diagrams/03_data_lineage.svg) | Keep rejected data apart and propagate immutable source/split identities. |
+| [Data Architecture — Bronze, Silver and Gold](../diagrams/03_data_lineage.svg) | Preserve authorized source bytes, promote validated bearing/run records and publish versioned features and advisory products with lineage. |
 | [AI/ML Training and Registration](../diagrams/04_model_lifecycle.svg) | Trace qualified signals through leakage-safe preparation, candidate evaluation and versioned registration; registration does not authorize release. |
 | [Inference, Monitoring and Revalidation](../diagrams/04b_inference_monitoring.svg) | Bind scoring to the released preprocessing/model/policy versions, preserve abstention and human authority, and route change signals to reviewed revalidation. |
 | [Advisory Policy and Human Decisions](../diagrams/05_human_decision.svg) | Model output cannot bypass eligibility or customer approval. |
@@ -116,40 +116,47 @@ class mock policy
 
 Legend: Blue—sources; Gold—policy; Green—people; Purple—evidence.
 
-## Data Architecture and Lineage
+## Data Architecture — Bronze, Silver and Gold
 
-Keep rejected data apart and propagate immutable source/split identities. Status: proposed/unimplemented; view v0.1. Requirements: PULSE-FR-001;PULSE-FR-002;PULSE-NFR-008.
+Preserve authorized source bytes, promote validated bearing/run records and publish versioned features and advisory products with lineage. Status: proposed/unimplemented; view v0.3. Requirements: PULSE-FR-001;PULSE-FR-002;PULSE-NFR-008;PULSE-NFR-006;PULSE-NFR-007;AIG-REQ-001.
+
+[Layer contracts and promotion rules](../04-data-architecture-and-digital-thread.md) · [ADR-009](../../architecture/adr/adr-009.md)
 
 [Editable source](../diagrams/03_data_lineage.mmd) · [SVG preview](../diagrams/03_data_lineage.svg) · [PNG export](../diagrams/03_data_lineage.png)
 
 ```mermaid
-%% Data Architecture and Lineage | Proposed design, not deployed | PULSE v0.1
+%% Data Architecture — Bronze, Silver and Gold | Proposed; unimplemented | Pulse v0.3
 flowchart TD
-subgraph sg_source["Source provenance"]
- files["Rights-qualified source files"]
- manifest[("Checksum and rights manifest")]
+files["Rights-qualified vibration files"]
+subgraph sg_bronze["Bronze — original source"]
+  raw[("Original bytes; immutable versions")]
+  manifest[("Source, rights and checksum manifest")]
 end
-subgraph sg_data["Data foundation"]
- contract["Schema and units validation"]
- accepted[("Qualified bearing and run data")]
- quarantine[("Quarantined records")]
- split["Group split before windowing"]
+subgraph sg_silver["Silver — validated context"]
+  validate["Validate integrity, units and source profile"]
+  accepted[("Canonical bearing/run observations")]
+  quarantine[("Rejected records and reason references")]
 end
-subgraph sg_evidence["Evaluation provenance"]
- features["Versioned features"]
- lineage[("Split and feature manifest")]
+subgraph sg_gold["Gold — versioned data products"]
+  build["Group split; governed feature builds"]
+  features[("Feature products; partition manifests")]
+  score["Released scoring and eligibility; view 04b"]
+  outputs[("Advisories and health summaries")]
 end
-files -->|"source bytes and metadata"| contract
-manifest -->|"allowed use and digest"| contract
-contract -->|"accept valid inputs"| accepted
-contract -->|"reject with reason"| quarantine
-accepted -->|"independent source groups"| split
-split -->|"assigned windows"| features
-features -->|"record transformations"| lineage
+files -->|"authorized landing; preserve format"| raw
+raw -->|"record provenance and digest"| manifest
+raw -->|"read source bytes"| validate
+manifest -->|"verify rights, identity and integrity"| validate
+validate -->|"pass; retain source linkage"| accepted
+validate -->|"fail; exclude from scoring"| quarantine
+accepted -->|"split before windows; train-only fitting"| build
+build -->|"versioned build and split manifests"| features
+features -->|"approved release inputs"| score
+score -->|"advisory or explicit unavailable result"| outputs
 class files source
-class contract,accepted,quarantine,split data
-class features model
-class manifest,lineage evidence
+class raw,validate,accepted,quarantine data
+class build,features,score model
+class manifest,outputs evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
   classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
@@ -157,13 +164,13 @@ class manifest,lineage evidence
   classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
   classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
-  style sg_source fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_data fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_bronze fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_silver fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_gold fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px
 ```
 
-Legend: Blue—sources; Teal—data; Indigo—models; Purple—evidence.
+Legend: Blue—sources; Teal—data; Indigo—models; Purple—evidence. Bronze/Silver/Gold are maturity layers, not node colors; the approved DME palette retains its semantic roles.
 
 ## AI/ML Training and Registration
 

@@ -1,12 +1,12 @@
 # Pulse — Bearing Health
 
-PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
 Douglas Moore Engineering, LLC · Private fictional customer portfolio engagement
 
-**Current state:** pre-Azure design package v0.2, prepared for Dr. Moore's review. Candidate requirements, standards/tailoring/SEMP, architecture and data/security/governance/V&V planning are documented. No dataset is qualified, no model is trained, no Azure resource exists and no site performance or customer approval is claimed. **Stop before any Azure connection or provisioning.**
+**Current state:** pre-Azure design package v0.3, prepared for Dr. Moore's review. Candidate requirements, standards/tailoring/SEMP, architecture and data/security/governance/V&V planning are documented. No dataset is qualified, no model is trained, no Azure resource exists and no site performance or customer approval is claimed. **Stop before any Azure connection or provisioning.**
 
 ## Contents
 
@@ -23,6 +23,8 @@ Douglas Moore Engineering, LLC · Private fictional customer portfolio engagemen
 - [Project status](PROJECT_STATUS.md) and [validation evidence](governance/evidence/design-validation.json)
 
 ## Diagram review
+
+[Bronze/Silver/Gold data architecture](docs/diagrams/03_data_lineage.svg) · [Data-layer contracts and promotion rules](docs/04-data-architecture-and-digital-thread.md).
 
 [Training and registration](docs/diagrams/04_model_lifecycle.svg) · [Inference and monitoring](docs/diagrams/04b_inference_monitoring.svg) · [Release](docs/diagrams/08_release_gates.svg) · [Rollback](docs/diagrams/08b_rollback_recovery.svg) · [Environment topology](docs/diagrams/07_deployment_candidate.svg) · [Network and identity](docs/diagrams/07b_network_identity.svg). Read the [full index](docs/architecture/README.md) for all thirteen views and their editable sources. The v0.2 correction expands these design views; further architecture-view gaps remain in the review backlog.
 

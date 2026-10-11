@@ -1,6 +1,6 @@
 # AI/ML and Decision Intelligence
 
-PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
@@ -45,3 +45,7 @@ Inference checks input validity, freshness and supported regime, applies the rel
 | New labels, dependencies, model/policy change or operating scope | Technical owner and release authority | Review impact, rights, cost and risk; requalify data, retrain if justified, repeat affected V&V and promotion gates |
 
 A retraining trigger opens a reviewed change proposal. It neither approves compute spending nor promotes a model. Approved retraining returns to view 04 and then view 08; the inference loader receives only a newly authorized release. Performance thresholds, monitoring windows and review intervals remain candidate decisions, with closure before the affected exposure gate.
+
+## Data-layer correspondence — v0.3
+
+[Bronze/Silver/Gold](04-data-architecture-and-digital-thread.md) names the logical products feeding these model views. Training and inference consume purpose-authorized, versioned Gold feature products derived from qualified Silver observations; training-only fitting and bearing/run split rules remain mandatory. Models, fitted transforms and release bundles remain separately governed ML artifacts. The Gold label neither licenses test-data access during selection nor validates a model or grants site authority.

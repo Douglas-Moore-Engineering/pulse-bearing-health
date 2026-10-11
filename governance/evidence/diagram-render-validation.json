@@ -18,9 +18,10 @@
     {
       "name": "03_data_lineage",
       "width": 680,
-      "height": 1386.746337890625,
+      "height": 2121.910400390625,
       "parsed": true,
-      "rendered": true
+      "rendered": true,
+      "version": "0.3"
     },
     {
       "name": "04_model_lifecycle",

@@ -1,6 +1,6 @@
 # Azure Platform Plan — Unprovisioned
 
-PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
@@ -53,3 +53,7 @@ Collect job/model lineage, resource diagnostics, identity/access events, approve
 Backup/recovery covers source and model manifests, accepted records, configuration and release evidence, with separate credentials/network re-entry checks. Candidate RTO/RPO require future exercises. Development, validation, private connectivity, image retention, logging, recovery and temporary rollback capacity are cost drivers in the single lifecycle model; amounts remain TBD. Resource budgets and notifications do not automatically enforce a spending cap. Compute limits and teardown controls require separate design and tests.
 
 Microsoft primary references inspected 2026-10-10: [managed network isolation](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-managed-network?view=azureml-api-2), [private workspace connectivity](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet?view=azureml-api-2), and [versioned model assets](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models?view=azureml-api-2). These support service relationships; environment separation, promotion and rollback rules above are proposed DME design decisions. No authentication to Azure was performed.
+
+## Logical data layers — v0.3
+
+Map the proposed [Bronze/Silver/Gold layers](../../docs/04-data-architecture-and-digital-thread.md) to governed storage paths/containers or tables only after workload, format, rights and access needs are resolved. Development/validation environment separation and data maturity layers are different dimensions; avoid turning three layer names into three automatically provisioned services. No Databricks/Fabric dependency, extra storage account or deployment is introduced by ADR-009.

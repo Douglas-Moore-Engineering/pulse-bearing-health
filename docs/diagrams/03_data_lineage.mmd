@@ -1,30 +1,35 @@
-%% Data Architecture and Lineage | Proposed design, not deployed | PULSE v0.1
+%% Data Architecture — Bronze, Silver and Gold | Proposed; unimplemented | Pulse v0.3
 flowchart TD
-subgraph sg_source["Source provenance"]
- files["Rights-qualified source files"]
- manifest[("Checksum and rights manifest")]
+files["Rights-qualified vibration files"]
+subgraph sg_bronze["Bronze — original source"]
+  raw[("Original bytes; immutable versions")]
+  manifest[("Source, rights and checksum manifest")]
 end
-subgraph sg_data["Data foundation"]
- contract["Schema and units validation"]
- accepted[("Qualified bearing and run data")]
- quarantine[("Quarantined records")]
- split["Group split before windowing"]
+subgraph sg_silver["Silver — validated context"]
+  validate["Validate integrity, units and source profile"]
+  accepted[("Canonical bearing/run observations")]
+  quarantine[("Rejected records and reason references")]
 end
-subgraph sg_evidence["Evaluation provenance"]
- features["Versioned features"]
- lineage[("Split and feature manifest")]
+subgraph sg_gold["Gold — versioned data products"]
+  build["Group split; governed feature builds"]
+  features[("Feature products; partition manifests")]
+  score["Released scoring and eligibility; view 04b"]
+  outputs[("Advisories and health summaries")]
 end
-files -->|"source bytes and metadata"| contract
-manifest -->|"allowed use and digest"| contract
-contract -->|"accept valid inputs"| accepted
-contract -->|"reject with reason"| quarantine
-accepted -->|"independent source groups"| split
-split -->|"assigned windows"| features
-features -->|"record transformations"| lineage
+files -->|"authorized landing; preserve format"| raw
+raw -->|"record provenance and digest"| manifest
+raw -->|"read source bytes"| validate
+manifest -->|"verify rights, identity and integrity"| validate
+validate -->|"pass; retain source linkage"| accepted
+validate -->|"fail; exclude from scoring"| quarantine
+accepted -->|"split before windows; train-only fitting"| build
+build -->|"versioned build and split manifests"| features
+features -->|"approved release inputs"| score
+score -->|"advisory or explicit unavailable result"| outputs
 class files source
-class contract,accepted,quarantine,split data
-class features model
-class manifest,lineage evidence
+class raw,validate,accepted,quarantine data
+class build,features,score model
+class manifest,outputs evidence
   classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
   classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
   classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
@@ -32,7 +37,7 @@ class manifest,lineage evidence
   classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
   classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
   classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
-  style sg_source fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_data fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
-  style sg_evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_bronze fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_silver fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+  style sg_gold fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
   linkStyle default stroke:#425466,stroke-width:1.5px

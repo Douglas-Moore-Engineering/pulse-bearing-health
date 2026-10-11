@@ -1,6 +1,6 @@
 # Architecture Decision Index
 
-PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
@@ -14,3 +14,5 @@ Fictional customer scenario; proposed design, not implementation or customer app
 - [ADR-008 — Evidence schema and relational records versus graph](../architecture/adr/adr-008.md)
 
 All decisions are proposals prepared for review; status is recorded in the canonical register.
+
+- [ADR-009 — Explicit Bronze/Silver/Gold data layers](../architecture/adr/adr-009.md) — proposed; no platform selection or acceptance implied.

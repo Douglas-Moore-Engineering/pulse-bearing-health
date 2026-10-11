@@ -1,6 +1,6 @@
 # Pre-Azure Engineering Handoff
 
-PULSE pre-Azure review v0.2 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
 
@@ -23,3 +23,7 @@ Azure connection authorization: **not supplied**.
 Receiving role: Dr. Moore for review and future platform/model/release ownership. Updated outputs: diagram views 04/04b/07/07b/08/08b, architecture index/viewpoint register, AI/ML/release/platform design and a non-authorizing release-manifest template. Earlier discovery, budget ceilings, candidate requirements and approvals are unchanged. Render/consistency evidence accompanies this revision; actual tests and cloud-entry approvals do not.
 
 Next permitted activity remains design review/correction and authorized source inspection. The additional four previously identified architecture views remain explicit backlog; no claim of exhaustive pre-Azure completion is made. No Azure connection, provisioning, job execution or release is authorized by this handoff.
+
+## Returned data architecture correction — v0.3
+
+Receiving role: Dr. Moore for design review. Updated outputs: view 03, data-layer contract/ownership/promotion design, layer register and proposed ADR-009; existing ML/platform records now reference these layers. No discovery answer, requirement ID, budget, dataset approval or cloud-entry disposition changes. Next permitted action remains review/correction and authorized data qualification; stop before Azure connection. Return actual source profiles and executed data-quality/leakage tests in a later authorized increment.

@@ -1,5 +1,9 @@
 # Change Log
 
+## pre-azure-data-v0.3 — 2026-10-10
+
+Made the Bronze/Silver/Gold decision explicit in ADR-009 and the existing data-lineage view. Added a layer register, promotion/quality/access/retention rules and ML/platform correspondence. Thirteen unique diagrams remain; nine proposed ADRs. Data and platform controls remain unimplemented, and no cloud gate or approval changed.
+
 ## pre-azure-architecture-v0.2 — 2026-10-10
 
 Corrected overview-only MLOps/release and deployment views. Expanded 04, 07 and 08; added 04b inference/monitoring and 07b network/identity and 08b recovery companion views, a release-manifest template and corresponding design/handoff records. Thirteen unique views now exist. Preserved all gates, requirement IDs and Azure stop instructions. Four previously proposed additional architecture views remain backlog; no exhaustive architecture-completeness or runtime claim.

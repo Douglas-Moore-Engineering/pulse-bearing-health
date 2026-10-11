@@ -11,8 +11,10 @@
   },
   {
     "name": "03_data_lineage",
-    "title": "Data Architecture and Lineage",
-    "purpose": "Keep rejected data apart and propagate immutable source/split identities."
+    "title": "Data Architecture \u2014 Bronze, Silver and Gold",
+    "purpose": "Preserve authorized source bytes, promote validated bearing/run records and publish versioned features and advisory products with lineage.",
+    "version": "0.3",
+    "requirements": "PULSE-FR-001;PULSE-FR-002;PULSE-NFR-008;PULSE-NFR-006;PULSE-NFR-007;AIG-REQ-001"
   },
   {
     "name": "04_model_lifecycle",

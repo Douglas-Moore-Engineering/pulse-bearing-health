@@ -1,0 +1,24 @@
+{
+  "revision": "data-architecture-v0.3",
+  "date": "2026-10-10",
+  "scope": "Design/render/trace only; no data qualification, runtime tests, deployment or independent assurance",
+  "view": "03_data_lineage",
+  "artifacts": {
+    ".mmd": "3d4b0291a64ac9e3bd4772394f874e07985484eb6747d9ed7a343d4bc213c1ce",
+    ".svg": "0301b88e918ae47fd49dbe5e7031e6ec6f3c51c05101d5d9a9b0ad0e79c558c7",
+    ".png": "58922a9128a728a5560a775b1be8e2909af115ad0c74286fd0fb92d80e55f378"
+  },
+  "parse_render": "PASS",
+  "transparent_png": true,
+  "unfilled_layer_groups": 3,
+  "visual_review": "Rendered on a light inspection surface; readable title, layer names, labels, branches and legend",
+  "semantic_review": [
+    "Authorized source admission precedes retained Bronze bytes",
+    "Silver contract failures remain quarantined and excluded from scoring",
+    "Gold feature products retain group splits and train-only fitted transformation lineage",
+    "Model outputs are distinct from confirmed outcomes; advisory publication requires released policy and eligibility",
+    "Layer names do not grant transactional guarantees, access, cloud deployment or site validity"
+  ],
+  "implementation_evidence": "NOT_EXECUTED",
+  "cloud_entry": "BLOCKED"
+}
