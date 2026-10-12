@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "scope": "Node VM DOM-stub functional check; not visual/browser validation",
+  "observed_at": "2026-10-12T22:07:35.756Z",
+  "html_sha256": "fa69779aa5bbc750914451c311e9c6e9191c52bdbe87f01105703614593f6bed",
+  "runs": [
+    {
+      "run": "B04",
+      "original_episodes": 3,
+      "grouped_episodes": 1,
+      "queue_rows": 1
+    },
+    {
+      "run": "B12",
+      "original_episodes": 26,
+      "grouped_episodes": 1,
+      "queue_rows": 1
+    },
+    {
+      "run": "B17",
+      "original_episodes": 9,
+      "grouped_episodes": 1,
+      "queue_rows": 1
+    }
+  ]
+}

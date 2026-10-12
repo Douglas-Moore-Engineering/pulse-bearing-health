@@ -1,0 +1,222 @@
+{
+  "policy_version": "detector-performance-v1",
+  "events": [
+    {
+      "event_id": "0",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "1",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "2",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "3",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "4",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "5",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "6",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "7",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "8",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "9",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "10",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "11",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "12",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "13",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "14",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "15",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "16",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "17",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "18",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    },
+    {
+      "event_id": "19",
+      "alert": "2026-01-01T00:00:00+00:00",
+      "earliest": "2026-01-01T01:00:00+00:00",
+      "latest": "2026-01-01T01:01:00+00:00",
+      "endpoint_reference": "fixture",
+      "clock_reference": "fixture"
+    }
+  ],
+  "healthy_blocks": [
+    {
+      "bearing_id": "0",
+      "block_index": 0,
+      "operating_hours": 720,
+      "nuisance_episodes": 0,
+      "unresolved_episodes": 1,
+      "exposure_reference": "fixture"
+    },
+    {
+      "bearing_id": "1",
+      "block_index": 0,
+      "operating_hours": 720,
+      "nuisance_episodes": 0,
+      "unresolved_episodes": 1,
+      "exposure_reference": "fixture"
+    },
+    {
+      "bearing_id": "2",
+      "block_index": 0,
+      "operating_hours": 720,
+      "nuisance_episodes": 0,
+      "unresolved_episodes": 1,
+      "exposure_reference": "fixture"
+    }
+  ],
+  "regimes": [
+    {
+      "eligible": 100,
+      "abstentions": 5,
+      "inventory_reference": "fixture"
+    }
+  ],
+  "unsupported_challenges": {
+    "satisfied": true,
+    "references": [
+      "synthetic assertion"
+    ]
+  },
+  "independent_causal_protocol": {
+    "satisfied": true,
+    "references": [
+      "synthetic assertion"
+    ]
+  },
+  "trace_replay": {
+    "satisfied": true,
+    "references": [
+      "synthetic assertion"
+    ]
+  },
+  "evidence_review": {
+    "satisfied": true,
+    "references": [
+      "synthetic assertion"
+    ]
+  }
+}

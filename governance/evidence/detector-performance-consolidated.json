@@ -1,0 +1,51 @@
+{
+  "policy_sha256": "0a83f07b50f70b3e3118a4c98e855918f7ccbee6ba7862680dacfe4ce6100c64",
+  "evaluator_sha256": "8e4365f9f63bd5e9fdc3a7306aa4657359a8b06f676f6cf881f5ef7c5abaefd1",
+  "scope": "Retrospective evaluation of supplied recorded evidence; not a newly frozen holdout test",
+  "reserved_cases_opened": false,
+  "candidate_results": {
+    "frozen-3x-rms": {
+      "dossier_sha256": "68853716f3292bec2fb316de58cb7bff126019bcb8c728850b4345cc63570ece",
+      "evaluation": {
+        "policy_version": "detector-performance-v1",
+        "criteria": {
+          "DET-PERF-001": "INCONCLUSIVE",
+          "DET-PERF-002": "INCONCLUSIVE",
+          "DET-PERF-003": "INCONCLUSIVE",
+          "DET-PERF-004": "INCONCLUSIVE",
+          "DET-PERF-005": "INCONCLUSIVE",
+          "DET-PERF-006": "INCONCLUSIVE",
+          "DET-PERF-007": "INCONCLUSIVE",
+          "EVIDENCE-REVIEW": "INCONCLUSIVE"
+        },
+        "status": "INCONCLUSIVE",
+        "event_results": [],
+        "production_release_authorized": false,
+        "references_independently_verified_by_program": false,
+        "basis": "Supplied evidence and reviewer assertions; reference existence and truth are not verified"
+      }
+    },
+    "sca-paired-development": {
+      "dossier_sha256": "4728afdf4c650c788f86ca9fa64877f592d83d142cbaedf998a1450fb06e8635",
+      "evaluation": {
+        "policy_version": "detector-performance-v1",
+        "criteria": {
+          "DET-PERF-001": "INCONCLUSIVE",
+          "DET-PERF-002": "INCONCLUSIVE",
+          "DET-PERF-003": "INCONCLUSIVE",
+          "DET-PERF-004": "FAIL",
+          "DET-PERF-005": "INCONCLUSIVE",
+          "DET-PERF-006": "FAIL",
+          "DET-PERF-007": "INCONCLUSIVE",
+          "EVIDENCE-REVIEW": "INCONCLUSIVE"
+        },
+        "status": "FAIL",
+        "event_results": [],
+        "production_release_authorized": false,
+        "references_independently_verified_by_program": false,
+        "basis": "Supplied evidence and reviewer assertions; reference existence and truth are not verified"
+      }
+    }
+  },
+  "production_release_authorized": false
+}

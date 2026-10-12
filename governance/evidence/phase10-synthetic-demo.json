@@ -1,0 +1,13 @@
+{
+  "scope": "Generated-fixture software exercise only",
+  "counts": {
+    "sources": 3,
+    "windows": 3,
+    "quarantine": 1,
+    "evidence": 3,
+    "decisions": 3
+  },
+  "site_validated": false,
+  "model_trained": false,
+  "report_sha256": "5c6a95baed6e605e5639c57c1814eb3460784587ecc7934d755f8c30a927b81d"
+}

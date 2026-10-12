@@ -30,6 +30,16 @@ class AlertLedger:
             db.execute('''CREATE TABLE IF NOT EXISTS alert_delivery_attempts (
                 attempt_id TEXT PRIMARY KEY, event_id TEXT NOT NULL REFERENCES alerts(event_id),
                 destination TEXT NOT NULL, outcome TEXT NOT NULL, recorded_at TEXT NOT NULL)''')
+            db.execute('''CREATE TABLE IF NOT EXISTS alert_closures (
+                event_id TEXT PRIMARY KEY REFERENCES alerts(event_id),
+                actor TEXT NOT NULL, rationale TEXT NOT NULL, evidence TEXT NOT NULL,
+                recorded_at TEXT NOT NULL)''')
+            db.executescript('''
+                CREATE TRIGGER IF NOT EXISTS closure_no_update BEFORE UPDATE ON alert_closures
+                BEGIN SELECT RAISE(ABORT, 'Closure is immutable'); END;
+                CREATE TRIGGER IF NOT EXISTS closure_no_delete BEFORE DELETE ON alert_closures
+                BEGIN SELECT RAISE(ABORT, 'Closure is immutable'); END;
+            ''')
 
     @contextmanager
     def connection(self):
@@ -96,3 +106,38 @@ class AlertLedger:
                 return
             db.execute('INSERT INTO alert_delivery_attempts VALUES(?,?,?,?,?)',
                        (attempt_id, event_id, destination, outcome, datetime.now(timezone.utc).isoformat()))
+
+    def close_incident(self, tenant, asset, event_id, actor, rationale, evidence):
+        """Explicit caller-authorized disposition; never invoked by detector state.
+
+        The integrating service must authenticate/authorize the actor. References
+        and maintenance outcomes are assertions, not independently verified here.
+        """
+        if any(not isinstance(x, str) or not x.strip() or len(x)>4096 for x in (actor,rationale)):
+            raise ValueError('Actor and rationale required')
+        if not isinstance(evidence,list) or not 1<=len(evidence)<=100 or any(
+                not isinstance(x,str) or not x.strip() or len(x)>2048 for x in evidence):
+            raise ValueError('Bounded evidence references required')
+        encoded=json.dumps(evidence)
+        with self.connection() as db:
+            db.execute('BEGIN IMMEDIATE')
+            row=db.execute('SELECT * FROM alerts WHERE event_id=? AND tenant=? AND asset=?',
+                           (event_id,tenant,asset)).fetchone()
+            if row is None:raise KeyError('Alert not found in this tenant and asset')
+            if row['acknowledged_by'] is None:raise AlertConflict('Acknowledge before closure')
+            previous=db.execute('SELECT * FROM alert_closures WHERE event_id=?',(event_id,)).fetchone()
+            if previous:
+                if (previous['actor'],previous['rationale'],previous['evidence'])!=(actor,rationale,encoded):
+                    raise AlertConflict('Closure cannot be overwritten')
+                return dict(previous)
+            db.execute('INSERT INTO alert_closures VALUES(?,?,?,?,?)',
+                       (event_id,actor,rationale,encoded,datetime.now(timezone.utc).isoformat()))
+            return dict(db.execute('SELECT * FROM alert_closures WHERE event_id=?',(event_id,)).fetchone())
+
+    def incident_state(self, tenant, asset, event_id):
+        with self.connection() as db:
+            row=db.execute('SELECT * FROM alerts WHERE event_id=? AND tenant=? AND asset=?',
+                           (event_id,tenant,asset)).fetchone()
+            if row is None:raise KeyError('Alert not found in this tenant and asset')
+            closed=db.execute('SELECT 1 FROM alert_closures WHERE event_id=?',(event_id,)).fetchone()
+            return 'CLOSED' if closed else 'ACKNOWLEDGED' if row['acknowledged_by'] else 'OPEN'

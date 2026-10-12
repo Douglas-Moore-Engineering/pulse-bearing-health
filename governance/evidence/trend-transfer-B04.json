@@ -1,0 +1,5807 @@
+{
+  "run": "B04",
+  "scope": "Unchanged settings on consumed runs; not independent validation",
+  "candidate": "b17-trailing-median-v1",
+  "config_sha256": "6bd1b67a6ffd04e2e77c2c4b5b87b96c6ac9682945781b8047e8e48a18c6c3ae",
+  "source_sha256": "bd9b4ee60b76226ebd7e414cf93d3d36a04a99924dddea8e8872397c08059e20",
+  "code_sha256": "f26379003f715e5dc6612ffcb0122df692ba402c1c119efda80c8c36dd7c0070",
+  "component_sha256": "00b06077626b3b68a002ed6b6d7e5b8eff1b14b15bcec25425027ec796198b3a",
+  "monitoring_records": 964,
+  "available_records": 950,
+  "flagged_records": 663,
+  "episodes": 1,
+  "first_flag": "2021-11-17T15:00:45",
+  "record_end_lead_minutes": 206.21666666666667,
+  "baseline": {
+    "flagged_records": 663,
+    "bearing_alert_episodes": 3,
+    "descriptive_lead_minutes": 208.25
+  },
+  "qualified_detector": false,
+  "decisions": [
+    {
+      "identity": "B04/vibrationData/data_B04_M0151.mat",
+      "timestamp": "2021-11-17T13:26:18",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0152.mat",
+      "timestamp": "2021-11-17T13:26:38",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0153.mat",
+      "timestamp": "2021-11-17T13:26:58",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0154.mat",
+      "timestamp": "2021-11-17T13:27:14",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0155.mat",
+      "timestamp": "2021-11-17T13:27:30",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0156.mat",
+      "timestamp": "2021-11-17T13:27:49",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0157.mat",
+      "timestamp": "2021-11-17T13:28:08",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0158.mat",
+      "timestamp": "2021-11-17T13:28:29",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0159.mat",
+      "timestamp": "2021-11-17T13:28:49",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0160.mat",
+      "timestamp": "2021-11-17T13:29:08",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0161.mat",
+      "timestamp": "2021-11-17T13:29:26",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0162.mat",
+      "timestamp": "2021-11-17T13:29:45",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0163.mat",
+      "timestamp": "2021-11-17T13:30:03",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0164.mat",
+      "timestamp": "2021-11-17T13:30:23",
+      "available": false,
+      "flagged": null
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0165.mat",
+      "timestamp": "2021-11-17T13:30:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0166.mat",
+      "timestamp": "2021-11-17T13:31:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0167.mat",
+      "timestamp": "2021-11-17T13:31:23",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0168.mat",
+      "timestamp": "2021-11-17T13:31:39",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0169.mat",
+      "timestamp": "2021-11-17T13:31:59",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0170.mat",
+      "timestamp": "2021-11-17T13:32:15",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0171.mat",
+      "timestamp": "2021-11-17T13:32:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0172.mat",
+      "timestamp": "2021-11-17T13:32:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0173.mat",
+      "timestamp": "2021-11-17T13:33:13",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0174.mat",
+      "timestamp": "2021-11-17T13:33:31",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0175.mat",
+      "timestamp": "2021-11-17T13:33:51",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0176.mat",
+      "timestamp": "2021-11-17T13:34:09",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0177.mat",
+      "timestamp": "2021-11-17T13:34:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0178.mat",
+      "timestamp": "2021-11-17T13:34:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0179.mat",
+      "timestamp": "2021-11-17T13:35:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0180.mat",
+      "timestamp": "2021-11-17T13:35:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0181.mat",
+      "timestamp": "2021-11-17T13:35:50",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0182.mat",
+      "timestamp": "2021-11-17T13:36:11",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0183.mat",
+      "timestamp": "2021-11-17T13:36:28",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0184.mat",
+      "timestamp": "2021-11-17T13:36:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0185.mat",
+      "timestamp": "2021-11-17T13:37:02",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0186.mat",
+      "timestamp": "2021-11-17T13:37:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0187.mat",
+      "timestamp": "2021-11-17T13:37:39",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0188.mat",
+      "timestamp": "2021-11-17T13:37:54",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0189.mat",
+      "timestamp": "2021-11-17T13:38:14",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0190.mat",
+      "timestamp": "2021-11-17T13:38:31",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0191.mat",
+      "timestamp": "2021-11-17T13:38:49",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0192.mat",
+      "timestamp": "2021-11-17T13:39:11",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0193.mat",
+      "timestamp": "2021-11-17T13:39:27",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0194.mat",
+      "timestamp": "2021-11-17T13:39:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0195.mat",
+      "timestamp": "2021-11-17T13:40:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0196.mat",
+      "timestamp": "2021-11-17T13:40:25",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0197.mat",
+      "timestamp": "2021-11-17T13:40:42",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0198.mat",
+      "timestamp": "2021-11-17T13:41:03",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0199.mat",
+      "timestamp": "2021-11-17T13:41:24",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0200.mat",
+      "timestamp": "2021-11-17T13:41:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0201.mat",
+      "timestamp": "2021-11-17T13:41:59",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0202.mat",
+      "timestamp": "2021-11-17T13:42:15",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0203.mat",
+      "timestamp": "2021-11-17T13:42:33",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0204.mat",
+      "timestamp": "2021-11-17T13:42:49",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0205.mat",
+      "timestamp": "2021-11-17T13:43:08",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0206.mat",
+      "timestamp": "2021-11-17T13:43:30",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0207.mat",
+      "timestamp": "2021-11-17T13:43:47",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0208.mat",
+      "timestamp": "2021-11-17T13:44:09",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0209.mat",
+      "timestamp": "2021-11-17T13:44:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0210.mat",
+      "timestamp": "2021-11-17T13:44:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0211.mat",
+      "timestamp": "2021-11-17T13:45:12",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0212.mat",
+      "timestamp": "2021-11-17T13:45:31",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0213.mat",
+      "timestamp": "2021-11-17T13:45:50",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0214.mat",
+      "timestamp": "2021-11-17T13:46:07",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0215.mat",
+      "timestamp": "2021-11-17T13:46:25",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0216.mat",
+      "timestamp": "2021-11-17T13:46:41",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0217.mat",
+      "timestamp": "2021-11-17T13:47:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0218.mat",
+      "timestamp": "2021-11-17T13:47:21",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0219.mat",
+      "timestamp": "2021-11-17T13:47:38",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0220.mat",
+      "timestamp": "2021-11-17T13:47:58",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0221.mat",
+      "timestamp": "2021-11-17T13:48:15",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0222.mat",
+      "timestamp": "2021-11-17T13:48:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0223.mat",
+      "timestamp": "2021-11-17T13:48:57",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0224.mat",
+      "timestamp": "2021-11-17T13:49:15",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0225.mat",
+      "timestamp": "2021-11-17T13:49:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0226.mat",
+      "timestamp": "2021-11-17T13:49:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0227.mat",
+      "timestamp": "2021-11-17T13:50:12",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0228.mat",
+      "timestamp": "2021-11-17T13:50:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0229.mat",
+      "timestamp": "2021-11-17T13:50:53",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0230.mat",
+      "timestamp": "2021-11-17T13:51:11",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0231.mat",
+      "timestamp": "2021-11-17T13:51:28",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0232.mat",
+      "timestamp": "2021-11-17T13:51:45",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0233.mat",
+      "timestamp": "2021-11-17T13:52:04",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0234.mat",
+      "timestamp": "2021-11-17T13:52:24",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0235.mat",
+      "timestamp": "2021-11-17T13:52:43",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0236.mat",
+      "timestamp": "2021-11-17T13:53:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0237.mat",
+      "timestamp": "2021-11-17T13:53:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0238.mat",
+      "timestamp": "2021-11-17T13:53:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0239.mat",
+      "timestamp": "2021-11-17T13:53:53",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0240.mat",
+      "timestamp": "2021-11-17T13:54:12",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0241.mat",
+      "timestamp": "2021-11-17T13:54:31",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0242.mat",
+      "timestamp": "2021-11-17T13:54:47",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0243.mat",
+      "timestamp": "2021-11-17T13:55:04",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0244.mat",
+      "timestamp": "2021-11-17T13:55:21",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0245.mat",
+      "timestamp": "2021-11-17T13:55:38",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0246.mat",
+      "timestamp": "2021-11-17T13:55:58",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0247.mat",
+      "timestamp": "2021-11-17T13:56:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0248.mat",
+      "timestamp": "2021-11-17T13:56:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0249.mat",
+      "timestamp": "2021-11-17T13:56:54",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0250.mat",
+      "timestamp": "2021-11-17T13:57:11",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0251.mat",
+      "timestamp": "2021-11-17T13:57:28",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0252.mat",
+      "timestamp": "2021-11-17T13:57:47",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0253.mat",
+      "timestamp": "2021-11-17T13:58:07",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0254.mat",
+      "timestamp": "2021-11-17T13:58:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0255.mat",
+      "timestamp": "2021-11-17T13:58:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0256.mat",
+      "timestamp": "2021-11-17T13:59:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0257.mat",
+      "timestamp": "2021-11-17T13:59:25",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0258.mat",
+      "timestamp": "2021-11-17T13:59:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0259.mat",
+      "timestamp": "2021-11-17T14:00:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0260.mat",
+      "timestamp": "2021-11-17T14:00:24",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0261.mat",
+      "timestamp": "2021-11-17T14:00:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0262.mat",
+      "timestamp": "2021-11-17T14:01:01",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0263.mat",
+      "timestamp": "2021-11-17T14:01:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0264.mat",
+      "timestamp": "2021-11-17T14:01:37",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0265.mat",
+      "timestamp": "2021-11-17T14:01:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0266.mat",
+      "timestamp": "2021-11-17T14:02:14",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0267.mat",
+      "timestamp": "2021-11-17T14:02:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0268.mat",
+      "timestamp": "2021-11-17T14:02:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0269.mat",
+      "timestamp": "2021-11-17T14:03:10",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0270.mat",
+      "timestamp": "2021-11-17T14:03:30",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0271.mat",
+      "timestamp": "2021-11-17T14:03:48",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0272.mat",
+      "timestamp": "2021-11-17T14:04:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0273.mat",
+      "timestamp": "2021-11-17T14:04:22",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0274.mat",
+      "timestamp": "2021-11-17T14:04:39",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0275.mat",
+      "timestamp": "2021-11-17T14:04:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0276.mat",
+      "timestamp": "2021-11-17T14:05:14",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0277.mat",
+      "timestamp": "2021-11-17T14:05:32",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0278.mat",
+      "timestamp": "2021-11-17T14:05:50",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0279.mat",
+      "timestamp": "2021-11-17T14:06:09",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0280.mat",
+      "timestamp": "2021-11-17T14:06:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0281.mat",
+      "timestamp": "2021-11-17T14:06:45",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0282.mat",
+      "timestamp": "2021-11-17T14:07:03",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0283.mat",
+      "timestamp": "2021-11-17T14:07:22",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0284.mat",
+      "timestamp": "2021-11-17T14:07:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0285.mat",
+      "timestamp": "2021-11-17T14:08:01",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0286.mat",
+      "timestamp": "2021-11-17T14:08:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0287.mat",
+      "timestamp": "2021-11-17T14:08:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0288.mat",
+      "timestamp": "2021-11-17T14:08:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0289.mat",
+      "timestamp": "2021-11-17T14:09:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0290.mat",
+      "timestamp": "2021-11-17T14:09:38",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0291.mat",
+      "timestamp": "2021-11-17T14:09:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0292.mat",
+      "timestamp": "2021-11-17T14:10:17",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0293.mat",
+      "timestamp": "2021-11-17T14:10:37",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0294.mat",
+      "timestamp": "2021-11-17T14:10:55",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0295.mat",
+      "timestamp": "2021-11-17T14:11:15",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0296.mat",
+      "timestamp": "2021-11-17T14:11:33",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0297.mat",
+      "timestamp": "2021-11-17T14:11:50",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0298.mat",
+      "timestamp": "2021-11-17T14:12:08",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0299.mat",
+      "timestamp": "2021-11-17T14:12:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0300.mat",
+      "timestamp": "2021-11-17T14:12:49",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0301.mat",
+      "timestamp": "2021-11-17T14:13:11",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0302.mat",
+      "timestamp": "2021-11-17T14:13:31",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0303.mat",
+      "timestamp": "2021-11-17T14:13:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0304.mat",
+      "timestamp": "2021-11-17T14:14:09",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0305.mat",
+      "timestamp": "2021-11-17T14:14:30",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0306.mat",
+      "timestamp": "2021-11-17T14:14:49",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0307.mat",
+      "timestamp": "2021-11-17T14:15:07",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0308.mat",
+      "timestamp": "2021-11-17T14:15:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0309.mat",
+      "timestamp": "2021-11-17T14:15:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0310.mat",
+      "timestamp": "2021-11-17T14:16:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0311.mat",
+      "timestamp": "2021-11-17T14:16:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0312.mat",
+      "timestamp": "2021-11-17T14:16:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0313.mat",
+      "timestamp": "2021-11-17T14:17:01",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0314.mat",
+      "timestamp": "2021-11-17T14:17:18",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0315.mat",
+      "timestamp": "2021-11-17T14:17:39",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0316.mat",
+      "timestamp": "2021-11-17T14:17:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0317.mat",
+      "timestamp": "2021-11-17T14:18:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0318.mat",
+      "timestamp": "2021-11-17T14:18:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0319.mat",
+      "timestamp": "2021-11-17T14:18:53",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0320.mat",
+      "timestamp": "2021-11-17T14:19:12",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0321.mat",
+      "timestamp": "2021-11-17T14:19:31",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0322.mat",
+      "timestamp": "2021-11-17T14:19:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0323.mat",
+      "timestamp": "2021-11-17T14:20:09",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0324.mat",
+      "timestamp": "2021-11-17T14:20:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0325.mat",
+      "timestamp": "2021-11-17T14:20:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0326.mat",
+      "timestamp": "2021-11-17T14:21:03",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0327.mat",
+      "timestamp": "2021-11-17T14:21:20",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0328.mat",
+      "timestamp": "2021-11-17T14:21:36",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0329.mat",
+      "timestamp": "2021-11-17T14:21:55",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0330.mat",
+      "timestamp": "2021-11-17T14:22:18",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0331.mat",
+      "timestamp": "2021-11-17T14:22:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0332.mat",
+      "timestamp": "2021-11-17T14:22:53",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0333.mat",
+      "timestamp": "2021-11-17T14:23:10",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0334.mat",
+      "timestamp": "2021-11-17T14:23:28",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0335.mat",
+      "timestamp": "2021-11-17T14:23:49",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0336.mat",
+      "timestamp": "2021-11-17T14:24:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0337.mat",
+      "timestamp": "2021-11-17T14:24:23",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0338.mat",
+      "timestamp": "2021-11-17T14:24:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0339.mat",
+      "timestamp": "2021-11-17T14:25:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0340.mat",
+      "timestamp": "2021-11-17T14:25:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0341.mat",
+      "timestamp": "2021-11-17T14:25:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0342.mat",
+      "timestamp": "2021-11-17T14:25:55",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0343.mat",
+      "timestamp": "2021-11-17T14:26:15",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0344.mat",
+      "timestamp": "2021-11-17T14:26:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0345.mat",
+      "timestamp": "2021-11-17T14:26:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0346.mat",
+      "timestamp": "2021-11-17T14:27:10",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0347.mat",
+      "timestamp": "2021-11-17T14:27:28",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0348.mat",
+      "timestamp": "2021-11-17T14:27:47",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0349.mat",
+      "timestamp": "2021-11-17T14:28:07",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0350.mat",
+      "timestamp": "2021-11-17T14:28:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0351.mat",
+      "timestamp": "2021-11-17T14:28:50",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0352.mat",
+      "timestamp": "2021-11-17T14:29:10",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0353.mat",
+      "timestamp": "2021-11-17T14:29:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0354.mat",
+      "timestamp": "2021-11-17T14:29:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0355.mat",
+      "timestamp": "2021-11-17T14:30:04",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0356.mat",
+      "timestamp": "2021-11-17T14:30:20",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0357.mat",
+      "timestamp": "2021-11-17T14:30:38",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0358.mat",
+      "timestamp": "2021-11-17T14:30:58",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0359.mat",
+      "timestamp": "2021-11-17T14:31:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0360.mat",
+      "timestamp": "2021-11-17T14:31:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0361.mat",
+      "timestamp": "2021-11-17T14:31:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0362.mat",
+      "timestamp": "2021-11-17T14:32:11",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0363.mat",
+      "timestamp": "2021-11-17T14:32:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0364.mat",
+      "timestamp": "2021-11-17T14:32:48",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0365.mat",
+      "timestamp": "2021-11-17T14:33:10",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0366.mat",
+      "timestamp": "2021-11-17T14:33:28",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0367.mat",
+      "timestamp": "2021-11-17T14:33:47",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0368.mat",
+      "timestamp": "2021-11-17T14:34:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0369.mat",
+      "timestamp": "2021-11-17T14:34:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0370.mat",
+      "timestamp": "2021-11-17T14:34:48",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0371.mat",
+      "timestamp": "2021-11-17T14:35:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0372.mat",
+      "timestamp": "2021-11-17T14:35:27",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0373.mat",
+      "timestamp": "2021-11-17T14:35:48",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0374.mat",
+      "timestamp": "2021-11-17T14:36:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0375.mat",
+      "timestamp": "2021-11-17T14:36:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0376.mat",
+      "timestamp": "2021-11-17T14:36:44",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0377.mat",
+      "timestamp": "2021-11-17T14:37:02",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0378.mat",
+      "timestamp": "2021-11-17T14:37:24",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0379.mat",
+      "timestamp": "2021-11-17T14:37:43",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0380.mat",
+      "timestamp": "2021-11-17T14:38:02",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0381.mat",
+      "timestamp": "2021-11-17T14:38:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0382.mat",
+      "timestamp": "2021-11-17T14:38:41",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0383.mat",
+      "timestamp": "2021-11-17T14:39:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0384.mat",
+      "timestamp": "2021-11-17T14:39:17",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0385.mat",
+      "timestamp": "2021-11-17T14:39:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0386.mat",
+      "timestamp": "2021-11-17T14:39:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0387.mat",
+      "timestamp": "2021-11-17T14:40:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0388.mat",
+      "timestamp": "2021-11-17T14:40:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0389.mat",
+      "timestamp": "2021-11-17T14:40:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0390.mat",
+      "timestamp": "2021-11-17T14:41:13",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0391.mat",
+      "timestamp": "2021-11-17T14:41:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0392.mat",
+      "timestamp": "2021-11-17T14:41:54",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0393.mat",
+      "timestamp": "2021-11-17T14:42:10",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0394.mat",
+      "timestamp": "2021-11-17T14:42:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0395.mat",
+      "timestamp": "2021-11-17T14:42:48",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0396.mat",
+      "timestamp": "2021-11-17T14:43:07",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0397.mat",
+      "timestamp": "2021-11-17T14:43:22",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0398.mat",
+      "timestamp": "2021-11-17T14:43:42",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0399.mat",
+      "timestamp": "2021-11-17T14:44:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0400.mat",
+      "timestamp": "2021-11-17T14:44:17",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0401.mat",
+      "timestamp": "2021-11-17T14:44:37",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0402.mat",
+      "timestamp": "2021-11-17T14:44:57",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0403.mat",
+      "timestamp": "2021-11-17T14:45:17",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0404.mat",
+      "timestamp": "2021-11-17T14:45:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0405.mat",
+      "timestamp": "2021-11-17T14:46:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0406.mat",
+      "timestamp": "2021-11-17T14:46:19",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0407.mat",
+      "timestamp": "2021-11-17T14:46:38",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0408.mat",
+      "timestamp": "2021-11-17T14:46:58",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0409.mat",
+      "timestamp": "2021-11-17T14:47:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0410.mat",
+      "timestamp": "2021-11-17T14:47:35",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0411.mat",
+      "timestamp": "2021-11-17T14:47:56",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0412.mat",
+      "timestamp": "2021-11-17T14:48:13",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0413.mat",
+      "timestamp": "2021-11-17T14:48:29",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0414.mat",
+      "timestamp": "2021-11-17T14:48:45",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0415.mat",
+      "timestamp": "2021-11-17T14:49:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0416.mat",
+      "timestamp": "2021-11-17T14:49:26",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0417.mat",
+      "timestamp": "2021-11-17T14:49:45",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0418.mat",
+      "timestamp": "2021-11-17T14:50:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0419.mat",
+      "timestamp": "2021-11-17T14:50:21",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0420.mat",
+      "timestamp": "2021-11-17T14:50:42",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0421.mat",
+      "timestamp": "2021-11-17T14:51:01",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0422.mat",
+      "timestamp": "2021-11-17T14:51:21",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0423.mat",
+      "timestamp": "2021-11-17T14:51:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0424.mat",
+      "timestamp": "2021-11-17T14:51:59",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0425.mat",
+      "timestamp": "2021-11-17T14:52:18",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0426.mat",
+      "timestamp": "2021-11-17T14:52:38",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0427.mat",
+      "timestamp": "2021-11-17T14:52:57",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0428.mat",
+      "timestamp": "2021-11-17T14:53:16",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0429.mat",
+      "timestamp": "2021-11-17T14:53:32",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0430.mat",
+      "timestamp": "2021-11-17T14:53:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0431.mat",
+      "timestamp": "2021-11-17T14:54:08",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0432.mat",
+      "timestamp": "2021-11-17T14:54:27",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0433.mat",
+      "timestamp": "2021-11-17T14:54:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0434.mat",
+      "timestamp": "2021-11-17T14:55:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0435.mat",
+      "timestamp": "2021-11-17T14:55:23",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0436.mat",
+      "timestamp": "2021-11-17T14:55:40",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0437.mat",
+      "timestamp": "2021-11-17T14:56:00",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0438.mat",
+      "timestamp": "2021-11-17T14:56:17",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0439.mat",
+      "timestamp": "2021-11-17T14:56:34",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0440.mat",
+      "timestamp": "2021-11-17T14:56:52",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0441.mat",
+      "timestamp": "2021-11-17T14:57:09",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0442.mat",
+      "timestamp": "2021-11-17T14:57:25",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0443.mat",
+      "timestamp": "2021-11-17T14:57:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0444.mat",
+      "timestamp": "2021-11-17T14:58:06",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0445.mat",
+      "timestamp": "2021-11-17T14:58:24",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0446.mat",
+      "timestamp": "2021-11-17T14:58:43",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0447.mat",
+      "timestamp": "2021-11-17T14:59:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0448.mat",
+      "timestamp": "2021-11-17T14:59:25",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0449.mat",
+      "timestamp": "2021-11-17T14:59:46",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0450.mat",
+      "timestamp": "2021-11-17T15:00:05",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0451.mat",
+      "timestamp": "2021-11-17T15:00:25",
+      "available": true,
+      "flagged": false
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0452.mat",
+      "timestamp": "2021-11-17T15:00:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0453.mat",
+      "timestamp": "2021-11-17T15:01:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0454.mat",
+      "timestamp": "2021-11-17T15:01:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0455.mat",
+      "timestamp": "2021-11-17T15:01:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0456.mat",
+      "timestamp": "2021-11-17T15:02:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0457.mat",
+      "timestamp": "2021-11-17T15:02:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0458.mat",
+      "timestamp": "2021-11-17T15:02:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0459.mat",
+      "timestamp": "2021-11-17T15:02:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0460.mat",
+      "timestamp": "2021-11-17T15:03:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0461.mat",
+      "timestamp": "2021-11-17T15:03:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0462.mat",
+      "timestamp": "2021-11-17T15:03:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0463.mat",
+      "timestamp": "2021-11-17T15:04:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0464.mat",
+      "timestamp": "2021-11-17T15:04:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0465.mat",
+      "timestamp": "2021-11-17T15:04:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0466.mat",
+      "timestamp": "2021-11-17T15:05:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0467.mat",
+      "timestamp": "2021-11-17T15:05:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0468.mat",
+      "timestamp": "2021-11-17T15:05:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0469.mat",
+      "timestamp": "2021-11-17T15:06:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0470.mat",
+      "timestamp": "2021-11-17T15:06:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0471.mat",
+      "timestamp": "2021-11-17T15:06:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0472.mat",
+      "timestamp": "2021-11-17T15:07:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0473.mat",
+      "timestamp": "2021-11-17T15:07:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0474.mat",
+      "timestamp": "2021-11-17T15:07:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0475.mat",
+      "timestamp": "2021-11-17T15:07:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0476.mat",
+      "timestamp": "2021-11-17T15:08:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0477.mat",
+      "timestamp": "2021-11-17T15:08:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0478.mat",
+      "timestamp": "2021-11-17T15:08:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0479.mat",
+      "timestamp": "2021-11-17T15:09:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0480.mat",
+      "timestamp": "2021-11-17T15:09:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0481.mat",
+      "timestamp": "2021-11-17T15:09:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0482.mat",
+      "timestamp": "2021-11-17T15:10:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0483.mat",
+      "timestamp": "2021-11-17T15:10:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0484.mat",
+      "timestamp": "2021-11-17T15:10:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0485.mat",
+      "timestamp": "2021-11-17T15:11:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0486.mat",
+      "timestamp": "2021-11-17T15:11:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0487.mat",
+      "timestamp": "2021-11-17T15:11:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0488.mat",
+      "timestamp": "2021-11-17T15:12:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0489.mat",
+      "timestamp": "2021-11-17T15:12:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0490.mat",
+      "timestamp": "2021-11-17T15:12:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0491.mat",
+      "timestamp": "2021-11-17T15:13:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0492.mat",
+      "timestamp": "2021-11-17T15:13:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0493.mat",
+      "timestamp": "2021-11-17T15:13:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0494.mat",
+      "timestamp": "2021-11-17T15:13:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0495.mat",
+      "timestamp": "2021-11-17T15:14:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0496.mat",
+      "timestamp": "2021-11-17T15:14:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0497.mat",
+      "timestamp": "2021-11-17T15:14:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0498.mat",
+      "timestamp": "2021-11-17T15:15:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0499.mat",
+      "timestamp": "2021-11-17T15:15:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0500.mat",
+      "timestamp": "2021-11-17T15:15:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0501.mat",
+      "timestamp": "2021-11-17T15:16:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0502.mat",
+      "timestamp": "2021-11-17T15:16:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0503.mat",
+      "timestamp": "2021-11-17T15:16:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0504.mat",
+      "timestamp": "2021-11-17T15:16:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0505.mat",
+      "timestamp": "2021-11-17T15:17:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0506.mat",
+      "timestamp": "2021-11-17T15:17:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0507.mat",
+      "timestamp": "2021-11-17T15:17:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0508.mat",
+      "timestamp": "2021-11-17T15:18:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0509.mat",
+      "timestamp": "2021-11-17T15:18:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0510.mat",
+      "timestamp": "2021-11-17T15:18:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0511.mat",
+      "timestamp": "2021-11-17T15:19:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0512.mat",
+      "timestamp": "2021-11-17T15:19:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0513.mat",
+      "timestamp": "2021-11-17T15:19:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0514.mat",
+      "timestamp": "2021-11-17T15:20:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0515.mat",
+      "timestamp": "2021-11-17T15:20:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0516.mat",
+      "timestamp": "2021-11-17T15:20:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0517.mat",
+      "timestamp": "2021-11-17T15:20:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0518.mat",
+      "timestamp": "2021-11-17T15:21:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0519.mat",
+      "timestamp": "2021-11-17T15:21:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0520.mat",
+      "timestamp": "2021-11-17T15:21:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0521.mat",
+      "timestamp": "2021-11-17T15:22:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0522.mat",
+      "timestamp": "2021-11-17T15:22:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0523.mat",
+      "timestamp": "2021-11-17T15:22:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0524.mat",
+      "timestamp": "2021-11-17T15:23:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0525.mat",
+      "timestamp": "2021-11-17T15:23:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0526.mat",
+      "timestamp": "2021-11-17T15:23:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0527.mat",
+      "timestamp": "2021-11-17T15:23:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0528.mat",
+      "timestamp": "2021-11-17T15:24:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0529.mat",
+      "timestamp": "2021-11-17T15:24:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0530.mat",
+      "timestamp": "2021-11-17T15:24:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0531.mat",
+      "timestamp": "2021-11-17T15:25:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0532.mat",
+      "timestamp": "2021-11-17T15:25:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0533.mat",
+      "timestamp": "2021-11-17T15:25:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0534.mat",
+      "timestamp": "2021-11-17T15:26:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0535.mat",
+      "timestamp": "2021-11-17T15:26:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0536.mat",
+      "timestamp": "2021-11-17T15:26:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0537.mat",
+      "timestamp": "2021-11-17T15:27:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0538.mat",
+      "timestamp": "2021-11-17T15:27:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0539.mat",
+      "timestamp": "2021-11-17T15:27:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0540.mat",
+      "timestamp": "2021-11-17T15:28:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0541.mat",
+      "timestamp": "2021-11-17T15:28:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0542.mat",
+      "timestamp": "2021-11-17T15:28:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0543.mat",
+      "timestamp": "2021-11-17T15:28:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0544.mat",
+      "timestamp": "2021-11-17T15:29:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0545.mat",
+      "timestamp": "2021-11-17T15:29:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0546.mat",
+      "timestamp": "2021-11-17T15:29:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0547.mat",
+      "timestamp": "2021-11-17T15:30:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0548.mat",
+      "timestamp": "2021-11-17T15:30:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0549.mat",
+      "timestamp": "2021-11-17T15:30:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0550.mat",
+      "timestamp": "2021-11-17T15:30:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0551.mat",
+      "timestamp": "2021-11-17T15:31:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0552.mat",
+      "timestamp": "2021-11-17T15:31:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0553.mat",
+      "timestamp": "2021-11-17T15:31:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0554.mat",
+      "timestamp": "2021-11-17T15:32:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0555.mat",
+      "timestamp": "2021-11-17T15:32:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0556.mat",
+      "timestamp": "2021-11-17T15:32:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0557.mat",
+      "timestamp": "2021-11-17T15:33:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0558.mat",
+      "timestamp": "2021-11-17T15:33:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0559.mat",
+      "timestamp": "2021-11-17T15:33:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0560.mat",
+      "timestamp": "2021-11-17T15:34:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0561.mat",
+      "timestamp": "2021-11-17T15:34:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0562.mat",
+      "timestamp": "2021-11-17T15:34:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0563.mat",
+      "timestamp": "2021-11-17T15:34:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0564.mat",
+      "timestamp": "2021-11-17T15:35:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0565.mat",
+      "timestamp": "2021-11-17T15:35:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0566.mat",
+      "timestamp": "2021-11-17T15:35:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0567.mat",
+      "timestamp": "2021-11-17T15:36:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0568.mat",
+      "timestamp": "2021-11-17T15:36:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0569.mat",
+      "timestamp": "2021-11-17T15:36:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0570.mat",
+      "timestamp": "2021-11-17T15:37:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0571.mat",
+      "timestamp": "2021-11-17T15:37:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0572.mat",
+      "timestamp": "2021-11-17T15:37:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0573.mat",
+      "timestamp": "2021-11-17T15:38:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0574.mat",
+      "timestamp": "2021-11-17T15:38:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0575.mat",
+      "timestamp": "2021-11-17T15:38:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0576.mat",
+      "timestamp": "2021-11-17T15:39:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0577.mat",
+      "timestamp": "2021-11-17T15:39:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0578.mat",
+      "timestamp": "2021-11-17T15:39:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0579.mat",
+      "timestamp": "2021-11-17T15:39:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0580.mat",
+      "timestamp": "2021-11-17T15:40:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0581.mat",
+      "timestamp": "2021-11-17T15:40:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0582.mat",
+      "timestamp": "2021-11-17T15:40:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0583.mat",
+      "timestamp": "2021-11-17T15:41:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0584.mat",
+      "timestamp": "2021-11-17T15:41:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0585.mat",
+      "timestamp": "2021-11-17T15:41:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0586.mat",
+      "timestamp": "2021-11-17T15:42:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0587.mat",
+      "timestamp": "2021-11-17T15:42:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0588.mat",
+      "timestamp": "2021-11-17T15:42:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0589.mat",
+      "timestamp": "2021-11-17T15:43:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0590.mat",
+      "timestamp": "2021-11-17T15:43:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0591.mat",
+      "timestamp": "2021-11-17T15:43:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0592.mat",
+      "timestamp": "2021-11-17T15:43:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0593.mat",
+      "timestamp": "2021-11-17T15:44:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0594.mat",
+      "timestamp": "2021-11-17T15:44:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0595.mat",
+      "timestamp": "2021-11-17T15:44:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0596.mat",
+      "timestamp": "2021-11-17T15:45:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0597.mat",
+      "timestamp": "2021-11-17T15:45:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0598.mat",
+      "timestamp": "2021-11-17T15:45:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0599.mat",
+      "timestamp": "2021-11-17T15:46:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0600.mat",
+      "timestamp": "2021-11-17T15:46:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0601.mat",
+      "timestamp": "2021-11-17T15:46:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0602.mat",
+      "timestamp": "2021-11-17T15:47:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0603.mat",
+      "timestamp": "2021-11-17T15:47:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0604.mat",
+      "timestamp": "2021-11-17T15:47:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0605.mat",
+      "timestamp": "2021-11-17T15:48:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0606.mat",
+      "timestamp": "2021-11-17T15:48:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0607.mat",
+      "timestamp": "2021-11-17T15:48:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0608.mat",
+      "timestamp": "2021-11-17T15:48:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0609.mat",
+      "timestamp": "2021-11-17T15:49:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0610.mat",
+      "timestamp": "2021-11-17T15:49:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0611.mat",
+      "timestamp": "2021-11-17T15:49:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0612.mat",
+      "timestamp": "2021-11-17T15:50:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0613.mat",
+      "timestamp": "2021-11-17T15:50:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0614.mat",
+      "timestamp": "2021-11-17T15:50:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0615.mat",
+      "timestamp": "2021-11-17T15:51:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0616.mat",
+      "timestamp": "2021-11-17T15:51:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0617.mat",
+      "timestamp": "2021-11-17T15:51:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0618.mat",
+      "timestamp": "2021-11-17T15:52:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0619.mat",
+      "timestamp": "2021-11-17T15:52:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0620.mat",
+      "timestamp": "2021-11-17T15:52:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0621.mat",
+      "timestamp": "2021-11-17T15:52:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0622.mat",
+      "timestamp": "2021-11-17T15:53:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0623.mat",
+      "timestamp": "2021-11-17T15:53:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0624.mat",
+      "timestamp": "2021-11-17T15:53:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0625.mat",
+      "timestamp": "2021-11-17T15:54:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0626.mat",
+      "timestamp": "2021-11-17T15:54:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0627.mat",
+      "timestamp": "2021-11-17T15:54:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0628.mat",
+      "timestamp": "2021-11-17T15:55:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0629.mat",
+      "timestamp": "2021-11-17T15:55:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0630.mat",
+      "timestamp": "2021-11-17T15:55:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0631.mat",
+      "timestamp": "2021-11-17T15:56:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0632.mat",
+      "timestamp": "2021-11-17T15:56:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0633.mat",
+      "timestamp": "2021-11-17T15:56:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0634.mat",
+      "timestamp": "2021-11-17T15:57:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0635.mat",
+      "timestamp": "2021-11-17T15:57:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0636.mat",
+      "timestamp": "2021-11-17T15:57:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0637.mat",
+      "timestamp": "2021-11-17T15:58:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0638.mat",
+      "timestamp": "2021-11-17T15:58:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0639.mat",
+      "timestamp": "2021-11-17T15:58:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0640.mat",
+      "timestamp": "2021-11-17T15:59:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0641.mat",
+      "timestamp": "2021-11-17T15:59:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0642.mat",
+      "timestamp": "2021-11-17T15:59:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0643.mat",
+      "timestamp": "2021-11-17T16:00:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0644.mat",
+      "timestamp": "2021-11-17T16:00:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0645.mat",
+      "timestamp": "2021-11-17T16:00:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0646.mat",
+      "timestamp": "2021-11-17T16:01:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0647.mat",
+      "timestamp": "2021-11-17T16:01:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0648.mat",
+      "timestamp": "2021-11-17T16:01:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0649.mat",
+      "timestamp": "2021-11-17T16:02:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0650.mat",
+      "timestamp": "2021-11-17T16:02:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0651.mat",
+      "timestamp": "2021-11-17T16:02:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0652.mat",
+      "timestamp": "2021-11-17T16:03:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0653.mat",
+      "timestamp": "2021-11-17T16:03:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0654.mat",
+      "timestamp": "2021-11-17T16:03:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0655.mat",
+      "timestamp": "2021-11-17T16:03:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0656.mat",
+      "timestamp": "2021-11-17T16:04:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0657.mat",
+      "timestamp": "2021-11-17T16:04:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0658.mat",
+      "timestamp": "2021-11-17T16:04:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0659.mat",
+      "timestamp": "2021-11-17T16:05:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0660.mat",
+      "timestamp": "2021-11-17T16:05:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0661.mat",
+      "timestamp": "2021-11-17T16:05:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0662.mat",
+      "timestamp": "2021-11-17T16:06:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0663.mat",
+      "timestamp": "2021-11-17T16:06:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0664.mat",
+      "timestamp": "2021-11-17T16:06:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0665.mat",
+      "timestamp": "2021-11-17T16:07:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0666.mat",
+      "timestamp": "2021-11-17T16:07:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0667.mat",
+      "timestamp": "2021-11-17T16:07:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0668.mat",
+      "timestamp": "2021-11-17T16:07:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0669.mat",
+      "timestamp": "2021-11-17T16:08:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0670.mat",
+      "timestamp": "2021-11-17T16:08:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0671.mat",
+      "timestamp": "2021-11-17T16:08:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0672.mat",
+      "timestamp": "2021-11-17T16:09:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0673.mat",
+      "timestamp": "2021-11-17T16:09:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0674.mat",
+      "timestamp": "2021-11-17T16:09:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0675.mat",
+      "timestamp": "2021-11-17T16:10:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0676.mat",
+      "timestamp": "2021-11-17T16:10:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0677.mat",
+      "timestamp": "2021-11-17T16:10:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0678.mat",
+      "timestamp": "2021-11-17T16:11:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0679.mat",
+      "timestamp": "2021-11-17T16:11:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0680.mat",
+      "timestamp": "2021-11-17T16:11:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0681.mat",
+      "timestamp": "2021-11-17T16:12:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0682.mat",
+      "timestamp": "2021-11-17T16:12:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0683.mat",
+      "timestamp": "2021-11-17T16:12:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0684.mat",
+      "timestamp": "2021-11-17T16:13:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0685.mat",
+      "timestamp": "2021-11-17T16:13:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0686.mat",
+      "timestamp": "2021-11-17T16:13:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0687.mat",
+      "timestamp": "2021-11-17T16:14:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0688.mat",
+      "timestamp": "2021-11-17T16:14:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0689.mat",
+      "timestamp": "2021-11-17T16:14:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0690.mat",
+      "timestamp": "2021-11-17T16:14:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0691.mat",
+      "timestamp": "2021-11-17T16:15:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0692.mat",
+      "timestamp": "2021-11-17T16:15:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0693.mat",
+      "timestamp": "2021-11-17T16:15:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0694.mat",
+      "timestamp": "2021-11-17T16:16:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0695.mat",
+      "timestamp": "2021-11-17T16:16:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0696.mat",
+      "timestamp": "2021-11-17T16:16:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0697.mat",
+      "timestamp": "2021-11-17T16:17:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0698.mat",
+      "timestamp": "2021-11-17T16:17:28",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0699.mat",
+      "timestamp": "2021-11-17T16:17:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0700.mat",
+      "timestamp": "2021-11-17T16:18:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0701.mat",
+      "timestamp": "2021-11-17T16:18:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0702.mat",
+      "timestamp": "2021-11-17T16:18:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0703.mat",
+      "timestamp": "2021-11-17T16:19:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0704.mat",
+      "timestamp": "2021-11-17T16:19:28",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0705.mat",
+      "timestamp": "2021-11-17T16:19:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0706.mat",
+      "timestamp": "2021-11-17T16:20:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0707.mat",
+      "timestamp": "2021-11-17T16:20:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0708.mat",
+      "timestamp": "2021-11-17T16:20:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0709.mat",
+      "timestamp": "2021-11-17T16:21:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0710.mat",
+      "timestamp": "2021-11-17T16:21:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0711.mat",
+      "timestamp": "2021-11-17T16:21:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0712.mat",
+      "timestamp": "2021-11-17T16:22:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0713.mat",
+      "timestamp": "2021-11-17T16:22:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0714.mat",
+      "timestamp": "2021-11-17T16:22:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0715.mat",
+      "timestamp": "2021-11-17T16:22:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0716.mat",
+      "timestamp": "2021-11-17T16:23:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0717.mat",
+      "timestamp": "2021-11-17T16:23:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0718.mat",
+      "timestamp": "2021-11-17T16:23:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0719.mat",
+      "timestamp": "2021-11-17T16:24:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0720.mat",
+      "timestamp": "2021-11-17T16:24:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0721.mat",
+      "timestamp": "2021-11-17T16:24:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0722.mat",
+      "timestamp": "2021-11-17T16:25:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0723.mat",
+      "timestamp": "2021-11-17T16:25:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0724.mat",
+      "timestamp": "2021-11-17T16:25:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0725.mat",
+      "timestamp": "2021-11-17T16:26:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0726.mat",
+      "timestamp": "2021-11-17T16:26:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0727.mat",
+      "timestamp": "2021-11-17T16:26:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0728.mat",
+      "timestamp": "2021-11-17T16:27:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0729.mat",
+      "timestamp": "2021-11-17T16:27:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0730.mat",
+      "timestamp": "2021-11-17T16:27:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0731.mat",
+      "timestamp": "2021-11-17T16:28:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0732.mat",
+      "timestamp": "2021-11-17T16:28:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0733.mat",
+      "timestamp": "2021-11-17T16:28:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0734.mat",
+      "timestamp": "2021-11-17T16:29:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0735.mat",
+      "timestamp": "2021-11-17T16:29:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0736.mat",
+      "timestamp": "2021-11-17T16:29:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0737.mat",
+      "timestamp": "2021-11-17T16:30:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0738.mat",
+      "timestamp": "2021-11-17T16:30:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0739.mat",
+      "timestamp": "2021-11-17T16:30:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0740.mat",
+      "timestamp": "2021-11-17T16:31:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0741.mat",
+      "timestamp": "2021-11-17T16:31:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0742.mat",
+      "timestamp": "2021-11-17T16:31:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0743.mat",
+      "timestamp": "2021-11-17T16:32:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0744.mat",
+      "timestamp": "2021-11-17T16:32:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0745.mat",
+      "timestamp": "2021-11-17T16:32:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0746.mat",
+      "timestamp": "2021-11-17T16:32:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0747.mat",
+      "timestamp": "2021-11-17T16:33:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0748.mat",
+      "timestamp": "2021-11-17T16:33:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0749.mat",
+      "timestamp": "2021-11-17T16:33:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0750.mat",
+      "timestamp": "2021-11-17T16:34:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0751.mat",
+      "timestamp": "2021-11-17T16:34:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0752.mat",
+      "timestamp": "2021-11-17T16:34:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0753.mat",
+      "timestamp": "2021-11-17T16:35:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0754.mat",
+      "timestamp": "2021-11-17T16:35:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0755.mat",
+      "timestamp": "2021-11-17T16:35:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0756.mat",
+      "timestamp": "2021-11-17T16:36:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0757.mat",
+      "timestamp": "2021-11-17T16:36:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0758.mat",
+      "timestamp": "2021-11-17T16:36:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0759.mat",
+      "timestamp": "2021-11-17T16:37:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0760.mat",
+      "timestamp": "2021-11-17T16:37:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0761.mat",
+      "timestamp": "2021-11-17T16:37:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0762.mat",
+      "timestamp": "2021-11-17T16:38:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0763.mat",
+      "timestamp": "2021-11-17T16:38:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0764.mat",
+      "timestamp": "2021-11-17T16:38:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0765.mat",
+      "timestamp": "2021-11-17T16:39:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0766.mat",
+      "timestamp": "2021-11-17T16:39:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0767.mat",
+      "timestamp": "2021-11-17T16:39:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0768.mat",
+      "timestamp": "2021-11-17T16:39:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0769.mat",
+      "timestamp": "2021-11-17T16:40:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0770.mat",
+      "timestamp": "2021-11-17T16:40:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0771.mat",
+      "timestamp": "2021-11-17T16:40:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0772.mat",
+      "timestamp": "2021-11-17T16:41:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0773.mat",
+      "timestamp": "2021-11-17T16:41:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0774.mat",
+      "timestamp": "2021-11-17T16:41:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0775.mat",
+      "timestamp": "2021-11-17T16:42:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0776.mat",
+      "timestamp": "2021-11-17T16:42:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0777.mat",
+      "timestamp": "2021-11-17T16:42:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0778.mat",
+      "timestamp": "2021-11-17T16:43:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0779.mat",
+      "timestamp": "2021-11-17T16:43:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0780.mat",
+      "timestamp": "2021-11-17T16:43:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0781.mat",
+      "timestamp": "2021-11-17T16:43:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0782.mat",
+      "timestamp": "2021-11-17T16:44:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0783.mat",
+      "timestamp": "2021-11-17T16:44:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0784.mat",
+      "timestamp": "2021-11-17T16:44:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0785.mat",
+      "timestamp": "2021-11-17T16:45:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0786.mat",
+      "timestamp": "2021-11-17T16:45:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0787.mat",
+      "timestamp": "2021-11-17T16:45:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0788.mat",
+      "timestamp": "2021-11-17T16:46:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0789.mat",
+      "timestamp": "2021-11-17T16:46:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0790.mat",
+      "timestamp": "2021-11-17T16:46:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0791.mat",
+      "timestamp": "2021-11-17T16:46:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0792.mat",
+      "timestamp": "2021-11-17T16:47:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0793.mat",
+      "timestamp": "2021-11-17T16:47:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0794.mat",
+      "timestamp": "2021-11-17T16:47:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0795.mat",
+      "timestamp": "2021-11-17T16:48:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0796.mat",
+      "timestamp": "2021-11-17T16:48:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0797.mat",
+      "timestamp": "2021-11-17T16:48:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0798.mat",
+      "timestamp": "2021-11-17T16:48:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0799.mat",
+      "timestamp": "2021-11-17T16:49:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0800.mat",
+      "timestamp": "2021-11-17T16:49:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0801.mat",
+      "timestamp": "2021-11-17T16:49:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0802.mat",
+      "timestamp": "2021-11-17T16:50:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0803.mat",
+      "timestamp": "2021-11-17T16:50:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0804.mat",
+      "timestamp": "2021-11-17T16:50:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0805.mat",
+      "timestamp": "2021-11-17T16:51:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0806.mat",
+      "timestamp": "2021-11-17T16:51:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0807.mat",
+      "timestamp": "2021-11-17T16:51:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0808.mat",
+      "timestamp": "2021-11-17T16:52:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0809.mat",
+      "timestamp": "2021-11-17T16:52:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0810.mat",
+      "timestamp": "2021-11-17T16:52:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0811.mat",
+      "timestamp": "2021-11-17T16:53:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0812.mat",
+      "timestamp": "2021-11-17T16:53:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0813.mat",
+      "timestamp": "2021-11-17T16:53:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0814.mat",
+      "timestamp": "2021-11-17T16:53:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0815.mat",
+      "timestamp": "2021-11-17T16:54:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0816.mat",
+      "timestamp": "2021-11-17T16:54:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0817.mat",
+      "timestamp": "2021-11-17T16:54:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0818.mat",
+      "timestamp": "2021-11-17T16:55:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0819.mat",
+      "timestamp": "2021-11-17T16:55:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0820.mat",
+      "timestamp": "2021-11-17T16:55:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0821.mat",
+      "timestamp": "2021-11-17T16:56:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0822.mat",
+      "timestamp": "2021-11-17T16:56:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0823.mat",
+      "timestamp": "2021-11-17T16:56:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0824.mat",
+      "timestamp": "2021-11-17T16:57:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0825.mat",
+      "timestamp": "2021-11-17T16:57:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0826.mat",
+      "timestamp": "2021-11-17T16:57:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0827.mat",
+      "timestamp": "2021-11-17T16:57:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0828.mat",
+      "timestamp": "2021-11-17T16:58:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0829.mat",
+      "timestamp": "2021-11-17T16:58:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0830.mat",
+      "timestamp": "2021-11-17T16:58:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0831.mat",
+      "timestamp": "2021-11-17T16:59:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0832.mat",
+      "timestamp": "2021-11-17T16:59:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0833.mat",
+      "timestamp": "2021-11-17T16:59:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0834.mat",
+      "timestamp": "2021-11-17T17:00:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0835.mat",
+      "timestamp": "2021-11-17T17:00:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0836.mat",
+      "timestamp": "2021-11-17T17:00:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0837.mat",
+      "timestamp": "2021-11-17T17:01:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0838.mat",
+      "timestamp": "2021-11-17T17:01:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0839.mat",
+      "timestamp": "2021-11-17T17:01:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0840.mat",
+      "timestamp": "2021-11-17T17:01:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0841.mat",
+      "timestamp": "2021-11-17T17:02:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0842.mat",
+      "timestamp": "2021-11-17T17:02:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0843.mat",
+      "timestamp": "2021-11-17T17:02:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0844.mat",
+      "timestamp": "2021-11-17T17:03:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0845.mat",
+      "timestamp": "2021-11-17T17:03:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0846.mat",
+      "timestamp": "2021-11-17T17:03:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0847.mat",
+      "timestamp": "2021-11-17T17:04:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0848.mat",
+      "timestamp": "2021-11-17T17:04:28",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0849.mat",
+      "timestamp": "2021-11-17T17:04:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0850.mat",
+      "timestamp": "2021-11-17T17:05:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0851.mat",
+      "timestamp": "2021-11-17T17:05:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0852.mat",
+      "timestamp": "2021-11-17T17:05:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0853.mat",
+      "timestamp": "2021-11-17T17:06:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0854.mat",
+      "timestamp": "2021-11-17T17:06:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0855.mat",
+      "timestamp": "2021-11-17T17:06:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0856.mat",
+      "timestamp": "2021-11-17T17:07:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0857.mat",
+      "timestamp": "2021-11-17T17:07:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0858.mat",
+      "timestamp": "2021-11-17T17:07:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0859.mat",
+      "timestamp": "2021-11-17T17:07:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0860.mat",
+      "timestamp": "2021-11-17T17:08:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0861.mat",
+      "timestamp": "2021-11-17T17:08:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0862.mat",
+      "timestamp": "2021-11-17T17:08:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0863.mat",
+      "timestamp": "2021-11-17T17:09:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0864.mat",
+      "timestamp": "2021-11-17T17:09:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0865.mat",
+      "timestamp": "2021-11-17T17:09:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0866.mat",
+      "timestamp": "2021-11-17T17:10:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0867.mat",
+      "timestamp": "2021-11-17T17:10:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0868.mat",
+      "timestamp": "2021-11-17T17:10:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0869.mat",
+      "timestamp": "2021-11-17T17:11:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0870.mat",
+      "timestamp": "2021-11-17T17:11:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0871.mat",
+      "timestamp": "2021-11-17T17:11:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0872.mat",
+      "timestamp": "2021-11-17T17:12:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0873.mat",
+      "timestamp": "2021-11-17T17:12:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0874.mat",
+      "timestamp": "2021-11-17T17:12:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0875.mat",
+      "timestamp": "2021-11-17T17:12:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0876.mat",
+      "timestamp": "2021-11-17T17:13:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0877.mat",
+      "timestamp": "2021-11-17T17:13:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0878.mat",
+      "timestamp": "2021-11-17T17:13:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0879.mat",
+      "timestamp": "2021-11-17T17:14:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0880.mat",
+      "timestamp": "2021-11-17T17:14:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0881.mat",
+      "timestamp": "2021-11-17T17:14:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0882.mat",
+      "timestamp": "2021-11-17T17:15:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0883.mat",
+      "timestamp": "2021-11-17T17:15:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0884.mat",
+      "timestamp": "2021-11-17T17:15:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0885.mat",
+      "timestamp": "2021-11-17T17:15:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0886.mat",
+      "timestamp": "2021-11-17T17:16:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0887.mat",
+      "timestamp": "2021-11-17T17:16:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0888.mat",
+      "timestamp": "2021-11-17T17:16:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0889.mat",
+      "timestamp": "2021-11-17T17:17:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0890.mat",
+      "timestamp": "2021-11-17T17:17:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0891.mat",
+      "timestamp": "2021-11-17T17:17:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0892.mat",
+      "timestamp": "2021-11-17T17:17:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0893.mat",
+      "timestamp": "2021-11-17T17:18:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0894.mat",
+      "timestamp": "2021-11-17T17:18:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0895.mat",
+      "timestamp": "2021-11-17T17:18:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0896.mat",
+      "timestamp": "2021-11-17T17:19:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0897.mat",
+      "timestamp": "2021-11-17T17:19:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0898.mat",
+      "timestamp": "2021-11-17T17:19:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0899.mat",
+      "timestamp": "2021-11-17T17:20:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0900.mat",
+      "timestamp": "2021-11-17T17:20:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0901.mat",
+      "timestamp": "2021-11-17T17:20:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0902.mat",
+      "timestamp": "2021-11-17T17:21:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0903.mat",
+      "timestamp": "2021-11-17T17:21:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0904.mat",
+      "timestamp": "2021-11-17T17:21:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0905.mat",
+      "timestamp": "2021-11-17T17:22:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0906.mat",
+      "timestamp": "2021-11-17T17:22:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0907.mat",
+      "timestamp": "2021-11-17T17:22:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0908.mat",
+      "timestamp": "2021-11-17T17:22:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0909.mat",
+      "timestamp": "2021-11-17T17:23:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0910.mat",
+      "timestamp": "2021-11-17T17:23:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0911.mat",
+      "timestamp": "2021-11-17T17:23:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0912.mat",
+      "timestamp": "2021-11-17T17:24:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0913.mat",
+      "timestamp": "2021-11-17T17:24:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0914.mat",
+      "timestamp": "2021-11-17T17:24:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0915.mat",
+      "timestamp": "2021-11-17T17:25:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0916.mat",
+      "timestamp": "2021-11-17T17:25:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0917.mat",
+      "timestamp": "2021-11-17T17:25:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0918.mat",
+      "timestamp": "2021-11-17T17:26:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0919.mat",
+      "timestamp": "2021-11-17T17:26:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0920.mat",
+      "timestamp": "2021-11-17T17:26:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0921.mat",
+      "timestamp": "2021-11-17T17:26:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0922.mat",
+      "timestamp": "2021-11-17T17:27:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0923.mat",
+      "timestamp": "2021-11-17T17:27:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0924.mat",
+      "timestamp": "2021-11-17T17:27:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0925.mat",
+      "timestamp": "2021-11-17T17:28:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0926.mat",
+      "timestamp": "2021-11-17T17:28:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0927.mat",
+      "timestamp": "2021-11-17T17:28:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0928.mat",
+      "timestamp": "2021-11-17T17:29:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0929.mat",
+      "timestamp": "2021-11-17T17:29:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0930.mat",
+      "timestamp": "2021-11-17T17:29:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0931.mat",
+      "timestamp": "2021-11-17T17:30:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0932.mat",
+      "timestamp": "2021-11-17T17:30:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0933.mat",
+      "timestamp": "2021-11-17T17:30:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0934.mat",
+      "timestamp": "2021-11-17T17:30:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0935.mat",
+      "timestamp": "2021-11-17T17:31:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0936.mat",
+      "timestamp": "2021-11-17T17:31:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0937.mat",
+      "timestamp": "2021-11-17T17:31:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0938.mat",
+      "timestamp": "2021-11-17T17:32:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0939.mat",
+      "timestamp": "2021-11-17T17:32:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0940.mat",
+      "timestamp": "2021-11-17T17:32:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0941.mat",
+      "timestamp": "2021-11-17T17:33:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0942.mat",
+      "timestamp": "2021-11-17T17:33:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0943.mat",
+      "timestamp": "2021-11-17T17:33:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0944.mat",
+      "timestamp": "2021-11-17T17:34:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0945.mat",
+      "timestamp": "2021-11-17T17:34:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0946.mat",
+      "timestamp": "2021-11-17T17:34:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0947.mat",
+      "timestamp": "2021-11-17T17:34:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0948.mat",
+      "timestamp": "2021-11-17T17:35:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0949.mat",
+      "timestamp": "2021-11-17T17:35:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0950.mat",
+      "timestamp": "2021-11-17T17:36:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0951.mat",
+      "timestamp": "2021-11-17T17:36:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0952.mat",
+      "timestamp": "2021-11-17T17:36:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0953.mat",
+      "timestamp": "2021-11-17T17:36:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0954.mat",
+      "timestamp": "2021-11-17T17:37:12",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0955.mat",
+      "timestamp": "2021-11-17T17:37:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0956.mat",
+      "timestamp": "2021-11-17T17:37:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0957.mat",
+      "timestamp": "2021-11-17T17:38:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0958.mat",
+      "timestamp": "2021-11-17T17:38:28",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0959.mat",
+      "timestamp": "2021-11-17T17:38:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0960.mat",
+      "timestamp": "2021-11-17T17:39:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0961.mat",
+      "timestamp": "2021-11-17T17:39:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0962.mat",
+      "timestamp": "2021-11-17T17:39:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0963.mat",
+      "timestamp": "2021-11-17T17:40:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0964.mat",
+      "timestamp": "2021-11-17T17:40:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0965.mat",
+      "timestamp": "2021-11-17T17:40:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0966.mat",
+      "timestamp": "2021-11-17T17:41:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0967.mat",
+      "timestamp": "2021-11-17T17:41:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0968.mat",
+      "timestamp": "2021-11-17T17:41:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0969.mat",
+      "timestamp": "2021-11-17T17:41:58",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0970.mat",
+      "timestamp": "2021-11-17T17:42:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0971.mat",
+      "timestamp": "2021-11-17T17:42:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0972.mat",
+      "timestamp": "2021-11-17T17:42:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0973.mat",
+      "timestamp": "2021-11-17T17:43:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0974.mat",
+      "timestamp": "2021-11-17T17:43:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0975.mat",
+      "timestamp": "2021-11-17T17:43:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0976.mat",
+      "timestamp": "2021-11-17T17:44:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0977.mat",
+      "timestamp": "2021-11-17T17:44:31",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0978.mat",
+      "timestamp": "2021-11-17T17:44:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0979.mat",
+      "timestamp": "2021-11-17T17:45:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0980.mat",
+      "timestamp": "2021-11-17T17:45:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0981.mat",
+      "timestamp": "2021-11-17T17:45:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0982.mat",
+      "timestamp": "2021-11-17T17:46:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0983.mat",
+      "timestamp": "2021-11-17T17:46:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0984.mat",
+      "timestamp": "2021-11-17T17:46:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0985.mat",
+      "timestamp": "2021-11-17T17:46:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0986.mat",
+      "timestamp": "2021-11-17T17:47:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0987.mat",
+      "timestamp": "2021-11-17T17:47:38",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0988.mat",
+      "timestamp": "2021-11-17T17:47:56",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0989.mat",
+      "timestamp": "2021-11-17T17:48:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0990.mat",
+      "timestamp": "2021-11-17T17:48:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0991.mat",
+      "timestamp": "2021-11-17T17:48:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0992.mat",
+      "timestamp": "2021-11-17T17:49:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0993.mat",
+      "timestamp": "2021-11-17T17:49:28",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0994.mat",
+      "timestamp": "2021-11-17T17:49:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0995.mat",
+      "timestamp": "2021-11-17T17:50:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0996.mat",
+      "timestamp": "2021-11-17T17:50:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0997.mat",
+      "timestamp": "2021-11-17T17:50:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0998.mat",
+      "timestamp": "2021-11-17T17:50:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M0999.mat",
+      "timestamp": "2021-11-17T17:51:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1000.mat",
+      "timestamp": "2021-11-17T17:51:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1001.mat",
+      "timestamp": "2021-11-17T17:51:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1002.mat",
+      "timestamp": "2021-11-17T17:52:14",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1003.mat",
+      "timestamp": "2021-11-17T17:52:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1004.mat",
+      "timestamp": "2021-11-17T17:52:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1005.mat",
+      "timestamp": "2021-11-17T17:53:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1006.mat",
+      "timestamp": "2021-11-17T17:53:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1007.mat",
+      "timestamp": "2021-11-17T17:53:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1008.mat",
+      "timestamp": "2021-11-17T17:54:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1009.mat",
+      "timestamp": "2021-11-17T17:54:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1010.mat",
+      "timestamp": "2021-11-17T17:54:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1011.mat",
+      "timestamp": "2021-11-17T17:55:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1012.mat",
+      "timestamp": "2021-11-17T17:55:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1013.mat",
+      "timestamp": "2021-11-17T17:55:45",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1014.mat",
+      "timestamp": "2021-11-17T17:56:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1015.mat",
+      "timestamp": "2021-11-17T17:56:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1016.mat",
+      "timestamp": "2021-11-17T17:56:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1017.mat",
+      "timestamp": "2021-11-17T17:57:00",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1018.mat",
+      "timestamp": "2021-11-17T17:57:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1019.mat",
+      "timestamp": "2021-11-17T17:57:36",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1020.mat",
+      "timestamp": "2021-11-17T17:57:53",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1021.mat",
+      "timestamp": "2021-11-17T17:58:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1022.mat",
+      "timestamp": "2021-11-17T17:58:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1023.mat",
+      "timestamp": "2021-11-17T17:58:47",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1024.mat",
+      "timestamp": "2021-11-17T17:59:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1025.mat",
+      "timestamp": "2021-11-17T17:59:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1026.mat",
+      "timestamp": "2021-11-17T17:59:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1027.mat",
+      "timestamp": "2021-11-17T17:59:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1028.mat",
+      "timestamp": "2021-11-17T18:00:15",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1029.mat",
+      "timestamp": "2021-11-17T18:00:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1030.mat",
+      "timestamp": "2021-11-17T18:00:51",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1031.mat",
+      "timestamp": "2021-11-17T18:01:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1032.mat",
+      "timestamp": "2021-11-17T18:01:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1033.mat",
+      "timestamp": "2021-11-17T18:01:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1034.mat",
+      "timestamp": "2021-11-17T18:02:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1035.mat",
+      "timestamp": "2021-11-17T18:02:28",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1036.mat",
+      "timestamp": "2021-11-17T18:02:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1037.mat",
+      "timestamp": "2021-11-17T18:03:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1038.mat",
+      "timestamp": "2021-11-17T18:03:27",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1039.mat",
+      "timestamp": "2021-11-17T18:03:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1040.mat",
+      "timestamp": "2021-11-17T18:04:05",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1041.mat",
+      "timestamp": "2021-11-17T18:04:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1042.mat",
+      "timestamp": "2021-11-17T18:04:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1043.mat",
+      "timestamp": "2021-11-17T18:04:55",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1044.mat",
+      "timestamp": "2021-11-17T18:05:16",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1045.mat",
+      "timestamp": "2021-11-17T18:05:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1046.mat",
+      "timestamp": "2021-11-17T18:05:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1047.mat",
+      "timestamp": "2021-11-17T18:06:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1048.mat",
+      "timestamp": "2021-11-17T18:06:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1049.mat",
+      "timestamp": "2021-11-17T18:06:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1050.mat",
+      "timestamp": "2021-11-17T18:07:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1051.mat",
+      "timestamp": "2021-11-17T18:07:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1052.mat",
+      "timestamp": "2021-11-17T18:07:43",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1053.mat",
+      "timestamp": "2021-11-17T18:08:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1054.mat",
+      "timestamp": "2021-11-17T18:08:18",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1055.mat",
+      "timestamp": "2021-11-17T18:08:34",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1056.mat",
+      "timestamp": "2021-11-17T18:08:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1057.mat",
+      "timestamp": "2021-11-17T18:09:09",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1058.mat",
+      "timestamp": "2021-11-17T18:09:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1059.mat",
+      "timestamp": "2021-11-17T18:09:49",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1060.mat",
+      "timestamp": "2021-11-17T18:10:08",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1061.mat",
+      "timestamp": "2021-11-17T18:10:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1062.mat",
+      "timestamp": "2021-11-17T18:10:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1063.mat",
+      "timestamp": "2021-11-17T18:11:07",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1064.mat",
+      "timestamp": "2021-11-17T18:11:24",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1065.mat",
+      "timestamp": "2021-11-17T18:11:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1066.mat",
+      "timestamp": "2021-11-17T18:11:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1067.mat",
+      "timestamp": "2021-11-17T18:12:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1068.mat",
+      "timestamp": "2021-11-17T18:12:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1069.mat",
+      "timestamp": "2021-11-17T18:12:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1070.mat",
+      "timestamp": "2021-11-17T18:13:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1071.mat",
+      "timestamp": "2021-11-17T18:13:30",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1072.mat",
+      "timestamp": "2021-11-17T18:13:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1073.mat",
+      "timestamp": "2021-11-17T18:14:10",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1074.mat",
+      "timestamp": "2021-11-17T18:14:32",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1075.mat",
+      "timestamp": "2021-11-17T18:14:48",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1076.mat",
+      "timestamp": "2021-11-17T18:15:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1077.mat",
+      "timestamp": "2021-11-17T18:15:25",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1078.mat",
+      "timestamp": "2021-11-17T18:15:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1079.mat",
+      "timestamp": "2021-11-17T18:16:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1080.mat",
+      "timestamp": "2021-11-17T18:16:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1081.mat",
+      "timestamp": "2021-11-17T18:16:39",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1082.mat",
+      "timestamp": "2021-11-17T18:16:59",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1083.mat",
+      "timestamp": "2021-11-17T18:17:19",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1084.mat",
+      "timestamp": "2021-11-17T18:17:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1085.mat",
+      "timestamp": "2021-11-17T18:17:57",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1086.mat",
+      "timestamp": "2021-11-17T18:18:17",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1087.mat",
+      "timestamp": "2021-11-17T18:18:35",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1088.mat",
+      "timestamp": "2021-11-17T18:18:52",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1089.mat",
+      "timestamp": "2021-11-17T18:19:13",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1090.mat",
+      "timestamp": "2021-11-17T18:19:33",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1091.mat",
+      "timestamp": "2021-11-17T18:19:50",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1092.mat",
+      "timestamp": "2021-11-17T18:20:06",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1093.mat",
+      "timestamp": "2021-11-17T18:20:22",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1094.mat",
+      "timestamp": "2021-11-17T18:20:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1095.mat",
+      "timestamp": "2021-11-17T18:21:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1096.mat",
+      "timestamp": "2021-11-17T18:21:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1097.mat",
+      "timestamp": "2021-11-17T18:21:42",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1098.mat",
+      "timestamp": "2021-11-17T18:22:02",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1099.mat",
+      "timestamp": "2021-11-17T18:22:21",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1100.mat",
+      "timestamp": "2021-11-17T18:22:41",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1101.mat",
+      "timestamp": "2021-11-17T18:23:01",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1102.mat",
+      "timestamp": "2021-11-17T18:23:20",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1103.mat",
+      "timestamp": "2021-11-17T18:23:37",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1104.mat",
+      "timestamp": "2021-11-17T18:23:54",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1105.mat",
+      "timestamp": "2021-11-17T18:24:11",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1106.mat",
+      "timestamp": "2021-11-17T18:24:29",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1107.mat",
+      "timestamp": "2021-11-17T18:24:46",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1108.mat",
+      "timestamp": "2021-11-17T18:25:03",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1109.mat",
+      "timestamp": "2021-11-17T18:25:26",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1110.mat",
+      "timestamp": "2021-11-17T18:25:44",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1111.mat",
+      "timestamp": "2021-11-17T18:26:04",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1112.mat",
+      "timestamp": "2021-11-17T18:26:23",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1113.mat",
+      "timestamp": "2021-11-17T18:26:40",
+      "available": true,
+      "flagged": true
+    },
+    {
+      "identity": "B04/vibrationData/data_B04_M1114.mat",
+      "timestamp": "2021-11-17T18:26:58",
+      "available": true,
+      "flagged": true
+    }
+  ]
+}

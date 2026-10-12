@@ -1,0 +1,658 @@
+{
+  "observed_at": "2026-10-12T21:38:42.059946+00:00",
+  "scope": "180-second synthetic local HTTP/SQLite smoke load; separate API process on shared host, injected identity, no detector or full alert workflow",
+  "offered_rps": 70,
+  "scheduled_seconds": 180,
+  "offered_requests": 12600,
+  "connection_reuse_experiment": true,
+  "serialized_writes_experiment": true,
+  "retain_late_slots": true,
+  "submission_schedule_delay_ms": {
+    "count": 12537,
+    "mean_ms": 8.58125138566407,
+    "p50_ms": 7.799085695296526,
+    "p95_ms": 17.140000010840595
+  },
+  "scheduled_cohorts_10_seconds": [
+    {
+      "scheduled_start_seconds": 0,
+      "offered": 700,
+      "submitted": 669,
+      "queue_full_drops": 31,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 32,
+      "successful": 669,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 669,
+          "mean_ms": 108.88100583095839,
+          "p50_ms": 0.20640000002458692,
+          "p95_ms": 425.4668999928981
+        },
+        "server_handler_ms": {
+          "count": 669,
+          "mean_ms": 63.05822197416441,
+          "p50_ms": 38.63780002575368,
+          "p95_ms": 166.1104999948293
+        },
+        "scheduled_to_completion_ms": {
+          "count": 669,
+          "mean_ms": 189.55476670736525,
+          "p50_ms": 56.652357161510736,
+          "p95_ms": 579.4263856951147
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 10,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 16,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 1.583057714077378,
+          "p50_ms": 0.12450001668184996,
+          "p95_ms": 0.7048000115901232
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 27.398371428716928,
+          "p50_ms": 21.05069998651743,
+          "p95_ms": 72.47439998900518
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 44.07520544548918,
+          "p50_ms": 36.11665713833645,
+          "p95_ms": 106.75552859902382
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 20,
+      "offered": 700,
+      "submitted": 672,
+      "queue_full_drops": 28,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 32,
+      "successful": 672,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 672,
+          "mean_ms": 150.15022634006095,
+          "p50_ms": 52.889399987179786,
+          "p95_ms": 405.87100002449006
+        },
+        "server_handler_ms": {
+          "count": 672,
+          "mean_ms": 75.18725818443359,
+          "p50_ms": 77.43570004822686,
+          "p95_ms": 150.23269999073818
+        },
+        "scheduled_to_completion_ms": {
+          "count": 672,
+          "mean_ms": 241.6796767606034,
+          "p50_ms": 172.1706428215839,
+          "p95_ms": 546.5197999728844
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 30,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 24,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 34.72353942841956,
+          "p50_ms": 0.1666999887675047,
+          "p95_ms": 177.56009998265654
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 53.58952199990329,
+          "p50_ms": 31.076400016900152,
+          "p95_ms": 137.25959998555481
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 104.26953087377895,
+          "p50_ms": 48.82077145157382,
+          "p95_ms": 306.5568000311032
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 40,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 15,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 5.473160428560472,
+          "p50_ms": 0.12620002962648869,
+          "p95_ms": 58.885500009637326
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 37.474117141682655,
+          "p50_ms": 24.759499996434897,
+          "p95_ms": 109.5744000049308
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 58.92065187492075,
+          "p50_ms": 41.659957147203386,
+          "p95_ms": 182.62467143358663
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 50,
+      "offered": 700,
+      "submitted": 696,
+      "queue_full_drops": 4,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 32,
+      "successful": 696,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 696,
+          "mean_ms": 58.47642730110948,
+          "p50_ms": 0.1653999788686633,
+          "p95_ms": 293.53860003175214
+        },
+        "server_handler_ms": {
+          "count": 696,
+          "mean_ms": 55.84867485770795,
+          "p50_ms": 35.434599965810776,
+          "p95_ms": 155.65599995898083
+        },
+        "scheduled_to_completion_ms": {
+          "count": 696,
+          "mean_ms": 130.2469319349654,
+          "p50_ms": 53.59794286778197,
+          "p95_ms": 426.3612572103739
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 60,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 12,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 1.6957144277070515,
+          "p50_ms": 0.11770002311095595,
+          "p95_ms": 0.9836999815888703
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 28.097517142887227,
+          "p50_ms": 20.313199958764017,
+          "p95_ms": 82.13230001274496
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 45.44071958990701,
+          "p50_ms": 35.16435716301203,
+          "p95_ms": 125.60718570603058
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 70,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 13,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 1.432062428378101,
+          "p50_ms": 0.11189997894689441,
+          "p95_ms": 0.47509995056316257
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 25.15254899876059,
+          "p50_ms": 17.744900018442422,
+          "p95_ms": 69.29900002432987
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 40.99353273282759,
+          "p50_ms": 32.34895720379427,
+          "p95_ms": 97.54830005113035
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 80,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 16,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 8.329066142572888,
+          "p50_ms": 0.1254999660886824,
+          "p95_ms": 64.48749999981374
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 37.32295471409868,
+          "p50_ms": 24.29109998047352,
+          "p95_ms": 107.82249999465421
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 60.661791018459816,
+          "p50_ms": 40.071928582619876,
+          "p95_ms": 190.17048575915396
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 90,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 12,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 2.3506312862238183,
+          "p50_ms": 0.12639997294172645,
+          "p95_ms": 15.443500014953315
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 36.8215278583479,
+          "p50_ms": 26.2360000051558,
+          "p95_ms": 103.6523999646306
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 55.2482873032568,
+          "p50_ms": 42.92497143615037,
+          "p95_ms": 136.9635285809636
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 100,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 16,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 10.36467557141025,
+          "p50_ms": 0.12520002201199532,
+          "p95_ms": 83.04570004111156
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 41.1138434282371,
+          "p50_ms": 26.23190003214404,
+          "p95_ms": 123.52910003392026
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 66.78432873159181,
+          "p50_ms": 42.737057141494006,
+          "p95_ms": 205.73505718493834
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 110,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 30,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 123.84183142849777,
+          "p50_ms": 127.2148999851197,
+          "p95_ms": 298.20809996454045
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 89.99599942962439,
+          "p50_ms": 95.96609999425709,
+          "p95_ms": 156.24830004526302
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 230.54653258911068,
+          "p50_ms": 253.1027000513859,
+          "p95_ms": 424.03399996692315
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 120,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 25,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 16.49544600056418,
+          "p50_ms": 0.13200001558288932,
+          "p95_ms": 141.20199996978045
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 33.116676285364,
+          "p50_ms": 24.26580002065748,
+          "p95_ms": 90.33570002065971
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 64.75257216062995,
+          "p50_ms": 40.38590000709519,
+          "p95_ms": 237.1361428522505
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 130,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 15,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 5.885972143400328,
+          "p50_ms": 0.12690003495663404,
+          "p95_ms": 59.639899991452694
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 37.45700599999899,
+          "p50_ms": 25.44489997671917,
+          "p95_ms": 108.73469995567575
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 58.79708016116638,
+          "p50_ms": 40.83027149317786,
+          "p95_ms": 180.35225721541792
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 140,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 16,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 9.176638285529666,
+          "p50_ms": 0.13760000001639128,
+          "p95_ms": 64.49029996292666
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 40.39135700158243,
+          "p50_ms": 24.877400021068752,
+          "p95_ms": 121.12839997280389
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 65.04590944536696,
+          "p50_ms": 41.454257152508944,
+          "p95_ms": 186.10445718513802
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 150,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 15,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 4.341745143174194,
+          "p50_ms": 0.13120000949129462,
+          "p95_ms": 29.905100003816187
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 37.23623885773122,
+          "p50_ms": 28.04069995181635,
+          "p95_ms": 99.31429999414831
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 57.66356030337712,
+          "p50_ms": 44.3884571432136,
+          "p95_ms": 155.61144286766648
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 160,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 13,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 3.5543947132204528,
+          "p50_ms": 0.12399995466694236,
+          "p95_ms": 30.533199955243617
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 31.64910100009625,
+          "p50_ms": 23.649200040381402,
+          "p95_ms": 100.40930000832304
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 50.229308018710334,
+          "p50_ms": 39.633014297578484,
+          "p95_ms": 151.06228576041758
+        }
+      }
+    },
+    {
+      "scheduled_start_seconds": 170,
+      "offered": 700,
+      "submitted": 700,
+      "queue_full_drops": 0,
+      "scheduler_late_drops": 0,
+      "peak_pending_before_submit": 14,
+      "successful": 700,
+      "failed": 0,
+      "timings": {
+        "queue_wait_ms": {
+          "count": 700,
+          "mean_ms": 6.340906857845506,
+          "p50_ms": 0.13380002928897738,
+          "p95_ms": 43.00820000935346
+        },
+        "server_handler_ms": {
+          "count": 700,
+          "mean_ms": 42.04999199918738,
+          "p50_ms": 28.997300018090755,
+          "p95_ms": 113.64250001497567
+        },
+        "scheduled_to_completion_ms": {
+          "count": 700,
+          "mean_ms": 64.4803420167383,
+          "p50_ms": 45.17044284148142,
+          "p95_ms": 165.5969857238233
+        }
+      }
+    }
+  ],
+  "commit_evidence_count": 12537,
+  "submitted": 12537,
+  "successful": 12537,
+  "failed": 0,
+  "dropped": 63,
+  "drop_reasons": {
+    "scheduler_late": 0,
+    "queue_full": 63,
+    "storage_stop": 0
+  },
+  "server_process_isolated": true,
+  "timings": {
+    "queue_wait_ms": {
+      "count": 12537,
+      "mean_ms": 30.258764281942366,
+      "p50_ms": 0.13719999697059393,
+      "p95_ms": 224.3715000222437
+    },
+    "json_prepare_ms": {
+      "count": 12537,
+      "mean_ms": 1.064412865897762,
+      "p50_ms": 1.0065999813377857,
+      "p95_ms": 1.6554000321775675
+    },
+    "http_roundtrip_ms": {
+      "count": 12537,
+      "mean_ms": 49.95407697219485,
+      "p50_ms": 33.15209998982027,
+      "p95_ms": 137.32889998937026
+    },
+    "server_handler_ms": {
+      "count": 12537,
+      "mean_ms": 43.93309460014145,
+      "p50_ms": 26.951099978759885,
+      "p95_ms": 127.06080003408715
+    },
+    "scheduled_to_completion_ms": {
+      "count": 12537,
+      "mean_ms": 89.92656081381678,
+      "p50_ms": 43.341585784219205,
+      "p95_ms": 347.1880571451038
+    }
+  },
+  "store_save_timing": {
+    "count": 12537,
+    "mean_ms": 8.94458393560256,
+    "p50_ms": 7.037900038994849,
+    "p95_ms": 22.01800001785159
+  },
+  "store_operation_timings": {
+    "writer_lock_wait": {
+      "count": 12537,
+      "mean_ms": 19.22751995672563,
+      "p50_ms": 2.797699999064207,
+      "p95_ms": 83.06019997689873
+    },
+    "begin_immediate": {
+      "count": 12537,
+      "mean_ms": 0.6916798835020351,
+      "p50_ms": 0.11279998579993844,
+      "p95_ms": 3.0061000143177807
+    },
+    "select": {
+      "count": 12537,
+      "mean_ms": 0.5366927651669365,
+      "p50_ms": 0.043199979700148106,
+      "p95_ms": 2.4757999926805496
+    },
+    "receipt_insert": {
+      "count": 12537,
+      "mean_ms": 0.561378894509272,
+      "p50_ms": 0.0513000413775444,
+      "p95_ms": 2.8829999500885606
+    },
+    "transaction_exit": {
+      "count": 25074,
+      "mean_ms": 2.9063879117880407,
+      "p50_ms": 1.9388999789953232,
+      "p95_ms": 7.637400005478412
+    },
+    "evidence_insert": {
+      "count": 12537,
+      "mean_ms": 1.0777352953915353,
+      "p50_ms": 0.10770000517368317,
+      "p95_ms": 5.898599978536367
+    }
+  },
+  "elapsed_seconds": 180.03824419999728,
+  "successful_rps": 69.63520476279,
+  "successful_p95_ms": 138.80459999199957,
+  "samples_per_request": 4096,
+  "persisted_receipt_count": 12537,
+  "sqlite_integrity": "ok",
+  "final_storage_bytes": 15770487,
+  "peak_sampled_storage_bytes": 19914352,
+  "storage_stop": false,
+  "receipt_reconciliation_passed": true,
+  "daily_capacity_qualified": false,
+  "script_sha256": "384753b537b95a349c4c9fd2fd9d2ee094478224ff2d33cd2664f0685d6f195f",
+  "temporary_storage_removed": true
+}

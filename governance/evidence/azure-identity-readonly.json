@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-12T02:52:41.690922+00:00",
+  "roles": [
+    "Pulse.Review",
+    "Pulse.Assess"
+  ],
+  "inbox_status": 200,
+  "anonymous_status": 401,
+  "mutations_performed": false,
+  "closure_role_observed": false,
+  "closure_operation_verified": false,
+  "review_checks": [
+    {
+      "status": 200,
+      "count": 0
+    }
+  ]
+}

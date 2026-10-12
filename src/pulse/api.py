@@ -189,6 +189,12 @@ class ReferenceAssessment(BaseModel):
         return value
 
 
+class ClosureRequest(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    rationale: Annotated[str, Field(min_length=1, max_length=4096)]
+    evidence: Annotated[list[Annotated[str, Field(min_length=1, max_length=2048)]], Field(min_length=1, max_length=100)]
+
+
 class ReviewRequest(BaseModel):
     model_config = ConfigDict(extra='forbid')
     outcome: Literal['confirmed_fault', 'nuisance', 'unresolved']
@@ -290,6 +296,26 @@ def create_app(settings=None, verifier=None, store=None, reference=None, review_
             raise HTTPException(503, 'Review storage unavailable') from exc
         finally:
             if ledger is not None: ledger.close()
+
+    @app.post('/v1/reference/alerts/{event_id}/close')
+    def close_incident(event_id: str, request: ClosureRequest, claims=Depends(authorize)):
+        try:
+            review_subject(event_id, claims)
+            if 'Pulse.Close' not in claims.get('roles', []):
+                raise HTTPException(403, 'Incident closure role required')
+            scope = json.dumps([settings.tenant, claims['oid']], separators=(',', ':'))
+            actor = json.dumps([settings.tenant, claims['oid'], claims['azp']], separators=(',', ':'))
+            closure = reference.close_incident(scope, REFERENCE_ASSET, event_id,
+                                               actor, request.rationale, request.evidence)
+            return {'state': 'CLOSED', 'closure': closure, 'principal_authenticated': True,
+                    'human_identity_verified': False, 'evidence_verified': False,
+                    'qualified_detector': False}
+        except KeyError as exc:
+            raise HTTPException(404, 'Reference event not found') from exc
+        except ValueError as exc:
+            raise HTTPException(409, 'Invalid incident closure or conflicting disposition') from exc
+        except sqlite3.Error as exc:
+            raise HTTPException(503, 'Incident storage unavailable') from exc
 
     @app.get('/health/live')
     def live():

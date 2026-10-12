@@ -54,5 +54,11 @@ report = {'observed_at': stamp, 'integrity': 'ok', 'receipt_count': rows,
           'backup_sha256': hashlib.sha256(target.read_bytes()).hexdigest(),
           'bytes': target.stat().st_size, 'retained_snapshots': min(48, len(backups)),
           'maximum_snapshot_bytes': 52428800, 'maximum_retained_snapshots': 48, 'off_host': False, 'external_notification_sent': False}
+config_path=Path('/home/pulseadmin/pulse-release/offhost-backup-config.json')
+if config_path.exists():
+    import runpy
+    uploader=runpy.run_path('/home/pulseadmin/pulse-release/upload-offhost-backup.py')['upload']
+    report['offhost_result']=uploader(snapshot=target,**json.loads(config_path.read_text()))
+    report['off_host']=True
 (root.parent/'backup-status.json').write_text(json.dumps(report, indent=2)+'\n')
 print(json.dumps(report))

@@ -1,0 +1,211 @@
+{
+  "candidate": "independent-causal-envelope-votes-1",
+  "feature_votes": 1,
+  "scope": "Consumed-case development; not independent validation",
+  "rule": "Existing thresholds; at least 1 of 3 own-side features exceed threshold; no opposite-side veto or pairing requirement",
+  "causal_runtime_only": true,
+  "calibration_prospective": false,
+  "frequency_interpretation_verified": false,
+  "qualified_detector": false,
+  "reserved_cases_opened": false,
+  "source_sha256": {
+    "1": "ab09c1c4a2cbb628ad25e3615261cbd8058941bdfac23bf13c1e72f803661bc1",
+    "2": "cf84ca5235ada3fc10cf9e86c57b70f9d6d874d2552d1157e1a88d92806fa613",
+    "11": "a8f461f0a9914d6feceaad865fff6ef85487398a8187c761b7cf7711dd818047"
+  },
+  "results": [
+    {
+      "case": "1",
+      "placement": "DS",
+      "tp": 112,
+      "fn": 5,
+      "fp": 0,
+      "tn": 0,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 7,
+      "eligible": 117,
+      "coverage": 1.0,
+      "paired_comparator": {
+        "case": "1",
+        "placement": "DS",
+        "total": 124,
+        "paired": 104,
+        "tp": 98,
+        "fn": 6,
+        "fp": 0,
+        "tn": 0,
+        "abstain_fault": 13,
+        "abstain_normal": 0,
+        "excluded": 7,
+        "original_on_same_pairs": {
+          "tp": 99,
+          "fn": 5,
+          "fp": 0,
+          "tn": 0
+        }
+      }
+    },
+    {
+      "case": "1",
+      "placement": "FS",
+      "tp": 0,
+      "fn": 0,
+      "fp": 14,
+      "tn": 112,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 9,
+      "eligible": 126,
+      "coverage": 1.0,
+      "paired_comparator": {
+        "case": "1",
+        "placement": "FS",
+        "total": 135,
+        "paired": 104,
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 103,
+        "abstain_fault": 0,
+        "abstain_normal": 22,
+        "excluded": 9,
+        "original_on_same_pairs": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 11,
+          "tn": 93
+        }
+      }
+    },
+    {
+      "case": "2",
+      "placement": "DS",
+      "tp": 91,
+      "fn": 3,
+      "fp": 0,
+      "tn": 0,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "eligible": 94,
+      "coverage": 1.0,
+      "paired_comparator": {
+        "case": "2",
+        "placement": "DS",
+        "total": 94,
+        "paired": 91,
+        "tp": 86,
+        "fn": 5,
+        "fp": 0,
+        "tn": 0,
+        "abstain_fault": 3,
+        "abstain_normal": 0,
+        "excluded": 0,
+        "original_on_same_pairs": {
+          "tp": 89,
+          "fn": 2,
+          "fp": 0,
+          "tn": 0
+        }
+      }
+    },
+    {
+      "case": "2",
+      "placement": "FS",
+      "tp": 0,
+      "fn": 0,
+      "fp": 129,
+      "tn": 167,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "eligible": 296,
+      "coverage": 1.0,
+      "paired_comparator": {
+        "case": "2",
+        "placement": "FS",
+        "total": 296,
+        "paired": 91,
+        "tp": 0,
+        "fn": 0,
+        "fp": 3,
+        "tn": 88,
+        "abstain_fault": 0,
+        "abstain_normal": 205,
+        "excluded": 0,
+        "original_on_same_pairs": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 72,
+          "tn": 19
+        }
+      }
+    },
+    {
+      "case": "11",
+      "placement": "DS",
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 18,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "eligible": 19,
+      "coverage": 1.0,
+      "paired_comparator": {
+        "case": "11",
+        "placement": "DS",
+        "total": 19,
+        "paired": 19,
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 18,
+        "abstain_fault": 0,
+        "abstain_normal": 0,
+        "excluded": 0,
+        "original_on_same_pairs": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 1,
+          "tn": 18
+        }
+      }
+    },
+    {
+      "case": "11",
+      "placement": "FS",
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 19,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "eligible": 19,
+      "coverage": 1.0,
+      "paired_comparator": {
+        "case": "11",
+        "placement": "FS",
+        "total": 19,
+        "paired": 19,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 19,
+        "abstain_fault": 0,
+        "abstain_normal": 0,
+        "excluded": 0,
+        "original_on_same_pairs": {
+          "tp": 0,
+          "fn": 0,
+          "fp": 0,
+          "tn": 19
+        }
+      }
+    }
+  ],
+  "code_sha256": "bcabab24320f1a8a6a82e3e6c4c0cedc57cf5fcc5a151b1e1177c35ef377ee67"
+}

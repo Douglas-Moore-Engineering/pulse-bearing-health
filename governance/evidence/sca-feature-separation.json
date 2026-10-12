@@ -1,0 +1,1329 @@
+{
+  "scope": "Consumed-case exploratory feature separation; no selected threshold",
+  "limitations": [
+    "Fault status is confounded with sensor side in cases 1/2",
+    "Existing reference calibration is retrospective",
+    "Load metadata not evaluated",
+    "No independent events or operating exposure inferred"
+  ],
+  "source_sha256": {
+    "1": "ab09c1c4a2cbb628ad25e3615261cbd8058941bdfac23bf13c1e72f803661bc1",
+    "2": "cf84ca5235ada3fc10cf9e86c57b70f9d6d874d2552d1157e1a88d92806fa613",
+    "11": "a8f461f0a9914d6feceaad865fff6ef85487398a8187c761b7cf7711dd818047"
+  },
+  "code_sha256": "10dfb6013dca1d9c5ab4ec32d8247163580934e0d17104f83577041b7ec4b500",
+  "summaries": [
+    {
+      "case": "1",
+      "side": "DS",
+      "fault": true,
+      "feature": "BPFIMultiple",
+      "count": 117,
+      "score_p10_p50_p90": [
+        1.3323549453000687,
+        2.463790107927986,
+        5.079041819956655
+      ],
+      "rpm_min_max": [
+        107.097527,
+        1288.91284
+      ]
+    },
+    {
+      "case": "1",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFIMultiple",
+      "count": 126,
+      "score_p10_p50_p90": [
+        0.41757581950275635,
+        0.5946641164892283,
+        0.877976849334165
+      ],
+      "rpm_min_max": [
+        107.096016,
+        1289.81543
+      ]
+    },
+    {
+      "case": "1",
+      "side": "DS",
+      "fault": true,
+      "feature": "BPFOMultiple",
+      "count": 117,
+      "score_p10_p50_p90": [
+        0.2625177389676431,
+        0.375418763244693,
+        0.5230271636432091
+      ],
+      "rpm_min_max": [
+        107.097527,
+        1288.91284
+      ]
+    },
+    {
+      "case": "1",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFOMultiple",
+      "count": 126,
+      "score_p10_p50_p90": [
+        0.2723201305526072,
+        0.40825839728529334,
+        0.6571417161455697
+      ],
+      "rpm_min_max": [
+        107.096016,
+        1289.81543
+      ]
+    },
+    {
+      "case": "1",
+      "side": "DS",
+      "fault": true,
+      "feature": "BPFMultiple",
+      "count": 117,
+      "score_p10_p50_p90": [
+        0.08618412153943691,
+        0.14893274325439992,
+        0.28290109109242595
+      ],
+      "rpm_min_max": [
+        107.097527,
+        1288.91284
+      ]
+    },
+    {
+      "case": "1",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFMultiple",
+      "count": 126,
+      "score_p10_p50_p90": [
+        0.1411839686478918,
+        0.26592167119295607,
+        0.576921437659002
+      ],
+      "rpm_min_max": [
+        107.096016,
+        1289.81543
+      ]
+    },
+    {
+      "case": "1",
+      "side": "DS",
+      "fault": true,
+      "feature": "OR_max",
+      "count": 117,
+      "score_p10_p50_p90": [
+        1.3323549453000687,
+        2.463790107927986,
+        5.079041819956655
+      ],
+      "rpm_min_max": [
+        107.097527,
+        1288.91284
+      ]
+    },
+    {
+      "case": "1",
+      "side": "FS",
+      "fault": false,
+      "feature": "OR_max",
+      "count": 126,
+      "score_p10_p50_p90": [
+        0.4903855154655182,
+        0.6599558769192578,
+        1.0503272576899225
+      ],
+      "rpm_min_max": [
+        107.096016,
+        1289.81543
+      ]
+    },
+    {
+      "case": "2",
+      "side": "DS",
+      "fault": true,
+      "feature": "BPFIMultiple",
+      "count": 94,
+      "score_p10_p50_p90": [
+        0.038978780369445874,
+        0.15733919998112855,
+        0.33357421668241916
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFIMultiple",
+      "count": 296,
+      "score_p10_p50_p90": [
+        0.1791662973930495,
+        0.2702097890680032,
+        0.9667304367539817
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "DS",
+      "fault": true,
+      "feature": "BPFOMultiple",
+      "count": 94,
+      "score_p10_p50_p90": [
+        2.23123054668775,
+        4.094732277301362,
+        7.7067273278558766
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFOMultiple",
+      "count": 296,
+      "score_p10_p50_p90": [
+        0.45400384655293197,
+        0.716255973107363,
+        2.005643013758737
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "DS",
+      "fault": true,
+      "feature": "BPFMultiple",
+      "count": 94,
+      "score_p10_p50_p90": [
+        0.051126631086247105,
+        0.08718231719696452,
+        0.2735274425916307
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFMultiple",
+      "count": 296,
+      "score_p10_p50_p90": [
+        0.28534385269115103,
+        0.5674542451323592,
+        1.0177126551079496
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "DS",
+      "fault": true,
+      "feature": "OR_max",
+      "count": 94,
+      "score_p10_p50_p90": [
+        2.23123054668775,
+        4.094732277301362,
+        7.7067273278558766
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "side": "FS",
+      "fault": false,
+      "feature": "OR_max",
+      "count": 296,
+      "score_p10_p50_p90": [
+        0.556637256984259,
+        0.9149574289698522,
+        2.0583322624934057
+      ],
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "11",
+      "side": "DS",
+      "fault": false,
+      "feature": "BPFIMultiple",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.43824477457649286,
+        0.5780816536896314,
+        0.6884006061057
+      ],
+      "rpm_min_max": [
+        1215.703,
+        1216.02429
+      ]
+    },
+    {
+      "case": "11",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFIMultiple",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.42730840515095836,
+        0.47440389850743847,
+        0.5955274632486466
+      ],
+      "rpm_min_max": [
+        1215.8064,
+        1216.00391
+      ]
+    },
+    {
+      "case": "11",
+      "side": "DS",
+      "fault": false,
+      "feature": "BPFOMultiple",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.22263336606629067,
+        0.3195872693725435,
+        0.5140310504365679
+      ],
+      "rpm_min_max": [
+        1215.703,
+        1216.02429
+      ]
+    },
+    {
+      "case": "11",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFOMultiple",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.29736067410717726,
+        0.37418292025591826,
+        0.5010830734552414
+      ],
+      "rpm_min_max": [
+        1215.8064,
+        1216.00391
+      ]
+    },
+    {
+      "case": "11",
+      "side": "DS",
+      "fault": false,
+      "feature": "BPFMultiple",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.30040101118725865,
+        0.3728306779424091,
+        0.5405007523429324
+      ],
+      "rpm_min_max": [
+        1215.703,
+        1216.02429
+      ]
+    },
+    {
+      "case": "11",
+      "side": "FS",
+      "fault": false,
+      "feature": "BPFMultiple",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.326019135740873,
+        0.38304215762553345,
+        0.5800912674903368
+      ],
+      "rpm_min_max": [
+        1215.8064,
+        1216.00391
+      ]
+    },
+    {
+      "case": "11",
+      "side": "DS",
+      "fault": false,
+      "feature": "OR_max",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.4789636450091675,
+        0.597630368491953,
+        0.7988854918039765
+      ],
+      "rpm_min_max": [
+        1215.703,
+        1216.02429
+      ]
+    },
+    {
+      "case": "11",
+      "side": "FS",
+      "fault": false,
+      "feature": "OR_max",
+      "count": 19,
+      "score_p10_p50_p90": [
+        0.4343713854451404,
+        0.532362795301879,
+        0.6308273281907877
+      ],
+      "rpm_min_max": [
+        1215.8064,
+        1216.00391
+      ]
+    }
+  ],
+  "tradeoffs": [
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 117,
+      "fn": 0,
+      "fp": 95,
+      "tn": 31,
+      "snapshot_recall": 1.0,
+      "snapshot_false_positive_rate": 0.753968253968254
+    },
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 1,
+      "tp": 112,
+      "fn": 5,
+      "fp": 7,
+      "tn": 119,
+      "snapshot_recall": 0.9572649572649573,
+      "snapshot_false_positive_rate": 0.05555555555555555
+    },
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 100,
+      "fn": 17,
+      "fp": 3,
+      "tn": 123,
+      "snapshot_recall": 0.8547008547008547,
+      "snapshot_false_positive_rate": 0.023809523809523808
+    },
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 2,
+      "tp": 75,
+      "fn": 42,
+      "fp": 1,
+      "tn": 125,
+      "snapshot_recall": 0.6410256410256411,
+      "snapshot_false_positive_rate": 0.007936507936507936
+    },
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 3,
+      "tp": 39,
+      "fn": 78,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.3333333333333333,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 5,
+      "tp": 14,
+      "fn": 103,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.11965811965811966,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 15,
+      "fn": 102,
+      "fp": 33,
+      "tn": 93,
+      "snapshot_recall": 0.1282051282051282,
+      "snapshot_false_positive_rate": 0.2619047619047619
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 117,
+      "fp": 1,
+      "tn": 125,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.007936507936507936
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 2,
+      "fn": 115,
+      "fp": 16,
+      "tn": 110,
+      "snapshot_recall": 0.017094017094017096,
+      "snapshot_false_positive_rate": 0.12698412698412698
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 117,
+      "fp": 6,
+      "tn": 120,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.047619047619047616
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 117,
+      "fp": 1,
+      "tn": 125,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.007936507936507936
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 0.5,
+      "tp": 117,
+      "fn": 0,
+      "fp": 109,
+      "tn": 17,
+      "snapshot_recall": 1.0,
+      "snapshot_false_positive_rate": 0.8650793650793651
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 1,
+      "tp": 112,
+      "fn": 5,
+      "fp": 14,
+      "tn": 112,
+      "snapshot_recall": 0.9572649572649573,
+      "snapshot_false_positive_rate": 0.1111111111111111
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 1.5,
+      "tp": 100,
+      "fn": 17,
+      "fp": 4,
+      "tn": 122,
+      "snapshot_recall": 0.8547008547008547,
+      "snapshot_false_positive_rate": 0.031746031746031744
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 2,
+      "tp": 75,
+      "fn": 42,
+      "fp": 1,
+      "tn": 125,
+      "snapshot_recall": 0.6410256410256411,
+      "snapshot_false_positive_rate": 0.007936507936507936
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 3,
+      "tp": 39,
+      "fn": 78,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.3333333333333333,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 5,
+      "tp": 14,
+      "fn": 103,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.11965811965811966,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "1",
+      "feature": "OR_max",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 126,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 1,
+      "fn": 93,
+      "fp": 65,
+      "tn": 231,
+      "snapshot_recall": 0.010638297872340425,
+      "snapshot_false_positive_rate": 0.2195945945945946
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 94,
+      "fp": 29,
+      "tn": 267,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.09797297297297297
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 94,
+      "fp": 9,
+      "tn": 287,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.030405405405405407
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 94,
+      "fp": 7,
+      "tn": 289,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.02364864864864865
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 94,
+      "fp": 1,
+      "tn": 295,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0033783783783783786
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 94,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 94,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 91,
+      "fn": 3,
+      "fp": 247,
+      "tn": 49,
+      "snapshot_recall": 0.9680851063829787,
+      "snapshot_false_positive_rate": 0.8344594594594594
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 1,
+      "tp": 91,
+      "fn": 3,
+      "fp": 95,
+      "tn": 201,
+      "snapshot_recall": 0.9680851063829787,
+      "snapshot_false_positive_rate": 0.32094594594594594
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 90,
+      "fn": 4,
+      "fp": 57,
+      "tn": 239,
+      "snapshot_recall": 0.9574468085106383,
+      "snapshot_false_positive_rate": 0.19256756756756757
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 2,
+      "tp": 86,
+      "fn": 8,
+      "fp": 30,
+      "tn": 266,
+      "snapshot_recall": 0.9148936170212766,
+      "snapshot_false_positive_rate": 0.10135135135135136
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 3,
+      "tp": 72,
+      "fn": 22,
+      "fp": 1,
+      "tn": 295,
+      "snapshot_recall": 0.7659574468085106,
+      "snapshot_false_positive_rate": 0.0033783783783783786
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 5,
+      "tp": 30,
+      "fn": 64,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.3191489361702128,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 10,
+      "tp": 6,
+      "fn": 88,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.06382978723404255,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 3,
+      "fn": 91,
+      "fp": 176,
+      "tn": 120,
+      "snapshot_recall": 0.031914893617021274,
+      "snapshot_false_positive_rate": 0.5945945945945946
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 94,
+      "fp": 35,
+      "tn": 261,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.11824324324324324
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 94,
+      "fp": 4,
+      "tn": 292,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.013513513513513514
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 94,
+      "fp": 3,
+      "tn": 293,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.010135135135135136
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 94,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 94,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 94,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.0,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 0.5,
+      "tp": 91,
+      "fn": 3,
+      "fp": 280,
+      "tn": 16,
+      "snapshot_recall": 0.9680851063829787,
+      "snapshot_false_positive_rate": 0.9459459459459459
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 1,
+      "tp": 91,
+      "fn": 3,
+      "fp": 129,
+      "tn": 167,
+      "snapshot_recall": 0.9680851063829787,
+      "snapshot_false_positive_rate": 0.4358108108108108
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 1.5,
+      "tp": 90,
+      "fn": 4,
+      "fp": 61,
+      "tn": 235,
+      "snapshot_recall": 0.9574468085106383,
+      "snapshot_false_positive_rate": 0.20608108108108109
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 2,
+      "tp": 86,
+      "fn": 8,
+      "fp": 37,
+      "tn": 259,
+      "snapshot_recall": 0.9148936170212766,
+      "snapshot_false_positive_rate": 0.125
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 3,
+      "tp": 72,
+      "fn": 22,
+      "fp": 2,
+      "tn": 294,
+      "snapshot_recall": 0.7659574468085106,
+      "snapshot_false_positive_rate": 0.006756756756756757
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 5,
+      "tp": 30,
+      "fn": 64,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.3191489361702128,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "2",
+      "feature": "OR_max",
+      "threshold_multiplier": 10,
+      "tp": 6,
+      "fn": 88,
+      "fp": 0,
+      "tn": 296,
+      "snapshot_recall": 0.06382978723404255,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 23,
+      "tn": 15,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.6052631578947368
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFIMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 4,
+      "tn": 34,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.10526315789473684
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFOMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 0.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 9,
+      "tn": 29,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.23684210526315788
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 37,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.02631578947368421
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "BPFMultiple",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 0.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 28,
+      "tn": 10,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.7368421052631579
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 1,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 37,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.02631578947368421
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 1.5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 2,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 3,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 5,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    },
+    {
+      "case": "11",
+      "feature": "OR_max",
+      "threshold_multiplier": 10,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 38,
+      "snapshot_recall": null,
+      "snapshot_false_positive_rate": 0.0
+    }
+  ],
+  "qualified_detector": false,
+  "reserved_cases_opened": false
+}

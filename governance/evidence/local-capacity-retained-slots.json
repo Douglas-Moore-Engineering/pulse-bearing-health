@@ -1,0 +1,115 @@
+{
+  "observed_at": "2026-10-12T03:19:41.102475+00:00",
+  "scope": "60-second synthetic local HTTP/SQLite smoke load; separate API process on shared host, injected identity, no detector or full alert workflow",
+  "offered_rps": 70,
+  "scheduled_seconds": 60,
+  "offered_requests": 4200,
+  "connection_reuse_experiment": true,
+  "retain_late_slots": true,
+  "submission_schedule_delay_ms": {
+    "count": 4200,
+    "mean_ms": 8.499700511345596,
+    "p50_ms": 7.804371416568756,
+    "p95_ms": 17.26025715470314
+  },
+  "commit_evidence_count": 4200,
+  "submitted": 4200,
+  "successful": 4200,
+  "failed": 0,
+  "dropped": 0,
+  "drop_reasons": {
+    "scheduler_late": 0,
+    "queue_full": 0,
+    "storage_stop": 0
+  },
+  "server_process_isolated": true,
+  "timings": {
+    "queue_wait_ms": {
+      "count": 4200,
+      "mean_ms": 13.97794133265658,
+      "p50_ms": 0.1286999904550612,
+      "p95_ms": 84.69739998690784
+    },
+    "json_prepare_ms": {
+      "count": 4200,
+      "mean_ms": 0.9660319771501236,
+      "p50_ms": 0.9109999518841505,
+      "p95_ms": 1.5459999558515847
+    },
+    "http_roundtrip_ms": {
+      "count": 4200,
+      "mean_ms": 61.974381380880786,
+      "p50_ms": 25.399600039236248,
+      "p95_ms": 187.96629999997094
+    },
+    "server_handler_ms": {
+      "count": 4200,
+      "mean_ms": 57.47096695227637,
+      "p50_ms": 21.04339998913929,
+      "p95_ms": 183.1458000233397
+    },
+    "scheduled_to_completion_ms": {
+      "count": 4200,
+      "mean_ms": 85.47738727356773,
+      "p50_ms": 44.36881426954642,
+      "p95_ms": 227.8634857502766
+    }
+  },
+  "store_save_timing": {
+    "count": 4200,
+    "mean_ms": 45.553717619345875,
+    "p50_ms": 8.840000024065375,
+    "p95_ms": 164.48630002560094
+  },
+  "store_operation_timings": {
+    "begin_immediate": {
+      "count": 4200,
+      "mean_ms": 25.361395833925123,
+      "p50_ms": 0.17549999756738544,
+      "p95_ms": 79.1686000302434
+    },
+    "select": {
+      "count": 4200,
+      "mean_ms": 0.4649668570519203,
+      "p50_ms": 0.05289999535307288,
+      "p95_ms": 2.6920000091195107
+    },
+    "receipt_insert": {
+      "count": 4200,
+      "mean_ms": 0.4857775710323559,
+      "p50_ms": 0.05579995922744274,
+      "p95_ms": 2.5949999690055847
+    },
+    "transaction_exit": {
+      "count": 8400,
+      "mean_ms": 2.3556767139788937,
+      "p50_ms": 1.4136999961920083,
+      "p95_ms": 6.419099983759224
+    },
+    "evidence_insert": {
+      "count": 4200,
+      "mean_ms": 14.257816904934035,
+      "p50_ms": 0.11049996828660369,
+      "p95_ms": 40.51779996370897
+    },
+    "synchronous_pragma": {
+      "count": 7,
+      "mean_ms": 21.782828578060226,
+      "p50_ms": 19.07129999017343,
+      "p95_ms": 32.807899988256395
+    }
+  },
+  "elapsed_seconds": 60.03101750003407,
+  "successful_rps": 69.96383161417539,
+  "successful_p95_ms": 189.02930000331253,
+  "samples_per_request": 4096,
+  "persisted_receipt_count": 4200,
+  "sqlite_integrity": "ok",
+  "final_storage_bytes": 5288819,
+  "peak_sampled_storage_bytes": 9326384,
+  "storage_stop": false,
+  "receipt_reconciliation_passed": true,
+  "daily_capacity_qualified": false,
+  "script_sha256": "23a94bb09c78245afc1ecd6ab7a7989162f5e52acc430086b7f27a2bef6d99e5",
+  "temporary_storage_removed": true
+}

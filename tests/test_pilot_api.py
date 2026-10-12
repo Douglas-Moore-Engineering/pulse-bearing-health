@@ -63,3 +63,20 @@ def test_runtime_opt_in_requires_complete_configuration(tmp_path,monkeypatch):
     app=create_app(settings,lambda _: {'oid':'caller','azp':'client'})
     d=fixture();d['metadata']['asset_id']=ASSET
     assert TestClient(app).post('/v1/intake/validate',headers=HEADERS,json=d).json()['status']=='STRUCTURALLY_VALID_PENDING_REVIEW'
+
+def test_closure_role_ownership_acknowledgement_and_retry(tmp_path):
+    factory,claims,event=setup(tmp_path);client=factory();url=f'/v1/reference/alerts/{event}/close'
+    body={'rationale':'Synthetic disposition','evidence':['fixture:inspection']}
+    assert client.post(url,json=body).status_code==401
+    assert client.post(url,headers=HEADERS,json=body).status_code==403
+    claims['roles'].append('Pulse.Close')
+    assert client.post(url,headers=HEADERS,json=dict(body,actor='spoof')).status_code==422
+    assert client.post(url,headers=HEADERS,json=body).status_code==409
+    assert client.post(f'/v1/reference/alerts/{event}/acknowledge',headers=HEADERS,json={}).status_code==200
+    first=client.post(url,headers=HEADERS,json=body)
+    assert first.status_code==200 and first.json()['state']=='CLOSED'
+    assert not first.json()['human_identity_verified']
+    assert factory().post(url,headers=HEADERS,json=body).json()==first.json()
+    assert client.post(url,headers=HEADERS,json=dict(body,rationale='changed')).status_code==409
+    claims['oid']='other'
+    assert client.post(url,headers=HEADERS,json=body).status_code==404

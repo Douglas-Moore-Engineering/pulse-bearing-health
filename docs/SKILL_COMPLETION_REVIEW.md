@@ -1,14 +1,24 @@
 # DME skill completion review
 
+Current Phase 10 preparation: [demo readiness and launch checklist](../customer/10-demo-readiness.md). Locally verified on 2026-10-12: 180 software tests passed, three benchmark selections functionally checked, and synthetic replay completed. Ready for guided offline demonstration; actual review/acceptance and production qualification remain open.
+
 Review date: 2026-10-11. Scope: the authorized private reference system, Azure single-node demo within USD 100/month, and offline detector research. Customer/site production acceptance and independent assurance are not established. The backup export was initially rejected by automatic approval review; the user then explicitly authorized it, and the test passed. The five skill packages are present and listed in this session; their pinned contents were not edited for this increment.
 
 ## Current position and verified increment
 
 We remain in Phase 8 engineering with ongoing Phase 9 reviews and a Phase 10 demonstration prepared. Actual customer/site adaptation, validation, ORR/CAR and production authorization are incomplete. Unresolved AIG-G3/G4 evidence prevents AIG-G5 production authorization; no formal approval of earlier gates is implied.
 
-The latest full software run passed [134 tests](../governance/evidence/pilot-release-preparation-tests.xml). [Causal processing and 428-decision replay](../data/qualification/causal-observation-development.md) preserve anomaly observations without suppressing simultaneous signals, but do not fix detector false positives. The [current candidate disposition](../data/qualification/detector-candidate-disposition.md) remains NOT_PROMOTED. SCA cases 1/2/11 are consumed; cases 3-10 remain reserved.
+The latest full software run passed [180 tests](../governance/evidence/phase10-demo-tests.xml). [Causal processing and 428-decision replay](../data/qualification/causal-observation-development.md) preserve anomaly observations without suppressing simultaneous signals, but do not fix detector false positives. The [current candidate disposition](../data/qualification/detector-candidate-disposition.md) remains NOT_PROMOTED. SCA cases 1/2/11 are consumed; cases 3-10 remain reserved.
 
 Follow the [current engineering backlog](CURRENT_ENGINEERING_BACKLOG.md): offline intake, adjudication, retention, recovery/workload evidence, detector revision, then site-dependent validation. Customer access is not required to complete every remaining engineering item.
+
+## Current recovery and identity evidence
+
+Local application, Docker and Kubernetes Deployment/PVC recovery passed, including pod replacement, Service DNS/routing, tested ingress/private-egress restrictions and one certificate-verified public HTTPS path. [Local evidence](../governance/evidence/local-network-policy.json). Live real-token inbox and review GET passed; Pulse.Close was absent. [Read-only identity evidence](../governance/evidence/azure-identity-readonly.json).
+
+[Actual Blob recovery](../governance/evidence/blob-container-recovery.json) preserved 3,150 receipts, 884 reference windows and one alert through isolated default-container startup. Review history was absent and closures empty, so nonempty workflow recovery is not established. [Three scheduled service completions](../governance/evidence/azure-backup-cadence.json) span one hour. Neither result qualifies host-loss RTO/RPO, sustained daily capacity or detector acceptance.
+
+The latest explicit authorization covers Azure verification and isolated backup recovery within the existing USD 100/month ceiling, without new paid resources. The write-capable closure verifier was rejected by automatic approval review; read-only checks were used instead. No live review/closure records were appended by that verification.
 
 ## Historical customer demonstration preparation
 
@@ -24,7 +34,7 @@ The user explicitly authorized inventing fictional customer criteria and notific
 |---|---|---|
 | customer-delivery-service-operations | Existing discovery, scope, authority and USD 100 budget retained; technical increments returned through the [execution handoff](../customer/08-deployment-execution.md) | Fictional criteria and simulated inbox are recorded; actual site ORR/CAR and service acceptance are outside the exercised reference scope; future retirement is not an activity to execute now |
 | systems-engineering-standards-assurance | Requirement IDs, viewpoints, source/edition limitations and V&V trace preserved; failed and partial evidence recorded without changing acceptance criteria | No independent standards conformity, domain review or site validation; [V&V matrix](../governance/verification_validation_matrix.csv) retains unmet criteria |
-| build-production-ai-systems | Authenticated persistent API deployed; asset-specific authorization added and live-tested; local health and daily backup timers enabled; off-host restore verified; reproducible baseline tested on IMS runs 2 and 1 | Reference-only detector, durable inbox and acknowledgement deployed and replay-tested; detector qualification, primary-data retention at scale, sustained workload and host-loss recovery remain incomplete |
+| build-production-ai-systems | Authenticated persistent API deployed; asset-specific authorization added and live-tested; local health and half-hour Blob backup timers enabled; actual Blob-to-container restore verified; reproducible baseline tested on IMS runs 2 and 1 | Reference-only detector, durable inbox and acknowledgement deployed and replay-tested; detector qualification, primary-data retention at scale, sustained workload and host-loss recovery remain incomplete |
 | ai-governance-and-assurance | Frozen plans, input/code hashes, held-out-use accounting, limitations and non-promotion recorded in the [model card](../governance/model/MODEL_SYSTEM_CARD.md) | Fictional warning/nuisance criteria established; no measured pass against them, qualified detector, production authorization or actual independent review |
 | dme-diagram-standard | 20-view package includes rendered and visually reviewed [reference workflow view 17](diagrams/17_reference_detector_workflow.mmd); transparency checked | Diagram consistency does not establish detector qualification; view 16 retains the earlier assessment path and view 17 adds the reference workflow |
 
@@ -47,7 +57,7 @@ No row is an assertion that all lifecycle phases or all requirements have passed
 | Third IMS archive differs from its README | Dr. Moore / source steward: verified archive identity, correct count/time range and endpoint mapping | Labeled third-run evaluation |
 | Unknown units, onset labels and downstream rights | Dr. Moore / source and domain owners: calibration, annotation and permitted-use records | Qualified data and performance claims |
 | Fictional acceptance criteria not met | Invented by explicit user instruction: 60-minute warning and no more than one nuisance alert per bearing per 30 operating days; actual evidence remains insufficient or failing | Detector acceptance |
-| Full recovery and primary receipt retention | Dr. Moore / engineering: tested host-loss recovery and primary-data retention policy; manual off-host restore (including detector decisions and acknowledged episode) and daily local backups have passed | Operational readiness |
+| Full recovery and primary receipt retention | Dr. Moore / engineering: tested host-loss recovery and primary-data retention policy; actual Blob-to-container restore and three consecutive half-hour backup service runs passed; complete host replacement remains unverified | Operational readiness |
 | External delivery not in the fictional-demo scope | Simulated maintenance inbox and acknowledgement implemented and cloud-tested; a future real external destination requires specific authority | Future external notifications |
 | Retention and sustained workload not qualified | Dr. Moore / engineering: retention decision and full workflow soak with measured storage/latency/cost | 1.5 million requests/day claim |
 | Actual site/independent acceptance absent | Qualified domain/release reviewers: applicable ORR/CAR and independent review, with real signatures/evidence | Site/production authorization |

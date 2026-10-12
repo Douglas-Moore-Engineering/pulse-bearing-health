@@ -1,0 +1,59 @@
+{
+  "scope": "Synthetic temporal tests; unit-spaced observations, not field warning metrics",
+  "results": [
+    {
+      "high_pulse_records": 1,
+      "first_high_index": 20,
+      "last_high_index": 20,
+      "first_flag_index": null,
+      "last_flag_index": null,
+      "first_clear_index": null,
+      "alarm_after_pulse_ended": false
+    },
+    {
+      "high_pulse_records": 3,
+      "first_high_index": 20,
+      "last_high_index": 22,
+      "first_flag_index": null,
+      "last_flag_index": null,
+      "first_clear_index": null,
+      "alarm_after_pulse_ended": false
+    },
+    {
+      "high_pulse_records": 7,
+      "first_high_index": 20,
+      "last_high_index": 26,
+      "first_flag_index": null,
+      "last_flag_index": null,
+      "first_clear_index": null,
+      "alarm_after_pulse_ended": false
+    },
+    {
+      "high_pulse_records": 8,
+      "first_high_index": 20,
+      "last_high_index": 27,
+      "first_flag_index": 29,
+      "last_flag_index": 34,
+      "first_clear_index": 35,
+      "alarm_after_pulse_ended": true
+    },
+    {
+      "high_pulse_records": 20,
+      "first_high_index": 20,
+      "last_high_index": 39,
+      "first_flag_index": 29,
+      "last_flag_index": 46,
+      "first_clear_index": 47,
+      "alarm_after_pulse_ended": false
+    }
+  ],
+  "config_sha256": "6bd1b67a6ffd04e2e77c2c4b5b87b96c6ac9682945781b8047e8e48a18c6c3ae",
+  "component_sha256": "00b06077626b3b68a002ed6b6d7e5b8eff1b14b15bcec25425027ec796198b3a",
+  "qualified_detector": false,
+  "parameters_changed": false,
+  "limitations": [
+    "No automatic clearance of a maintenance incident is authorized by a false detector flag",
+    "Unavailable after a gap does not mean healthy",
+    "Record delay cannot be converted into minutes without acquisition cadence"
+  ]
+}

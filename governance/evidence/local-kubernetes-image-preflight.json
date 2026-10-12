@@ -1,0 +1,24 @@
+{
+  "result": "IMAGE_IMPORT_RESOLVED",
+  "scope": "Local full-application Kubernetes recovery only",
+  "context": "docker-desktop",
+  "endpoint": "https://127.0.0.1:58750",
+  "node": "desktop-control-plane",
+  "runtime": "containerd://1.7.18",
+  "pulse_image_cached_on_node": true,
+  "archive": "outputs/incident-closure-release/pulse-api.tar",
+  "archive_sha256": "02adab1849bf27ab5630d09547dcc109cb6d73d231892b63257086c6835d7d87",
+  "archive_matches_release_record": true,
+  "image_id": "sha256:c21a6fd0df51b1e3ca9e90a7b0b7968aab477dc4893430969ed0d854690436c2",
+  "missing_prerequisite": null,
+  "checks": [
+    "Windows Docker default and desktop-linux endpoints listed no node containers",
+    "Ubuntu Docker listed no node containers",
+    "kind CLI unavailable",
+    "docker-desktop WSL did not expose ctr via command lookup"
+  ],
+  "azure_accessed": false,
+  "application_kubernetes_recovery_passed": false,
+  "resolution": "Docker Desktop hides system containers from listings; direct docker inspect desktop-control-plane succeeded. Imported verified archive through docker exec -i desktop-control-plane ctr --namespace k8s.io images import -.",
+  "documentation": "https://docs.docker.com/desktop/use-desktop/kubernetes/"
+}

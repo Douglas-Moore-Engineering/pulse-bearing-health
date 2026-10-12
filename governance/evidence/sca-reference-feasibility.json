@@ -1,0 +1,296 @@
+{
+  "scope": "Consumed-case label/position/time audit only",
+  "source_sha256": {
+    "1/train.mat": "af1a6c38d038675bb18942be4d4b3c7ea04057abc9613249733fec254d9782a1",
+    "1/test.mat": "ab09c1c4a2cbb628ad25e3615261cbd8058941bdfac23bf13c1e72f803661bc1",
+    "2/train.mat": "c747bd29ff411e9c2567242eff0af93321b872eeffab21c19366ef1a23b2ab3c",
+    "2/test.mat": "cf84ca5235ada3fc10cf9e86c57b70f9d6d874d2552d1157e1a88d92806fa613",
+    "11/train.mat": "81f20e0fe04aed0cdb3a74987910c958b0cdf7af396a57194585a5ecbd2025c7",
+    "11/test.mat": "a8f461f0a9914d6feceaad865fff6ef85487398a8187c761b7cf7711dd818047"
+  },
+  "groups": [
+    {
+      "case": "1",
+      "file": "train.mat",
+      "side": "DS",
+      "label": -1,
+      "records": 5,
+      "first": "2022-05-21T07:00:47.220000",
+      "last": "2022-08-10T18:01:23.820000",
+      "rpm_min_max": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "1",
+      "file": "train.mat",
+      "side": "DS",
+      "label": 0,
+      "records": 122,
+      "first": "2022-05-13T15:01:07.170000",
+      "last": "2022-09-11T09:00:19.120000",
+      "rpm_min_max": [
+        107.097992,
+        1268.26233
+      ]
+    },
+    {
+      "case": "1",
+      "file": "train.mat",
+      "side": "FS",
+      "label": -1,
+      "records": 5,
+      "first": "2022-05-21T07:00:18.680000",
+      "last": "2022-08-10T18:00:50.940000",
+      "rpm_min_max": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "1",
+      "file": "train.mat",
+      "side": "FS",
+      "label": 0,
+      "records": 122,
+      "first": "2022-05-13T15:00:35.180000",
+      "last": "2022-09-11T09:01:22.140000",
+      "rpm_min_max": [
+        107.099052,
+        1268.97949
+      ]
+    },
+    {
+      "case": "1",
+      "file": "test.mat",
+      "side": "DS",
+      "label": -1,
+      "records": 7,
+      "first": "2022-01-28T05:01:11.170000",
+      "last": "2022-04-04T08:00:17.670000",
+      "rpm_min_max": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "1",
+      "file": "test.mat",
+      "side": "DS",
+      "label": 1,
+      "records": 117,
+      "first": "2022-01-10T23:01:22.290000",
+      "last": "2022-05-10T18:00:55.880000",
+      "rpm_min_max": [
+        107.097527,
+        1288.91284
+      ]
+    },
+    {
+      "case": "1",
+      "file": "test.mat",
+      "side": "FS",
+      "label": -1,
+      "records": 9,
+      "first": "2022-01-28T05:00:31.590000",
+      "last": "2022-04-14T21:00:10.020000",
+      "rpm_min_max": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "1",
+      "file": "test.mat",
+      "side": "FS",
+      "label": 0,
+      "records": 126,
+      "first": "2022-01-02T08:00:42.690000",
+      "last": "2022-05-10T18:00:06.690000",
+      "rpm_min_max": [
+        107.096016,
+        1289.81543
+      ]
+    },
+    {
+      "case": "2",
+      "file": "train.mat",
+      "side": "DS",
+      "label": 0,
+      "records": 124,
+      "first": "2022-03-03T17:00:29.990000",
+      "last": "2022-07-02T11:00:29.070000",
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "file": "train.mat",
+      "side": "FS",
+      "label": 0,
+      "records": 124,
+      "first": "2022-03-03T17:00:24.410000",
+      "last": "2022-07-02T11:00:00.480000",
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "file": "test.mat",
+      "side": "DS",
+      "label": 3,
+      "records": 94,
+      "first": "2021-12-01T17:00:05.920000",
+      "last": "2022-02-28T20:00:02.860000",
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "2",
+      "file": "test.mat",
+      "side": "FS",
+      "label": 0,
+      "records": 296,
+      "first": "2021-12-01T17:00:03.950000",
+      "last": "2022-02-28T20:00:27.120000",
+      "rpm_min_max": [
+        1162.0,
+        1162.0
+      ]
+    },
+    {
+      "case": "11",
+      "file": "train.mat",
+      "side": "DS",
+      "label": -1,
+      "records": 2,
+      "first": "2021-04-14T18:00:03.910000",
+      "last": "2021-05-01T06:00:11.410000",
+      "rpm_min_max": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "11",
+      "file": "train.mat",
+      "side": "DS",
+      "label": 0,
+      "records": 127,
+      "first": "2021-04-01T00:00:04.550000",
+      "last": "2021-05-31T23:00:32.850000",
+      "rpm_min_max": [
+        1174.63525,
+        1185.356
+      ]
+    },
+    {
+      "case": "11",
+      "file": "train.mat",
+      "side": "FS",
+      "label": -1,
+      "records": 2,
+      "first": "2021-04-14T18:00:19.930000",
+      "last": "2021-05-01T06:00:21.300000",
+      "rpm_min_max": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "11",
+      "file": "train.mat",
+      "side": "FS",
+      "label": 0,
+      "records": 127,
+      "first": "2021-04-01T00:00:40.760000",
+      "last": "2021-05-31T23:00:14.320000",
+      "rpm_min_max": [
+        1174.10815,
+        1185.06116
+      ]
+    },
+    {
+      "case": "11",
+      "file": "test.mat",
+      "side": "DS",
+      "label": 0,
+      "records": 19,
+      "first": "2022-04-23T12:00:25.610000",
+      "last": "2022-05-10T18:00:47.560000",
+      "rpm_min_max": [
+        1215.703,
+        1216.02429
+      ]
+    },
+    {
+      "case": "11",
+      "file": "test.mat",
+      "side": "FS",
+      "label": 0,
+      "records": 19,
+      "first": "2022-04-23T12:00:43.300000",
+      "last": "2022-05-10T18:00:20.950000",
+      "rpm_min_max": [
+        1215.8064,
+        1216.00391
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "1",
+      "side": "DS",
+      "both_classes_present": true,
+      "both_classes_in_publisher_test": false,
+      "all_normal_records_after_fault_records": true
+    },
+    {
+      "case": "1",
+      "side": "FS",
+      "both_classes_present": false,
+      "both_classes_in_publisher_test": false,
+      "all_normal_records_after_fault_records": false
+    },
+    {
+      "case": "2",
+      "side": "DS",
+      "both_classes_present": true,
+      "both_classes_in_publisher_test": false,
+      "all_normal_records_after_fault_records": true
+    },
+    {
+      "case": "2",
+      "side": "FS",
+      "both_classes_present": false,
+      "both_classes_in_publisher_test": false,
+      "all_normal_records_after_fault_records": false
+    },
+    {
+      "case": "11",
+      "side": "DS",
+      "both_classes_present": false,
+      "both_classes_in_publisher_test": false,
+      "all_normal_records_after_fault_records": false
+    },
+    {
+      "case": "11",
+      "side": "FS",
+      "both_classes_present": false,
+      "both_classes_in_publisher_test": false,
+      "all_normal_records_after_fault_records": false
+    }
+  ],
+  "code_sha256": "2da64eddb9d928bb62b80b2ee09e907536e0e9d7c7d7b2ba470e93c797b7f72a",
+  "reserved_cases_opened": false,
+  "timezone_verified": false,
+  "physical_bearing_identity_verified": false,
+  "model_trained": false
+}

@@ -238,3 +238,175 @@ Azure reconciliation deployment completed: new image, fictional 12-asset timer, 
 
 
 Half-hour backup increment: deployed :00/:30 UTC local snapshots, 48-snapshot bound and 45-minute freshness monitoring. Initial backup and installed health checks passed. PULSE-NFR-005 remains unmet for host loss because off-host backup is manual. [Operations evidence](../runbooks/reference-operations.md).
+
+
+Detector performance specification: [derived criteria DET-PERF-001?007](../requirements/detector-performance.md) preserve the fictional 60-minute/zero-miss/one-nuisance targets and propose explicit coverage and evidence minimums. No candidate results or release gates changed; full acceptance evaluator remains to be implemented.
+
+
+Detector evidence consolidated: separate hash-bound RMS and paired-SCA dossiers were evaluated against detector-performance-v1. RMS is INCONCLUSIVE for full acceptance; its documented missed bearing is preserved. Paired SCA FAILS coverage/causal-protocol checks. This is retrospective gap assessment, not prospective validation. [Current detector status](../data/qualification/DETECTOR_STATUS.md). No new holdout consumption or promotion.
+
+
+Feature separation increment: consumed-case score quantiles and threshold tradeoffs recorded. Baseline counts reproduced for all three cases. No threshold selected, no reserved data consumed, and no production promotion. [Report](../data/qualification/sca-feature-separation.md).
+
+
+Consumed SCA reference feasibility audited from six publisher-hash-verified files. Later healthy references and sensor/period confounding remain; no random-window independent validation claim is supportable. [Findings and next experiment constraints](../data/qualification/sca-reference-feasibility.md). No holdout access, training or promotion occurred.
+
+
+Chronological reference audit reproduced LDM B04/B12/B17 early medians and strict reference-before-monitoring order. B17 selected for descriptive causal trend development only; no healthy/failure qualification or holdout claim. [Audit](../data/qualification/chronological-reference-audit.md).
+
+
+B17 causal trend experiment completed with prewritten development parameters: 1 episode versus baseline 9; descriptive first-alert lead 193.42 versus 195.90 minutes. Full suite 158 passed. No operational acceptance claim or deployment. [Evidence](../data/qualification/b17-trend-development.md).
+
+
+Fixed trend settings transferred to consumed B04/B12 without retuning; episodes reduced to one with later first alerts and longer flagged runs. Exact B17 decision regression passed. [Transfer report](../data/qualification/trend-transfer.md). No operational acceptance or deployment change.
+
+
+Trend temporal tests completed: short-pulse filtering, delayed eight-record-pulse flag, step onset/clearance, gap boundary and two-channel continuation verified. 166 software tests passed. [Lifecycle semantics and evidence](../data/qualification/trend-temporal-characterization.md). No runtime deployment or gate promotion.
+
+
+Incident lifecycle increment: durable explicit closure added to the existing alert ledger, requiring prior acknowledgement and actor/rationale/evidence. 168 tests passed. Not deployed; authenticated closure integration and closure-specific recovery remain open. [Runbook](../runbooks/incident-lifecycle.md).
+
+
+Skill handoff ? incident API integration: authenticated closure route and scoped role checks implemented locally; 169 tests passed. Backup comparison now covers closure rows with an explicit nonempty guard. Build/governance boundaries retained: no live role assignment, deployment, real maintenance disposition or model promotion in this increment. [Handoff details](../runbooks/incident-lifecycle.md).
+
+
+Incident closure deployed October 11 Eastern: image/server validation, receipt regression and private recovery passed. Role assigned but current token lacks review/closure claims; live closure correctly denied. No live incident closed; nonempty closure recovery pending. [Rollout handoff](../runbooks/incident-lifecycle.md).
+
+
+Off-host backup installed within the $100 ceiling: bounded Hot LRS ring, managed identity, readback and isolated recovery of 3,150 receipts passed. New low-cost storage resource added; initial container-command failure corrected. [Evidence and cost assumptions](../runbooks/offhost-backup.md). Timer cadence and full host-loss RPO remain unqualified.
+
+## Scheduled backup verification ? October 11, 2026 Eastern
+
+The 9:30 PM Eastern systemd run uploaded and read back a 4,677,632-byte snapshot and restored 3,150 receipts with SQLite integrity OK. [Recorded scheduled run](../governance/evidence/azure-offhost-backup.json). This is one observed automatic execution, not sustained one-hour RPO or complete host replacement. Live review/closure remained denied by the token role set at the subsequent check; no nonempty live review/closure recovery is claimed.
+
+Offline upload-outage, corrupted-readback, invalid-database and retry checks passed with the complete suite: [173 tests](../governance/evidence/offhost-backup-tests.xml), one existing dependency deprecation warning. No production gate or detector qualification is promoted. Next recovery evidence requires booting an isolated recovered application and checking receipt/workflow consistency; cloud actions remain subject to the current explicit authorization boundary.
+
+## Isolated application recovery increment
+
+The [local recovery exercise](../runbooks/local-pilot-exercise.md) now restores a synthetic database into a fresh ASGI application after making the source path unavailable. Receipt replay, corrected review history, explicit closure, conflict detection and authorization boundaries passed. Full software suite: 174 passed; one existing dependency deprecation warning. This is in-process application recovery using synthetic identity claims, not Azure host replacement or live identity verification. Production recovery and detector gates remain unchanged. Next recovery work is an isolated process/container exercise with explicit runtime configuration and restoration from an authorized backup.
+
+## Separate-process recovery evidence
+
+Extended the existing synthetic application recovery test to launch a fresh Python interpreter against the restored database after the original path becomes unavailable. Readiness, persisted receipts, review corrections, closure replay and authorization denials passed. Full suite: 174 passed, one existing dependency warning; evidence in `governance/evidence/application-recovery-tests.xml`. No Azure connection or provisioning was performed in this increment. ASGI TestClient and synthetic identities remain the test boundary; container/network recovery and production RTO/RPO are not established.
+
+## Loopback HTTP recovery verification
+
+The restored-process probe now starts Uvicorn on an ephemeral loopback-only socket and verifies readiness, receipts, corrected reviews, closure replay and access-control denials using actual HTTP requests. Explicit startup/request/shutdown/process timeouts bound the exercise. The full suite passed: 174 tests, one existing dependency warning. The [recovery runbook](../runbooks/local-pilot-exercise.md) consolidates current and historical evidence. This supersedes the child probe's ASGI TestClient-only limitation, while synthetic identity, container, external network, cloud restoration and RTO/RPO boundaries remain unchanged. No Azure access occurred.
+
+## Local container recovery
+
+The opt-in recovery test passed in the existing incident-closure image with the image's non-root user, no external network, read-only root filesystem and resource bounds. Restored synthetic receipts, corrected reviews, closure replay and authorization denials passed over internal HTTP. [Focused test evidence](../governance/evidence/container-recovery-tests.xml). The probe overrides the production command and uses synthetic identity; full deployment configuration, Entra and Azure host recovery remain open. No cloud access, detector promotion or production acceptance occurred.
+
+## Default container command and configuration
+
+Extended the focused recovery test to run the image's unmodified CMD with synthetic identity UUIDs, explicit asset grants, restored storage and pilot/reference settings. Readiness passed; the production verifier rejected anonymous and malformed bearer tokens with 401. The isolated test container was removed. [Updated focused evidence](../governance/evidence/container-recovery-tests.xml): one passed, one existing dependency warning. Successful Entra authentication and actual Azure/Kubernetes host recovery remain open. No Azure connection or production gate change occurred.
+
+## Recovery configuration failure checks
+
+The focused container recovery test passed valid restoration/startup plus two negative default-command cases: missing tenant ID and missing pilot review database. Both failed with a nonzero exit and the expected missing-key error. Each test container was removed. Updated evidence: `governance/evidence/container-recovery-tests.xml`; one focused test passed, one existing dependency warning. The status summary now consolidates local recovery evidence. Remaining work requires real identity, Kubernetes configuration and authorized off-host restoration evidence; no Azure access or acceptance promotion occurred.
+
+## Kubernetes-rendered configuration compatibility
+
+Removed the independently maintained environment configuration from the default-command recovery test. It now consumes the single-node renderer's ConfigMap and volume mount and restores the database at `/data/assessments.db`. Combined local recovery/manifest checks: five passed, one existing dependency warning. Evidence: `governance/evidence/container-recovery-tests.xml`. Kubernetes scheduling, real PVC behavior, kubelet probes, network policy and actual identity remain outside the test. No cloud access or gate promotion occurred.
+
+## Local Kubernetes storage evidence
+
+On loopback-only Docker Desktop Kubernetes, a temporary 16 MiB local-path PVC preserved a generated marker across pod replacement. Namespace cleanup completed. [Evidence](../governance/evidence/local-kubernetes-storage.json). Two initial writer failures were caused by a missing utility-image `sync` command; the corrected built-in-only test passed. This is PVC persistence evidence, not power-loss durability or full application recovery. The node lacks the Pulse image, so application/container results remain separate. No Azure access, deployment or gate promotion occurred.
+
+## Local Kubernetes application recovery ? passed
+
+Resolved the image-import blocker by directly addressing Docker Desktop's hidden node container and importing the verified Pulse archive into containerd. The focused recovery test passed after copying a synthetic restored database onto a PVC, deleting its first pod and verifying application behavior in a replacement pod. Receipt replay, review corrections, closure replay and authorization denials passed over internal HTTP. Temporary namespace cleanup passed. The initial cleanup timeout was corrected with bounded helper termination and command timeouts; [rerun evidence](../governance/evidence/kubernetes-application-recovery-tests.xml) records one focused pass. Production command rollout in Kubernetes, real identity and Azure host restoration remain unverified. No Azure connection or production gate promotion occurred.
+
+## Rendered local Deployment recovery
+
+Applied the renderer's Deployment, ConfigMap, ServiceAccount and Service in the isolated local namespace, adapting only namespace and PVC reference. The default command reached readiness before and after pod replacement; health endpoints, anonymous rejection, SQLite integrity and restored receipt count passed with a different pod UID. Cleanup completed. Focused exercise: one passed, one existing dependency warning; 63.30 seconds total harness time, not an RTO claim. Real identity success, Service routing, NetworkPolicy, Azure backups and host-loss recovery remain unverified. No cloud access or production gate promotion occurred.
+
+## Local Service routing evidence
+
+Following pod-replacement recovery, a separate local client pod resolved the Service DNS name to its ClusterIP and verified health HTTP 200 and anonymous inbox HTTP 401 through both addresses. The focused recovery test passed including cleanup: one passed, one existing dependency warning. Evidence: `governance/evidence/kubernetes-application-recovery-tests.xml`. NetworkPolicy was absent in this test; no deny-policy, external ingress, real identity or Azure host-loss claim follows. The project status now consolidates local recovery increments. No Azure access occurred.
+
+## Local deny-ingress verification
+
+After proving baseline Service routing, applied the rendered NetworkPolicy in the temporary local namespace. Three fresh client-to-Service attempts failed; the target API remained healthy and its restored receipt passed verification. Cleanup completed. [Evidence](../governance/evidence/local-network-policy.json); [focused test](../governance/evidence/local-network-policy-tests.xml): one passed, one existing dependency warning. This is limited ingress-path evidence, not egress, all-path isolation or Azure verification. No production gate promotion occurred.
+
+## Local outbound policy and DNS evidence
+
+The combined recovery/policy test passed. A local TCP 8080 target was reachable before policy; three restricted API attempts timed out afterward while an unrestricted pod still reached it. DNS resolution remained available from the restricted API. Ingress denial and cleanup also passed. Updated evidence: `governance/evidence/local-network-policy.json` and `local-network-policy-tests.xml`. This does not establish private TCP 443 exclusion, public HTTPS allowance or cloud enforcement. No Azure access or gate promotion occurred.
+
+## Private TCP 443 policy verification
+
+Extended the local target to TCP 443 while retaining 8080. Three restricted attempts on each port timed out after policy; baseline and unrestricted control requests succeeded on both. DNS, ingress, recovery and cleanup passed in the same focused run. Evidence: `governance/evidence/local-network-policy.json` and `local-network-policy-tests.xml`. The target used plaintext HTTP; no TLS, public HTTPS, all-CIDR or Azure enforcement claim follows. No cloud access or gate promotion occurred.
+
+## Public HTTPS allowance verification
+
+From the policy-restricted local API pod, a public Python documentation request succeeded with certificate verification, global DNS-address checks and proxies/redirects disabled. The combined recovery/network test passed including cleanup. Updated network evidence is in `governance/evidence/local-network-policy.json`; full offline suite refreshed separately: 174 passed, one existing dependency warning. This is one public HTTPS endpoint, not successful Entra authentication or all-path network assurance. No Azure access or release-gate promotion occurred.
+
+## Authorized Azure read-only verification and Blob recovery
+
+The user explicitly authorized reconnecting to the existing reference deployment for Entra verification and isolated backup recovery, within the USD 100 ceiling and without new paid resources. Read-only checks observed Pulse.Assess and Pulse.Review; inbox/review GET returned 200. Pulse.Close was absent and reviews were empty. [Identity evidence](../governance/evidence/azure-identity-readonly.json).
+
+The actual latest recorded Blob restored into a private local container with 3,150 receipts, 884 reference windows and one alert, preserving counts through default startup/readiness. [Recovery evidence](../governance/evidence/blob-container-recovery.json). Review-table absence and zero closures are explicit limitations. No live mutation or new resource occurred. Automatic approval review rejected the earlier closure-verifier invocation because it could append immutable records; the task proceeded through read-only checks instead. Full host-loss recovery and nonempty workflow-history recovery remain open.
+
+## Repository reconciliation and backup cadence
+
+Updated README, project status, skill review and current backlog to reflect 174 offline tests, local Kubernetes/network evidence, successful real-token review reads and actual Blob-to-container recovery. Preserved pending closure permission, nonempty workflow recovery, host-loss RPO/RTO, capacity and detector/site gates. Read-only VM journal inspection confirmed scheduled service success at 9:30, 10:00 and 10:30 PM Eastern on October 11, 2026. [Cadence evidence](../governance/evidence/azure-backup-cadence.json). Three completions over one hour are not long-term reliability or accepted-record RPO qualification. No live mutation or additional cloud resource occurred.
+
+## Read-only verification tooling and capacity preparation
+
+Added `infra/single-node/verify-live-readonly.py`, executed through pinned SSH without remote installation. Authenticated inbox/review GET returned 200; anonymous GET returned 401. Pulse.Close remains absent and reviews empty. Two offline safeguards passed, verifying GET-only requests, no bodies, no token output and preservation of a review-denial result. [Tests](../governance/evidence/readonly-verifier-tests.xml). This is two focused tests in addition to the previously recorded 174-test full suite, not a newly executed 176-test full suite.
+
+Prepared the [sustained capacity protocol](../runbooks/sustained-capacity-protocol.md). Existing 20-second live load tooling writes durable receipts and was not executed under read-only authorization. The six-hour concentration assumption, storage/backup limits, metrics, stop conditions and required execution authorization are explicit. No live database changes or new cloud resources occurred.
+
+## Bounded local capacity smoke result
+
+Implemented and ran a 60-second loopback synthetic assessment load at 70 offered requests/second with isolated temporary storage. Of 4,200 offered slots, 2,462 completed successfully and 1,738 were dropped by scheduler/queue bounds. Successful throughput was 40.62/second and successful p95 437 ms; persisted receipt count and SQLite integrity matched. Temporary storage was removed. [Evidence](../governance/evidence/local-capacity-smoke.json). The target rate was not sustained; no capacity acceptance follows. This shared-host synthetic run excludes real Entra, full workflow and Azure conditions. No cloud load or live database write occurred.
+
+## Separate-process capacity diagnostic
+
+Moved the local test API to a spawned process and classified drops while preserving the 70/second, 60-second, 4,096-sample workload. Result: 2,636 successful, zero submitted failures, 716 scheduler-late drops and 848 queue-full drops; 43.49 successful requests/second and 407 ms successful p95. Receipt reconciliation and temporary cleanup passed. [Evidence](../governance/evidence/local-capacity-isolated-process.json). This is a single same-host diagnostic, not proof of server-only capacity or a meaningful production improvement. No Azure load, live mutation or gate promotion occurred.
+
+## Capacity timing decomposition
+
+Added harness-only timing of client queue/JSON/HTTP, server handling and store-save duration. The 60-second run completed 2,587 successful persisted requests at 42.56/second, with 1,613 dropped slots. Mean store save was 170.95 ms of 182.62 ms handler time; client queue mean was 525.23 ms. [Evidence](../governance/evidence/local-capacity-timing.json). This supports investigating persistence costs but does not distinguish locking, setup and commit I/O. Historical worker-response percentiles exclude queue wait. No production code/durability change, Azure load or gate promotion occurred.
+
+## Storage operation diagnostic
+
+Instrumented only the local capacity harness, preserving production transaction behavior. The run reconciled all 2,360 submitted receipts with integrity OK and cleaned temporary storage. Achieved 38.80 requests/second; 1,840 offered slots dropped. Repeated PRAGMA and acquisition/INSERT boundaries dominated measured store time; both commit/context exits totaled only 5.78 ms per receipt. [Evidence](../governance/evidence/local-capacity-storage-timing.json) and [interpretation/next experiment](../runbooks/sustained-capacity-protocol.md). No production change, cloud access or release promotion occurred.
+
+## Connection-reuse candidate verification
+
+Added an opt-in, local-only bounded connection pool to the capacity harness; production remains unchanged. Six focused tests passed across experimental and existing storage behavior. Candidate/control runs reconciled 3,374/2,408 receipts and matching commit-evidence rows, with zero submitted failures. Candidate measured 56.23/second and 54.40 ms worker-response p95 versus control 39.59/second and 501.01 ms. Candidate had no queue-full drops but 826 scheduler-late drops. [Comparison, evidence and next work](../runbooks/sustained-capacity-protocol.md). No cloud activity, deployment or capacity/release gate promotion occurred.
+
+## Local scheduling and failure-handling increment
+
+Added opt-in retained scheduling slots and schedule-to-completion measurements to the bounded local harness. Failed pooled connections are discarded; nine focused tests passed including setup, commit and post-receipt evidence-write failure behavior. Candidate run completed all 4,200 offered requests with matching receipt/evidence counts, zero failures/drops and 227.86 ms scheduled-to-completion p95. [Run evidence](../governance/evidence/local-capacity-retained-slots.json), [tests](../governance/evidence/local-capacity-pool-failure-tests.xml), [scope and next work](../runbooks/sustained-capacity-protocol.md). Production code is unchanged; no cloud access or gate promotion occurred.
+
+## Capacity repeat and longer bounded run
+
+Repeated the unchanged one-minute experiment successfully (4,200 requests, no drops/failures, 203.43 ms scheduled-to-completion p95). Added only bounded 60/180-second duration selection to the harness and ran three minutes: 12,560 successful persisted receipts/evidence rows, 40 queue-full drops, zero submitted failures, 335.65 ms scheduled-to-completion p95. Integrity/cleanup passed. [Longer-run evidence](../governance/evidence/local-capacity-three-minute.json) and [comparison/limitations](../runbooks/sustained-capacity-protocol.md). Nine focused tests and repository checks passed. The longer result prevents promotion to sustained no-drop capacity; no production or cloud changes occurred.
+
+## Interval-level capacity diagnostic
+
+Implemented ten-second scheduled-arrival cohorts in the local harness. With no concurrent test suite, 12,584 requests succeeded and 16 slots dropped; all drops were in the 70-80 second cohort, whose pending count reached 32 and schedule-to-completion p95 reached 580.01 ms. Receipt/evidence reconciliation, integrity and cleanup passed. [Evidence](../governance/evidence/local-capacity-intervals.json). This localizes an intermittent saturation episode without proving its cause. Next evaluate serialized writes experimentally; no production/cloud change or capacity gate promotion.
+
+
+## Capacity experiment and repository consolidation
+
+Serialized local writes completed 12,600 requests in the three-minute offered workload with zero drops/failures and 61.81 ms scheduled-to-completion p95; receipt/evidence reconciliation and integrity passed. [Evidence](../governance/evidence/local-capacity-serialized.json). The candidate remains harness-only.
+
+Consolidated current guidance into [project status](../PROJECT_STATUS.md), [engineering backlog](../docs/CURRENT_ENGINEERING_BACKLOG.md) and [capacity status](../docs/CAPACITY_STATUS.md), linked from README. Previous status/backlog snapshots and all experiment evidence are preserved; historical next steps no longer compete with the current backlog. Nine focused tests and repository consistency checks passed. No gate promotion, deployment, commit or push is claimed.
+
+
+## Serialized persistence repeat disposition
+
+The identical local three-minute repeat completed 12,537 requests with 63 queue-full drops and 347.19 ms scheduled-to-completion p95. No submitted failures; receipt/evidence counts, integrity and cleanup passed. [Evidence](../governance/evidence/local-capacity-serialized-repeat.json). The earlier zero-drop result did not repeat; production adoption is deferred pending controlled generator/server measurements. Current disposition updated in [capacity status](../docs/CAPACITY_STATUS.md); no cloud or production change occurred.
+
+
+## Client/server CPU measurement
+
+Added one-second per-process CPU measurements to the local harness. The one-minute diagnostic completed 4,029 requests with 171 drops; submitted receipts/evidence reconciled and integrity/cleanup passed. API averaged 0.972 logical CPUs versus client 0.392, providing a lead for API profiling without proving root cause. [Evidence](../governance/evidence/local-capacity-cpu-diagnostic.json). Production unchanged; see current capacity status for disposition.
+
+
+## Phase 10 demo-readiness handoff, 2026-10-12
+
+Completed full local suite (180 passed), three benchmark-selection functional checks and executable synthetic replay. [Launch, evidence, claims and fallback](10-demo-readiness.md). Ready for a guided offline reference demonstration; meeting disposition, actual customer acceptance and production gates remain open. No Azure connection, deployment or production performance promotion was performed.

@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "observed_at": "2026-10-12T01:57:47.762568+00:00",
+  "context": "docker-desktop",
+  "endpoint": "https://127.0.0.1:58750",
+  "namespace": "pulse-storage-check-a0bf7f56f9",
+  "storage_class": "standard",
+  "image": "docker.io/kindest/local-path-helper:v20230510-486859a6",
+  "synthetic_marker_restored": true,
+  "scope": "Local PVC persistence across pod replacement; not application or host-loss recovery",
+  "temporary_namespace_removed": true
+}

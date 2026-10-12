@@ -1,0 +1,30 @@
+{
+  "observed_at": "20261012T013000Z",
+  "integrity": "ok",
+  "receipt_count": 3150,
+  "backup_sha256": "0ba9fa6c1ef7c8b60c515acac1be817b01f25c888e404a7b9c1b421e839ee825",
+  "bytes": 4677632,
+  "retained_snapshots": 8,
+  "maximum_snapshot_bytes": 52428800,
+  "maximum_retained_snapshots": 48,
+  "off_host": true,
+  "external_notification_sent": false,
+  "offhost_result": {
+    "restored_receipt_count": 3150,
+    "isolated_restore_integrity": "ok",
+    "uploaded_at": "2026-10-12T01:30:00.780462+00:00",
+    "blob": "receipts/slot-03.db",
+    "bytes": 4677632,
+    "sha256": "0ba9fa6c1ef7c8b60c515acac1be817b01f25c888e404a7b9c1b421e839ee825",
+    "off_host": true,
+    "readback_verified": true,
+    "host_loss_rpo_qualified": false
+  },
+  "execution": {
+    "trigger": "systemd timer",
+    "journal_started_at_utc": "2026-10-12T01:30:00Z",
+    "journal_completed_at_utc": "2026-10-12T01:30:01Z",
+    "scheduled_runs_observed": 1,
+    "sustained_cadence_qualified": false
+  }
+}

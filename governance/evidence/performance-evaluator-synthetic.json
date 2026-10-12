@@ -1,0 +1,42 @@
+{
+  "synthetic_only": true,
+  "result": {
+    "policy_version": "detector-performance-v1",
+    "criteria": {
+      "DET-PERF-001": "PASS",
+      "DET-PERF-002": "PASS",
+      "DET-PERF-003": "PASS",
+      "DET-PERF-004": "PASS",
+      "DET-PERF-005": "PASS",
+      "DET-PERF-006": "PASS",
+      "DET-PERF-007": "PASS",
+      "EVIDENCE-REVIEW": "PASS"
+    },
+    "status": "PASS",
+    "event_results": [
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS",
+      "PASS"
+    ],
+    "production_release_authorized": false,
+    "references_independently_verified_by_program": false,
+    "basis": "Supplied evidence and reviewer assertions; reference existence and truth are not verified"
+  }
+}

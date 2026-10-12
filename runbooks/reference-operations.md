@@ -40,3 +40,6 @@ Replay with `python3 /home/pulseadmin/pulse-release/replay-reference-detector.py
 The deployed timer now runs at :00 and :30 UTC; the initial service invocation passed integrity with 3,150 receipts. It retains at most 48 tool-owned snapshots capped at 50 MiB each (2,400 MiB maximum retained snapshot payload, plus temporary files and live database). This is approximately one day at nominal cadence, not seven days. Primary receipts are never pruned by this job. Health monitoring flags backups older than 45 minutes. The installed `/usr/local/sbin/pulse-check-runtime.py` was refreshed, including reconciliation checks; updating only the release-directory copy would not update the timer's executable.
 
 [Backup evidence](../governance/evidence/azure-half-hour-backup.json) and [installed health check](../governance/evidence/azure-half-hour-backup-health.json). Automatic cadence and full rotation have not yet been observed. Off-host export remains manual; host-loss one-hour RPO is NOT established. Next required evidence is automated off-host delivery plus accepted-record recovery reconciliation. No additional paid resources were added.
+
+
+Current off-host update: [automated Blob backup](offhost-backup.md) supersedes earlier manual-only descriptions. Initial readback and isolated SQLite recovery passed; automatic cadence and host-loss RPO qualification remain open.

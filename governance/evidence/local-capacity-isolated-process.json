@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-12T03:02:07.539267+00:00",
+  "scope": "60-second synthetic local HTTP/SQLite smoke load; separate API process on shared host, injected identity, no detector or full alert workflow",
+  "offered_rps": 70,
+  "scheduled_seconds": 60,
+  "offered_requests": 4200,
+  "submitted": 2636,
+  "successful": 2636,
+  "failed": 0,
+  "dropped": 1564,
+  "drop_reasons": {
+    "scheduler_late": 716,
+    "queue_full": 848,
+    "storage_stop": 0
+  },
+  "server_process_isolated": true,
+  "elapsed_seconds": 60.61000000004424,
+  "successful_rps": 43.491173073718464,
+  "successful_p95_ms": 407.00000000651926,
+  "samples_per_request": 4096,
+  "persisted_receipt_count": 2636,
+  "sqlite_integrity": "ok",
+  "final_storage_bytes": 3325952,
+  "peak_sampled_storage_bytes": 7495496,
+  "storage_stop": false,
+  "receipt_reconciliation_passed": true,
+  "daily_capacity_qualified": false,
+  "script_sha256": "574736673de33b4e6e5f5a71550a586b5791f2e28c43169f4b7781d2e1792f6f",
+  "temporary_storage_removed": true
+}

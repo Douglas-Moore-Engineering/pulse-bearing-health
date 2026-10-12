@@ -150,3 +150,40 @@ The user requests bearing-degradation assessments at 1.5 million requests/day, w
 </details>
 
 </details>
+
+
+## Status snapshot before capacity consolidation
+
+# Current project status
+
+Reference system deployed on Azure K3s. Production detector: **NOT_PROMOTED**. This is a fictional-customer demonstration, not site acceptance.
+
+- Authenticated assessment, durable receipts, benchmark anomaly inbox and acknowledgement are deployed and exercised.
+- Pilot intake is exercised live. Read-only review access now succeeds with Pulse.Review in the live token. Pulse.Close remains absent; nonempty review/closure recovery remains unverified.
+- Fictional 12-asset reconciliation is deployed with persistent reports and a timer. Manual execution passed; automatic scheduled execution remains unobserved.
+- Bounded half-hour backups now upload to Azure Blob and verify isolated restoration. Three consecutive automatic service runs completed; actual Blob recovery restored 3,150 receipts. Sustained cadence, complete host replacement and one-hour host-loss RPO remain unqualified.
+- Latest recorded full software suite: 174 passed. Sustained daily capacity, production availability, detector qualification and actual customer validation remain open.
+
+See [README](README.md), [engineering backlog](docs/CURRENT_ENGINEERING_BACKLOG.md), [execution record](customer/08-deployment-execution.md), [skill review](docs/SKILL_COMPLETION_REVIEW.md) and [historical status](PROJECT_HISTORY.md). Records distinguish implemented, tested and approved states; no production gate is promoted by this summary.
+
+Current detector evidence: [consolidated status](data/qualification/DETECTOR_STATUS.md). RMS: INCONCLUSIVE under the complete policy, with the documented missed bearing retained. Paired SCA: FAIL. Neither is promoted.
+
+Local recovery verification passed for restored synthetic receipts, reviews and closures through a fresh process, Docker and Kubernetes PVC/pod replacement. The rendered Deployment's default command and health probes passed; a separate pod verified Service DNS, ClusterIP routing and anonymous-access rejection. Missing tenant/review-storage settings prevented startup in the container checks. See [recovery runbook](runbooks/local-pilot-exercise.md) and [focused Kubernetes evidence](governance/evidence/kubernetes-application-recovery-tests.xml). Temporary resources were removed. Local deny-ingress behavior passed for the tested client-to-Service path. Local outbound TCP 8080 blocking and DNS resolution passed. Private pod-IP TCP 443 exclusion also passed. One certificate-verified public HTTPS path also passed. Other excluded address ranges, real closure-role access, external ingress and Azure host-loss recovery remain unverified; live authenticated review reads passed. These tests do not qualify the detector or production release.
+
+Actual Azure Blob-to-local-container recovery passed for 3,150 receipts, 884 reference windows and one alert. [Evidence](governance/evidence/blob-container-recovery.json). No live database was changed; full Azure host replacement remains open.
+
+Local capacity smoke test did not sustain 70 offered requests/second: 40.62 successful requests/second, 1,738 dropped slots of 4,200, zero submitted-request failures; successful p95 437 ms. Receipt reconciliation passed. [Evidence](governance/evidence/local-capacity-smoke.json). Shared local client/server conditions do not establish Azure capacity.
+
+Separate-process local capacity diagnostic: 43.49 successful requests/second at 70 offered, with 716 scheduler-late and 848 queue-full drops; successful p95 407 ms, all 2,636 receipts persisted. [Evidence](governance/evidence/local-capacity-isolated-process.json). The offered rate remains unmet; client and server bottlenecks are not yet isolated.
+
+Capacity timing diagnostic measured mean store-save 170.95 ms versus handler 182.62 ms; client queue wait averaged 525.23 ms. [Evidence](governance/evidence/local-capacity-timing.json). The storage path is the next investigation target; no production tuning or capacity qualification occurred.
+
+Storage operation diagnostic completed: 2,360 receipts reconciled, zero submitted failures, 38.80 successful requests/second at 70 offered. Per receipt, synchronous PRAGMA boundaries totaled 92.99 ms, explicit BEGIN 35.81 ms, evidence INSERT 39.26 ms and both transaction exits 5.78 ms. [Evidence](governance/evidence/local-capacity-storage-timing.json). Next evaluate connection reuse locally while preserving FULL durability and evidence semantics; no production tuning or capacity gate promotion occurred.
+
+Connection-reuse candidate remains harness-only. Matched-script local comparison measured 56.23 successful requests/second versus 39.59 control, response p95 54.40 versus 501.01 ms, and zero versus 1,106 queue-full drops. All receipts and evidence rows reconciled; six focused storage tests passed. [Comparison and limits](runbooks/sustained-capacity-protocol.md). Candidate still dropped 826 scheduler slots, so 70/second remains unqualified. Next isolate generator scheduling and harden pool failure/lifecycle behavior before production adoption.
+
+The harness-only pooled candidate completed all 4,200 requests in a 60-second, 70/second offered workload with zero failures/drops; 4,200 receipts and evidence rows reconciled. Scheduled-to-completion p95 was 227.86 ms; completion including drain took 60.031 seconds. [Evidence](governance/evidence/local-capacity-retained-slots.json). Nine focused storage/failure tests passed. This is one successful local minute, not daily/Azure capacity qualification or a production deployment. Next repeat for variability and plan lifecycle-safe integration and an isolated soak.
+
+Capacity repeat and extension: a second local minute completed all 4,200 requests with zero drops; the subsequent three-minute run completed 12,560 of 12,600 offered slots, dropping 40 at the queue bound. Submitted failures were zero, receipt/evidence reconciliation passed and scheduled-to-completion p95 was 335.65 ms. [Evidence](governance/evidence/local-capacity-three-minute.json). Sustained no-drop capacity remains unqualified; next isolate generator contention and instrument interval-level queue/lock behavior. Production persistence is unchanged.
+
+Interval-level local run localized all 16 queue-full drops to the 70-80 second cohort (32 pending; scheduled-to-completion p95 580.01 ms). Overall 12,584 receipts and evidence rows reconciled, with zero submitted failures. [Evidence](governance/evidence/local-capacity-intervals.json). Intermittent saturation persists without a concurrent test suite; shared-host root cause remains unresolved. Next compare serialized writes locally, retaining durability; production unchanged.

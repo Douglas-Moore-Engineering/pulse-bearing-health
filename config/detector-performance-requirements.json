@@ -1,0 +1,24 @@
+{
+  "version": "detector-performance-v1",
+  "status": "PROPOSED_FICTIONAL_CUSTOMER_REQUIREMENTS",
+  "fictional": true,
+  "basis": "Derived from fictional-customer-v1; additional evaluation criteria are engineering proposals, not accepted site requirements",
+  "parent_requirements": [
+    "PULSE-FR-003",
+    "PULSE-FR-004",
+    "PULSE-NFR-008",
+    "AIG-REQ-001"
+  ],
+  "warning_target_minutes": 60,
+  "missed_documented_failure_target": 0,
+  "nuisance_alert_limit_per_bearing_720_operating_hours": 1,
+  "eligible_window_decision_coverage_minimum": 0.95,
+  "minimum_independent_failure_events": 20,
+  "minimum_healthy_operating_hours_per_evaluated_bearing": 720,
+  "minimum_healthy_bearings": 3,
+  "unsupported_regime_abstention_required": true,
+  "unresolved_alerts_count_as_nuisance_for_acceptance": true,
+  "thresholds_frozen_before_holdout": true,
+  "statistical_generalization_claim_authorized": false,
+  "production_release_authorized": false
+}

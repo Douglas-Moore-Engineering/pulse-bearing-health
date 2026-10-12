@@ -1,0 +1,36 @@
+{
+  "result": "PASS",
+  "observed_at": "2026-10-12T02:46:26.322701+00:00",
+  "source": {
+    "backup": {
+      "restored_receipt_count": 3150,
+      "isolated_restore_integrity": "ok",
+      "uploaded_at": "2026-10-12T02:30:00.781099+00:00",
+      "blob": "receipts/slot-05.db",
+      "bytes": 4677632,
+      "sha256": "0ba9fa6c1ef7c8b60c515acac1be817b01f25c888e404a7b9c1b421e839ee825",
+      "off_host": true,
+      "readback_verified": true,
+      "host_loss_rpo_qualified": false
+    },
+    "source_url": "https://stpulsebackupb31e9bd1.blob.core.windows.net/receipts/receipts/slot-05.db"
+  },
+  "snapshot_sha256": "0ba9fa6c1ef7c8b60c515acac1be817b01f25c888e404a7b9c1b421e839ee825",
+  "counts": {
+    "api_assessments": 3150,
+    "reference_windows": 884,
+    "alerts": 1,
+    "reviews": 0,
+    "alert_closures": 0
+  },
+  "container_image": "pulse-api:sha256-c21a6fd0df51b1e3ca9e90a7b0b7968aab477dc4893430969ed0d854690436c2",
+  "default_command_ready": true,
+  "counts_preserved_after_startup": true,
+  "container_removed": true,
+  "tables_absent_in_snapshot": [
+    "reviews"
+  ],
+  "live_database_modified": false,
+  "cloud_resources_created": false,
+  "limits": "Blob-to-local isolated container recovery; no Azure host-loss RTO/RPO or authenticated workflow verification"
+}

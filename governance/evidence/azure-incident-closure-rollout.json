@@ -1,0 +1,20 @@
+{
+  "imageId": "sha256:c21a6fd0df51b1e3ca9e90a7b0b7968aab477dc4893430969ed0d854690436c2",
+  "imageTag": "pulse-api:sha256-c21a6fd0df51b1e3ca9e90a7b0b7968aab477dc4893430969ed0d854690436c2",
+  "archiveSha256": "02adab1849bf27ab5630d09547dcc109cb6d73d231892b63257086c6835d7d87",
+  "manifestsSha256": "057753c374ae21c3c0b0bb8bc16395743a0354cf686089f22f2bfc66637db4b9",
+  "scope": "single-node reference; qualified alerts unavailable",
+  "cloudDeployed": true,
+  "serverSideValidated": true,
+  "readyReplicas": 1,
+  "assessmentReplayPassed": true,
+  "anonymousClosureStatus": 401,
+  "authenticatedClosureStatus": 403,
+  "rolesObserved": [
+    "Pulse.Assess"
+  ],
+  "closureRoleAssigned": true,
+  "nonemptyClosureRecoveryTested": false,
+  "executedAtUtc": "2026-10-12T01:22:52Z",
+  "additionalPaidResourcesCreated": false
+}

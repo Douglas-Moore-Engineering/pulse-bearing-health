@@ -1,0 +1,91 @@
+{
+  "scope": "Consumed recorded evidence audit; no training or holdout access",
+  "ldm": [
+    {
+      "source": "ldm_b04-rms-v2-validation.json",
+      "source_sha256": "bd9b4ee60b76226ebd7e414cf93d3d36a04a99924dddea8e8872397c08059e20",
+      "reference_count": 100,
+      "monitoring_count": 964,
+      "reference_start": "2021-11-17T12:55:27",
+      "reference_end": "2021-11-17T13:26:01",
+      "monitoring_start": "2021-11-17T13:26:18",
+      "baseline_median_reproduced": true,
+      "baseline_precedes_monitoring": true,
+      "reference_setpoint_ranges": [
+        [
+          1523.23068845403,
+          2968.02097446174
+        ],
+        [
+          529.220277562146,
+          1493.97550862571
+        ]
+      ],
+      "exact_reference_setpoint_pair_count": 100,
+      "monitoring_unseen_setpoint_records": 964,
+      "early_reference_verified_healthy": false,
+      "physical_failure_endpoint_verified": false
+    },
+    {
+      "source": "ldm-B12-rms-v2-final.json",
+      "source_sha256": "031f95d7f3bb3702a2ed03311615165b59586597b9e57560bf86ca17523b845b",
+      "reference_count": 100,
+      "monitoring_count": 667,
+      "reference_start": "2022-08-24T08:49:23",
+      "reference_end": "2022-08-24T09:09:11",
+      "monitoring_start": "2022-08-24T09:09:23",
+      "baseline_median_reproduced": true,
+      "baseline_precedes_monitoring": true,
+      "reference_setpoint_ranges": [
+        [
+          1513.07951534728,
+          2691.10843082145
+        ],
+        [
+          1000.0,
+          1000.0
+        ]
+      ],
+      "exact_reference_setpoint_pair_count": 100,
+      "monitoring_unseen_setpoint_records": 667,
+      "early_reference_verified_healthy": false,
+      "physical_failure_endpoint_verified": false
+    },
+    {
+      "source": "ldm-B17-rms-v2-final.json",
+      "source_sha256": "c93345134034d3b29e29b885bd5b83c8c0daf1767cdd1df2f27d9099fb7f221c",
+      "reference_count": 100,
+      "monitoring_count": 2633,
+      "reference_start": "2022-11-04T09:02:50",
+      "reference_end": "2022-11-04T09:37:17",
+      "monitoring_start": "2022-11-04T09:37:42",
+      "baseline_median_reproduced": true,
+      "baseline_precedes_monitoring": true,
+      "reference_setpoint_ranges": [
+        [
+          2700.0,
+          2700.0
+        ],
+        [
+          1500.0,
+          1500.0
+        ]
+      ],
+      "exact_reference_setpoint_pair_count": 1,
+      "monitoring_unseen_setpoint_records": 0,
+      "early_reference_verified_healthy": false,
+      "physical_failure_endpoint_verified": false
+    }
+  ],
+  "ims": {
+    "source_sha256": "7c35a902f9ddcf30a4a388f09eea52988b6e06c5072d6401e7d7de9e6fe0bfd0",
+    "baseline_snapshots": 100,
+    "monitoring_snapshots": 2056,
+    "gaps_above_limit": 24,
+    "chronology_basis": "Existing executed report and first-100 baseline protocol; native inventory not replayed in this audit",
+    "verified_healthy_reference": false,
+    "physical_endpoint_timing_verified": false
+  },
+  "code_sha256": "7f937b14117c3328b878d98fe7a70477fee5ba105a05a748a14cc757473f52da",
+  "production_release_authorized": false
+}

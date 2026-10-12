@@ -1,0 +1,12 @@
+{
+  "candidate": "b17-trailing-median-v1",
+  "scope": "Consumed B17 development only",
+  "reference_records": 100,
+  "trailing_records": 15,
+  "threshold_ratio": 1.5,
+  "consecutive_records": 3,
+  "maximum_gap_seconds": 900,
+  "channel_rule": "Either channel independently satisfies persistence",
+  "warmup": "Require full trailing window after start or gap",
+  "qualification": false
+}

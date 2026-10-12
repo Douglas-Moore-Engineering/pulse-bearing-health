@@ -1,0 +1,80 @@
+{
+  "result": "PASS",
+  "pid": 10,
+  "transport": "HTTP loopback",
+  "synthetic_identity": true,
+  "default_deployment_recovered": true,
+  "service_dns_and_routing_verified": true,
+  "network_policy": {
+    "attempts": [
+      {
+        "error_type": "URLError",
+        "blocked": true
+      },
+      {
+        "error_type": "URLError",
+        "blocked": true
+      },
+      {
+        "error_type": "URLError",
+        "blocked": true
+      }
+    ],
+    "ingress_denied": true,
+    "baseline_service_reachable": true,
+    "target_healthy_after_policy": true,
+    "egress_attempts": [
+      {
+        "port": 8080,
+        "blocked": true,
+        "error_type": "TimeoutError"
+      },
+      {
+        "port": 8080,
+        "blocked": true,
+        "error_type": "TimeoutError"
+      },
+      {
+        "port": 8080,
+        "blocked": true,
+        "error_type": "TimeoutError"
+      },
+      {
+        "port": 443,
+        "blocked": true,
+        "error_type": "TimeoutError"
+      },
+      {
+        "port": 443,
+        "blocked": true,
+        "error_type": "TimeoutError"
+      },
+      {
+        "port": 443,
+        "blocked": true,
+        "error_type": "TimeoutError"
+      }
+    ],
+    "private_egress_denied": true,
+    "dns_resolution_after_policy": true,
+    "egress_target_reachable_before_and_after": true,
+    "target_pod_ip": "10.244.0.65",
+    "scope": "Local Service ingress, private pod-IP TCP 8080/443 egress, DNS and one certificate-verified public HTTPS endpoint; other paths untested",
+    "public_https": {
+      "url": "https://docs.python.org/3/",
+      "status": 200,
+      "bytes_sampled": 1024,
+      "resolved_addresses": [
+        "167.82.48.223",
+        "2a04:4e42:f000::223"
+      ],
+      "certificate_verification": true,
+      "proxy_disabled": true,
+      "redirects_disabled": true
+    }
+  },
+  "application_recovery_result": "PASS",
+  "namespace_removed": true,
+  "pod_replaced": true,
+  "storage_class": "standard"
+}

@@ -1,0 +1,30 @@
+{
+  "policy_version": "detector-performance-v1",
+  "events": [],
+  "healthy_blocks": [],
+  "regimes": [],
+  "evidence_review": {
+    "satisfied": null,
+    "references": []
+  },
+  "limitations": [
+    "No verified 720-hour healthy exposure blocks",
+    "No sufficient independent event timing dossier",
+    "No independent acceptance review"
+  ],
+  "candidate": "frozen-3x-rms",
+  "source_observations": {
+    "documented_damaged_bearings": [
+      3,
+      4
+    ],
+    "bearing4_flagged_snapshots": 0,
+    "bearing3_record_end_lead_minutes": 10,
+    "record_end_is_not_verified_failure_endpoint": true,
+    "clock_timezone_unqualified": true
+  },
+  "source_files": {
+    "governance/evidence/ims-run1-independent.json": "7c35a902f9ddcf30a4a388f09eea52988b6e06c5072d6401e7d7de9e6fe0bfd0",
+    "data/qualification/ims-independent-results.md": "7328a0f8e3d8714f8345e6b9ee53085d8f720f0069984d1656395f7a813564c0"
+  }
+}

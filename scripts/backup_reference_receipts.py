@@ -38,6 +38,7 @@ def main():
     parser.add_argument('--private-dir', type=Path, default=Path('outputs/private/pulse-deployment'))
     parser.add_argument('--evidence', type=Path, required=True)
     parser.add_argument('--minimum-reviews', type=int, default=0)
+    parser.add_argument('--minimum-closures', type=int, default=0)
     args = parser.parse_args()
     root = args.private_dir.resolve()
     if not (root/'operator.key').is_file() or not (root/'known_hosts').is_file():
@@ -78,6 +79,10 @@ def main():
                 raise ValueError('Restored review history differs or required reviews are absent')
             if target.execute('PRAGMA foreign_key_check').fetchall():
                 raise ValueError('Restored database has broken foreign-key references')
+            closures = target.execute('SELECT * FROM alert_closures ORDER BY event_id').fetchall() if 'alert_closures' in tables else []
+            source_closures = source.execute('SELECT * FROM alert_closures ORDER BY event_id').fetchall() if 'alert_closures' in tables else []
+            if closures != source_closures or len(closures) < args.minimum_closures:
+                raise ValueError('Restored closures differ or required closures are absent')
         finally:
             target.close()
             source.close()
@@ -88,6 +93,7 @@ def main():
               'acknowledged_episodes': acknowledgements,
               'review_count': len(review_rows), 'review_history_matches_backup': review_rows == original_reviews,
               'nonempty_review_recovery_tested': bool(review_rows),
+              'closure_count': len(closures), 'nonempty_closure_recovery_tested': bool(closures),
               'live_database_replaced': False, 'scheduled_backup': False,
               'limits': 'Manual operator backup; no disaster RTO/RPO or automated retention claimed'}
     args.evidence.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')

@@ -1,0 +1,70 @@
+{
+  "policy_version": "detector-performance-v1",
+  "events": [],
+  "healthy_blocks": [],
+  "regimes": [
+    {
+      "regime": "1/DS",
+      "eligible": 117,
+      "abstentions": 13,
+      "excluded": 7,
+      "inventory_reference": "governance/evidence/sca-paired-development.json"
+    },
+    {
+      "regime": "1/FS",
+      "eligible": 126,
+      "abstentions": 22,
+      "excluded": 9,
+      "inventory_reference": "governance/evidence/sca-paired-development.json"
+    },
+    {
+      "regime": "2/DS",
+      "eligible": 94,
+      "abstentions": 3,
+      "excluded": 0,
+      "inventory_reference": "governance/evidence/sca-paired-development.json"
+    },
+    {
+      "regime": "2/FS",
+      "eligible": 296,
+      "abstentions": 205,
+      "excluded": 0,
+      "inventory_reference": "governance/evidence/sca-paired-development.json"
+    },
+    {
+      "regime": "11/DS",
+      "eligible": 19,
+      "abstentions": 0,
+      "excluded": 0,
+      "inventory_reference": "governance/evidence/sca-paired-development.json"
+    },
+    {
+      "regime": "11/FS",
+      "eligible": 19,
+      "abstentions": 0,
+      "excluded": 0,
+      "inventory_reference": "governance/evidence/sca-paired-development.json"
+    }
+  ],
+  "evidence_review": {
+    "satisfied": null,
+    "references": []
+  },
+  "limitations": [
+    "No verified 720-hour healthy exposure blocks",
+    "No sufficient independent event timing dossier",
+    "No independent acceptance review"
+  ],
+  "candidate": "sca-paired-development",
+  "independent_causal_protocol": {
+    "satisfied": false,
+    "references": [
+      "data/qualification/detector-candidate-disposition.md"
+    ],
+    "reason": "Post-hoc consumed-case development; future-neighbour pairing and retrospective calibration"
+  },
+  "source_files": {
+    "governance/evidence/sca-paired-development.json": "d64a5fe0b049211098ac41ee1e200dd8a7167bfad50d81e3867c8edf1aa2b68f",
+    "data/qualification/detector-candidate-disposition.md": "db90afdea51b091aa8581d1ac93886dcc053278d6673f08bf2b86f094f7c22fa"
+  }
+}

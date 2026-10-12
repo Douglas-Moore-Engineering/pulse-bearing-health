@@ -1,5 +1,7 @@
 # Customer demonstration and pilot preparation
 
+Start with the [verified launch checklist](10-demo-readiness.md) for current Phase 10 preparation and evidence.
+
 Prepared 2026-10-11. **Ready for a guided benchmark demonstration and discovery meeting. Not approved for live customer telemetry or production maintenance decisions.** The customer scenario and acceptance targets are fictional assumptions. No customer, independent reviewer or site operator has signed acceptance.
 
 ## What the customer can see

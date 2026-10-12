@@ -28,6 +28,7 @@ try:
     backup = json.loads(Path('/var/lib/pulse-ops/backup-status.json').read_text())
     observed = datetime.strptime(backup['observed_at'], '%Y%m%dT%H%M%SZ').replace(tzinfo=timezone.utc)
     age = (datetime.now(timezone.utc)-observed).total_seconds()
+    checks['offhost_backup_verified'] = backup.get('off_host') is True and backup.get('offhost_result',{}).get('readback_verified') is True
     checks['recent_local_backup'] = backup['integrity'] == 'ok' and 0 <= age <= 45*60
 except Exception:
     checks['recent_local_backup'] = False
