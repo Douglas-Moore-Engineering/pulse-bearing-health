@@ -1,0 +1,27 @@
+{
+  "scope": "Real benchmark-feature replay; unqualified detector; fictional local inbox",
+  "windows": 884,
+  "flagged_windows": 17,
+  "unique_episodes": 1,
+  "first_flag_source_timestamp": "2004.02.19.03.22.39",
+  "source_timezone": "unknown",
+  "receipt_replay_identical": true,
+  "acknowledgement_replay_identical": true,
+  "acknowledgement_actor": "automated reference client; not a human acceptance",
+  "seconds": 16.947471896000934,
+  "p95_ms": 36.0877180009993,
+  "feature_replay_sha256": "779791292429d6aed149dcbbce290ad2352abef3978df78e0114a236bcfb973a",
+  "qualified_detector": false,
+  "external_notification_sent": false,
+  "daily_capacity_qualified": false,
+  "executed_at": "2026-10-11T20:25:12.038822+00:00",
+  "release": {
+    "imageId": "sha256:effef159e0181527be4cff3ffcf5adacd65c4b5a52ca28f48649b28861fb7dc9",
+    "imageTag": "pulse-api:sha256-effef159e0181527be4cff3ffcf5adacd65c4b5a52ca28f48649b28861fb7dc9",
+    "archiveSha256": "9e32a038f1e28769170f12c9a464b57148b16310847b46921beb73f7d9d2eb06",
+    "manifestsSha256": "a24358c19ea7d231224f764ef67ccc068791944700ed5e800aebf723c6cb453d",
+    "scope": "single-node reference; qualified alerts unavailable",
+    "cloudDeployed": true,
+    "serverSideValidated": true
+  }
+}

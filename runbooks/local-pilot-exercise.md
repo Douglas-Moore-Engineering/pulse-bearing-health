@@ -1,0 +1,11 @@
+# Synthetic component integration and recovery
+
+Run `python scripts/exercise_local_pilot.py`. The harness uses tool-created temporary synthetic databases, never the deployed receipt database. It validates 1,000 generated intake windows, writes 1,000 unresolved reviewer assertions, appends 100 synthetic corrections, takes a SQLite online backup and restores into a separate database. Every subject history must compare equal after recovery, including UUIDs, timestamps, original outcomes and corrections. SQLite integrity must return `ok`.
+
+The retention dry run uses an explicitly hypothetical 2030 assessment date and 30-day policy solely to exercise branch behavior: 900 unresolved subjects remain retained and 100 corrected subjects become review-eligible. No records are deleted. Supplied export/hold assertions in this synthetic scenario are fixtures, not a production disposition.
+
+[Executed evidence](../governance/evidence/local-pilot-integration.json): 1,100 review rows restored exactly; 262,144-byte database; approximately 6.64 seconds for the sequential workload and 0.118 seconds for isolated restore/verification. These measurements exclude HTTP, authentication, waveforms of realistic size, detector computation, network, Azure and prolonged disk growth. They do not establish the 1.5-million-request/day capacity target, host-loss RTO/RPO or a customer SLA.
+
+The first execution reached temporary-directory cleanup but failed because SQLite context managers did not close database handles on Windows. The harness was corrected to explicitly close backup/restore connections, then the complete exercise passed. Its evidence file is emitted only after successful cleanup. Temporary databases contain generated data; an initial failed-run temporary directory may remain outside the repository.
+
+This connects local library components in a reproducible harness; it is not a deployed application integration. Authenticated reviewers, durable intake storage, managed quarantine, live retention metadata, automated off-host recovery and sustained API workload testing remain open. Latest full unit suite remains 129 passed; this separate exercise does not increase that test count. No detector promotion occurred.

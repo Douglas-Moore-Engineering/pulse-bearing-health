@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-11T20:00:45.539528+00:00",
+  "method": "SSH execution of existing verify-live-api.py on deployed VM",
+  "authenticatedRequest": "passed",
+  "managedIdentityTokenVerified": true,
+  "persisted": true,
+  "replayedSameReceipt": true,
+  "anonymousStatus": 401,
+  "assessmentId": "2eaeb8f96551ff62d9188ae937f732c3da4bd4a9a6226a43a0dafdad431f858a",
+  "qualifiedAlertsAvailable": false,
+  "fixtureOnly": true
+}

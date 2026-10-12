@@ -1,0 +1,22 @@
+{
+  "authenticatedRequest": "passed",
+  "managedIdentityTokenVerified": true,
+  "persisted": true,
+  "replayedSameReceipt": true,
+  "anonymousStatus": 401,
+  "crossAssetStatus": 403,
+  "assessmentId": "2eaeb8f96551ff62d9188ae937f732c3da4bd4a9a6226a43a0dafdad431f858a",
+  "qualifiedAlertsAvailable": false,
+  "fixtureOnly": true,
+  "executed_at": "2026-10-11T20:10:51.496519+00:00",
+  "release": {
+    "imageId": "sha256:94f13d008a56d80312d7730dae9c918f734627105d533804b32edc0fb88c7579",
+    "imageTag": "pulse-api:sha256-94f13d008a56d80312d7730dae9c918f734627105d533804b32edc0fb88c7579",
+    "archiveSha256": "55984709fc47b1e5dfc31712473e1ab882ee905363e11004ec84a5907a5a7835",
+    "manifestsSha256": "21a632febcc2a6554a82b723dd1e26ef892e8f1d356762b156a24f43cadc2ad0",
+    "scope": "single-node reference; qualified alerts unavailable",
+    "cloudDeployed": true,
+    "serverSideValidated": true
+  },
+  "initial_post_rollout_attempt": "Nonzero exit; stderr was not retained by the first wrapper. Subsequent direct and recorded retries passed; cause not established."
+}

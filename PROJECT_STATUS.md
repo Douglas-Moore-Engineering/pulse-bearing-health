@@ -1,20 +1,11 @@
-# Project Status
+# Current project status
 
-PULSE pre-Azure review v0.3 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+Reference system deployed on Azure K3s. Production detector: **NOT_PROMOTED**. This is a fictional-customer demonstration, not site acceptance.
 
-Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
+- Authenticated assessment, durable receipts, benchmark anomaly inbox and acknowledgement are deployed and exercised.
+- Pilot intake is exercised live. Review routes are deployed; reviewer-role token propagation and nonempty review recovery remain unverified.
+- Fictional 12-asset reconciliation is deployed with persistent reports and a timer. Manual execution passed; automatic scheduled execution remains unobserved.
+- Local backups run every 30 minutes with bounded retention. Private off-host recovery passed for 3,150 receipts; off-host automation and one-hour host-loss RPO remain open.
+- Latest recorded full software suite: 143 passed. Sustained daily capacity, production availability, detector qualification and actual customer validation remain open.
 
-| Subject | Evidence state |
-|---|---|
-| Customer discovery | Fictional record v1.1; new planning supplements do not create approval |
-| Lifecycle cost | PULSE-LCC-001 v0.1; WBS prepared; sourcing/TCO/ROI unresolved |
-| Standards/SEMP | Public summary-based mapping and plans prepared for review |
-| Requirements | 24 candidate requirements with trace and planned V&V |
-| Architecture | 13 proposed views; MLOps/release/topology expanded; four further views remain backlog; 9 proposed ADRs |
-| Data | Bronze/Silver/Gold design and layer register prepared; sources/contracts remain unqualified |
-| ML/application | Candidate/evaluation plan only; no trained models or runtime implementation |
-| DME skills / VS Code | Five complete repository packages and explicit inventory added 2026-10-11; offline package checks passed; discovery on the user's IDE must be confirmed there |
-| Azure | Not connected or provisioned; entry BLOCKED; user stop boundary active |
-| Site/production | No actual site, operational validation or acceptance |
-
-The package is review-ready as documentation. It is not an approved architecture, passed data/model gate, independent assurance, certification or production deployment. See PRE_AZURE_REVIEW.md and cloud-entry conditions.
+See [README](README.md), [engineering backlog](docs/CURRENT_ENGINEERING_BACKLOG.md), [execution record](customer/08-deployment-execution.md), [skill review](docs/SKILL_COMPLETION_REVIEW.md) and [historical status](PROJECT_HISTORY.md). Records distinguish implemented, tested and approved states; no production gate is promoted by this summary.

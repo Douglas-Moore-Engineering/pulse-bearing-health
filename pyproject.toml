@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulse-bearing-health"
+version = "0.4.0"
+description = "Offline bearing-health reference workflow; not site validated"
+requires-python = ">=3.10"
+dependencies = ["jsonschema==4.26.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+data = ["numpy==2.2.6", "scipy==1.15.3"]
+api = ["fastapi==0.143.0", "uvicorn==0.54.0", "PyJWT[crypto]==2.15.1", "httpx==0.28.1", "prometheus-client==0.26.0"]
+deploy = ["PyYAML==6.0.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

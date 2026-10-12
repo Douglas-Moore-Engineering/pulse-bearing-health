@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-11",
+  "region": "eastus2",
+  "method": "az vm list-skus --location eastus2 --size Standard_B2 --all",
+  "subscriptionId": "b31e9bd1-6179-4504-819b-f212ed36f609",
+  "results": [
+    {
+      "sku": "Standard_B2s",
+      "restriction": "NotAvailableForSubscription",
+      "scope": "Location and all zones"
+    },
+    {
+      "sku": "Standard_B2als_v2",
+      "restriction": "NotAvailableForSubscription",
+      "scope": "Location and all zones"
+    },
+    {
+      "sku": "Standard_B2as_v2",
+      "restriction": "NotAvailableForSubscription",
+      "scope": "Location and all zones"
+    }
+  ],
+  "quotaEvidence": "aks-preflight.json",
+  "regionalVcpuAvailable": 10,
+  "standardBSFamilyAvailable": 10,
+  "standardBasv2FamilyQuota": "not present in returned quota list; not verified",
+  "resourcesCreated": false
+}

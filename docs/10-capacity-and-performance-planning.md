@@ -15,3 +15,7 @@ Reference batches use actual source inventories and measured file sizes rather t
 Recovery: buffer requirement = measured incoming bytes/second × tolerated collection outage; central RPO does not imply edge data protection. RTO covers identity, network, storage, model/manifest and operator recovery. No SKU, GPU or cluster size is selected from unmeasured workloads.
 
 Measure file counts/bytes, samples/sec, window counts, RAM peak, CPU/GPU use, scoring/training latency, retention footprint and egress before Azure sizing. Capacity and cost are BLOCKED pending those measurements; code formulas are not deployment-scale evidence.
+
+## Current Kubernetes workload increment
+
+See [AKS capacity and release](AKS_CAPACITY_AND_RELEASE.md) for the user-supplied daily volume and six-hour peak, local load experiments, quota restrictions and cost floors. The historical 12-asset formulas above remain contextual and do not establish the new request mix.

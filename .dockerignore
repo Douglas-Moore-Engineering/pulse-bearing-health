@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!pyproject.toml
+!requirements/
+!requirements/aks-api.lock.txt
+!src/
+!src/pulse/
+!src/pulse/*.py
+!data/
+!data/contracts/
+data/*
+!data/contracts/
+data/contracts/*
+!data/contracts/vibration-window.schema.json

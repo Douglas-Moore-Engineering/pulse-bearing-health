@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-11",
+  "resourceGroup": "rg-pulse-reference",
+  "vm": "vm-pulse-k3s",
+  "region": "eastus2",
+  "zone": "1",
+  "sku": "Standard_D2as_v6",
+  "state": "Succeeded",
+  "publicIp": "20.55.240.61",
+  "monthlyCeilingUsd": 100,
+  "monthlyEstimateUsd": 80.4253,
+  "runtimeInstalled": false
+}

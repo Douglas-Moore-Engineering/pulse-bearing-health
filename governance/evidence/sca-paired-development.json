@@ -1,0 +1,121 @@
+{
+  "scope": "Post-hoc paired development on consumed cases 1/2/11; no independent validation",
+  "rule": "Mutual nearest within 60 seconds; positive only when max threshold-normalized feature exceeds 1 and is greater than opposite-side score; ties negative; unmatched abstain",
+  "code_sha256": "d01b21b5a4b1fc72a8dbea5b42e33ff88c21d3fbccaa7254cf40edcb121990c1",
+  "results": [
+    {
+      "case": "1",
+      "placement": "DS",
+      "total": 124,
+      "paired": 104,
+      "tp": 98,
+      "fn": 6,
+      "fp": 0,
+      "tn": 0,
+      "abstain_fault": 13,
+      "abstain_normal": 0,
+      "excluded": 7,
+      "original_on_same_pairs": {
+        "tp": 99,
+        "fn": 5,
+        "fp": 0,
+        "tn": 0
+      }
+    },
+    {
+      "case": "1",
+      "placement": "FS",
+      "total": 135,
+      "paired": 104,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 103,
+      "abstain_fault": 0,
+      "abstain_normal": 22,
+      "excluded": 9,
+      "original_on_same_pairs": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 11,
+        "tn": 93
+      }
+    },
+    {
+      "case": "2",
+      "placement": "DS",
+      "total": 94,
+      "paired": 91,
+      "tp": 86,
+      "fn": 5,
+      "fp": 0,
+      "tn": 0,
+      "abstain_fault": 3,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "original_on_same_pairs": {
+        "tp": 89,
+        "fn": 2,
+        "fp": 0,
+        "tn": 0
+      }
+    },
+    {
+      "case": "2",
+      "placement": "FS",
+      "total": 296,
+      "paired": 91,
+      "tp": 0,
+      "fn": 0,
+      "fp": 3,
+      "tn": 88,
+      "abstain_fault": 0,
+      "abstain_normal": 205,
+      "excluded": 0,
+      "original_on_same_pairs": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 72,
+        "tn": 19
+      }
+    },
+    {
+      "case": "11",
+      "placement": "DS",
+      "total": 19,
+      "paired": 19,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 18,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "original_on_same_pairs": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 18
+      }
+    },
+    {
+      "case": "11",
+      "placement": "FS",
+      "total": 19,
+      "paired": 19,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 19,
+      "abstain_fault": 0,
+      "abstain_normal": 0,
+      "excluded": 0,
+      "original_on_same_pairs": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 19
+      }
+    }
+  ]
+}

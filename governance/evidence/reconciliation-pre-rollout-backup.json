@@ -1,0 +1,18 @@
+{
+  "executed_at": "20261012T002051Z",
+  "online_backup": true,
+  "off_host_copy": true,
+  "isolated_restore_integrity": "ok",
+  "receipt_count": 3149,
+  "backup_sha256": "1ed21d6961589d3c15d44b7bfc315e568a3d23e9054c09011e49f1473b788785",
+  "bytes": 4661248,
+  "reference_windows": 884,
+  "alert_episodes": 1,
+  "acknowledged_episodes": 1,
+  "review_count": 0,
+  "review_history_matches_backup": true,
+  "nonempty_review_recovery_tested": false,
+  "live_database_replaced": false,
+  "scheduled_backup": false,
+  "limits": "Manual operator backup; no disaster RTO/RPO or automated retention claimed"
+}

@@ -1,0 +1,50 @@
+%% Reference detector and simulated inbox | No production qualification
+flowchart TD
+subgraph sourcezone["Offline benchmark preparation"]
+ source["IMS run 2 snapshots"]
+ prepare["Verify hashes and derive RMS"]
+end
+subgraph accesszone["Authenticated reference client"]
+ replay["Managed-identity replay"]
+ auth["Entra token and asset grants"]
+end
+subgraph runtime["K3s reference-only workflow"]
+ rule["Frozen RMS and ordered state"]
+ decision{"Three exceedances?"}
+ receipts[("Decision receipts")]
+ inbox[("Simulated maintenance inbox")]
+end
+subgraph operations["Acknowledgement and recovery"]
+ ack["Authenticated client acknowledgement"]
+ audit[("Persistent acknowledgement")]
+ backup[("Bounded local backups")]
+end
+source -->|"native measurements"| prepare
+prepare -->|"RMS + hashes"| replay
+replay -->|"reference request"| auth
+auth -->|"authorized asset"| rule
+rule -->|"ratio and streak"| decision
+decision -->|"no: record no flag"| receipts
+decision -->|"yes: one episode"| inbox
+inbox -->|"atomic commit"| receipts
+inbox -->|"scoped event lookup"| ack
+ack -->|"idempotent record"| audit
+receipts -->|"SQLite snapshot"| backup
+audit -->|"same database"| backup
+class source,replay,ack source
+class prepare data
+class auth security
+class rule model
+class decision policy
+class receipts,inbox,audit,backup evidence
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style sourcezone fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style accesszone fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style runtime fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style operations fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

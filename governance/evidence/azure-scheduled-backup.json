@@ -1,0 +1,11 @@
+{
+  "observed_at": "20261011T201648Z",
+  "integrity": "ok",
+  "receipt_count": 3149,
+  "backup_sha256": "7fdcd76e1e5040af9c7e8a2add1437815c04fd51e539a49d584a3a333b495684",
+  "bytes": 3768320,
+  "retained_snapshots": 1,
+  "maximum_snapshot_bytes": 52428800,
+  "off_host": false,
+  "external_notification_sent": false
+}

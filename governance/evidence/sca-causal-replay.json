@@ -1,0 +1,42 @@
+{
+  "scope": "Causal context replay of frozen binary decisions; no new detector or accuracy improvement",
+  "equal_timestamp_order": "DS before FS, deterministic replay convention not acquisition-order evidence",
+  "source_sha256": "1f5ca107642787095ccef4cbeb2605a4f63b7efd89156bbb8db99fafe4dfccaf",
+  "code_sha256": "571b3cc52c285e935ba5b9e0b32e3e54f992c762ba0880db1cde275e96a3ff9d",
+  "component_sha256": "632273625ce9acdac0689fbcbc193489e6f158e536fa1090806bd46ae649629b",
+  "all_decisions_preserved": true,
+  "results": [
+    {
+      "case": "2",
+      "placement": "DS",
+      "total": 94,
+      "positive": 91,
+      "partner_available": 79,
+      "both_anomalous": 62
+    },
+    {
+      "case": "2",
+      "placement": "FS",
+      "total": 296,
+      "positive": 129,
+      "partner_available": 12,
+      "both_anomalous": 10
+    },
+    {
+      "case": "11",
+      "placement": "DS",
+      "total": 19,
+      "positive": 1,
+      "partner_available": 6,
+      "both_anomalous": 0
+    },
+    {
+      "case": "11",
+      "placement": "FS",
+      "total": 19,
+      "positive": 0,
+      "partner_available": 13,
+      "both_anomalous": 0
+    }
+  ]
+}

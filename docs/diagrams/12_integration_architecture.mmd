@@ -1,0 +1,42 @@
+%% Integration contracts | Local reference implemented; cloud and site paths deferred | v0.4
+flowchart TD
+subgraph intake["Local reference boundary"]
+ input["Authorized JSON source window"]
+ ingest["Source registration and contract check"]
+ store[("Accepted windows and features")]
+end
+subgraph evidence["Reference evidence workflow"]
+ policy["Capability policy: unavailable"]
+ ledger[("Evidence and decision ledger")]
+ viewer["Local evidence viewer"]
+ person["Human disposition via local API"]
+end
+subgraph future["Future integration - not connected"]
+ cloud["Private Azure data adapter"]
+ cmms["Mock work-order proposals"]
+end
+input -->|"bytes and rights reference"| ingest
+ingest -->|"validated window contract"| store
+store -->|"feature and provenance versions"| policy
+policy -->|"advisory schema and trace"| ledger
+ledger -->|"generated read-only report"| viewer
+viewer -->|"evidence for review"| person
+person -->|"actor, rationale, evidence ID"| ledger
+cloud -.->|"future qualified source contract"| ingest
+person -.->|"future eligible evidence only"| cmms
+class input source
+class ingest,store,cloud data
+class policy policy
+class ledger evidence
+class viewer,person,cmms human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style intake fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style future fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

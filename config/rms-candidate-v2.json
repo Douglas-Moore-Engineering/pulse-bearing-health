@@ -1,0 +1,17 @@
+{
+  "candidate_id": "relative-rms-1p5x-3record-v2",
+  "state": "development_selected_pending_validation_protocol",
+  "threshold_ratio_strictly_greater_than": 1.5,
+  "consecutive_eligible_records": 3,
+  "basis": "Only compared threshold that flagged every documented IMS endpoint bearing and gave at least 60 minutes of descriptive lead on IMS and KAIST development trajectories",
+  "reference": "Per-channel median of first 100 IMS records or first 10 KAIST/UNSW records; early reference health unverified",
+  "gap_reset": "IMS: 900 seconds; KAIST: 5400 seconds; UNSW elapsed-time gaps unresolved",
+  "quality_policy": "KAIST uses kaist-development-v1; IMS and UNSW native inputs require finite values",
+  "bearing_alert": "Either physical vibration channel independently satisfies persistence; never count channels as independent bearings",
+  "selection_used_development_outcomes": true,
+  "known_concern": "Flags additional IMS bearings without documented endpoint failures; these are unlabeled alerts, not proven false positives",
+  "validation_protocol_frozen": false,
+  "qualified_detector": false,
+  "nuisance_alert_target_validated": false,
+  "approved_for_deployment": false
+}

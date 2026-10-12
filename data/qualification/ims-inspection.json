@@ -1,0 +1,109 @@
+{
+  "dataset_id": "DS-IMS",
+  "source_url": "https://phm-datasets.s3.amazonaws.com/NASA/4.+Bearings.zip",
+  "http_headers": {
+    "Last-Modified": "Sun, 18 Sep 2022 03:42:06 GMT",
+    "ETag": "\"a201e36fe558f3f50509701b6d573532-63\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "1075597174",
+    "Content-Type": "application/zip"
+  },
+  "archive_bytes": 1075597174,
+  "transferred_bytes": 236,
+  "full_archive_checksum_verified": false,
+  "inventory": [
+    {
+      "name": "4. Bearings/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "4. Bearings/IMS.7z",
+      "bytes": 1075320408,
+      "compressed_bytes": 1075596868,
+      "crc32": "08955097"
+    }
+  ],
+  "selected_members": [],
+  "archive_sha256": "21001ac266c465f5d345ec42d7b508c6a6328487fd9d4d7774422dd5ea10ad83",
+  "outer_member_crc_verified": true,
+  "nested_archive_sha256": "c6925060e702708afc47261d349339d7cd97a98166161da6b29c377eb3e66f2c",
+  "nested_inventory": [
+    {
+      "name": "1st_test.rar",
+      "bytes": 366567310,
+      "directory": false
+    },
+    {
+      "name": "2nd_test.rar",
+      "bytes": 85581092,
+      "directory": false
+    },
+    {
+      "name": "3rd_test.rar",
+      "bytes": 609047134,
+      "directory": false
+    },
+    {
+      "name": "Readme Document for IMS Bearing Data.pdf",
+      "bytes": 400443,
+      "directory": false
+    }
+  ],
+  "documentation_members": [
+    "Readme Document for IMS Bearing Data.pdf"
+  ],
+  "status": "SOURCE_CONTAINER_AND_DOCUMENTATION_INSPECTED_NOT_TRAINING_QUALIFIED",
+  "review_date": "2026-10-11",
+  "integrity_scope": "Complete downloaded ZIP locally SHA-256 hashed; nested IMS.7z ZIP member CRC verified; no independently published whole-archive digest verified; RAR measurement contents not inspected",
+  "documentation": {
+    "member": "Readme Document for IMS Bearing Data.pdf",
+    "bytes": 400443,
+    "sha256": "cf46d37c21f7f292c11bbbdd4695d876c417ed1d6425e3d87c962ae2182ae6ed",
+    "pages_read_and_visually_reviewed": [
+      1,
+      2
+    ]
+  },
+  "documented_runs": [
+    {
+      "run": "1st_test",
+      "files": 2156,
+      "channels": 8,
+      "endpoint_observations": {
+        "bearing_3": "inner race defect",
+        "bearing_4": "roller element defect"
+      }
+    },
+    {
+      "run": "2nd_test",
+      "files": 984,
+      "channels": 4,
+      "endpoint_observations": {
+        "bearing_1": "outer race failure"
+      }
+    },
+    {
+      "run": "3rd_test",
+      "files": 4448,
+      "channels": 4,
+      "endpoint_observations": {
+        "bearing_3": "outer race failure"
+      }
+    }
+  ],
+  "open_conditions": [
+    "Source-specific rights",
+    "Actual RAR measurement inventory and schemas uninspected",
+    "Numeric signal units/calibration unspecified in README",
+    "One-second description versus 20480 samples at 20 kHz implies 1.024 seconds",
+    "Timezone and actual timing gaps",
+    "Endpoint versus onset; censoring of other bearings",
+    "Experiment-aware split policy and source/site compatibility"
+  ],
+  "source_pages": [
+    "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+    "https://data.nasa.gov/dataset/ims-bearings"
+  ]
+}

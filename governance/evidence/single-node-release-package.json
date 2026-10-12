@@ -1,0 +1,9 @@
+{
+  "imageId": "sha256:b0394718f0de262b1b70e6f522e1742c12e6227e2b8d03cbb7322c25d3fabaa0",
+  "imageTag": "pulse-api:sha256-b0394718f0de262b1b70e6f522e1742c12e6227e2b8d03cbb7322c25d3fabaa0",
+  "archiveSha256": "fff282155818dd1fd22ea7b6b24a2f544e069b45df934ebbb86e0b79b51542d8",
+  "manifestsSha256": "f0e65e2c4da2f8cfbe94001936c4df9d9e8c19923cebe491f43f6ebde9f383d0",
+  "scope": "single-node reference; qualified alerts unavailable",
+  "cloudDeployed": false,
+  "serverSideValidated": false
+}

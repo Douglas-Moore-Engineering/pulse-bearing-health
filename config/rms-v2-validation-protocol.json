@@ -1,0 +1,43 @@
+{
+  "protocol_id": "rms-v2-validation-01",
+  "state": "frozen_before_validation_signal_access",
+  "candidate": "relative-rms-1p5x-3record-v2",
+  "ratio_strictly_greater_than": 1.5,
+  "consecutive_eligible_records": 3,
+  "channel_combination": "Either channel independently satisfies persistence",
+  "reference_statistic": "Per-channel median; early reference health unverified",
+  "invalid_input_policy": "Fail qualification on nonfinite or unexpected native schema; do not silently impute or change reference",
+  "ldm_b04": {
+    "reference_records": 100,
+    "eligible_operating_condition": "setSpeed >= 1500 rpm and setDynLoad > 0 N",
+    "ineligible_record_resets_persistence": true,
+    "maximum_gap_seconds": 900,
+    "sample_rate_hz": 128000,
+    "sample_count": 204800,
+    "g_per_volt": 10,
+    "gain_db": 0,
+    "timestamp_join": "Contiguous one-based M ordinal to same-index context CSV row; inferred mapping, not independently verified",
+    "endpoint": "Final recorded acquisition; descriptive lead only because exact vibration stop limit is undocumented",
+    "warning_target_minutes": 60,
+    "warning_target_interpretation": "Report whether descriptive lead meets 60 minutes; do not claim qualified failure-warning acceptance",
+    "operating_regime_limitation": "Variable speed/load; no condition normalization learned or fitted on validation"
+  },
+  "unsw_test2": {
+    "sequence": "6Hz only; exclude Multiple speeds",
+    "reference_records": 10,
+    "chronology": "Strictly increasing shaft-cycle identity",
+    "sample_rate_hz": 51200,
+    "expected_channels": ["accH", "accV", "enc1", "enc2", "loadCell", "tacho"],
+    "amplitude_units": "Native volts; ratios do not require conversion",
+    "maximum_gap_seconds": null,
+    "temporal_persistence_qualified": false,
+    "endpoint": "Last recorded shaft cycle; endpoint failure timing not established",
+    "warning_minutes_scorable": false
+  },
+  "reported_metrics": ["per-channel reference RMS", "flagged records", "bearing-level episodes", "first flag identity", "descriptive lead when timestamps exist", "quality and regime exclusions"],
+  "nuisance_alert_rate_scorable": false,
+  "acceptance_rule": "Signal replay alone cannot pass detector gates; timing and healthy-exposure evidence remain required",
+  "no_retuning_on_validation": true,
+  "test_runs_remain_reserved": ["UNSW Test 3", "UNSW Test 4", "LDM B12", "LDM B17"],
+  "automatic_deployment": false
+}

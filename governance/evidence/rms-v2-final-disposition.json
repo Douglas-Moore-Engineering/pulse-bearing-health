@@ -1,0 +1,30 @@
+{
+  "candidate": "relative-rms-1p5x-3record-v2",
+  "runs": [
+    {
+      "run": "B12",
+      "source_sha256": "031f95d7f3bb3702a2ed03311615165b59586597b9e57560bf86ca17523b845b",
+      "monitoring_records": 667,
+      "flagged_records": 572,
+      "episodes": 26,
+      "lead_minutes_to_last_acquisition": 132.4,
+      "descriptive_proxy_met": true
+    },
+    {
+      "run": "B17",
+      "source_sha256": "c93345134034d3b29e29b885bd5b83c8c0daf1767cdd1df2f27d9099fb7f221c",
+      "monitoring_records": 2633,
+      "flagged_records": 514,
+      "episodes": 9,
+      "lead_minutes_to_last_acquisition": 195.9,
+      "descriptive_proxy_met": true
+    }
+  ],
+  "all_descriptive_proxies_met": true,
+  "physical_failure_warning_target": "NOT_EVALUABLE_FROM_AVAILABLE_LABELS",
+  "nuisance_alert_target": "NOT_EVALUABLE_WITHOUT_VERIFIED_HEALTHY_EXPOSURE",
+  "release_decision": "NOT_PROMOTED",
+  "deployed_rule_changed": false,
+  "UNSW_tests_3_4_consumed": false,
+  "scope": "Evidence summary, not a technical deployment enforcement control"
+}

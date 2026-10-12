@@ -1,0 +1,6 @@
+{
+  "clientId": "e168e6af-1310-4cbf-9677-54e5ff3f294b",
+  "id": "/subscriptions/b31e9bd1-6179-4504-819b-f212ed36f609/resourcegroups/rg-pulse-reference/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-pulse-reference-client",
+  "principalId": "13bb4877-31e5-49bd-966f-61b24f1fd185",
+  "tenantId": "add03129-5b4d-4ed0-96bc-bd56141358cd"
+}

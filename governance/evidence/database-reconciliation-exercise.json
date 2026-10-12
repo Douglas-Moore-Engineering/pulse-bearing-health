@@ -1,0 +1,12 @@
+{
+  "source": "existing private off-host backup",
+  "read_only": true,
+  "scope": "two synthetic reference assets; not the customer 12-asset fleet",
+  "statuses": [
+    "TIMING_UNKNOWN",
+    "TIMING_UNKNOWN"
+  ],
+  "timing_basis": "post_commit_upper_bound",
+  "scheduled_execution_verified": false,
+  "requirement_satisfied": false
+}

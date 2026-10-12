@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-11T20:19:19.165379+00:00",
+  "checks": {
+    "api_ready": true,
+    "replica_ready": true,
+    "disk_reserve": true,
+    "recent_local_backup": true
+  },
+  "status": "healthy",
+  "disk_free_bytes": 28751294464,
+  "disk_total_bytes": 32162967552,
+  "threshold_basis": "Provisional operator threshold: 20 percent or 2 GiB free, whichever is larger",
+  "external_notification_sent": false,
+  "detector_quality_checked": false
+}

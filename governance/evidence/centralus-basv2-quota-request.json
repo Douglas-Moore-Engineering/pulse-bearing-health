@@ -1,0 +1,27 @@
+{
+  "error": {
+    "code": "QuotaNotAvailableForResource",
+    "message": "Request failed."
+  },
+  "id": "/subscriptions/b31e9bd1-6179-4504-819b-f212ed36f609/providers/Microsoft.Compute/locations/centralus/providers/Microsoft.Quota/quotaRequests/6d185545-3a32-49ad-b869-c336a41dff29",
+  "message": "Request failed.",
+  "name": "6d185545-3a32-49ad-b869-c336a41dff29",
+  "provisioningState": "Failed",
+  "requestSubmitTime": "2026-10-11T16:36:06Z",
+  "type": "Microsoft.Quota/QuotaRequests",
+  "value": [
+    {
+      "limit": {
+        "limitObjectType": "LimitValue",
+        "limitType": "Independent",
+        "value": 2
+      },
+      "message": "Request failed.",
+      "name": {
+        "value": "STANDARDBASV2FAMILY"
+      },
+      "provisioningState": "Failed",
+      "subRequestId": "6d185545-3a32-49ad-b869-c336a41dff29"
+    }
+  ]
+}

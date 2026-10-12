@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11",
+  "imageId": "sha256:b0394718f0de262b1b70e6f522e1742c12e6227e2b8d03cbb7322c25d3fabaa0",
+  "health": {
+    "status": "ready",
+    "assessment_available": true,
+    "qualified_alerts_available": false
+  },
+  "nonrootUid": 10001,
+  "readonlyRoot": true,
+  "capabilitiesDropped": "ALL",
+  "containerRestartReceiptSurvived": true,
+  "liveEntraTokenTested": false,
+  "fixtureOnly": true
+}

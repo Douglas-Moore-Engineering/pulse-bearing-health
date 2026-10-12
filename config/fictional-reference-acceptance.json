@@ -1,0 +1,12 @@
+{
+  "version": "fictional-customer-v1",
+  "basis": "User explicitly requested invented requirements for a fictional customer on 2026-10-11",
+  "fictional": true,
+  "warning_target_minutes": 60,
+  "nuisance_alert_limit_per_bearing_30_operating_days": 1,
+  "missed_documented_failure_target": 0,
+  "notification_destination": "simulated maintenance inbox in the authenticated reference API",
+  "external_delivery_authorized": false,
+  "detector_acceptance": "Not passed: run 1 missed bearing 4 and flagged bearing 3 only 10 minutes before record end; onset labels and operating exposure are insufficient to score nuisance alerts.",
+  "reference_demo_authority": "Exercise explicitly unqualified anomaly decisions and simulated inbox; no equipment action or production/site acceptance."
+}

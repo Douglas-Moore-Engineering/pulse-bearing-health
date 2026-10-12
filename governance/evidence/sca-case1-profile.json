@@ -1,0 +1,114 @@
+{
+  "dataset": "SCA v2",
+  "case": 1,
+  "scope": "Schema and labels only; no detector performance measured",
+  "code_sha256": "c6e0b73f462edfa326494ec600101371b3dbee2053b8fe85219627c7976a98fb",
+  "files": [
+    {
+      "file": "test.mat",
+      "sha256": "ab09c1c4a2cbb628ad25e3615261cbd8058941bdfac23bf13c1e72f803661bc1",
+      "fromDate": "2022-01-01T19:00:06",
+      "toDate": "2022-05-10T19:00:06",
+      "faultOrigin": "DS",
+      "placements": [
+        {
+          "placement": "DS",
+          "shape": [
+            124,
+            16384
+          ],
+          "unit": "m/s^2",
+          "finite_raw": true,
+          "sampling_rates": [
+            640.0
+          ],
+          "label_counts": {
+            "-1": 7,
+            "1": 117
+          },
+          "time_first_native": "2022-01-10T23:01:22.29",
+          "time_last_native": "2022-05-10T18:00:55.88",
+          "rpm_range": [
+            0.0,
+            1288.91284
+          ]
+        },
+        {
+          "placement": "FS",
+          "shape": [
+            135,
+            16384
+          ],
+          "unit": "m/s^2",
+          "finite_raw": true,
+          "sampling_rates": [
+            640.0
+          ],
+          "label_counts": {
+            "-1": 9,
+            "0": 126
+          },
+          "time_first_native": "2022-01-02T08:00:42.69",
+          "time_last_native": "2022-05-10T18:00:06.69",
+          "rpm_range": [
+            0.0,
+            1289.81543
+          ]
+        }
+      ]
+    },
+    {
+      "file": "train.mat",
+      "sha256": "af1a6c38d038675bb18942be4d4b3c7ea04057abc9613249733fec254d9782a1",
+      "fromDate": "2022-05-12T19:00:13",
+      "toDate": "2022-09-11T15:00:06",
+      "faultOrigin": "DS",
+      "placements": [
+        {
+          "placement": "DS",
+          "shape": [
+            127,
+            16384
+          ],
+          "unit": "m/s^2",
+          "finite_raw": true,
+          "sampling_rates": [
+            640.0
+          ],
+          "label_counts": {
+            "-1": 5,
+            "0": 122
+          },
+          "time_first_native": "2022-05-13T15:01:07.17",
+          "time_last_native": "2022-09-11T09:00:19.12",
+          "rpm_range": [
+            0.0,
+            1268.26233
+          ]
+        },
+        {
+          "placement": "FS",
+          "shape": [
+            127,
+            16384
+          ],
+          "unit": "m/s^2",
+          "finite_raw": true,
+          "sampling_rates": [
+            640.0
+          ],
+          "label_counts": {
+            "-1": 5,
+            "0": 122
+          },
+          "time_first_native": "2022-05-13T15:00:35.18",
+          "time_last_native": "2022-09-11T09:01:22.14",
+          "rpm_range": [
+            0.0,
+            1268.97949
+          ]
+        }
+      ]
+    }
+  ]
+}

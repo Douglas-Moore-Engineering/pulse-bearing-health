@@ -1,0 +1,10 @@
+{
+  "name": "pulse-reference-foundation",
+  "outputs": {
+    "resourceGroupId": {
+      "type": "String",
+      "value": "/subscriptions/b31e9bd1-6179-4504-819b-f212ed36f609/resourceGroups/rg-pulse-reference"
+    }
+  },
+  "state": "Succeeded"
+}

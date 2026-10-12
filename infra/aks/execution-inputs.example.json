@@ -1,0 +1,12 @@
+{
+  "subscriptionId": "b31e9bd1-6179-4504-819b-f212ed36f609",
+  "resourceGroup": "rg-pulse-aks-reference",
+  "location": "eastus2",
+  "owner": "Dr. Moore",
+  "nodeSku": "Standard_D4ds_v6",
+  "kubernetesVersion": "1.36.4",
+  "spendingApprovedBy": "Dr. Moore",
+  "approvedMonthlyCeilingUsd": 100,
+  "reviewedMonthlyEstimateUsd": null,
+  "privateOperatorPathValidated": false
+}

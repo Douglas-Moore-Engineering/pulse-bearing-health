@@ -16,3 +16,5 @@ Fictional customer scenario; proposed design, not implementation or customer app
 All decisions are proposals prepared for review; status is recorded in the canonical register.
 
 - [ADR-009 — Explicit Bronze/Silver/Gold data layers](../architecture/adr/adr-009.md) — proposed; no platform selection or acceptance implied.
+
+- [ADR-011 - Single-node reference deployment](../architecture/adr/011-single-node-reference-deployment.md) - implemented reference; production/model acceptance remains blocked. This is a later implementation decision; preceding proposed records retain their historical states.

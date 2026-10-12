@@ -6,7 +6,9 @@ Fictional customer scenario; proposed design, not implementation or customer app
 
 ## Diagram index
 
-Thirteen unique views; `.mmd`, `.svg` and `.png` are source, scalable preview and image export of the same diagram. Views 04/04b, 07/07b and 08/08b form the v0.2 correction. View 03 now uses explicit Bronze/Silver/Gold design v0.3. Other views retain v0.1.
+Seventeen unique views; the four v0.4 additions describe the reference implementation and its remaining boundaries. The critical runtime view uses an ordered flowchart to expose rejection paths rather than implying concurrent execution. Historical views retain their stated design maturity.
+
+Thirteen original views; `.mmd`, `.svg` and `.png` are source, scalable preview and image export of the same diagram. Views 04/04b, 07/07b and 08/08b form the v0.2 correction. View 03 now uses explicit Bronze/Silver/Gold design v0.3. Other views retain v0.1.
 
 | View | Purpose |
 |---|---|
@@ -24,7 +26,7 @@ Thirteen unique views; `.mmd`, `.svg` and `.png` are source, scalable preview an
 | [Observability, Degraded Mode and Recovery](../diagrams/09_operations_recovery.svg) | Connect runtime signals to accountable human response and revalidation. |
 | [Requirements, Risks and Evidence Trace](../diagrams/10_traceability.svg) | Join stakeholder needs and controls to evidence-bound review decisions. |
 
-All components and controls are proposed. Solid edges describe intended interactions, not existing connections; dashed edges mark later site scope. Resource groups are administrative boundaries, not network isolation. Identity authorization does not create a route. Related versions and authority must agree across views.
+Components and controls in the original thirteen views are proposed; the v0.4 views state their local implementation scope individually. Solid edges describe intended interactions, not existing connections; dashed edges mark later site scope. Resource groups are administrative boundaries, not network isolation. Identity authorization does not create a route. Related versions and authority must agree across views.
 
 ## System Context and Authority
 
@@ -734,3 +736,393 @@ class decision human
 ```
 
 Legend: Blue—sources; Teal—data; Gold—policy; Green—people; Purple—evidence.
+
+## Functional Capability Decomposition
+
+Allocate source, analysis, policy and human responsibilities. Status: Proposed architecture; local harness implements a subset. Requirements: PULSE-FR-001;PULSE-FR-003;PULSE-FR-004;PULSE-FR-007.
+
+[Editable source](../diagrams/11_functional_capabilities.mmd) ? [SVG preview](../diagrams/11_functional_capabilities.svg) ? [PNG export](../diagrams/11_functional_capabilities.png)
+
+![Functional Capability Decomposition](../diagrams/11_functional_capabilities.svg)
+
+```mermaid
+%% Functional capabilities | Proposed architecture; local harness implements a subset | v0.4
+flowchart TD
+subgraph inputs["Source responsibilities"]
+ source["Register authorized sources"]
+ quality["Validate and quarantine"]
+end
+subgraph analysis["Reference analysis"]
+ groups["Separate bearing groups"]
+ features["Compute RMS and kurtosis"]
+ eligible{"Validated capability?"}
+ unavailable["Return unavailable with reason"]
+ infer["Run qualified model later"]
+end
+subgraph people["Evidence and human authority"]
+ evidence[("Versioned evidence")]
+ review["Review and record disposition"]
+end
+source -->|"source bytes and rights"| quality
+quality -->|"accepted observations only"| groups
+groups -->|"partitioned observations"| features
+features -->|"features and operating context"| eligible
+eligible -->|"no: current harness"| unavailable
+eligible -.->|"yes: future qualified release"| infer
+unavailable -->|"reason and exact versions"| evidence
+infer -.->|"bounded results and limitations"| evidence
+evidence -->|"supports human review"| review
+class source source
+class quality,groups data
+class features,infer model
+class eligible,unavailable policy
+class evidence evidence
+class review human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style inputs fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style analysis fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style people fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Blue?sources; Teal?data; Indigo?analytics; Gold?policy; Green?human authority; Purple?evidence; Rose?security where used.
+
+## Integration Architecture
+
+Separate local contracts from deferred cloud and CMMS adapters. Status: Local reference implemented; cloud and site paths deferred. Requirements: PULSE-FR-001;PULSE-FR-002;PULSE-FR-007;PULSE-FR-008.
+
+[Editable source](../diagrams/12_integration_architecture.mmd) ? [SVG preview](../diagrams/12_integration_architecture.svg) ? [PNG export](../diagrams/12_integration_architecture.png)
+
+![Integration Architecture](../diagrams/12_integration_architecture.svg)
+
+```mermaid
+%% Integration contracts | Local reference implemented; cloud and site paths deferred | v0.4
+flowchart TD
+subgraph intake["Local reference boundary"]
+ input["Authorized JSON source window"]
+ ingest["Source registration and contract check"]
+ store[("Accepted windows and features")]
+end
+subgraph evidence["Reference evidence workflow"]
+ policy["Capability policy: unavailable"]
+ ledger[("Evidence and decision ledger")]
+ viewer["Local evidence viewer"]
+ person["Human disposition via local API"]
+end
+subgraph future["Future integration - not connected"]
+ cloud["Private Azure data adapter"]
+ cmms["Mock work-order proposals"]
+end
+input -->|"bytes and rights reference"| ingest
+ingest -->|"validated window contract"| store
+store -->|"feature and provenance versions"| policy
+policy -->|"advisory schema and trace"| ledger
+ledger -->|"generated read-only report"| viewer
+viewer -->|"evidence for review"| person
+person -->|"actor, rationale, evidence ID"| ledger
+cloud -.->|"future qualified source contract"| ingest
+person -.->|"future eligible evidence only"| cmms
+class input source
+class ingest,store,cloud data
+class policy policy
+class ledger evidence
+class viewer,person,cmms human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style intake fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style evidence fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style future fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Blue?sources; Teal?data; Indigo?analytics; Gold?policy; Green?human authority; Purple?evidence; Rose?security where used.
+
+## Threats and Defense in Depth
+
+Map input, integrity and access threats to bounded controls. Status: Local controls exercised; Azure controls unverified. Requirements: PULSE-FR-002;PULSE-SR-001;PULSE-SR-002;PULSE-SR-004.
+
+[Editable source](../diagrams/13_threat_defense.mmd) ? [SVG preview](../diagrams/13_threat_defense.svg) ? [PNG export](../diagrams/13_threat_defense.png)
+
+![Threats and Defense in Depth](../diagrams/13_threat_defense.svg)
+
+```mermaid
+%% Threat and defense mapping | Local controls tested; Azure controls unverified | v0.4
+flowchart TD
+subgraph source["Input trust boundary"]
+ bytes["Untrusted source records"]
+ validate["Schema, range and source-digest checks"]
+end
+subgraph processing["Processing integrity"]
+ group["Bearing partition and replay checks"]
+ policy["Abstain without qualified evidence"]
+ reject[("Quarantine reasons")]
+end
+subgraph authority["Access and authority"]
+ human["Local OS-authorized operator"]
+ cloud["Future Entra roles and private access"]
+ records[("Evidence and backup")]
+end
+bytes -->|"malformed or substituted payload"| validate
+validate -->|"invalid input: no scoring"| reject
+validate -->|"accepted source-bound windows"| group
+group -->|"reject leakage or conflicting replay"| reject
+group -->|"accepted observations"| policy
+policy -->|"unavailable result and provenance"| records
+policy -->|"discloses unavailable status"| human
+human -->|"record disposition; no equipment write"| records
+cloud -.->|"future tested access restriction"| records
+class bytes source
+class validate,group,cloud security
+class policy policy
+class reject,records evidence
+class human human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style source fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style processing fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style authority fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Blue?sources; Teal?data; Indigo?analytics; Gold?policy; Green?human authority; Purple?evidence; Rose?security where used.
+
+## Critical Reference Runtime Path
+
+Show validation, persistence, abstention and human disposition order. Status: Locally exercised generated fixtures; no trained model. Requirements: PULSE-FR-002;PULSE-FR-004;PULSE-FR-007;AIG-REQ-001.
+
+[Editable source](../diagrams/14_reference_runtime.mmd) ? [SVG preview](../diagrams/14_reference_runtime.svg) ? [PNG export](../diagrams/14_reference_runtime.png)
+
+![Critical Reference Runtime Path](../diagrams/14_reference_runtime.svg)
+
+```mermaid
+%% Critical reference runtime path | Locally exercised generated fixtures | v0.4
+flowchart TD
+subgraph receive["Receive and validate"]
+ source["Register JSON bytes and rights"]
+ check{"Contract, source and split valid?"}
+ quarantine[("Quarantine with reason")]
+end
+subgraph calculate["Accepted-window transaction"]
+ features["Calculate descriptive features"]
+ accepted[("Persist window and features")]
+end
+subgraph result["Evidence transaction"]
+ policy["No qualified model: unavailable"]
+ evidence[("Persist versioned evidence")]
+ person["Record human disposition"]
+ backup[("Consistent SQLite backup")]
+end
+source -->|"source-bound window"| check
+check -->|"no"| quarantine
+check -->|"yes"| features
+features -->|"idempotent insert"| accepted
+accepted -->|"load accepted window only"| policy
+policy -->|"no diagnosis, RUL or work order"| evidence
+evidence -->|"existing evidence ID"| person
+person -->|"commit decision then snapshot"| backup
+class source source
+class check,policy policy
+class quarantine,evidence,backup evidence
+class features model
+class accepted data
+class person human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style receive fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style calculate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style result fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Blue?sources; Teal?data; Indigo?analytics; Gold?policy; Green?human authority; Purple?evidence; Rose?security where used.
+
+## AKS Degradation Assessment Runtime
+
+Connect private requests, scaling and explicit capability limits. Local API exercised; proposed cloud deployment; alerts unavailable.
+
+[Source](../diagrams/15_aks_alert_runtime.mmd) | [SVG](../diagrams/15_aks_alert_runtime.svg) | [PNG](../diagrams/15_aks_alert_runtime.png)
+
+![AKS assessment runtime](../diagrams/15_aks_alert_runtime.svg)
+
+```mermaid
+%% AKS assessment runtime | Proposed deployment; local API exercised | v0.5
+flowchart TD
+subgraph access["Private access and identity"]
+ caller["Authorized bearing client"]
+ gateway["Internal HTTPS Gateway"]
+ entra["Entra signing keys and roles"]
+end
+subgraph compute["AKS user pool: proposed three zones"]
+ api["Assessment API replicas: 3 to 12"]
+ contract["Bounded window and UTC checks"]
+ features["RMS and kurtosis"]
+ policy["Unqualified model: unavailable"]
+end
+subgraph operate["Scaling and release evidence"]
+ hpa["HPA CPU target and pool limits"]
+ registry[("Private image registry")]
+ evidence[("Local tests and load evidence")]
+ owner["Owner reviews release conditions"]
+end
+caller -->|"authenticated assessment"| gateway
+gateway -->|"POST route only"| api
+entra -->|"cached key verification"| api
+api -->|"validated caller"| contract
+contract -->|"bounded samples"| features
+features -->|"descriptive evidence"| policy
+policy -->|"response; no notification"| caller
+hpa -->|"adjust replica count"| api
+registry -->|"immutable image digest"| api
+api -.->|"local measurements only"| evidence
+evidence -->|"capacity and remaining gaps"| owner
+owner -->|"scoped deployment disposition"| hpa
+class caller source
+class gateway,entra security
+class api,features model
+class contract data
+class policy,hpa policy
+class registry,evidence evidence
+class owner human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style access fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style compute fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style operate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+Legend: Blue sources; Rose security; Indigo analytics; Teal contracts; Gold policy; Purple evidence; Green human authority.
+
+## Deployed Azure reference runtime
+
+[Editable source](../diagrams/16_deployed_reference_runtime.mmd) | [SVG](../diagrams/16_deployed_reference_runtime.svg)
+
+![Deployed reference runtime](../diagrams/16_deployed_reference_runtime.png)
+
+```mermaid
+%% Deployed Azure reference runtime | Generated fixture verified | 2026-10-11
+flowchart TD
+subgraph access["Operator and identity"]
+ operator["Authorized operator"]
+ ssh["NSG: operator SSH only"]
+ entra["Entra: Pulse.Assess role"]
+end
+subgraph runtime["East US 2 zone 1: one D2as v6 VM"]
+ caller["Managed-identity reference caller"]
+ forward["Loopback port-forward"]
+ api["K3s: one assessment API pod"]
+ receipts[("SQLite receipts on local PVC")]
+end
+subgraph assurance["Verified behavior and limits"]
+ policy["Unqualified detection: unavailable"]
+ evidence[("Live token and restart evidence")]
+end
+operator -->|"encrypted operator session"| ssh
+ssh -->|"run reference requests"| caller
+entra -->|"signed access token"| caller
+caller -->|"authenticated window"| forward
+forward -->|"ClusterIP service"| api
+api -->|"commit before response"| receipts
+receipts -->|"restart verified"| evidence
+api -->|"descriptive features only"| policy
+policy -->|"unqualified result"| evidence
+class operator human
+class ssh,entra,forward security
+class caller source
+class api model
+class receipts,evidence evidence
+class policy policy
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style access fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style runtime fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style assurance fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```
+
+## Reference Detector and Simulated Inbox
+
+Deployed reference workflow; real benchmark-feature replay and automated reference-client acknowledgement tested. Detector qualification and site acceptance remain unavailable. [PNG](../diagrams/17_reference_detector_workflow.png) ? [SVG](../diagrams/17_reference_detector_workflow.svg) ? [Source](../diagrams/17_reference_detector_workflow.mmd).
+
+```mermaid
+%% Reference detector and simulated inbox | No production qualification
+flowchart TD
+subgraph sourcezone["Offline benchmark preparation"]
+ source["IMS run 2 snapshots"]
+ prepare["Verify hashes and derive RMS"]
+end
+subgraph accesszone["Authenticated reference client"]
+ replay["Managed-identity replay"]
+ auth["Entra token and asset grants"]
+end
+subgraph runtime["K3s reference-only workflow"]
+ rule["Frozen RMS and ordered state"]
+ decision{"Three exceedances?"}
+ receipts[("Decision receipts")]
+ inbox[("Simulated maintenance inbox")]
+end
+subgraph operations["Acknowledgement and recovery"]
+ ack["Authenticated client acknowledgement"]
+ audit[("Persistent acknowledgement")]
+ backup[("Bounded local backups")]
+end
+source -->|"native measurements"| prepare
+prepare -->|"RMS + hashes"| replay
+replay -->|"reference request"| auth
+auth -->|"authorized asset"| rule
+rule -->|"ratio and streak"| decision
+decision -->|"no: record no flag"| receipts
+decision -->|"yes: one episode"| inbox
+inbox -->|"atomic commit"| receipts
+inbox -->|"scoped event lookup"| ack
+ack -->|"idempotent record"| audit
+receipts -->|"SQLite snapshot"| backup
+audit -->|"same database"| backup
+class source,replay,ack source
+class prepare data
+class auth security
+class rule model
+class decision policy
+class receipts,inbox,audit,backup evidence
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style sourcezone fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style accesszone fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style runtime fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style operations fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px
+```

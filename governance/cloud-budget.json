@@ -1,0 +1,11 @@
+{
+  "currency": "USD",
+  "monthlyCeiling": 100,
+  "authorizedBy": "Dr. Moore",
+  "authorizationDate": "2026-10-11",
+  "authorizationText": "i changed the budget to 100$",
+  "scope": "Pulse deployment",
+  "aksExecutionAllowed": false,
+  "reason": "Existing AKS proposal exceeds authorized budget; replacement requires full cost and capacity review.",
+  "azureBillingHardCap": false
+}

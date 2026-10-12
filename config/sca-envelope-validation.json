@@ -1,0 +1,15 @@
+{
+  "scope": "Retrospective diagnostic validation on previously uninspected cases 2 and 11; not independent-site or prospective warning validation",
+  "cases": ["2", "11"],
+  "features": ["BPFIMultiple", "BPFOMultiple", "BPFMultiple"],
+  "frequency_divisor": 60,
+  "units_basis": "Paper table 3 states shaft-Hz multiples; physical coefficient interpretation remains unverified",
+  "normal_quantile": 0.99,
+  "minimum_reference_records": 30,
+  "decision": "OR across three feature exceedances; all features must be available or abstain",
+  "calibration": "Each placement publisher train normal records; post-replacement retrospective calibration",
+  "invalid": "Exclude label -1 or invalid RPM/raw/sampling rate; unavailable spectrum or reference causes abstention",
+  "grouping": "Per case and placement only; no pooled independent-bearing claim; asset independence not established",
+  "reserved_after_run": ["3", "4", "5", "6", "7", "8", "9", "10"],
+  "promotion": "Never automatic; report every miss, false positive and abstention; do not retune"
+}

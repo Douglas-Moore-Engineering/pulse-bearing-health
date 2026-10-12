@@ -1,0 +1,1091 @@
+{
+  "reference_rms_g": [
+    0.36884982293484825,
+    0.6038972411309955
+  ],
+  "monitoring_recordings": 119,
+  "abstentions": 0,
+  "flagged_recordings": 1,
+  "alert_episodes": 1,
+  "first_flag": "2022-06-26 01:00:31",
+  "descriptive_lead_to_last_acquisition_hours": 0.0,
+  "decisions": [
+    {
+      "member": "LogFile_2022-06-21-03-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9682164995823223,
+        1.19866817458682
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-04-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9539344334669189,
+        1.100387318495536
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-05-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9708685742752049,
+        1.126112479431913
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-06-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9969039601065095,
+        1.1775736213245016
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-07-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9782527747642252,
+        1.1486466536148368
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-08-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9634138727292004,
+        1.0880715971699004
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-09-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0281662269993381,
+        1.3235160636440244
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-10-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9561865923638763,
+        1.2427136638808656
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-11-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9779136238023979,
+        1.191324629718855
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-12-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9280875349481942,
+        1.102983941542202
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-13-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9584429658550707,
+        1.1317935249116053
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-14-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9917497490269445,
+        1.144694815541852
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-15-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9699529967694093,
+        1.0636959751390194
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-16-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9370253869318892,
+        1.0830651792496877
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-17-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9877787086599903,
+        1.281755514861069
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-18-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0128641225083599,
+        1.2751677983488574
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-19-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0349637842012465,
+        1.2892888513661158
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-20-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0025846176043516,
+        1.2454302784365112
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-21-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0155014333903465,
+        1.2574884308367487
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-22-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.976964054925261,
+        1.1851571524002988
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-21-23-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0256637999691869,
+        1.2110187920326283
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-00-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.019611756668896,
+        1.225331813574692
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-01-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9498095913252315,
+        1.1090697065635804
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-02-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9834691352854052,
+        1.1311293822941273
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-03-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0142441786446765,
+        1.1108647190980385
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-04-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.96402083555511,
+        1.0519914178235137
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-05-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9757676817171544,
+        1.02689348233118
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-06-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9567517458337448,
+        0.9879596878284476
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-07-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9762470831277354,
+        1.020117428291763
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-08-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9344712934802923,
+        0.9113825872206812
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-09-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9858589735102747,
+        1.1940201857055894
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-10-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.981429468428131,
+        1.1374606342263704
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-11-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.011808256201528,
+        1.1582612719242353
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-12-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        1.0130317104838757,
+        1.2614052353001481
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-13-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9554182997024081,
+        1.1503746712410465
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-14-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9438724981838926,
+        1.1153766992010576
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-15-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9714582725142743,
+        1.1529485626706486
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-16-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9045593283418801,
+        1.0953770374692564
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-17-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8467086948689212,
+        0.9355057812221854
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-18-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8756530390661436,
+        0.9237848133985912
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-19-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8486078316110095,
+        0.8797927004302836
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-20-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8610244597932707,
+        0.8668939258425311
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-21-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8789844984676792,
+        0.8686164190607224
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-22-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8597439521442075,
+        0.937958673946331
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-22-23-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8555935586171178,
+        0.8906027468161508
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-00-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8566826321906039,
+        0.8734875951642894
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-01-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8806950223337935,
+        0.8416062110255135
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-02-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9082216795169816,
+        0.8229788618687854
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-03-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8816000482087475,
+        0.8268351038424531
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-04-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8838188875460716,
+        0.8033176043916915
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-05-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8617506911841085,
+        0.7944688278981684
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-06-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8778677666294674,
+        0.9163743621058977
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-07-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9191593061289238,
+        0.9053704536731636
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-08-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8771750270901126,
+        0.8973203690193156
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-09-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8766518478917394,
+        0.8569317979797101
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-10-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8801717695092783,
+        0.9499228710196277
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-11-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8812127427258394,
+        0.9710367015057794
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-12-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8594565602393301,
+        0.9023305916740912
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-13-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8956727987789023,
+        0.8873093036724328
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-14-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8932132950561805,
+        0.8214951998986757
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-15-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8872599656163949,
+        0.8024803208109644
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-16-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8978105741478414,
+        0.7737045999707431
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-17-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9148610631459502,
+        0.75368940877763
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-18-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8772170139086568,
+        0.7397248555859998
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-19-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8700378207812389,
+        0.9347909531650528
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-20-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8791487567967556,
+        0.7644763767378275
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-21-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8504012891414037,
+        0.7653787040054139
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-22-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8750864824679202,
+        0.8542701090369733
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-23-23-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8536060156971308,
+        0.7994171805017921
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-00-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8350912902647336,
+        0.7311946151526226
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-01-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8697571456404387,
+        0.7912742141551112
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-02-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9114198123702949,
+        0.7866486040409869
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-03-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8675492283840951,
+        0.7964323608548076
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-04-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7886964117899637,
+        0.7970910539991056
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-05-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7620199616097574,
+        0.7494821227446922
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-06-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9283641156356914,
+        0.8144283556313904
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-07-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9364113193418949,
+        0.8107016247030318
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-08-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9108208820895877,
+        0.788121566216702
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-09-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9064744380778215,
+        0.7812843532994518
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-10-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8001408060681714,
+        0.8631013774819308
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-11-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8742282900482962,
+        0.7506656202989317
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-12-01-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8966435344268094,
+        1.1530770203882368
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-13-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8989223717898885,
+        1.1635593644346744
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-14-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8283446980275385,
+        1.1644445126476204
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-15-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8322328214231054,
+        1.0826656924895937
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-16-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.824891590558849,
+        1.1046410509019182
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-17-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8280244144217562,
+        1.1046855590047067
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-18-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8152388297609754,
+        1.094728392091707
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-19-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7950336764377124,
+        1.1561811330748613
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-20-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8907423667414927,
+        1.24745296068052
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-21-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.766969078177478,
+        1.0806479594735623
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-22-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8004007596470593,
+        1.0701594067447613
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-24-23-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.850801945565534,
+        1.1313150051908596
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-00-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8231567503808895,
+        1.1196806161150847
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-01-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.816823066450936,
+        1.0011955611505103
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-02-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7997533019221014,
+        1.011648062217563
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-03-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7968690508980613,
+        1.023409261779808
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-04-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8411992107427014,
+        0.9355705180871584
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-05-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8531365306553631,
+        1.1158691725827334
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-06-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8031880489067696,
+        1.1291203375856573
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-07-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7836415085975578,
+        1.0428888961099192
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-08-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7892382723132165,
+        1.0538483456174053
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-09-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7630413874699423,
+        0.9609325722535096
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-10-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7313137670642872,
+        0.9463444492955113
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-11-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8667657341992214,
+        1.0695740482412952
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-12-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8345911320245611,
+        0.9912378521790896
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-13-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.815734360832528,
+        0.9974356308308051
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-14-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7547702141714808,
+        1.0531562450694194
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-15-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.8187505168035615,
+        1.036405140522758
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-16-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.9245081983161353,
+        1.0940408218665878
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-17-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7600065561138695,
+        0.9995961982188329
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-18-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7368304071889004,
+        0.8964569905523038
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-19-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7159929039384485,
+        0.877779510992723
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-20-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        0.7431675006288289,
+        0.932481464352845
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-21-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        4.439244089629521,
+        1.1169409148286336
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-22-02-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        2.8270702866595787,
+        1.741404482027031
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-25-23-14-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        3.2895970803905783,
+        2.138505307767132
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-26-00-14-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        3.876123248095093,
+        2.714594620954837
+      ],
+      "flagged": false
+    },
+    {
+      "member": "LogFile_2022-06-26-01-00-31.csv",
+      "eligible": true,
+      "rms_ratio": [
+        3.9144240910665524,
+        2.530094746883871
+      ],
+      "flagged": true
+    }
+  ],
+  "qualified_detector": false,
+  "healthy_exposure_qualified": false,
+  "nuisance_alert_target_validated": false,
+  "profile_sha256": "09526585b1f73e7ebb7e443e2d8039e5f237f31d880232ce94af99ec9cdea9cb",
+  "policy_sha256": "7ffe2aeb4c00e9e9d38356d1eab4747e8c14a56ae95091f0506d6153911acb4b",
+  "code_sha256": "c366a9f26402f42aba24f11b20685929c9c4b15518f502dcb56b4f9c6d338381"
+}

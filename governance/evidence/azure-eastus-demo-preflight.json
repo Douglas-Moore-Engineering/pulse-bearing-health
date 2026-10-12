@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-11",
+  "region": "eastus",
+  "skuResults": {
+    "Standard_B2s": "NotAvailableForSubscription: Location",
+    "Standard_B2als_v2": "NotAvailableForSubscription: Location"
+  },
+  "quota": {
+    "cores": {
+      "used": 0,
+      "limit": 10
+    },
+    "standardBSFamily": {
+      "used": 0,
+      "limit": 10
+    },
+    "standardBasv2Family": {
+      "used": 0,
+      "limit": 0
+    }
+  },
+  "paidResourcesCreated": false
+}

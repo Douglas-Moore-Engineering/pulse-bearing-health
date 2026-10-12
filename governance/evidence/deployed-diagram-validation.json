@@ -1,0 +1,8 @@
+{
+  "view": "16_deployed_reference_runtime",
+  "alphaChannel": true,
+  "alphaMin": 0,
+  "alphaMax": 255,
+  "visualReview": "title/groups/labels/endpoints/legend checked on light inspection surface",
+  "status": "deployed reference; no model qualification"
+}

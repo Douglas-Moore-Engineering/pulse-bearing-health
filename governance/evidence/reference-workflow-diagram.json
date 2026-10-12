@@ -1,0 +1,8 @@
+{
+  "view": "17_reference_detector_workflow",
+  "alpha_channel": true,
+  "minimum_alpha": 0,
+  "maximum_alpha": 255,
+  "visual_review": "Inspected on light surface; shortened edge labels to remove crowding",
+  "source_and_exports": "Mermaid, SVG and transparent PNG"
+}

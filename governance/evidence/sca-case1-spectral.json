@@ -1,0 +1,141 @@
+{
+  "scope": "Exploratory case1 development; post-replacement reference; no independent validation",
+  "frequency_units_resolved": false,
+  "qualified_detector": false,
+  "code_sha256": "19ecf4df11521499571c382d690065d494acd3b352b08390654f398fff2d555b",
+  "method": "Unfiltered demeaned Hilbert envelope; Hann spectrum; mean harmonic local power contrast; 2% or 2-bin width; per-feature train-normal 99th percentile",
+  "results": [
+    {
+      "frequency_interpretation": "documented_Hz_multiple",
+      "placement": "DS",
+      "feature": "BPFIMultiple",
+      "threshold_train_99percentile": 1.9514740178773804,
+      "train_normal_records": 122,
+      "tp": 112,
+      "fn": 5,
+      "fp": 0,
+      "tn": 0
+    },
+    {
+      "frequency_interpretation": "documented_Hz_multiple",
+      "placement": "DS",
+      "feature": "BPFOMultiple",
+      "threshold_train_99percentile": 3.014716641547415,
+      "train_normal_records": 122,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 0
+    },
+    {
+      "frequency_interpretation": "documented_Hz_multiple",
+      "placement": "DS",
+      "feature": "BPFMultiple",
+      "threshold_train_99percentile": 2.7113578825456033,
+      "train_normal_records": 122,
+      "tp": 0,
+      "fn": 117,
+      "fp": 0,
+      "tn": 0
+    },
+    {
+      "frequency_interpretation": "documented_Hz_multiple",
+      "placement": "FS",
+      "feature": "BPFIMultiple",
+      "threshold_train_99percentile": 2.295886185716407,
+      "train_normal_records": 122,
+      "tp": 0,
+      "fn": 0,
+      "fp": 7,
+      "tn": 119
+    },
+    {
+      "frequency_interpretation": "documented_Hz_multiple",
+      "placement": "FS",
+      "feature": "BPFOMultiple",
+      "threshold_train_99percentile": 2.9240402323542223,
+      "train_normal_records": 122,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 125
+    },
+    {
+      "frequency_interpretation": "documented_Hz_multiple",
+      "placement": "FS",
+      "feature": "BPFMultiple",
+      "threshold_train_99percentile": 2.8104509316952533,
+      "train_normal_records": 122,
+      "tp": 0,
+      "fn": 0,
+      "fp": 6,
+      "tn": 120
+    },
+    {
+      "frequency_interpretation": "hypothesis_RPM_coefficient",
+      "placement": "DS",
+      "feature": "BPFIMultiple",
+      "threshold_train_99percentile": 1.4623071521424613,
+      "train_normal_records": 1,
+      "tp": 0,
+      "fn": 2,
+      "fp": 0,
+      "tn": 0
+    },
+    {
+      "frequency_interpretation": "hypothesis_RPM_coefficient",
+      "placement": "DS",
+      "feature": "BPFOMultiple",
+      "threshold_train_99percentile": 0.9557142242032097,
+      "train_normal_records": 1,
+      "tp": 0,
+      "fn": 2,
+      "fp": 0,
+      "tn": 0
+    },
+    {
+      "frequency_interpretation": "hypothesis_RPM_coefficient",
+      "placement": "DS",
+      "feature": "BPFMultiple",
+      "threshold_train_99percentile": 1.2780172606890279,
+      "train_normal_records": 122,
+      "tp": 17,
+      "fn": 100,
+      "fp": 0,
+      "tn": 0
+    },
+    {
+      "frequency_interpretation": "hypothesis_RPM_coefficient",
+      "placement": "FS",
+      "feature": "BPFIMultiple",
+      "threshold_train_99percentile": 1.147577830006256,
+      "train_normal_records": 1,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 1
+    },
+    {
+      "frequency_interpretation": "hypothesis_RPM_coefficient",
+      "placement": "FS",
+      "feature": "BPFOMultiple",
+      "threshold_train_99percentile": 0.8461664607331872,
+      "train_normal_records": 1,
+      "tp": 0,
+      "fn": 0,
+      "fp": 1,
+      "tn": 1
+    },
+    {
+      "frequency_interpretation": "hypothesis_RPM_coefficient",
+      "placement": "FS",
+      "feature": "BPFMultiple",
+      "threshold_train_99percentile": 1.340068626781746,
+      "train_normal_records": 122,
+      "tp": 0,
+      "fn": 0,
+      "fp": 7,
+      "tn": 119
+    }
+  ]
+}

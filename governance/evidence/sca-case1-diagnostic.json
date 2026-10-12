@@ -1,0 +1,1854 @@
+{
+  "scope": "Retrospective case 1 diagnostic development; not prospective warning or deployed episode evaluation",
+  "protocol_sha256": "e5ab234d12ffcd77e14b2f3e90e0353a2b54a891c7abb720379d3d7b1c3e4a18",
+  "code_sha256": "3b1b872ba409802a717355340bf9e585ba23c34944d9b4db38b094503e5d33e1",
+  "input_sha256": {
+    "test.mat": "ab09c1c4a2cbb628ad25e3615261cbd8058941bdfac23bf13c1e72f803661bc1",
+    "train.mat": "af1a6c38d038675bb18942be4d4b3c7ea04057abc9613249733fec254d9782a1"
+  },
+  "qualified_detector": false,
+  "release_disposition": "NOT_PROMOTED",
+  "results": [
+    {
+      "placement": "DS",
+      "reference_rms": 0.05688606795277254,
+      "reference_records": 122,
+      "excluded_test_records": 7,
+      "tp": 1,
+      "fn": 116,
+      "fp": 0,
+      "tn": 0,
+      "fault_snapshot_recall": 0.008547008547008548,
+      "normal_snapshot_false_positive_rate": null,
+      "decisions": [
+        {
+          "time": "2022-01-10T23:01:22.29",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0975418650470505,
+          "positive": false
+        },
+        {
+          "time": "2022-01-11T22:00:03.82",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0947587813031234,
+          "positive": false
+        },
+        {
+          "time": "2022-01-12T21:01:23.96",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0313498643672714,
+          "positive": false
+        },
+        {
+          "time": "2022-01-13T20:00:07.58",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0673479156164187,
+          "positive": false
+        },
+        {
+          "time": "2022-01-14T19:00:54.27",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9601928196115462,
+          "positive": false
+        },
+        {
+          "time": "2022-01-15T18:00:10.7 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9399441884710902,
+          "positive": false
+        },
+        {
+          "time": "2022-01-16T17:00:54.65",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0451988457831678,
+          "positive": false
+        },
+        {
+          "time": "2022-01-17T16:00:17.91",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0733994519166457,
+          "positive": false
+        },
+        {
+          "time": "2022-01-18T15:00:50.03",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1047644356677653,
+          "positive": false
+        },
+        {
+          "time": "2022-01-19T14:00:02.73",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9571785461013403,
+          "positive": false
+        },
+        {
+          "time": "2022-01-20T13:00:17.16",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9854715779292383,
+          "positive": false
+        },
+        {
+          "time": "2022-01-21T12:00:12.38",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9356578358278085,
+          "positive": false
+        },
+        {
+          "time": "2022-01-22T11:01:06.35",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.93872963297556,
+          "positive": false
+        },
+        {
+          "time": "2022-01-23T10:00:19.79",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0388679087657586,
+          "positive": false
+        },
+        {
+          "time": "2022-01-24T09:00:24.58",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.998908600727598,
+          "positive": false
+        },
+        {
+          "time": "2022-01-25T08:00:29.46",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0971870189891526,
+          "positive": false
+        },
+        {
+          "time": "2022-01-26T07:00:35.53",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0435396429502792,
+          "positive": false
+        },
+        {
+          "time": "2022-01-27T06:01:13.06",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1179804756340612,
+          "positive": false
+        },
+        {
+          "time": "2022-01-28T05:01:11.17",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.1878877037247469,
+          "positive": null
+        },
+        {
+          "time": "2022-01-29T04:00:16.06",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.129465851121806,
+          "positive": null
+        },
+        {
+          "time": "2022-01-30T03:00:16.04",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9096433103523915,
+          "positive": false
+        },
+        {
+          "time": "2022-01-31T02:00:31.26",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9110908253953468,
+          "positive": false
+        },
+        {
+          "time": "2022-02-01T01:00:20.44",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0428160169526797,
+          "positive": false
+        },
+        {
+          "time": "2022-02-02T00:00:52.12",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.201099454818657,
+          "positive": false
+        },
+        {
+          "time": "2022-02-02T23:01:02.1 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0999755224716643,
+          "positive": false
+        },
+        {
+          "time": "2022-02-03T22:00:06.52",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9505881615063608,
+          "positive": false
+        },
+        {
+          "time": "2022-02-04T21:00:41.32",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1783196979032096,
+          "positive": false
+        },
+        {
+          "time": "2022-02-05T20:00:36.71",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9499931710368751,
+          "positive": false
+        },
+        {
+          "time": "2022-02-06T19:00:09.54",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9680709055207272,
+          "positive": false
+        },
+        {
+          "time": "2022-02-07T18:00:22.77",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1774209874476578,
+          "positive": false
+        },
+        {
+          "time": "2022-02-08T17:00:04.26",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1099067679140346,
+          "positive": false
+        },
+        {
+          "time": "2022-02-09T16:01:17.34",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.2650825809067825,
+          "positive": false
+        },
+        {
+          "time": "2022-02-10T15:00:47.61",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9498341428021726,
+          "positive": false
+        },
+        {
+          "time": "2022-02-11T14:00:27.85",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.8838968566975657,
+          "positive": false
+        },
+        {
+          "time": "2022-02-12T13:00:43.29",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0183095526846562,
+          "positive": false
+        },
+        {
+          "time": "2022-02-13T12:00:37.8 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0296410931403217,
+          "positive": false
+        },
+        {
+          "time": "2022-02-14T11:00:19.84",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0269268551450086,
+          "positive": false
+        },
+        {
+          "time": "2022-02-15T10:00:31.2 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0942904843742558,
+          "positive": false
+        },
+        {
+          "time": "2022-02-16T09:00:57.98",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0362510008547237,
+          "positive": false
+        },
+        {
+          "time": "2022-02-17T08:00:33.7 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9894272364866898,
+          "positive": false
+        },
+        {
+          "time": "2022-02-18T07:01:19.8 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9963023645591672,
+          "positive": false
+        },
+        {
+          "time": "2022-02-19T06:01:07.18",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0045947870520746,
+          "positive": false
+        },
+        {
+          "time": "2022-02-20T05:00:36.37",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0130167180395093,
+          "positive": false
+        },
+        {
+          "time": "2022-02-21T04:00:47.98",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9425995519071808,
+          "positive": false
+        },
+        {
+          "time": "2022-02-22T03:00:47.17",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9219635691254657,
+          "positive": false
+        },
+        {
+          "time": "2022-02-23T02:00:46.81",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9541389925153088,
+          "positive": false
+        },
+        {
+          "time": "2022-02-24T01:00:27.82",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.8934027343486522,
+          "positive": false
+        },
+        {
+          "time": "2022-02-25T00:00:31.17",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9111642577039173,
+          "positive": false
+        },
+        {
+          "time": "2022-02-25T23:00:45.03",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9007748672681037,
+          "positive": false
+        },
+        {
+          "time": "2022-02-26T22:00:58.42",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9082795438987458,
+          "positive": false
+        },
+        {
+          "time": "2022-02-27T21:01:10.66",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.8895201095861989,
+          "positive": false
+        },
+        {
+          "time": "2022-02-28T20:01:21.83",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.191551936130222,
+          "positive": false
+        },
+        {
+          "time": "2022-03-01T19:00:09.48",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0123995372380241,
+          "positive": false
+        },
+        {
+          "time": "2022-03-02T18:00:56.29",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.11505763557029287,
+          "positive": null
+        },
+        {
+          "time": "2022-03-03T17:00:11.9 ",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.11291573372977351,
+          "positive": null
+        },
+        {
+          "time": "2022-03-04T16:00:48.67",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.7096635352017194,
+          "positive": false
+        },
+        {
+          "time": "2022-03-05T15:01:00.61",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.160234550694561,
+          "positive": false
+        },
+        {
+          "time": "2022-03-06T14:01:16.46",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.140545318745431,
+          "positive": false
+        },
+        {
+          "time": "2022-03-07T13:00:06.24",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9946171201290938,
+          "positive": false
+        },
+        {
+          "time": "2022-03-08T12:00:12.03",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9880475486159461,
+          "positive": false
+        },
+        {
+          "time": "2022-03-09T11:00:11.24",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0637129878568652,
+          "positive": false
+        },
+        {
+          "time": "2022-03-10T10:00:20.59",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9527562915122961,
+          "positive": false
+        },
+        {
+          "time": "2022-03-11T09:00:21.73",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.39423021624385274,
+          "positive": null
+        },
+        {
+          "time": "2022-03-12T08:00:14.25",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9653028357227396,
+          "positive": false
+        },
+        {
+          "time": "2022-03-13T07:00:23.68",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.134757345458242,
+          "positive": false
+        },
+        {
+          "time": "2022-03-14T06:00:31.75",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0401743434661395,
+          "positive": false
+        },
+        {
+          "time": "2022-03-15T05:00:43.21",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0451964299081196,
+          "positive": false
+        },
+        {
+          "time": "2022-03-16T04:00:48.95",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9020458795091048,
+          "positive": false
+        },
+        {
+          "time": "2022-03-17T03:00:49.7 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.065052617581655,
+          "positive": false
+        },
+        {
+          "time": "2022-03-18T02:00:55.53",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0399774344052164,
+          "positive": false
+        },
+        {
+          "time": "2022-03-19T01:00:50.24",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0072319113877073,
+          "positive": false
+        },
+        {
+          "time": "2022-03-20T00:01:05.92",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0225199004776349,
+          "positive": false
+        },
+        {
+          "time": "2022-03-20T23:01:19.99",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0656104119002652,
+          "positive": false
+        },
+        {
+          "time": "2022-03-21T22:00:08.59",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0620111732637216,
+          "positive": false
+        },
+        {
+          "time": "2022-03-22T21:00:19.96",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.2063863692430816,
+          "positive": false
+        },
+        {
+          "time": "2022-03-23T20:00:33.75",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0553248114967855,
+          "positive": false
+        },
+        {
+          "time": "2022-03-24T19:00:49.88",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9854647911685565,
+          "positive": false
+        },
+        {
+          "time": "2022-03-25T18:00:39.87",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.6202544144617186,
+          "positive": false
+        },
+        {
+          "time": "2022-03-26T17:00:57.61",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1947571701848976,
+          "positive": false
+        },
+        {
+          "time": "2022-03-27T16:01:10.66",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0484580241661217,
+          "positive": false
+        },
+        {
+          "time": "2022-03-28T15:00:09.25",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0876024583802744,
+          "positive": false
+        },
+        {
+          "time": "2022-03-29T14:00:25.27",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0070931630376696,
+          "positive": false
+        },
+        {
+          "time": "2022-03-30T13:00:43.23",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0664863266803895,
+          "positive": false
+        },
+        {
+          "time": "2022-03-31T12:00:54.79",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1486000164866346,
+          "positive": false
+        },
+        {
+          "time": "2022-04-01T11:01:09.02",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1793354627236294,
+          "positive": false
+        },
+        {
+          "time": "2022-04-02T10:00:40.2 ",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.3628734672281168,
+          "positive": null
+        },
+        {
+          "time": "2022-04-03T09:01:17.49",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0229755191249563,
+          "positive": false
+        },
+        {
+          "time": "2022-04-04T08:00:17.67",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.2371225375438814,
+          "positive": null
+        },
+        {
+          "time": "2022-04-05T07:00:16.8 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9409052019480626,
+          "positive": false
+        },
+        {
+          "time": "2022-04-06T06:01:08.8 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0414547642527625,
+          "positive": false
+        },
+        {
+          "time": "2022-04-07T05:00:57.72",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0032155568629229,
+          "positive": false
+        },
+        {
+          "time": "2022-04-08T04:00:21.53",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0107941668619047,
+          "positive": false
+        },
+        {
+          "time": "2022-04-09T03:01:18.59",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9904289642690582,
+          "positive": false
+        },
+        {
+          "time": "2022-04-10T02:00:43.03",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0810603106445769,
+          "positive": false
+        },
+        {
+          "time": "2022-04-11T01:01:06.96",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0786991099747707,
+          "positive": false
+        },
+        {
+          "time": "2022-04-12T00:00:50.07",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0457160772232847,
+          "positive": false
+        },
+        {
+          "time": "2022-04-12T23:01:13.15",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.2354931860014882,
+          "positive": false
+        },
+        {
+          "time": "2022-04-15T20:00:37.84",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.176819817008781,
+          "positive": false
+        },
+        {
+          "time": "2022-04-16T19:00:56.01",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.17944547272357,
+          "positive": false
+        },
+        {
+          "time": "2022-04-17T18:01:03.05",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0489371442583983,
+          "positive": false
+        },
+        {
+          "time": "2022-04-18T17:01:16.3 ",
+          "label": 1,
+          "eligible": true,
+          "ratio": 0.9527597776563606,
+          "positive": false
+        },
+        {
+          "time": "2022-04-19T16:01:22.82",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1286136661609365,
+          "positive": false
+        },
+        {
+          "time": "2022-04-20T15:00:10.46",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0860295052424915,
+          "positive": false
+        },
+        {
+          "time": "2022-04-21T14:00:09.48",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0290202275201068,
+          "positive": false
+        },
+        {
+          "time": "2022-04-22T13:00:08.11",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.320039358772952,
+          "positive": false
+        },
+        {
+          "time": "2022-04-23T12:00:01.18",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.4108700084572454,
+          "positive": false
+        },
+        {
+          "time": "2022-04-24T11:01:22.42",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.4576064675781364,
+          "positive": false
+        },
+        {
+          "time": "2022-04-25T10:01:22.17",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.547855613072439,
+          "positive": true
+        },
+        {
+          "time": "2022-04-26T09:01:24.09",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0749518211473432,
+          "positive": false
+        },
+        {
+          "time": "2022-04-27T08:00:04.92",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1207398228436811,
+          "positive": false
+        },
+        {
+          "time": "2022-04-28T07:00:14.11",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.113868583839913,
+          "positive": false
+        },
+        {
+          "time": "2022-04-29T06:01:09.71",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1311252958029023,
+          "positive": false
+        },
+        {
+          "time": "2022-04-30T05:00:39.98",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0036433148317774,
+          "positive": false
+        },
+        {
+          "time": "2022-05-01T04:00:06.47",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.0556660574447079,
+          "positive": false
+        },
+        {
+          "time": "2022-05-02T03:01:02.59",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.283976501252925,
+          "positive": false
+        },
+        {
+          "time": "2022-05-03T02:00:30.66",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.2826964900073545,
+          "positive": false
+        },
+        {
+          "time": "2022-05-04T01:01:17.35",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.2091674975414555,
+          "positive": false
+        },
+        {
+          "time": "2022-05-05T00:00:44.59",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1541773986724202,
+          "positive": false
+        },
+        {
+          "time": "2022-05-05T23:00:11.51",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1047524656730914,
+          "positive": false
+        },
+        {
+          "time": "2022-05-06T22:01:08.36",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.155595456835061,
+          "positive": false
+        },
+        {
+          "time": "2022-05-07T21:00:34.79",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.2316306700411546,
+          "positive": false
+        },
+        {
+          "time": "2022-05-08T20:00:08.15",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.255127497815471,
+          "positive": false
+        },
+        {
+          "time": "2022-05-09T19:01:16.72",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1569770632024365,
+          "positive": false
+        },
+        {
+          "time": "2022-05-10T18:00:55.88",
+          "label": 1,
+          "eligible": true,
+          "ratio": 1.1214917709158294,
+          "positive": false
+        }
+      ]
+    },
+    {
+      "placement": "FS",
+      "reference_rms": 0.058512094746928804,
+      "reference_records": 122,
+      "excluded_test_records": 9,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0,
+      "tn": 126,
+      "fault_snapshot_recall": null,
+      "normal_snapshot_false_positive_rate": 0.0,
+      "decisions": [
+        {
+          "time": "2022-01-02T08:00:42.69",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9707582595086426,
+          "positive": false
+        },
+        {
+          "time": "2022-01-03T07:00:11.76",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8938999852363233,
+          "positive": false
+        },
+        {
+          "time": "2022-01-04T06:01:04.69",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8056841135391682,
+          "positive": false
+        },
+        {
+          "time": "2022-01-05T05:00:09.76",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8859407887610834,
+          "positive": false
+        },
+        {
+          "time": "2022-01-06T04:00:14.82",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9510934083672999,
+          "positive": false
+        },
+        {
+          "time": "2022-01-07T03:00:41.6 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.838921544123667,
+          "positive": false
+        },
+        {
+          "time": "2022-01-08T02:00:47.79",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8017505817398942,
+          "positive": false
+        },
+        {
+          "time": "2022-01-09T01:00:27.64",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8146095460512776,
+          "positive": false
+        },
+        {
+          "time": "2022-01-10T00:00:10.16",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9252639864021396,
+          "positive": false
+        },
+        {
+          "time": "2022-01-10T23:00:59.15",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1896060878086192,
+          "positive": false
+        },
+        {
+          "time": "2022-01-11T22:00:56.74",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.2089161729818225,
+          "positive": false
+        },
+        {
+          "time": "2022-01-12T21:00:48.77",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.164048364646749,
+          "positive": false
+        },
+        {
+          "time": "2022-01-13T20:00:02.76",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0474185216310596,
+          "positive": false
+        },
+        {
+          "time": "2022-01-14T19:00:08.87",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8906115726714716,
+          "positive": false
+        },
+        {
+          "time": "2022-01-15T18:01:11.95",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9734022029991665,
+          "positive": false
+        },
+        {
+          "time": "2022-01-16T17:01:13.67",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9492369400516734,
+          "positive": false
+        },
+        {
+          "time": "2022-01-17T16:01:22.2 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0940155470360475,
+          "positive": false
+        },
+        {
+          "time": "2022-01-18T15:00:54.16",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8823850315410667,
+          "positive": false
+        },
+        {
+          "time": "2022-01-19T14:01:03.8 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7343900371715385,
+          "positive": false
+        },
+        {
+          "time": "2022-01-20T13:01:17.68",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8523451549202983,
+          "positive": false
+        },
+        {
+          "time": "2022-01-21T12:00:19.11",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8208103515804308,
+          "positive": false
+        },
+        {
+          "time": "2022-01-22T11:00:23.91",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7990720813582213,
+          "positive": false
+        },
+        {
+          "time": "2022-01-23T10:00:27.97",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8702038488623154,
+          "positive": false
+        },
+        {
+          "time": "2022-01-24T09:00:38.18",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8297762319065994,
+          "positive": false
+        },
+        {
+          "time": "2022-01-25T08:00:47.49",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8990032509771413,
+          "positive": false
+        },
+        {
+          "time": "2022-01-26T07:01:14.28",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9305038073181323,
+          "positive": false
+        },
+        {
+          "time": "2022-01-27T06:01:15.42",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9029720212702107,
+          "positive": false
+        },
+        {
+          "time": "2022-01-28T05:00:31.59",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.18669138423494738,
+          "positive": null
+        },
+        {
+          "time": "2022-01-29T04:01:16.44",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.15190520426931314,
+          "positive": null
+        },
+        {
+          "time": "2022-01-30T03:00:58.06",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7858580880070026,
+          "positive": false
+        },
+        {
+          "time": "2022-01-31T02:00:59.12",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7990344341720755,
+          "positive": false
+        },
+        {
+          "time": "2022-02-01T01:00:48.3 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9013647447128538,
+          "positive": false
+        },
+        {
+          "time": "2022-02-02T00:01:01.84",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9530692929828946,
+          "positive": false
+        },
+        {
+          "time": "2022-02-02T23:00:48.54",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.025959945840597,
+          "positive": false
+        },
+        {
+          "time": "2022-02-03T22:00:54.97",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8101538961387474,
+          "positive": false
+        },
+        {
+          "time": "2022-02-04T21:00:37.88",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9497434660362498,
+          "positive": false
+        },
+        {
+          "time": "2022-02-05T20:00:53.6 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7605551330627053,
+          "positive": false
+        },
+        {
+          "time": "2022-02-06T19:01:03.56",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9345097580354831,
+          "positive": false
+        },
+        {
+          "time": "2022-02-07T18:00:39.14",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.2266720969666225,
+          "positive": false
+        },
+        {
+          "time": "2022-02-08T17:00:08.03",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8766830056602704,
+          "positive": false
+        },
+        {
+          "time": "2022-02-09T16:01:06.86",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0776304839161046,
+          "positive": false
+        },
+        {
+          "time": "2022-02-10T15:01:19   ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8137634205203554,
+          "positive": false
+        },
+        {
+          "time": "2022-02-11T14:00:21.12",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8770359221571634,
+          "positive": false
+        },
+        {
+          "time": "2022-02-12T13:00:55.54",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9085370693618801,
+          "positive": false
+        },
+        {
+          "time": "2022-02-13T12:00:31.65",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.940710442830464,
+          "positive": false
+        },
+        {
+          "time": "2022-02-14T11:01:04.3 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8615288663779355,
+          "positive": false
+        },
+        {
+          "time": "2022-02-15T10:00:49.2 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7951421841128093,
+          "positive": false
+        },
+        {
+          "time": "2022-02-16T09:01:03.17",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.908418744267211,
+          "positive": false
+        },
+        {
+          "time": "2022-02-17T08:01:19.59",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.800472563395322,
+          "positive": false
+        },
+        {
+          "time": "2022-02-18T07:01:01.12",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8231305367616619,
+          "positive": false
+        },
+        {
+          "time": "2022-02-19T06:01:08.6 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9296429510950982,
+          "positive": false
+        },
+        {
+          "time": "2022-02-20T05:00:51.98",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9706031232488975,
+          "positive": false
+        },
+        {
+          "time": "2022-02-21T04:00:08.28",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7953157835770651,
+          "positive": false
+        },
+        {
+          "time": "2022-02-22T03:00:26.91",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8283582387682895,
+          "positive": false
+        },
+        {
+          "time": "2022-02-23T02:00:39.5 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.821963606527962,
+          "positive": false
+        },
+        {
+          "time": "2022-02-24T01:00:11.26",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8128251271321096,
+          "positive": false
+        },
+        {
+          "time": "2022-02-25T00:00:13.02",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7663276249484514,
+          "positive": false
+        },
+        {
+          "time": "2022-02-25T23:00:00.68",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7705607679837574,
+          "positive": false
+        },
+        {
+          "time": "2022-02-26T22:01:11.02",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8853173279884023,
+          "positive": false
+        },
+        {
+          "time": "2022-02-27T21:00:29.25",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.70436324610314,
+          "positive": false
+        },
+        {
+          "time": "2022-02-28T20:01:03.44",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9521434036166152,
+          "positive": false
+        },
+        {
+          "time": "2022-03-01T19:01:15.32",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8158242174740942,
+          "positive": false
+        },
+        {
+          "time": "2022-03-02T18:00:05.72",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.14198135270042442,
+          "positive": null
+        },
+        {
+          "time": "2022-03-03T17:00:41.96",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.13248845489046146,
+          "positive": null
+        },
+        {
+          "time": "2022-03-04T16:01:23.05",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.6471841950041226,
+          "positive": false
+        },
+        {
+          "time": "2022-03-05T15:00:41.39",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0914262439908438,
+          "positive": false
+        },
+        {
+          "time": "2022-03-06T14:00:59.05",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.2109674482909731,
+          "positive": false
+        },
+        {
+          "time": "2022-03-07T13:00:58.61",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1718242819278317,
+          "positive": false
+        },
+        {
+          "time": "2022-03-08T12:01:07.47",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8753779927429481,
+          "positive": false
+        },
+        {
+          "time": "2022-03-09T11:01:03.87",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1067521158090754,
+          "positive": false
+        },
+        {
+          "time": "2022-03-10T10:01:10.86",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7653228284290218,
+          "positive": false
+        },
+        {
+          "time": "2022-03-11T09:00:11.19",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.3429878685778716,
+          "positive": null
+        },
+        {
+          "time": "2022-03-12T08:00:40.22",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8546724232705439,
+          "positive": false
+        },
+        {
+          "time": "2022-03-13T07:00:33.83",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.163087756120817,
+          "positive": false
+        },
+        {
+          "time": "2022-03-14T06:00:21.8 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8701757083002936,
+          "positive": false
+        },
+        {
+          "time": "2022-03-15T05:00:42.39",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8600649122224097,
+          "positive": false
+        },
+        {
+          "time": "2022-03-16T04:00:47.91",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0061912491024139,
+          "positive": false
+        },
+        {
+          "time": "2022-03-17T03:01:14.35",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8775098049897176,
+          "positive": false
+        },
+        {
+          "time": "2022-03-18T02:00:20.48",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1900881763313362,
+          "positive": false
+        },
+        {
+          "time": "2022-03-19T01:00:26.56",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.813912093775362,
+          "positive": false
+        },
+        {
+          "time": "2022-03-20T00:00:32.76",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.853366083136182,
+          "positive": false
+        },
+        {
+          "time": "2022-03-20T23:00:15.72",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.898365824141951,
+          "positive": false
+        },
+        {
+          "time": "2022-03-21T22:01:09.93",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9182130269793118,
+          "positive": false
+        },
+        {
+          "time": "2022-03-22T21:00:26.03",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.043757616427371,
+          "positive": false
+        },
+        {
+          "time": "2022-03-23T20:00:06.94",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0307453700103884,
+          "positive": false
+        },
+        {
+          "time": "2022-03-24T19:01:16.34",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.846373619507325,
+          "positive": false
+        },
+        {
+          "time": "2022-03-25T18:01:21.75",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.5260867060510844,
+          "positive": false
+        },
+        {
+          "time": "2022-03-26T17:00:27.17",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9648838580737242,
+          "positive": false
+        },
+        {
+          "time": "2022-03-27T16:01:06.92",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.7788487908192515,
+          "positive": false
+        },
+        {
+          "time": "2022-03-28T15:00:17.08",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9716866976602839,
+          "positive": false
+        },
+        {
+          "time": "2022-03-29T14:00:16.14",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9348439367901576,
+          "positive": false
+        },
+        {
+          "time": "2022-03-30T13:01:05.74",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9272349448253402,
+          "positive": false
+        },
+        {
+          "time": "2022-03-31T12:00:01.62",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9506102294842189,
+          "positive": false
+        },
+        {
+          "time": "2022-04-01T11:00:23.73",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9265218556042235,
+          "positive": false
+        },
+        {
+          "time": "2022-04-02T10:00:33.78",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.5547054169197143,
+          "positive": null
+        },
+        {
+          "time": "2022-04-03T09:00:43.19",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0216867590443037,
+          "positive": false
+        },
+        {
+          "time": "2022-04-04T08:00:59.73",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.19748003211909754,
+          "positive": null
+        },
+        {
+          "time": "2022-04-05T07:01:07.27",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8444329591478249,
+          "positive": false
+        },
+        {
+          "time": "2022-04-06T06:00:02.11",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9029909640027355,
+          "positive": false
+        },
+        {
+          "time": "2022-04-07T05:00:21.76",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8939560295961934,
+          "positive": false
+        },
+        {
+          "time": "2022-04-08T04:00:43.44",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8736804088344229,
+          "positive": false
+        },
+        {
+          "time": "2022-04-09T03:00:44.32",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.931222944796342,
+          "positive": false
+        },
+        {
+          "time": "2022-04-10T02:00:37.1 ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0595032436848684,
+          "positive": false
+        },
+        {
+          "time": "2022-04-11T01:00:06.76",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9895997256812248,
+          "positive": false
+        },
+        {
+          "time": "2022-04-12T00:00:14.77",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9192289796720782,
+          "positive": false
+        },
+        {
+          "time": "2022-04-12T23:01:20.51",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1396424542208003,
+          "positive": false
+        },
+        {
+          "time": "2022-04-13T22:00:46.29",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.14570822166869665,
+          "positive": null
+        },
+        {
+          "time": "2022-04-14T21:00:10.02",
+          "label": -1,
+          "eligible": false,
+          "ratio": 0.13281810815418219,
+          "positive": null
+        },
+        {
+          "time": "2022-04-15T20:01:17.44",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9454731633609386,
+          "positive": false
+        },
+        {
+          "time": "2022-04-16T19:00:16.14",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.048119246283204,
+          "positive": false
+        },
+        {
+          "time": "2022-04-17T18:00:45.31",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0182138462423391,
+          "positive": false
+        },
+        {
+          "time": "2022-04-18T17:01:12.94",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8907316121518525,
+          "positive": false
+        },
+        {
+          "time": "2022-04-19T16:00:16.54",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0329833063696672,
+          "positive": false
+        },
+        {
+          "time": "2022-04-20T15:00:43.85",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9616494056599965,
+          "positive": false
+        },
+        {
+          "time": "2022-04-21T14:01:05.39",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1383947626269262,
+          "positive": false
+        },
+        {
+          "time": "2022-04-22T13:00:04.78",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1039936610190901,
+          "positive": false
+        },
+        {
+          "time": "2022-04-23T12:00:22.37",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1237799563927826,
+          "positive": false
+        },
+        {
+          "time": "2022-04-24T11:00:45.52",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1775015711567505,
+          "positive": false
+        },
+        {
+          "time": "2022-04-25T10:01:14.92",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.259213371024248,
+          "positive": false
+        },
+        {
+          "time": "2022-04-26T09:00:18.82",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.8839633486166005,
+          "positive": false
+        },
+        {
+          "time": "2022-04-27T08:00:45.03",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9078802108386352,
+          "positive": false
+        },
+        {
+          "time": "2022-04-28T07:01:09.66",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9347202847148787,
+          "positive": false
+        },
+        {
+          "time": "2022-04-29T06:00:12.27",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9141913461758548,
+          "positive": false
+        },
+        {
+          "time": "2022-04-30T05:00:38.21",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9000742713301405,
+          "positive": false
+        },
+        {
+          "time": "2022-05-01T04:01:03.56",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0010842118828203,
+          "positive": false
+        },
+        {
+          "time": "2022-05-02T03:00:06.97",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1611696622660514,
+          "positive": false
+        },
+        {
+          "time": "2022-05-03T02:00:29.44",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.0585244405257235,
+          "positive": false
+        },
+        {
+          "time": "2022-05-04T01:00:37.05",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.2518702231033993,
+          "positive": false
+        },
+        {
+          "time": "2022-05-05T00:01:00.64",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1937958963813653,
+          "positive": false
+        },
+        {
+          "time": "2022-05-05T23:01:19   ",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9654537587012079,
+          "positive": false
+        },
+        {
+          "time": "2022-05-06T22:00:21.48",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.087980316149718,
+          "positive": false
+        },
+        {
+          "time": "2022-05-07T21:00:42.14",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.2254045403089764,
+          "positive": false
+        },
+        {
+          "time": "2022-05-08T20:01:08.56",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.2482572892119388,
+          "positive": false
+        },
+        {
+          "time": "2022-05-09T19:01:22.17",
+          "label": 0,
+          "eligible": true,
+          "ratio": 1.1326483993542986,
+          "positive": false
+        },
+        {
+          "time": "2022-05-10T18:00:06.69",
+          "label": 0,
+          "eligible": true,
+          "ratio": 0.9476369346865978,
+          "positive": false
+        }
+      ]
+    }
+  ]
+}

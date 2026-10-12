@@ -1,0 +1,28 @@
+{
+  "scope": "20-second VM-local tests with real Entra and SQLite persistence; no qualified model or external network",
+  "dailyCapacityQualified": false,
+  "stages": [
+    {
+      "offeredRps": 17.4,
+      "seconds": 20,
+      "offeredRequests": 348,
+      "completed": 348,
+      "failures": 0,
+      "dropped": 0,
+      "achievedRps": 17.433093922956285,
+      "p95Ms": 24.399023999990277,
+      "samplesPerRequest": 4096
+    },
+    {
+      "offeredRps": 70,
+      "seconds": 20,
+      "offeredRequests": 1400,
+      "completed": 1400,
+      "failures": 0,
+      "dropped": 0,
+      "achievedRps": 69.96142933002555,
+      "p95Ms": 27.829985999915152,
+      "samplesPerRequest": 4096
+    }
+  ]
+}

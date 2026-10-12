@@ -1,0 +1,42 @@
+%% Deployed Azure reference runtime | Generated fixture verified | 2026-10-11
+flowchart TD
+subgraph access["Operator and identity"]
+ operator["Authorized operator"]
+ ssh["NSG: operator SSH only"]
+ entra["Entra: Pulse.Assess role"]
+end
+subgraph runtime["East US 2 zone 1: one D2as v6 VM"]
+ caller["Managed-identity reference caller"]
+ forward["Loopback port-forward"]
+ api["K3s: one assessment API pod"]
+ receipts[("SQLite receipts on local PVC")]
+end
+subgraph assurance["Verified behavior and limits"]
+ policy["Unqualified detection: unavailable"]
+ evidence[("Live token and restart evidence")]
+end
+operator -->|"encrypted operator session"| ssh
+ssh -->|"run reference requests"| caller
+entra -->|"signed access token"| caller
+caller -->|"authenticated window"| forward
+forward -->|"ClusterIP service"| api
+api -->|"commit before response"| receipts
+receipts -->|"restart verified"| evidence
+api -->|"descriptive features only"| policy
+policy -->|"unqualified result"| evidence
+class operator human
+class ssh,entra,forward security
+class caller source
+class api model
+class receipts,evidence evidence
+class policy policy
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style access fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style runtime fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style assurance fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

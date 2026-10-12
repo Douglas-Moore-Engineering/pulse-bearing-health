@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-11T15:22:45.947259+00:00",
+  "status": "TESTED_LOCAL_PARTIAL_INSPECTION",
+  "tests": {
+    "passed": 31,
+    "failed": 0,
+    "skipped": 0,
+    "existing_reference_tests": 24,
+    "adapter_fixture_tests": 7,
+    "command": "python -m pytest -q --junitxml=governance/evidence/ldm-adapter-tests.xml"
+  },
+  "native_sample": {
+    "bearing": "B02",
+    "mat_measurements": 2,
+    "channels_per_measurement": 2,
+    "output_records": 4,
+    "context_rows": 1116,
+    "timestamp_gap_seconds": {
+      "min": 11,
+      "median": 18,
+      "max": 282
+    },
+    "full_archive_checksum_verified": false
+  },
+  "limitations": [
+    "Generated tests verify software behavior only",
+    "Only first and last B02 MAT measurements inspected",
+    "CSV ordinal mapping remains provisional; source timezone unspecified",
+    "No qualified splits, endpoint labels, model training or evaluation",
+    "No Azure access or deployment; all cloud gates remain BLOCKED"
+  ],
+  "sha256": {
+    "src/pulse/ldm.py": "7a1e28b3ede66d86353c820a4c45d219a36da5171f836a39939d94491753f198",
+    "scripts/profile_ldm_b02.py": "a113966060018102a4b9da67c0a34dd2f72608bed5b1df0ed88f08db78b97e2e",
+    "tests/test_ldm.py": "53129219b3840ab05995cce90361c0bc1a6bffd51313382b11859cc997befc42",
+    "pyproject.toml": "ca927d8227248abf92d382314107830a674156ee59394ef8c858cd5a8a164df4",
+    "data/qualification/ldm-upb-10868257.json": "4722e53f7bed1e0c60090b99d476f3b0b10d696520afbc6dc6bbdfeeab051b7c",
+    "governance/evidence/ldm-adapter-tests.xml": "c996d70f3a1c1414433cf247c737843d79cba584ca8ba8e4d0de12157d36b77e",
+    "outputs/reference-dataset-review/B02-adapter-profile.json": "f4d048fe79ca7381bf1663f088289cfc4bd44756e6416dca1a1df10295fc524c"
+  }
+}

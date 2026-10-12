@@ -1,0 +1,4248 @@
+{
+  "reference_rms": [
+    0.008404227590908493,
+    0.025582572234970256
+  ],
+  "reference_records": 10,
+  "monitoring_records": 157,
+  "excluded_regime_records_total": 0,
+  "flagged_records": 41,
+  "bearing_alert_episodes": 2,
+  "first_flag": {
+    "identity": "Test 2/6Hz/vib_001620147_06.mat",
+    "eligible": true,
+    "ratios": [
+      1.5197616636272175,
+      0.8987877871810739
+    ],
+    "channel_flags": [
+      true,
+      false
+    ],
+    "flagged": true,
+    "timestamp": null
+  },
+  "descriptive_lead_minutes": null,
+  "channel_flagged_records": [
+    41,
+    0
+  ],
+  "decisions": [
+    {
+      "identity": "Test 2/6Hz/vib_000050661_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0321773634446698,
+        0.9433866212325235
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000053333_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.8541495909009293,
+        0.79094899823553
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000061325_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.8838739792228503,
+        0.7808021149492625
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000071323_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.8614778007259999,
+        0.7614009591201143
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000081324_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.8781237546316016,
+        0.7547221941105119
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000091322_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.8969366154022854,
+        0.7739689188524754
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000101320_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9014143229769866,
+        0.77840690033534
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000111334_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9235715912891774,
+        0.7716748253004825
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000121324_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9457802674917578,
+        0.756594819539078
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000131326_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9330798295926678,
+        0.7489301565235597
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000141320_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9653484099586497,
+        0.7771625815744881
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000151327_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9633273144437478,
+        0.7633727143766637
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000153995_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9457020678306131,
+        0.7686231207038432
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000161990_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9540798286572475,
+        0.7665214990920485
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000171986_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9707995282325658,
+        0.7704296460845071
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000181986_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9711125624255155,
+        0.772825523625406
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000191989_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9824559069038343,
+        0.76705944097608
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000202000_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9788909422997124,
+        0.770464190807027
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000211987_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9853804621655948,
+        0.7734542299812761
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000221990_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9911403731331461,
+        0.7816680130996554
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000231982_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9827393690974542,
+        0.7641102995330913
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000241981_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9559558715475338,
+        0.7542490629286841
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000251990_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9850012222279566,
+        0.7684725916020241
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000254752_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9723058180991385,
+        0.7843599488828541
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000262752_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9777376477546408,
+        0.775019798072879
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000272754_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9927634677173587,
+        0.770175505077344
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000282751_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9813804038400552,
+        0.7686149774718615
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000292758_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9654830862974342,
+        0.781606808271665
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000302760_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.994664226511544,
+        0.7685436135061667
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000312758_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9926997580663434,
+        0.7868271930542762
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000322752_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9718627368933799,
+        0.7904560463308535
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000332752_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9800153538075584,
+        0.7772749905883227
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000342757_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9811562480445183,
+        0.7738216587907091
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000352762_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9892714625491853,
+        0.7864492373020712
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000355534_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9235339492638264,
+        0.7757343968283361
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000363552_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9629117796531067,
+        0.8087557027170671
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000373536_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9808703976974171,
+        0.8000374770225553
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000383526_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9885588602675708,
+        0.7741149840252923
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000393526_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9876989182729374,
+        0.7782121738646258
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000403520_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9767873229593456,
+        0.7839839724114136
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000413529_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9648188125010259,
+        0.7729426470138089
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000423524_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9720195217377207,
+        0.764072442929869
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000433511_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9635370071102203,
+        0.7534080797815811
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000443517_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9830033777106204,
+        0.758066471999934
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000453517_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9843385879626555,
+        0.7444632619343715
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000456418_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.8566545901067999,
+        0.8218816042832661
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000474362_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.924548139990863,
+        0.8116866163234707
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000494360_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9670562130434515,
+        0.76401677908258
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000514362_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9922920074374795,
+        0.7851350271729505
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000534410_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0215857416539267,
+        0.7947384448733387
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000554407_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0068651098182622,
+        0.7852861584515544
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000574409_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.029434655233591,
+        0.7764199775104259
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000594360_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0176261271843072,
+        0.7577250467135259
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000614400_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0301788383813701,
+        0.7649931990327972
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000634356_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0408340255864215,
+        0.753956122441083
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000654355_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0775994205125219,
+        0.7490023255858849
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000657255_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0637591634774402,
+        0.8130307971339003
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000675196_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0350795940483937,
+        0.7883414617590475
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000695204_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.042295754955654,
+        0.7873392193300056
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000715215_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.056916737449703,
+        0.8040857521339232
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000735203_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.0759244673441373,
+        0.7935872840137015
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000755199_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1711909422161597,
+        0.8151923254769815
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000775201_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2156565651389215,
+        0.8170422344526354
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000795198_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2358843996970528,
+        0.8316770727594497
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000815247_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.236910058729352,
+        0.8337703373238682
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000835197_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1942958600403983,
+        0.8229725346087201
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000855194_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.23833362281859,
+        0.8114514660381973
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000858090_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1767397543461438,
+        0.8204095461887657
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000876047_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.179050029332933,
+        0.8260876712120843
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000896043_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2076032020586316,
+        0.8506683385569842
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000916051_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1994271766981497,
+        0.8297635168483313
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000936091_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.198538359790962,
+        0.8343814775239966
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000956048_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2076168333876822,
+        0.8309439716355067
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000976095_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2058284301767799,
+        0.8468055024441781
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000996092_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2229284029079264,
+        0.832441864608619
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001016039_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2067898187037835,
+        0.8413504101545569
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001036045_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2307767484009489,
+        0.8460757181413803
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001056094_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2130810826311733,
+        0.8251983607547396
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001058942_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9840744991502044,
+        0.8354366477765977
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001076939_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.097040020039148,
+        0.855432864352363
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001096984_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1158289835557733,
+        0.813386586829492
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001116944_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.135769793152352,
+        0.8216587920830215
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001136990_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1982554718472667,
+        0.84733270193656
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001156943_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2466969483282817,
+        0.8674975119840431
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001176945_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2273964605470657,
+        0.8468984664796357
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001196988_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2251481066917513,
+        0.855622196144896
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001216953_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2412171499944744,
+        0.8675725510186107
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001236941_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2243660852459182,
+        0.851770748539583
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001257007_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2513675581571309,
+        0.8540031564752488
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001259915_06.mat",
+      "eligible": true,
+      "ratios": [
+        0.9737741573373405,
+        0.8403190852502394
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001297905_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.148940683554539,
+        0.777885418347049
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001337859_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.215613075843464,
+        0.7816114792645307
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001377905_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2314145205373197,
+        0.7711627392979974
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001417854_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2326848779168535,
+        0.8046754264842987
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001457906_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2751866957493738,
+        0.826414077612532
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001460656_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.084307302564556,
+        0.771218662728653
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001478699_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1606027968908985,
+        0.7731292989399045
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001498650_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.1497703687105847,
+        0.7523693525125058
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001518648_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2525566004726256,
+        0.785290474445891
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001521397_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.129423593662711,
+        0.8225222793855841
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001539441_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.2605416438382502,
+        0.8348000047972384
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001559384_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.3014488571829517,
+        0.8236013921232059
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001579391_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.4344484492044014,
+        0.8676607896779779
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001582139_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.3403979028668274,
+        0.8732451359942955
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001590190_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.4916999090735399,
+        0.9257594012116539
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001600185_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5027866876366511,
+        0.9038846447731594
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001610174_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5170477839134764,
+        0.9173509602707045
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001620147_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5197616636272175,
+        0.8987877871810739
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001630129_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5034295376421707,
+        0.9199943737543826
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001633037_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.350916452857885,
+        0.8972768323310062
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001640983_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.494391268343938,
+        0.9189374429376601
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001650984_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5039298047545566,
+        0.8933118464153976
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001661030_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.4719055374238252,
+        0.8800766170987535
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001671014_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5014366618407806,
+        0.8789118432410225
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001681016_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5033017200665033,
+        0.8913211375463257
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001683913_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.3718856760220512,
+        0.8778413347460483
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001691910_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.518126010860557,
+        0.9408400444650727
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001701859_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5612755739465356,
+        0.9404318364983236
+      ],
+      "channel_flags": [
+        false,
+        false
+      ],
+      "flagged": false,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001711910_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.5977993728432458,
+        0.9242188916935995
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001721909_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.7262696194703042,
+        0.9618028402091059
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001731855_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.783251006198718,
+        0.956505866863322
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001734717_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.6070648974732396,
+        0.961911679208398
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001742755_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.7967089399698584,
+        1.0442634773350443
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001752707_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.822125587649268,
+        1.0308205340658412
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001762695_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.986743243781647,
+        1.0799938111117175
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001772694_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.9403903860131413,
+        1.0644271123583866
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001782693_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.967397483545896,
+        1.099535123749176
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001785598_06.mat",
+      "eligible": true,
+      "ratios": [
+        1.8728982508670198,
+        1.1207727294190513
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001793591_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.005782160115694,
+        1.2043107687737462
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001803540_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.0098673162134046,
+        1.1668554356203145
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001813540_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.0595520139667247,
+        1.2121009312188435
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001823533_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.054355372581743,
+        1.2092787372426779
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001833592_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.1499578303237072,
+        1.199969209481227
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001836448_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.037993279317752,
+        1.1520332152074992
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001844493_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.210831644667235,
+        1.2541658241966964
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001854485_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2711993957376353,
+        1.249943067625316
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001864433_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2329970466049294,
+        1.217664499698296
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001874476_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.210705536591343,
+        1.222839275538399
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001884435_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.3095688838572053,
+        1.2544141705039644
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001887335_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.1523822382070126,
+        1.1890182404462244
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001895281_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.1932607013083674,
+        1.1758249680387975
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001905330_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2230720677277187,
+        1.2228849433899345
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001915268_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.172504674148037,
+        1.1439481937672766
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001925322_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.1755153849908955,
+        1.1638733758455524
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001935281_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2136661190391873,
+        1.1928465215934816
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001938171_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.157436052091519,
+        1.1984346271543425
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001946121_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.1643923550881508,
+        1.1982012787278031
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001956117_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2656928150329967,
+        1.2383895270628624
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001966122_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2792332160974533,
+        1.2460530176481457
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001976174_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.325314717697898,
+        1.2700469038864417
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001986125_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.2902806550898855,
+        1.2782253791906995
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001989027_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.46162746391397,
+        1.51195782912497
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001996968_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.4401283556347253,
+        1.4516118236806572
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002007018_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.498633889886837,
+        1.4979466279179017
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002016967_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.4096988095963896,
+        1.4230399277135728
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002027012_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.455845450293867,
+        1.4118972683103577
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002037010_06.mat",
+      "eligible": true,
+      "ratios": [
+        2.4663758857306846,
+        1.4273475008379988
+      ],
+      "channel_flags": [
+        true,
+        false
+      ],
+      "flagged": true,
+      "timestamp": null
+    }
+  ],
+  "dataset": "unsw_test2",
+  "protocol_sha256": "2431f87de3f7afe2747225b3a510ab401cae70f82e9ed922e912531dc485f996",
+  "code_sha256": "47c13be61cae48d19ebb9c55ee129486f65cb4680284f416847eb56efa0278da",
+  "native_features": [
+    {
+      "identity": "Test 2/6Hz/vib_000002672_06.mat",
+      "shaft_cycle": 2672,
+      "sha256": "b4083cec271991dcacb576e7e02aa7a17244e20cbb46d4fcf185e43c3d5c00d0",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00757721145454333,
+        0.025958568861588358
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000005664_06.mat",
+      "shaft_cycle": 5664,
+      "sha256": "2d0b86100d43901c3f2e246485f413d063e2aa0a5655957dba93c239e66201d5",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007905042122351621,
+        0.0263763973494456
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000010667_06.mat",
+      "shaft_cycle": 10667,
+      "sha256": "6a25db8dd4f6fe168e90dbcc567de69126f60c4872ab43cd60f17ab8bc118474",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008100750134827252,
+        0.025880127175368597
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000015665_06.mat",
+      "shaft_cycle": 15665,
+      "sha256": "86e14742e0a7f7b70604cafa83d63953a64aa0282e99c4178357e6b82df415b1",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008282527441601416,
+        0.0261227115761175
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000020664_06.mat",
+      "shaft_cycle": 20664,
+      "sha256": "c01e0b50edb233959ce097ecf3a6dabcf264ab4a2bd0239042230de5b8fcc7ef",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008144051479348564,
+        0.025539431683964626
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000025659_06.mat",
+      "shaft_cycle": 25659,
+      "sha256": "4cd5464596212680b66a98665b025e46796f073cbf8635ff57b4f595ccba8925",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00852592774021557,
+        0.02562571278597589
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000030666_06.mat",
+      "shaft_cycle": 30666,
+      "sha256": "b1fd13c3b4bde46da2cf692406e49e3aad8d067fc3c94fcc244002c511d2fc61",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00855906562933758,
+        0.025119795521124137
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000035663_06.mat",
+      "shaft_cycle": 35663,
+      "sha256": "f6966c3f525164f51428ff4d34061cc7335a082247c045d365624a8d038e7e86",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008551135629838476,
+        0.024317138788743566
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000040656_06.mat",
+      "shaft_cycle": 40656,
+      "sha256": "2090ced4439cc97cd59c640499ad79f14868b9f53873f9b15a2bc5baa652f323",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008536233980390114,
+        0.02395469561744448
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000045660_06.mat",
+      "shaft_cycle": 45660,
+      "sha256": "b61a420d1f153df6cb1f807080069c26dbd7140a73ef8486f9487a48a164e3c3",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008567256354302822,
+        0.024025712194877823
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000050661_06.mat",
+      "shaft_cycle": 50661,
+      "sha256": "30959a0f864d865ae955ba8c7bca2fe8dc0b9b0dd794db068265459199624008",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008674653476572878,
+        0.024134256383185556
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000053333_06.mat",
+      "shaft_cycle": 53333,
+      "sha256": "863a83f6e202bc1f32fa6bc3c4ed087bbf707b50641845ebceaeddf29d93512b",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.0071784675586127914,
+        0.02023450988153781
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000061325_06.mat",
+      "shaft_cycle": 61325,
+      "sha256": "a19cb861248efffaa13b2e46f697bc7e9441ed3d81592e07e768d9cba2e840c7",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007428278083070758,
+        0.01997492650690706
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000071323_06.mat",
+      "shaft_cycle": 71323,
+      "sha256": "ec9eddbf7af3849d13d30619a5287e5f00ce6eefadb6765b00a05d92a84dd9c7",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.0072400555018166165,
+        0.01947859503646596
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000081324_06.mat",
+      "shaft_cycle": 81324,
+      "sha256": "152bef33a38061df7f3c9905a24fa5657a110011ca7b7db01ae9349fb71f693f",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007379951886907066,
+        0.019307735048167414
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000091322_06.mat",
+      "shaft_cycle": 91322,
+      "sha256": "dc013b68f966e280aa5f787ed8fb5c7dee3999d508e5399e3284ffe6cab62406",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007538059450459966,
+        0.019800115774165284
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000101320_06.mat",
+      "shaft_cycle": 101320,
+      "sha256": "0525878b3fbd3ae3500af65e31818f7e39bea3fc71d9c573724b5f8c932b4cc6",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00757569112400329,
+        0.019913650756028127
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000111334_06.mat",
+      "shaft_cycle": 111334,
+      "sha256": "1a454942b4b3fe638e124bdbdab386efb199b2ee70d5b5786fdbce666f99346b",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007761905849691766,
+        0.019741426960157647
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000121324_06.mat",
+      "shaft_cycle": 121324,
+      "sha256": "dd67c405b64f7ae0f13c25626befa8784c354148f48f826cdd215e048b758617",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007948552618991045,
+        0.01935564162346275
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000131326_06.mat",
+      "shaft_cycle": 131326,
+      "sha256": "0299b85e234f617ecb9b165daa9a3335a02f6d0e350418b32f7efcd4110680f3",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007841815248382893,
+        0.019159559828211544
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000141320_06.mat",
+      "shaft_cycle": 141320,
+      "sha256": "431b3279fd78511efd27ba927f818a237c7c947bf1f711e9b8b0eb7b44167c85",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008113007741814126,
+        0.01988181788144531
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000151327_06.mat",
+      "shaft_cycle": 151327,
+      "sha256": "be4524ac31f5b3d8e3c0b532e0731d9f57b8999a70a46b176bd14275020d93ff",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008096021995123926,
+        0.019529037607746314
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000153995_06.mat",
+      "shaft_cycle": 153995,
+      "sha256": "ce227fda630ef7bb15f728b00b3b890f2d2c3e146c42f652887ff6c6040acb5e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007947895411241253,
+        0.01966335650687433
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000161990_06.mat",
+      "shaft_cycle": 161990,
+      "sha256": "42db2307a6650b888bae0eedb9bcae67124710d8ae385869f3ca5583d82d2a2e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008018304019930486,
+        0.019609591620180018
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000171986_06.mat",
+      "shaft_cycle": 171986,
+      "sha256": "99ebced0e56fd864cdbca8624fdd9eb4022071e7b5b233c3507fbcdb385bf51b",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008158820180413077,
+        0.019709572072919474
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000181986_06.mat",
+      "shaft_cycle": 181986,
+      "sha256": "35b31e4eb58e1c94a89439964cf1266f412c4e71f01dfbc8ecf70a3a8fb52732",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008161450991014363,
+        0.019770864783175662
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000191989_06.mat",
+      "shaft_cycle": 191989,
+      "sha256": "01914f125cc4b085cacc84e0072802f21cfe34c08718711cbf2132129b69eafb",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00825678303965223,
+        0.01962335355728647
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000202000_06.mat",
+      "shaft_cycle": 202000,
+      "sha256": "1558341919cb2dab394c7d4ae6009838786a6acb666228a84201d6f05b064c2c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008226822265765656,
+        0.019710455815778676
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000211987_06.mat",
+      "shaft_cycle": 211987,
+      "sha256": "76fb2a6a4f60e0f49f6121bed14df581635d5ab1c8360db0c5b56182d62ab9ed",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008281361667674254,
+        0.019786948708939295
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000221990_06.mat",
+      "shaft_cycle": 221990,
+      "sha256": "fbf402a6b13b3bb52327e18de9c976d886b4a45d99dc4e8162ad280489869add",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008329769270348925,
+        0.01999707840888761
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000231982_06.mat",
+      "shaft_cycle": 231982,
+      "sha256": "53c6df1e1e40ca41bfda4b42b4315647e1cb1df2504fd39ebe0be3bafff22056",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008259165320440829,
+        0.019547906933290067
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000241981_06.mat",
+      "shaft_cycle": 241981,
+      "sha256": "0bdfa1655398d7b91fc13d2bdc44183efb59b5ad8b66ade53ce6c0666dc08c29",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008034070711350759,
+        0.019295631135531687
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000251990_06.mat",
+      "shaft_cycle": 251990,
+      "sha256": "a6bae7564aac7f3ac658c72f5f88ec6456e2f2f6ad71e23c5e60c2dabfe8fa9f",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00827817444892678,
+        0.01965950558525358
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000254752_06.mat",
+      "shaft_cycle": 254752,
+      "sha256": "030b7ff30eee972c619af5c799e700b4dba7fff1bc8759e23285e511793591ca",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008171479383269634,
+        0.020065945050513193
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000262752_06.mat",
+      "shaft_cycle": 262752,
+      "sha256": "5bd048b1badaf73bc118656ac396477827117e0a9dae947bfc46cc23d543c746",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00821712971592952,
+        0.01982699996773149
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000272754_06.mat",
+      "shaft_cycle": 272754,
+      "sha256": "3073aca7d4588cd7b3ecf92df160e7060855f756d5d5a214bfd2349f6cad6088",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008343410126636218,
+        0.019703070492245855
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000282751_06.mat",
+      "shaft_cycle": 282751,
+      "sha256": "1fee55d6580ea60b65aafcb96ea55a4de2dcb2d9514c7eb024a670d94a248c87",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00824774426712951,
+        0.019663148182053933
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000292758_06.mat",
+      "shaft_cycle": 292758,
+      "sha256": "2caeefe9204a59dc91c906b68b782a16b9ebd583f738b1d06f54422e914c8d30",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008114139592416381,
+        0.019995512631954416
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000302760_06.mat",
+      "shaft_cycle": 302760,
+      "sha256": "47fe7b890d11a5dcba12641fbbf5a96ef3f7fc25722ae05860d921548674bbe8",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008359384536137972,
+        0.019661322508246572
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000312758_06.mat",
+      "shaft_cycle": 312758,
+      "sha256": "5d978c35af35043915cfffe31d00bc592c22fbdf872ddcb52d10bbd4b416ccc1",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008342874696229349,
+        0.020129063502749907
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000322752_06.mat",
+      "shaft_cycle": 322752,
+      "sha256": "599b5150227fc3276dadb46028ddfb5c52f40db4c92ffdda861d91bbbafda791",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008167755627975185,
+        0.020221898903828056
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000332752_06.mat",
+      "shaft_cycle": 332752,
+      "sha256": "79127e5c71c048d0b3a8e5376f739accf57bc82d338cf533c94cc932d047c91a",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00823627207598343,
+        0.01988469359316159
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000342757_06.mat",
+      "shaft_cycle": 342757,
+      "sha256": "c4178f071c44368ce0389507946fa27e33d4f8e70bb8f20bcbda9aee592745a2",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008245860410807998,
+        0.01979634848299782
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000352762_06.mat",
+      "shaft_cycle": 352762,
+      "sha256": "41b12c31ff47c0bffa0c361d8ef5a38f39a919fcb5bab57aee85852eedd06bea",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00831406252045426,
+        0.0201193944224175
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000355534_06.mat",
+      "shaft_cycle": 355534,
+      "sha256": "008d636e62165455f867baf8b143b51fec76d63b6eb62307380d796e81099059",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007761589497543734,
+        0.01984528124201199
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000363552_06.mat",
+      "shaft_cycle": 363552,
+      "sha256": "efa48f35bd5bd359898533e2904ace70d6bfbb35cb34494c27e53e04a350dd6a",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008092529746171438,
+        0.0206900511852035
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000373536_06.mat",
+      "shaft_cycle": 373536,
+      "sha256": "688ecbb095d5a6133d87b61d9efe623f9815f1e9b6cdf60d513e13f744607140",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008243458059434019,
+        0.020467016546612878
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000383526_06.mat",
+      "shaft_cycle": 383526,
+      "sha256": "4af79725b7dd320336dfada7ddc7d3c44eed53f19d0fefb073558cebef1132de",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008308073648697772,
+        0.019803852496999886
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000393526_06.mat",
+      "shaft_cycle": 393526,
+      "sha256": "c81669f8b1247bb8e344843b76d55e9aea7ed44cc01cf3097db83ad630669512",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008300846500459893,
+        0.01990866915202502
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000403520_06.mat",
+      "shaft_cycle": 403520,
+      "sha256": "5b991aadc991d3e308978ef4b272a5a11ebff86ee5c5d72bae97bfcd7bdb9c20",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008209142970064576,
+        0.020056326605273917
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000413529_06.mat",
+      "shaft_cycle": 413529,
+      "sha256": "ff826918c75425ffaf1bdb7825c02d6c762815f63096d32ff8f2fffc28d9d9e5",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00810855688424869,
+        0.019773861100719884
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000423524_06.mat",
+      "shaft_cycle": 423524,
+      "sha256": "6c2bde1a52833a8469f9a57c48ec19cbbcb5cef5e4d3c25cb86476a9ed4684f3",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00816907328348983,
+        0.01954693846400356
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000433511_06.mat",
+      "shaft_cycle": 433511,
+      "sha256": "5fe6bd59aba6856b556f512b878446c0cc9ffea3c31179f0fa87f07fb7095c00",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008097784300017105,
+        0.019274116623422533
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000443517_06.mat",
+      "shaft_cycle": 443517,
+      "sha256": "e6f29ba1f06fb5d83934ea0fca96fc592508570055e718453a759a7d47338982",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008261384108911838,
+        0.01939329027884737
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000453517_06.mat",
+      "shaft_cycle": 453517,
+      "sha256": "c6a77434511a3d527596cc14b261c8c8a8f6de250d71551873c301a7c6b07203",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008272605519751655,
+        0.019045285174717642
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000456418_06.mat",
+      "shaft_cycle": 456418,
+      "sha256": "b2e990bdfa66c70d65e1d6e44af1963e4d0423d51aa755e846aa1eb53da68aa5",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007199520142053973,
+        0.021025845510169894
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000474362_06.mat",
+      "shaft_cycle": 474362,
+      "sha256": "eae9664e815f6f83c8098eb69c0680d208fe0f403d6e2f40bc8922765074e049",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.007770112987234339,
+        0.020765031494253777
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000494360_06.mat",
+      "shaft_cycle": 494360,
+      "sha256": "2035b1bee43670b8cac15cad44462a3e00a3e7a8505b5631f12589036cec46ef",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008127360507619256,
+        0.019545514439609415
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000514362_06.mat",
+      "shaft_cycle": 514362,
+      "sha256": "cbad78c77430f41e85e037f53637da999e63ba70ed07a1068b4215444ed29436",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00833944786714404,
+        0.020085773546857342
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000534410_06.mat",
+      "shaft_cycle": 534410,
+      "sha256": "8e7d812cf625a0d66add4affbc6996decab4ba581b6cb2b740640b07a940eb5c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008585639076486646,
+        0.020331453673880114
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000554407_06.mat",
+      "shaft_cycle": 554407,
+      "sha256": "cf9a49352e14f4ef4e808b2382129bc017ed743054710654ba088c0240e9a79e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008461923536257748,
+        0.020089639873709188
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000574409_06.mat",
+      "shaft_cycle": 574409,
+      "sha256": "8bcd7a80e3897f27fc3ab9058cd2c1339c48fb7f4e3158b4f9dad3c2b21697b5",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008651603132551516,
+        0.01986282015933445
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000594360_06.mat",
+      "shaft_cycle": 594360,
+      "sha256": "7e3f9e1802e124265815f14b29c3c2fd80f987b351762bc7e9a942df505e6408",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00855236157531171,
+        0.019384555741794988
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000614400_06.mat",
+      "shaft_cycle": 614400,
+      "sha256": "324585c6d82bc7c237cbcfbeb783c09047e386059e9b79319ea94ad6033b338c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008657857417094772,
+        0.019570493773517512
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000634356_06.mat",
+      "shaft_cycle": 634356,
+      "sha256": "65f04a3bc06d45195376470b28878297a43de63fde5d5e0458d78dd522aac549",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00874740603538976,
+        0.019288136964347086
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000654355_06.mat",
+      "shaft_cycle": 654355,
+      "sha256": "6784a7539c991c5954faca8b022ce078bc36c9d56a3ee412f102e15b66c8726e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009056390781818338,
+        0.01916140609846161
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000657255_06.mat",
+      "shaft_cycle": 657255,
+      "sha256": "b10e04624b12792d5cf9d68ba5d41d895b4e652a2b00d353e75d392ce3b69ff8",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00894007411177884,
+        0.02079941909693345
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000675196_06.mat",
+      "shaft_cycle": 675196,
+      "sha256": "ba2c2b24ccb4d037881506d063de83c3854edf1e4f3da8332d2323afaa1ea63d",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008699044483087871,
+        0.020167802391272874
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000695204_06.mat",
+      "shaft_cycle": 695204,
+      "sha256": "9447b37099cda0f95feb20e8dad05ad02e666f6e99b6832604df8574c6324718",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008759690741685104,
+        0.02014216245193496
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000715215_06.mat",
+      "shaft_cycle": 715215,
+      "sha256": "adbfe930744d129e19be9aad881fd4a99a13380c6fdb2f1f8de9dced46d11821",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008882568806167782,
+        0.02057058183707648
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000735203_06.mat",
+      "shaft_cycle": 735203,
+      "sha256": "80783de3b2c2f6383efc29c8709bdf18c49916316c8731288f444c54d4fe3e35",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009042314094187123,
+        0.020302004018034375
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000755199_06.mat",
+      "shaft_cycle": 755199,
+      "sha256": "9a8489c29d13c329edc13a3c07824488b1c9a40563c3e3e2c370192fa946585a",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009842955230795163,
+        0.020854716551908264
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000775201_06.mat",
+      "shaft_cycle": 775201,
+      "sha256": "7f18463c26c2d5f6dc5f17f18e5f68acda216b64a68db20b690ac92173e10316",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010216654445809572,
+        0.02090204198190605
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000795198_06.mat",
+      "shaft_cycle": 795198,
+      "sha256": "b2120b01e964ba960901e9a8f975921fd20c5b5de75fce735e3d3b54c2d73263",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01038665377110735,
+        0.021276438790037235
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000815247_06.mat",
+      "shaft_cycle": 815247,
+      "sha256": "5a3c0caad771a334ee7354dc5bbc664069a09a5a272b701ec7eb70f17d9a5b94",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010395273643045464,
+        0.021329989881963374
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000835197_06.mat",
+      "shaft_cycle": 835197,
+      "sha256": "96b35b9010d7c1c198ffa9c5aa9d549820f4e9fad5b926961d82aa8223fac433",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010037134218659304,
+        0.02105375431402414
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000855194_06.mat",
+      "shaft_cycle": 855194,
+      "sha256": "adf1f8ef1054425613395008b6781e244b675a9ff38a86b340cd333ad3733a02",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010407237599641664,
+        0.020759015745094696
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000858090_06.mat",
+      "shaft_cycle": 858090,
+      "sha256": "061d60867ad8d46afaaf259877d5fbe9a097de0720f6f808e3f3b867b54dba95",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009889588710794744,
+        0.020988186477633265
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000876047_06.mat",
+      "shaft_cycle": 876047,
+      "sha256": "8ab5fd43aa6e188c6a05aedf95ba3b2bf19325258d0643406be5ad4462dae3c0",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009909004787581301,
+        0.021133447521201505
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000896043_06.mat",
+      "shaft_cycle": 896043,
+      "sha256": "dd1e006007859ded408c417e1577adc220ca67903c6f6e7e3155007bbd801318",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010148972149610596,
+        0.02176228421913618
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000916051_06.mat",
+      "shaft_cycle": 916051,
+      "sha256": "6292b9e1dea6adea2cbbada2c2c91e1f48b5d3980c13427c7cbd13d415e42453",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010080258971692065,
+        0.021227485107715393
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000936091_06.mat",
+      "shaft_cycle": 936091,
+      "sha256": "72ed230aec58dc38124ce9f4bcc4304b92772787537e7675d8e38a64eb2b9379",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010072789152117413,
+        0.021345624420278854
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000956048_06.mat",
+      "shaft_cycle": 956048,
+      "sha256": "d0069dcf21c211cc26863e88eb5c5191a0bcfb9604caf1dfb26be7aa0e26c3b4",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010149086710402303,
+        0.021257684177578427
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000976095_06.mat",
+      "shaft_cycle": 976095,
+      "sha256": "964fa5dceded8e16eab798812dad40e316c6251d62e8bf632b6a86c0a661fe6a",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010134056562793568,
+        0.021663462935248467
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_000996092_06.mat",
+      "shaft_cycle": 996092,
+      "sha256": "1d495444dccdb2f26205a7520e2b55ba8697be27e0da7277742fb3c6846b80c0",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010277768625424451,
+        0.021296004132763325
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001016039_06.mat",
+      "shaft_cycle": 1016039,
+      "sha256": "94fa694a25666294b0cc7a641b0a9d0f78b08114640dd6e706d0a7ae356596e3",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010142136290777795,
+        0.021523907642700804
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001036045_06.mat",
+      "shaft_cycle": 1036045,
+      "sha256": "306737772c4374813d24d3c57bd342bc74ab2178c45427e18d0dd318bf24c8c6",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010343727907159895,
+        0.021644793175606195
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001056094_06.mat",
+      "shaft_cycle": 1056094,
+      "sha256": "eb2a55ede51a952fbf593ac3dfc597bd324b43279d2cad97e64238d965c9af9d",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010195009504658051,
+        0.021110696672187172
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001058942_06.mat",
+      "shaft_cycle": 1058942,
+      "sha256": "ccf6518b8424362b3fd2694602a69e6dc053cd2acf9b19734787393a2150a193",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008270386057267603,
+        0.021372618389486214
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001076939_06.mat",
+      "shaft_cycle": 1076939,
+      "sha256": "7c80471e3c6ef8915321224d27391bf52ab967a8c5afd1b23eb9d856d181b2e0",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009219774004743813,
+        0.02188417304446184
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001096984_06.mat",
+      "shaft_cycle": 1096984,
+      "sha256": "3a9bcc8006ea767e437dc8cab64c3a4d7747ad3d23c40ff9895e112b10e373f5",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00937768073033481,
+        0.020808521112521388
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001116944_06.mat",
+      "shaft_cycle": 1116944,
+      "sha256": "17f5214a93dc817b4057325994db613b7c52d3a471f2ccfcca53f0c867ebe57c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009545267832531429,
+        0.021020145400962306
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001136990_06.mat",
+      "shaft_cycle": 1136990,
+      "sha256": "cd036f9d485d0c34b635d7d63434c416993b7be0857feda452e144b8c79b9225",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010070411697455872,
+        0.021676950054344567
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001156943_06.mat",
+      "shaft_cycle": 1156943,
+      "sha256": "b674a53cff9acdc38a0391e4cde695c362261088acb316ec50110627fc66e7b2",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010477524890641965,
+        0.022192817763988758
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001176945_06.mat",
+      "shaft_cycle": 1176945,
+      "sha256": "3df625abd4738a422e70355efa8b7dbbe7d2bc08b45cbd470be6136089a8ecfe",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010315319198713077,
+        0.021665841194400817
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001196988_06.mat",
+      "shaft_cycle": 1196988,
+      "sha256": "4f024fd9d8c5e18cabff3d8486b81de5465cbbc869d405874c745479f27b6c5f",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010296423521208117,
+        0.02188901663872069
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001216953_06.mat",
+      "shaft_cycle": 1216953,
+      "sha256": "28651ac7db1a4a6a08dc87521f9b5627d6a07703edd7b5d42759018666efd5f4",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010431471418292367,
+        0.022194737455511027
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001236941_06.mat",
+      "shaft_cycle": 1236941,
+      "sha256": "d80e79e58ab2783f3580e569d7a5bc3c51c17976f48d4c1da67a99f19542ab78",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010289851234996365,
+        0.02179048670214857
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001257007_06.mat",
+      "shaft_cycle": 1257007,
+      "sha256": "2036518464e5cdbeaeb90edaea859af7c41835d0f1e45e9370d99a896c8e5160",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010516777758631947,
+        0.02184759743942066
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001259915_06.mat",
+      "shaft_cycle": 1259915,
+      "sha256": "3e74aea6c0c0c4e58a441f228d2605115e15e8832143c61eda17111f6634ddfb",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.008183819640408145,
+        0.021497523698838377
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001297905_06.mat",
+      "shaft_cycle": 1297905,
+      "sha256": "18206bc35cf1862bea855bf6422ddb5b728cd4a8d9d2acf1eb23c93b050c79aa",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.00965595899304632,
+        0.01990030990539344
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001337859_06.mat",
+      "shaft_cycle": 1337859,
+      "sha256": "fd9d74bd9302c05f37216d07af6d0e3c660e43c85201b36090012657798284f7",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010216288951872779,
+        0.019995632127966814
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001377905_06.mat",
+      "shaft_cycle": 1377905,
+      "sha256": "59d54289b43ca0c7f89492d4ae573eaa491e980ed7a1b7facad1bc12c4b39e09",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010349087889345094,
+        0.019728326483008554
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001417854_06.mat",
+      "shaft_cycle": 1417854,
+      "sha256": "e5017be7d31cb4740d4c51d1b27f0665881205975ce9f34d930c3de412add881",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010359764261884487,
+        0.02058566722374007
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001457906_06.mat",
+      "shaft_cycle": 1457906,
+      "sha256": "82cb0ce347a48843d0a3c6b0a3e4d38dd2705f2b737bbd3a47af5a1c346b46de",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01071695921197632,
+        0.021141797836518917
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001460656_06.mat",
+      "shaft_cycle": 1460656,
+      "sha256": "4af16ce559de693414e8428a2a1354b257ac443eb6278c32ec5ddd42b6d27214",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009112765349236605,
+        0.01972975714821293
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001478699_06.mat",
+      "shaft_cycle": 1478699,
+      "sha256": "bf4a1adffd2a43cf317c39eb488ff61176183006ee60b3126d3c5678bc6187d9",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009753970047716054,
+        0.01977863613710202
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001498650_06.mat",
+      "shaft_cycle": 1498650,
+      "sha256": "184dd85912e2af1b91e3db0e44b8b8b5101128c78ac4fad2c80f5e99859ff607",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009662931855926525,
+        0.01924754330802898
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001518648_06.mat",
+      "shaft_cycle": 1518648,
+      "sha256": "64da58bf3a60582b58a2127ab8446c18fbb4b912683deb8f092f5c897ae9a54b",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010526770740866586,
+        0.02008975028794607
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001521397_06.mat",
+      "shaft_cycle": 1521397,
+      "sha256": "e1a19a02f8b387eaa85e02c5875f9dbb1822b9f256eec2012f59dc3efd4320f4",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.009491932927683178,
+        0.021042235627254092
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001539441_06.mat",
+      "shaft_cycle": 1539441,
+      "sha256": "64154151d952908ea7d312cf169d4721901f84789df2de781e5c0ccc5d6acea0",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010593878862634569,
+        0.021356331424478868
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001559384_06.mat",
+      "shaft_cycle": 1559384,
+      "sha256": "81ab86a8471fef2b127eed3942ed58b088262b338de33bc580a1dfc283135f51",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.010937672393693289,
+        0.02106984210681398
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001579391_06.mat",
+      "shaft_cycle": 1579391,
+      "sha256": "4c10587183d945cb1d52239d3d6b375e8098338af28a963f4e698695c71eb12e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012055431234539529,
+        0.022196994827388204
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001582139_06.mat",
+      "shaft_cycle": 1582139,
+      "sha256": "9c3072fd5d970cb25c9565b24daa747c1cf8b985cbd8fbf9c4c8d30e637712d6",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.011265009038069271,
+        0.02233985677041049
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001590190_06.mat",
+      "shaft_cycle": 1590190,
+      "sha256": "d8da730c61e8e50b05f858c90257d3afd281486a93d75c58c5f45fab3f218735",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012536585533191534,
+        0.023683306753699947
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001600185_06.mat",
+      "shaft_cycle": 1600185,
+      "sha256": "a93555dcfce658afcc33a124cc101231f78ffb1b0845466720320995574d20b7",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012629761343485925,
+        0.02312369421698978
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001610174_06.mat",
+      "shaft_cycle": 1610174,
+      "sha256": "1ee18400963d63c5c3aa44d81cb40414f3eaec9c6c67312b0c1a26f63cfa7a8c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012749614842292223,
+        0.02346819720594463
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001620147_06.mat",
+      "shaft_cycle": 1620147,
+      "sha256": "c695c70863ff633ae8b86cb7f46d4a5acd4126df3613f867793dad04582ba7cc",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012772422905060853,
+        0.022993303489468896
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001630129_06.mat",
+      "shaft_cycle": 1630129,
+      "sha256": "b872c117b353170169ced84e44927b04f7e091068b716b6fd7c2c58adca6da4d",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01263516400123913,
+        0.02353582252233772
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001633037_06.mat",
+      "shaft_cycle": 1633037,
+      "sha256": "86832c502ea8d64a504585eabd0f16329b84231a7765464c82129f514f97ddaf",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01135340932612047,
+        0.02295464937787326
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001640983_06.mat",
+      "shaft_cycle": 1640983,
+      "sha256": "9babaaa19dd8df5af7f248c6d415af4b6f3cec2a37eb524d9b21ce3d14b0ab20",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01255920432902886,
+        0.02350878351337155
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001650984_06.mat",
+      "shaft_cycle": 1650984,
+      "sha256": "22fd1a5315746c4949d1a48bbd7cebacf58f1519cdc50a219258331b0ad3e622",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012639368359907867,
+        0.022853214839276565
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001661030_06.mat",
+      "shaft_cycle": 1661030,
+      "sha256": "8f2a3770ccd6854ef7a073b6b2516d862b894984d767d0c530c8829737226a5e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012370229128828304,
+        0.02251462362923712
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001671014_06.mat",
+      "shaft_cycle": 1671014,
+      "sha256": "25ea90233a27b928fb92d682fc54b1a63900daa860a189faee2066009157fdc2",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012618415419443833,
+        0.02248482571788431
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001681016_06.mat",
+      "shaft_cycle": 1681016,
+      "sha256": "ed9760730c46fb716501f0be4b1b2bdac9bd74b1ebdd8dc41c2bc1d9d5efe13d",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012634089793243103,
+        0.022802287385834737
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001683913_06.mat",
+      "shaft_cycle": 1683913,
+      "sha256": "5540451c14395dbb3c44cf0f0e8d4d2bd288c7b4b955033956e4b2a0dade11e0",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.011529639449996673,
+        0.022457439356983487
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001691910_06.mat",
+      "shaft_cycle": 1691910,
+      "sha256": "c3a616451f3a46a8fb4306d67b62a2eabd169ea6535bef048ae487854598a502",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.012758676506950138,
+        0.02406910839908035
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001701859_06.mat",
+      "shaft_cycle": 1701859,
+      "sha256": "a63bda3d526e202c7f1db73ab57dea28880621b0189f8415608e564ec552aeb7",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.013121315255572967,
+        0.0240586653892841
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001711910_06.mat",
+      "shaft_cycle": 1711910,
+      "sha256": "bc7c707ccdba4739e5dc73e472a8bfbf85e8f7567b177248b6abf9dd9d8ef1f6",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.013428269573985492,
+        0.02364389655767566
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001721909_06.mat",
+      "shaft_cycle": 1721909,
+      "sha256": "c8d0ba447ed0b1266da331307aca33f926ced0198506ee0c625ef6067f01c8b7",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.014507962765299434,
+        0.024605390635449007
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001731855_06.mat",
+      "shaft_cycle": 1731855,
+      "sha256": "c4dc28c3b36a7809ee3af16fca71f88849c67fbde1c123dd75646b2bc2790fe1",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.014986847307810596,
+        0.024469880432203776
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001734717_06.mat",
+      "shaft_cycle": 1734717,
+      "sha256": "04d5acc091c4c4bb97753f73e3ce63e08214735067be9fee21841af6210b3f9d",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.013506139151725128,
+        0.02460817501701038
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001742755_06.mat",
+      "shaft_cycle": 1742755,
+      "sha256": "c39e5b33787934d7200e73167cff5a7152d03c458ba49a2d5095ddcec1e23755",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.015099950846126633,
+        0.026714945841264996
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001752707_06.mat",
+      "shaft_cycle": 1752707,
+      "sha256": "a16ec6aa69c3a08a23b35abee360d176302068d379ca4803575dca0a99d4da86",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.015313558137822328,
+        0.02637104077403
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001762695_06.mat",
+      "shaft_cycle": 1762695,
+      "sha256": "0118d6a9285bc903987fff22cf72ecc95b04c0db1053ad877183e49f3b14e068",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.016697042385440754,
+        0.027629019686086338
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001772694_06.mat",
+      "shaft_cycle": 1772694,
+      "sha256": "e0ae847c3ee32630e97321af1dd1285e516270a2d568db40c1dc3605c1a4d979",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01630748241926522,
+        0.02723078349076923
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001782693_06.mat",
+      "shaft_cycle": 1782693,
+      "sha256": "e2a518c2b81d9b62ac7a445f493971404000f4bea16fa04c7603b267a9dbcd1d",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.016534456213500356,
+        0.028128936728200254
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001785598_06.mat",
+      "shaft_cycle": 1785598,
+      "sha256": "d0897f588a2e0e3940169f1887a8b157998bc69a774d3fa883cc737638f23887",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.015740263154900864,
+        0.028672249309347652
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001793591_06.mat",
+      "shaft_cycle": 1793591,
+      "sha256": "d641afaae8872f8029f66475dbda3265456a8d5b698c2fae8f895bf78be2520c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.016857049771396352,
+        0.030809367235506924
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001803540_06.mat",
+      "shaft_cycle": 1803540,
+      "sha256": "24650f8b4b6ac5cbb8849499e953aeed83bbb6e29ea37db7c03750650d522031",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.0168913823529859,
+        0.029851163469524378
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001813540_06.mat",
+      "shaft_cycle": 1813540,
+      "sha256": "7f49343a6a54b08376e297254e6eded1e262e56734e8e655788d017f38a1dbe1",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.0173089438606903,
+        0.03100865962898078
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001823533_06.mat",
+      "shaft_cycle": 1823533,
+      "sha256": "74656dfe8d767a98a13b0f728275718b80114fd9b349f5bc1d7d575c7f56da91",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01726527010378258,
+        0.03093646064772442
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001833592_06.mat",
+      "shaft_cycle": 1833592,
+      "sha256": "c3d0604276fa94f6a7343e81056535d9589f9837a5b130ec0500eff23f35db97",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01806873491689626,
+        0.03069829898129365
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001836448_06.mat",
+      "shaft_cycle": 1836448,
+      "sha256": "5faefde6a64eff83a4dd0b7c3a83a8f9c031b6d165927803b80f30bd1acf4abc",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01712775934812833,
+        0.029471972945130886
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001844493_06.mat",
+      "shaft_cycle": 1844493,
+      "sha256": "85d84aeef09758dbc0526f358c89a0b1f3a2a14dc14c000cd6f415d1d4afbe5c",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018580332306965975,
+        0.032084787792142994
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001854485_06.mat",
+      "shaft_cycle": 1854485,
+      "sha256": "08e6a37921a4d6919e57343d42bdc2729ac2eee3753806ea5b5a157628f2848f",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01908767662611293,
+        0.03197675881712496
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001864433_06.mat",
+      "shaft_cycle": 1864433,
+      "sha256": "bd3a28d4281869a556e87bc281379309894a00c50790b84a55ec880060f53dd1",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018766615389494326,
+        0.031150990021490573
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001874476_06.mat",
+      "shaft_cycle": 1874476,
+      "sha256": "1e418731748a0fbe8b4cf6a181a9fa410eb993f81ec3a8dcc1cbdbcadd360f9a",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01857927246599513,
+        0.03128337409821979
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001884435_06.mat",
+      "shaft_cycle": 1884435,
+      "sha256": "5936da27eeb38d566258139bff061b369b9d786221067cabe8c5c4843142f65a",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.019410142536816458,
+        0.032091141129487966
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001887335_06.mat",
+      "shaft_cycle": 1887335,
+      "sha256": "6a5bb6e8b80faad5bf95628228717df0a250c2a8fc7f7f3f1c9c4ca15a2acae2",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01808911019252075,
+        0.030418145024912767
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001895281_06.mat",
+      "shaft_cycle": 1895281,
+      "sha256": "260c6f8cf49a32e4af1ae13ce1ae1974dfd4652445f9bf123ba7b2e81af671d2",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01843266209999109,
+        0.03008062718053413
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001905330_06.mat",
+      "shaft_cycle": 1905330,
+      "sha256": "8facc5390b4d8ba4bc6ffce456fb1f8809d46f354846704a7d8a58746ff061b8",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018683203608175287,
+        0.03128454239933051
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001915268_06.mat",
+      "shaft_cycle": 1915268,
+      "sha256": "826398f6de596c3522664b6317b41e7420780ae3b26622a3dae9231eb8b19f12",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018258223723852596,
+        0.029265137300115106
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001925322_06.mat",
+      "shaft_cycle": 1925322,
+      "sha256": "5fb011387c83e50cf301bf3edffcbded401fb84db2ebc6695e9be0cb122e99a6",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018283526422986394,
+        0.02977487470992753
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001935281_06.mat",
+      "shaft_cycle": 1935281,
+      "sha256": "e51985099ad3b814644654e341feebfe20b56f4ce58ada2e64c9b8ed36f7ad27",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018604153874688462,
+        0.03051608230389825
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001938171_06.mat",
+      "shaft_cycle": 1938171,
+      "sha256": "70db24cd2c8b2baedcff223f70d6367d68d661a314658a58ce8534bd8aa652c8",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.018131583594608234,
+        0.030659040418065615
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001946121_06.mat",
+      "shaft_cycle": 1946121,
+      "sha256": "3c39a19f0dab377f1e38e82f53b663e81b1889db65c33976e1f8696bfe336e18",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01819004594818325,
+        0.030653070765087755
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001956117_06.mat",
+      "shaft_cycle": 1956117,
+      "sha256": "e437f9d28e45b98f47e51993ff1dbd780c2a84d52695ff72680fa45dc1c77681",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01904139806862344,
+        0.03168118953111633
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001966122_06.mat",
+      "shaft_cycle": 1966122,
+      "sha256": "f0f3a5dbc8b45132ac08a5e5e9874d54b5ec64ea3d48350575337d5d0ace918e",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.019155194680841314,
+        0.031877241332586355
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001976174_06.mat",
+      "shaft_cycle": 1976174,
+      "sha256": "63aae56cb4d947b6204ca4eed1a082316657b77d62fcf999a897ba38fd457721",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.01954247410802227,
+        0.03249106666047522
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001986125_06.mat",
+      "shaft_cycle": 1986125,
+      "sha256": "5be2744cd274472e34a6e4e496c9e3b4827be01b5fa1fc99aa71f50bfa832d09",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.019248039872430393,
+        0.032700293095718314
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001989027_06.mat",
+      "shaft_cycle": 1989027,
+      "sha256": "2339a50457b79abb71fd908cbb6069869984661ebc0ba58aae0194a286b02243",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.020688077450763884,
+        0.03867977037981836
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_001996968_06.mat",
+      "shaft_cycle": 1996968,
+      "sha256": "d6a37760bd64ed1748edd4d8a31178df4e5623a9eeeff0f49732931c3cb54acf",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.020507394051783527,
+        0.03713596433644732
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002007018_06.mat",
+      "shaft_cycle": 2007018,
+      "sha256": "39622944e224c1d42fe089d5d66cafd6134cfa7c9f2d6ac60fd989a1ee41cc78",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.020999087876965968,
+        0.03832132781283983
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002016967_06.mat",
+      "shaft_cycle": 2016967,
+      "sha256": "325bb84ab20a3045d07ece129824f75d87598075f73cf2465f8714ca946e18f8",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.020251657221389326,
+        0.036405021743979325
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002027012_06.mat",
+      "shaft_cycle": 2027012,
+      "sha256": "9ef40284d9e36ba083d50c32b490d792dbc0d2ae7f9f768e4f3d490eea5748fe",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.020639484092366808,
+        0.03611996385490691
+      ]
+    },
+    {
+      "identity": "Test 2/6Hz/vib_002037010_06.mat",
+      "shaft_cycle": 2037010,
+      "sha256": "798813f14e360df3dee56b9a27f896dcd81e350e97e4bb854fbe276f237bbff2",
+      "samples": 614400,
+      "sample_rate_hz": 51200.0,
+      "eligible": true,
+      "rms": [
+        0.020727984268409192,
+        0.03651522054459237
+      ]
+    }
+  ],
+  "provenance": {
+    "publisher_sha256_verified": true,
+    "archive_sha256": "f60dfcb97ee5ca0ec2635a1a44b7ba9adcd02988001fc30a1d85970cb0da4b8a",
+    "units": "volts",
+    "time_lead_scorable": false
+  },
+  "qualified_detector": false,
+  "nuisance_alert_target_validated": false,
+  "endpoint_failure_warning_validated": false
+}

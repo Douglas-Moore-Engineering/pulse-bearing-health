@@ -1,0 +1,8 @@
+{
+  "scope": "Offline development on consumed LDM B04, B12 and B17 evidence; no independent validation or deployment",
+  "enter": 1.5,
+  "clear": 1.2,
+  "enter_count": 3,
+  "clear_count": 5,
+  "max_gap": 900
+}

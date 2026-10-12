@@ -1,0 +1,49 @@
+%% AKS assessment runtime | Proposed deployment; local API exercised | v0.5
+flowchart TD
+subgraph access["Private access and identity"]
+ caller["Authorized bearing client"]
+ gateway["Internal HTTPS Gateway"]
+ entra["Entra signing keys and roles"]
+end
+subgraph compute["AKS user pool: proposed three zones"]
+ api["Assessment API replicas: 3 to 12"]
+ contract["Bounded window and UTC checks"]
+ features["RMS and kurtosis"]
+ policy["Unqualified model: unavailable"]
+end
+subgraph operate["Scaling and release evidence"]
+ hpa["HPA CPU target and pool limits"]
+ registry[("Private image registry")]
+ evidence[("Local tests and load evidence")]
+ owner["Owner reviews release conditions"]
+end
+caller -->|"authenticated assessment"| gateway
+gateway -->|"POST route only"| api
+entra -->|"cached key verification"| api
+api -->|"validated caller"| contract
+contract -->|"bounded samples"| features
+features -->|"descriptive evidence"| policy
+policy -->|"response; no notification"| caller
+hpa -->|"adjust replica count"| api
+registry -->|"immutable image digest"| api
+api -.->|"local measurements only"| evidence
+evidence -->|"capacity and remaining gaps"| owner
+owner -->|"scoped deployment disposition"| hpa
+class caller source
+class gateway,entra security
+class api,features model
+class contract data
+class policy,hpa policy
+class registry,evidence evidence
+class owner human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style access fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style compute fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style operate fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

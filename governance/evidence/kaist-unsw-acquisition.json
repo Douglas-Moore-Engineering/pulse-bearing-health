@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-11",
+  "files": [
+    {
+      "file": "Vibration_Bearing_RuntoFailure.zip",
+      "bytes": 4325053806,
+      "sha256": "7deeafed7334ed18b4da552075ef73391c15bc6b206dcdf6c0c7ec3e4e2657c6",
+      "publisher_sha256_verified": true
+    },
+    {
+      "file": "Read me for data description.docx",
+      "bytes": 19965,
+      "sha256": "d8d7b91ac286b1e4a7eba1be7de14ad97e60651985eba0f744b35f3755d4ceaa",
+      "publisher_sha256_verified": true
+    },
+    {
+      "file": "Test 1.7z",
+      "bytes": 1679267821,
+      "sha256": "922b4d3111e5c8b2575fc6128a0949749a23f605662cae6d2a2090b28513a836",
+      "publisher_sha256_verified": true
+    }
+  ],
+  "partition_record": "data/qualification/kaist-unsw-split.json",
+  "cloud_resources_added": false,
+  "test_signals_accessed": false,
+  "source_manifest_sha256": "4e35b06503a8ec7d41239abee16536e95749fe71ad726e1142449192ab42273f",
+  "acquisition_script_sha256": "cc1445fef66192aef815fdd76477287787e69d67284c76fa789111ed33e553d8",
+  "total_verified_bytes": 6004341592,
+  "profile_scripts_sha256": {
+    "scripts/profile_kaist_archive.py": "1c2dba15e16209fac01679fcdb77e8fa45562172268c6c5b976aec90ded2ee26",
+    "scripts/profile_unsw_test1.py": "f3f2c1f2c11103dc32487b1b120ebcb4e042a027842aa12a9605e47d6d035809"
+  }
+}

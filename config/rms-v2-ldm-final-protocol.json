@@ -1,0 +1,38 @@
+{
+  "protocol_id": "rms-v2-ldm-final-01",
+  "candidate": "relative-rms-1p5x-3record-v2",
+  "state": "frozen_before_test_signal_access",
+  "ratio": 1.5,
+  "persistence": 3,
+  "eligible_condition": "setSpeed >= 1500 and setDynLoad > 0",
+  "reference": "First 100 eligible records, per-channel median, as in B04; no verified healthy claim",
+  "native_policy": "Require finite native channels and matching sample times; fail on unexpected schema",
+  "endpoint": "Last acquisition timestamp; descriptive proxy only",
+  "warning_target_minutes": 60,
+  "failure_warning_acceptance_scorable": false,
+  "nuisance_target_scorable": false,
+  "automatic_deployment": false,
+  "runs": {
+    "B12": {
+      "records": 767,
+      "publisher_checksum": "md5:27d740e9832eef7badaf0c0abc66cb51",
+      "bytes": 1123760656,
+      "reference_records": 100,
+      "sample_rate_hz": 64000,
+      "sample_count": 102400,
+      "g_per_volt": 10,
+      "maximum_gap_seconds": 900
+    },
+    "B17": {
+      "records": 2733,
+      "publisher_checksum": "md5:efc887ba56be7df0db0a8e38c9c5ef7c",
+      "bytes": 3648634307,
+      "reference_records": 100,
+      "sample_rate_hz": 64000,
+      "sample_count": 102400,
+      "g_per_volt": 10,
+      "maximum_gap_seconds": 900
+    }
+  },
+  "UNSW_tests_3_4": "Remain reserved; elapsed-time and condition-label qualification unresolved"
+}

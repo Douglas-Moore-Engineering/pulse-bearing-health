@@ -1,0 +1,15 @@
+{
+  "version": "sca-case1-development-v1",
+  "scope": "Retrospective case 1 diagnostic development; not prospective warning or deployed episode evaluation",
+  "dataset_version": 2,
+  "reference": "Per-placement median RMS of publisher train records labeled 0 with finite positive RPM",
+  "threshold_ratio": 1.5,
+  "decision": "Each eligible test snapshot independently positive when RMS/reference exceeds threshold; no persistence",
+  "reason": "Daily acquisition is incompatible with the deployed 900-second gap policy",
+  "excluded_labels": [-1],
+  "positive_labels": [1, 2, 3],
+  "negative_label": 0,
+  "placements": ["DS", "FS"],
+  "split": "Case 1 development only; cases 2-11 remain reserved",
+  "limitations": ["Post-replacement reference is future information relative to test", "Channels are not independent bearings", "Snapshot false-positive rate is not nuisance episodes per operating day"]
+}

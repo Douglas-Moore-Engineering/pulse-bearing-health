@@ -1,0 +1,37 @@
+[
+  {
+    "location": "eastus2",
+    "name": "nsg-pulse-reference",
+    "type": "Microsoft.Network/networkSecurityGroups"
+  },
+  {
+    "location": "eastus2",
+    "name": "vnet-pulse-reference",
+    "type": "Microsoft.Network/virtualNetworks"
+  },
+  {
+    "location": "centralus",
+    "name": "id-pulse-reference-client",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities"
+  },
+  {
+    "location": "eastus2",
+    "name": "pip-pulse-k3s",
+    "type": "Microsoft.Network/publicIPAddresses"
+  },
+  {
+    "location": "eastus2",
+    "name": "nic-pulse-k3s",
+    "type": "Microsoft.Network/networkInterfaces"
+  },
+  {
+    "location": "eastus2",
+    "name": "vm-pulse-k3s",
+    "type": "Microsoft.Compute/virtualMachines"
+  },
+  {
+    "location": "eastus2",
+    "name": "os-pulse-k3s",
+    "type": "Microsoft.Compute/disks"
+  }
+]

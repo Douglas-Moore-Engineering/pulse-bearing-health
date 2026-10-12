@@ -1,0 +1,57 @@
+{
+  "purpose": "Post-result development sensitivity; no independent evaluation or selected release candidate",
+  "profile_sha256": "09526585b1f73e7ebb7e443e2d8039e5f237f31d880232ce94af99ec9cdea9cb",
+  "results": [
+    {
+      "ratio": 1.5,
+      "monitoring_recordings": 119,
+      "abstentions": 0,
+      "flagged_recordings": 3,
+      "alert_episodes": 1,
+      "first_flag": "2022-06-25 23:14:31",
+      "descriptive_lead_to_last_acquisition_hours": 1.7666666666666666,
+      "qualified_detector": false,
+      "healthy_exposure_qualified": false,
+      "nuisance_alert_target_validated": false
+    },
+    {
+      "ratio": 2.0,
+      "monitoring_recordings": 119,
+      "abstentions": 0,
+      "flagged_recordings": 3,
+      "alert_episodes": 1,
+      "first_flag": "2022-06-25 23:14:31",
+      "descriptive_lead_to_last_acquisition_hours": 1.7666666666666666,
+      "qualified_detector": false,
+      "healthy_exposure_qualified": false,
+      "nuisance_alert_target_validated": false
+    },
+    {
+      "ratio": 2.5,
+      "monitoring_recordings": 119,
+      "abstentions": 0,
+      "flagged_recordings": 3,
+      "alert_episodes": 1,
+      "first_flag": "2022-06-25 23:14:31",
+      "descriptive_lead_to_last_acquisition_hours": 1.7666666666666666,
+      "qualified_detector": false,
+      "healthy_exposure_qualified": false,
+      "nuisance_alert_target_validated": false
+    },
+    {
+      "ratio": 3.0,
+      "monitoring_recordings": 119,
+      "abstentions": 0,
+      "flagged_recordings": 1,
+      "alert_episodes": 1,
+      "first_flag": "2022-06-26 01:00:31",
+      "descriptive_lead_to_last_acquisition_hours": 0.0,
+      "qualified_detector": false,
+      "healthy_exposure_qualified": false,
+      "nuisance_alert_target_validated": false
+    }
+  ],
+  "base_policy_sha256": "7ffe2aeb4c00e9e9d38356d1eab4747e8c14a56ae95091f0506d6153911acb4b",
+  "code_sha256": "c366a9f26402f42aba24f11b20685929c9c4b15518f502dcb56b4f9c6d338381",
+  "reproduction": "Call evaluate(profile, dict(base_policy, threshold_ratio_strictly_greater_than=ratio)) for ratios 1.5, 2.0, 2.5, 3.0"
+}

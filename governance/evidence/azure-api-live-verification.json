@@ -1,0 +1,10 @@
+{
+  "authenticatedRequest": "passed",
+  "managedIdentityTokenVerified": true,
+  "persisted": true,
+  "replayedSameReceipt": true,
+  "anonymousStatus": 401,
+  "assessmentId": "2eaeb8f96551ff62d9188ae937f732c3da4bd4a9a6226a43a0dafdad431f858a",
+  "qualifiedAlertsAvailable": false,
+  "fixtureOnly": true
+}

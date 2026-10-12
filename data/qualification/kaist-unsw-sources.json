@@ -1,0 +1,68 @@
+[
+  {
+    "id": "5hcdd3tdvb",
+    "version": 6,
+    "title": "Ball Bearing Vibration, and Temperature Run-to-Failure Dataset",
+    "doi": "10.17632/5hcdd3tdvb.6",
+    "license": "CC BY 4.0",
+    "contributors": [
+      "Wonho Jung",
+      "SungHyun Yun",
+      "Junho Kim",
+      "Yong-Hwa Park"
+    ],
+    "files": [
+      {
+        "name": "Vibration_Bearing_RuntoFailure.zip",
+        "bytes": 4325053806,
+        "sha256": "7deeafed7334ed18b4da552075ef73391c15bc6b206dcdf6c0c7ec3e4e2657c6",
+        "download_url": "https://data.mendeley.com/public-files/datasets/5hcdd3tdvb/files/0a5cea77-da64-4658-8062-c33f4f68a5e2/file_downloaded"
+      }
+    ]
+  },
+  {
+    "id": "h4df4mgrfb",
+    "version": 3,
+    "title": "Bearing run-to-failure datasets of UNSW",
+    "doi": "10.17632/h4df4mgrfb.3",
+    "license": "CC BY 4.0",
+    "contributors": [
+      "Hengcheng Zhang",
+      "Pietro Borghesani",
+      "Siyuan Zhuang",
+      "Zhongxiao Peng"
+    ],
+    "files": [
+      {
+        "name": "Read me for data description.docx",
+        "bytes": 19965,
+        "sha256": "d8d7b91ac286b1e4a7eba1be7de14ad97e60651985eba0f744b35f3755d4ceaa",
+        "download_url": "https://data.mendeley.com/public-files/datasets/h4df4mgrfb/files/10918710-a445-4b40-b9cb-aa5a88ce6750/file_downloaded"
+      },
+      {
+        "name": "Test 1.7z",
+        "bytes": 1679267821,
+        "sha256": "922b4d3111e5c8b2575fc6128a0949749a23f605662cae6d2a2090b28513a836",
+        "download_url": "https://data.mendeley.com/public-files/datasets/h4df4mgrfb/files/a32689d3-767e-47b3-82a5-b2a7268f3668/file_downloaded"
+      },
+      {
+        "name": "Test 2.7z",
+        "bytes": 3026157873,
+        "sha256": "f60dfcb97ee5ca0ec2635a1a44b7ba9adcd02988001fc30a1d85970cb0da4b8a",
+        "download_url": "https://data.mendeley.com/public-files/datasets/h4df4mgrfb/files/2828aee9-9d20-4708-a39f-ce358affce06/file_downloaded"
+      },
+      {
+        "name": "Test 3.7z",
+        "bytes": 1780595292,
+        "sha256": "2f2613eaa7d3fdc0a2bed0514641a5764de16524d02cfb2932e24a9a69e69520",
+        "download_url": "https://data.mendeley.com/public-files/datasets/h4df4mgrfb/files/2be75346-bb34-4d25-b58a-38bc6c9a2081/file_downloaded"
+      },
+      {
+        "name": "Test 4.7z",
+        "bytes": 3234274005,
+        "sha256": "04a92927cf2ff5321b67490aabf8eefc63cb0d097c2219e35fea49ef44d2882d",
+        "download_url": "https://data.mendeley.com/public-files/datasets/h4df4mgrfb/files/cbd152b7-7b87-4ae2-a81f-05d63a2ffaa2/file_downloaded"
+      }
+    ]
+  }
+]

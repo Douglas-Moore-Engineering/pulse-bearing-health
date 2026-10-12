@@ -44,3 +44,21 @@ Fictional customer scenario; proposed design, not implementation or customer app
 - [governance/standards/standards_assurance_summary.md](../governance/standards/standards_assurance_summary.md)
 - [infra/azure/PLATFORM_PLAN.md](../infra/azure/PLATFORM_PLAN.md)
 - [runbooks/README.md](../runbooks/README.md)
+
+
+## Implementation increment
+
+- [Reference implementation and local operating procedure](REFERENCE_IMPLEMENTATION.md)
+- [Azure foundation and cloud validation sequence](../infra/azure/README.md)
+- [Current execution handoff](../customer/08-deployment-execution.md)
+
+- [LDM-UPB dataset qualification review](../data/qualification/ldm-upb-review.md)
+
+- [IMS dataset qualification review](../data/qualification/ims-review.md)
+
+- [Ferrara dataset source review](../data/qualification/ferrara-review.md)
+
+- [HUST bearing dataset source review](../data/qualification/hust-review.md)
+
+- [AKS capacity and release evidence](AKS_CAPACITY_AND_RELEASE.md)
+- [AKS deployment runbook](../infra/aks/README.md)

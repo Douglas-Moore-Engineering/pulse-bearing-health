@@ -1,0 +1,16 @@
+{
+  "status": "INCOMPLETE_NOT_EXECUTABLE",
+  "tenant_id": null,
+  "subscription_id": null,
+  "resource_group": "rg-pulse-reference",
+  "location": "eastus2",
+  "prefix": "pulse",
+  "owner": "Dr. Douglas Moore",
+  "scope": "isolated-reference-foundation",
+  "max_monthly_spend_usd": null,
+  "private_operator_route": null,
+  "allow_training_jobs": false,
+  "allow_public_dataset_downloads": false,
+  "region_status": "ENGINEERING_PROPOSAL_NOT_ACCOUNT_VALIDATED",
+  "notes": "Budget and account must be supplied by the actual owner. This file grants no permission."
+}

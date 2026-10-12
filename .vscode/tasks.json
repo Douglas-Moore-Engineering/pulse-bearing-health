@@ -7,6 +7,19 @@
       "command": "python scripts/validate_review_package.py",
       "group": "test",
       "problemMatcher": []
+    },
+    {
+      "label": "Pulse: test reference implementation",
+      "type": "shell",
+      "command": "python -m pytest -q",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Pulse: run reference demo",
+      "type": "shell",
+      "command": "python scripts/run_reference_demo.py --output outputs/reference-manual",
+      "problemMatcher": []
     }
   ]
 }

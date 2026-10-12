@@ -1,0 +1,1281 @@
+{
+  "quota": [
+    {
+      "name": "lowPriorityCores",
+      "used": "0",
+      "limit": "3"
+    },
+    {
+      "name": "cores",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "virtualMachines",
+      "used": "0",
+      "limit": "25000"
+    },
+    {
+      "name": "availabilitySets",
+      "used": "0",
+      "limit": "2500"
+    },
+    {
+      "name": "virtualMachineScaleSets",
+      "used": "0",
+      "limit": "2500"
+    },
+    {
+      "name": "dedicatedVCpus",
+      "used": "0",
+      "limit": "3000"
+    },
+    {
+      "name": "cloudServices",
+      "used": "0",
+      "limit": "2500"
+    },
+    {
+      "name": "basicAFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardA0_A7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardA8_A11Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardAv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardBSFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDv2PromoFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDadsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDaldsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDalsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDasv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDdsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDdsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDldsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDldsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDlsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDlsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDndv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDnldv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDnlv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDnv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDadv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDaldv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDalv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDASv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDASv5Family",
+      "used": "0",
+      "limit": "0"
+    },
+    {
+      "name": "standardDav6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDDSv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDDv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDpdsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDpldsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDplsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardDpsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDSv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDSv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDSv5Family",
+      "used": "0",
+      "limit": "0"
+    },
+    {
+      "name": "standardDv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDCSv2Family",
+      "used": "0",
+      "limit": "8"
+    },
+    {
+      "name": "standardDCSFamily",
+      "used": "0",
+      "limit": "8"
+    },
+    {
+      "name": "standardDSFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDSv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardDSv2PromoFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEadsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEasv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEdsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEdsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEndv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEnv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEASv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEDSv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardESv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEadv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEav6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEBDSv5Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEBSv5Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEpdsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardEpsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEISv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardEIv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardFFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFamdsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFamsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFadsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFaldsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFalsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFalsv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFamsv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFasv6Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFasv7Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardFSFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardFSv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFXmdsv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardFXmsv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardGFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardGSFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardHFamily",
+      "used": "0",
+      "limit": "8"
+    },
+    {
+      "name": "standardHPromoFamily",
+      "used": "0",
+      "limit": "8"
+    },
+    {
+      "name": "internalNDMSv1Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardLaosv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardLasv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardLSFamily",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardLSv2Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardLsv4Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardMBDSMediumMemoryv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "StandardMBSMediumMemoryv3Family",
+      "used": "0",
+      "limit": "10"
+    },
+    {
+      "name": "standardNCFamily",
+      "used": "0",
+      "limit": "12"
+    },
+    {
+      "name": "standardNCPromoFamily",
+      "used": "0",
+      "limit": "12"
+    },
+    {
+      "name": "standardNVFamily",
+      "used": "0",
+      "limit": "12"
+    },
+    {
+      "name": "standardNVPromoFamily",
+      "used": "0",
+      "limit": "12"
+    },
+    {
+      "name": "standardNVSv4Family",
+      "used": "0",
+      "limit": "8"
+    },
+    {
+      "name": "standardPBSFamily",
+      "used": "0",
+      "limit": "6"
+    },
+    {
+      "name": "StandardDiskCount",
+      "used": "0",
+      "limit": "50000"
+    },
+    {
+      "name": "PremiumDiskCount",
+      "used": "0",
+      "limit": "50000"
+    },
+    {
+      "name": "StandardSSDDiskCount",
+      "used": "0",
+      "limit": "50000"
+    },
+    {
+      "name": "StandardSSDZRSDiskCount",
+      "used": "0",
+      "limit": "50000"
+    },
+    {
+      "name": "PremiumZRSDiskCount",
+      "used": "0",
+      "limit": "50000"
+    },
+    {
+      "name": "UltraSSDDiskCount",
+      "used": "0",
+      "limit": "1000"
+    },
+    {
+      "name": "PremiumV2DiskCount",
+      "used": "0",
+      "limit": "5000"
+    },
+    {
+      "name": "StandardSnapshotCount",
+      "used": "0",
+      "limit": "75000"
+    },
+    {
+      "name": "StandardSSDSnapshotCount",
+      "used": "0",
+      "limit": "75000"
+    },
+    {
+      "name": "PremiumSnapshotCount",
+      "used": "0",
+      "limit": "75000"
+    },
+    {
+      "name": "ZRSSnapshotCount",
+      "used": "0",
+      "limit": "75000"
+    },
+    {
+      "name": "UltraSSDDiskSizeInGB",
+      "used": "0",
+      "limit": "102400"
+    },
+    {
+      "name": "PremiumV2DiskSizeInGB",
+      "used": "0",
+      "limit": "1048576"
+    },
+    {
+      "name": "DiskEncryptionSetCount",
+      "used": "0",
+      "limit": "5000"
+    },
+    {
+      "name": "DiskAccessCount",
+      "used": "0",
+      "limit": "1000"
+    },
+    {
+      "name": "BackgroundCopyInProgressUltraSSDDiskCount",
+      "used": "0",
+      "limit": "50"
+    },
+    {
+      "name": "BackgroundCopyInProgressPremiumV2DiskCount",
+      "used": "0",
+      "limit": "50"
+    },
+    {
+      "name": "PremiumV2SnapshotCount",
+      "used": "0",
+      "limit": "1000"
+    },
+    {
+      "name": "PremiumV2SnapshotSizeInGB",
+      "used": "0",
+      "limit": "102400"
+    },
+    {
+      "name": "Gallery",
+      "used": "0",
+      "limit": "100"
+    },
+    {
+      "name": "GalleryImage",
+      "used": "0",
+      "limit": "1000"
+    },
+    {
+      "name": "GalleryImageVersion",
+      "used": "0",
+      "limit": "10000"
+    },
+    {
+      "name": "GalleryApplicationVersion",
+      "used": "0",
+      "limit": "300"
+    },
+    {
+      "name": "GalleryScriptVersion",
+      "used": "0",
+      "limit": "300"
+    }
+  ],
+  "versions": {
+    "values": [
+      {
+        "capabilities": {
+          "supportPlan": [
+            "KubernetesOfficial"
+          ]
+        },
+        "isDefault": null,
+        "isPreview": true,
+        "patchVersions": {
+          "1.37.0": {
+            "upgrades": []
+          }
+        },
+        "version": "1.37"
+      },
+      {
+        "capabilities": {
+          "supportPlan": [
+            "KubernetesOfficial",
+            "AKSLongTermSupport"
+          ]
+        },
+        "isDefault": null,
+        "isPreview": null,
+        "patchVersions": {
+          "1.36.0": {
+            "upgrades": [
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.37.0"
+            ]
+          },
+          "1.36.1": {
+            "upgrades": [
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.37.0"
+            ]
+          },
+          "1.36.2": {
+            "upgrades": [
+              "1.36.4",
+              "1.36.3",
+              "1.37.0"
+            ]
+          },
+          "1.36.3": {
+            "upgrades": [
+              "1.36.4",
+              "1.37.0"
+            ]
+          },
+          "1.36.4": {
+            "upgrades": [
+              "1.37.0"
+            ]
+          }
+        },
+        "version": "1.36"
+      },
+      {
+        "capabilities": {
+          "supportPlan": [
+            "KubernetesOfficial",
+            "AKSLongTermSupport"
+          ]
+        },
+        "isDefault": true,
+        "isPreview": null,
+        "patchVersions": {
+          "1.35.0": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.1": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.2": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.3": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.4": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.5": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.6": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.7": {
+            "upgrades": [
+              "1.35.8",
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          },
+          "1.35.8": {
+            "upgrades": [
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0"
+            ]
+          }
+        },
+        "version": "1.35"
+      },
+      {
+        "capabilities": {
+          "supportPlan": [
+            "KubernetesOfficial",
+            "AKSLongTermSupport"
+          ]
+        },
+        "isDefault": null,
+        "isPreview": null,
+        "patchVersions": {
+          "1.34.0": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.1": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.10": {
+            "upgrades": [
+              "1.34.11",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.11": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.2": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.3": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.4": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.5": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.6": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.7": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.8": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          },
+          "1.34.9": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0"
+            ]
+          }
+        },
+        "version": "1.34"
+      },
+      {
+        "capabilities": {
+          "supportPlan": [
+            "AKSLongTermSupport"
+          ]
+        },
+        "isDefault": null,
+        "isPreview": null,
+        "patchVersions": {
+          "1.33.12": {
+            "upgrades": [
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0",
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.34.0",
+              "1.33.13"
+            ]
+          },
+          "1.33.13": {
+            "upgrades": [
+              "1.36.4",
+              "1.36.3",
+              "1.36.2",
+              "1.36.1",
+              "1.36.0",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0",
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.34.0"
+            ]
+          }
+        },
+        "version": "1.33"
+      },
+      {
+        "capabilities": {
+          "supportPlan": [
+            "AKSLongTermSupport"
+          ]
+        },
+        "isDefault": null,
+        "isPreview": null,
+        "patchVersions": {
+          "1.32.10": {
+            "upgrades": [
+              "1.33.13",
+              "1.33.12",
+              "1.32.11",
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0",
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.34.0"
+            ]
+          },
+          "1.32.11": {
+            "upgrades": [
+              "1.35.8",
+              "1.35.7",
+              "1.35.6",
+              "1.35.5",
+              "1.35.4",
+              "1.35.3",
+              "1.35.2",
+              "1.35.1",
+              "1.35.0",
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.34.0",
+              "1.33.13",
+              "1.33.12"
+            ]
+          }
+        },
+        "version": "1.32"
+      },
+      {
+        "capabilities": {
+          "supportPlan": [
+            "AKSLongTermSupport"
+          ]
+        },
+        "isDefault": null,
+        "isPreview": null,
+        "patchVersions": {
+          "1.31.100": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.34.0",
+              "1.33.13",
+              "1.33.12",
+              "1.32.11",
+              "1.32.10"
+            ]
+          },
+          "1.31.13": {
+            "upgrades": [
+              "1.34.11",
+              "1.34.10",
+              "1.34.9",
+              "1.34.8",
+              "1.34.7",
+              "1.34.6",
+              "1.34.5",
+              "1.34.4",
+              "1.34.3",
+              "1.34.2",
+              "1.34.1",
+              "1.34.0",
+              "1.33.13",
+              "1.33.12",
+              "1.32.11",
+              "1.32.10",
+              "1.31.100"
+            ]
+          }
+        },
+        "version": "1.31"
+      }
+    ]
+  },
+  "clusters": [],
+  "checked_at": "2026-10-11T15:37:40.213719+00:00"
+}

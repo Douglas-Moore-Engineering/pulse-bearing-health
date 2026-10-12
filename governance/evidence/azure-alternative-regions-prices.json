@@ -1,0 +1,4 @@
+{
+  "source": "https://prices.azure.com/api/retail/prices?%24filter=%28armRegionName+eq+%27denmarkeast%27+or+armRegionName+eq+%27indiasouthcentral%27%29+and+armSkuName+eq+%27Standard_B2s%27+and+priceType+eq+%27Consumption%27",
+  "items": []
+}

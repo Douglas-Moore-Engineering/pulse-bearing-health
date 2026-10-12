@@ -1,0 +1,20 @@
+{
+  "version": "1",
+  "recorded_date": "2026-10-11",
+  "dataset": "DS-LDM-UPB-RTF",
+  "source_record": "10868257",
+  "status": "prospective_research_partition_not_approved_acceptance",
+  "partition_unit": "entire_bearing_all_channels_all_measurements",
+  "development": ["B02", "B03", "B11"],
+  "validation_candidates": ["B04"],
+  "reserved_test_candidates": ["B12", "B17"],
+  "other_runs": "unassigned_do_not_use_without_recorded_assignment",
+  "documentation_and_context_inspected": ["B02", "B03", "B04", "B11", "B12", "B17"],
+  "signal_samples_previously_inspected": ["B02"],
+  "reserved_test_signals_inspected": false,
+  "full_run_integrity_qualified": false,
+  "endpoint_qualification_complete": false,
+  "test_access_condition": "Freeze detector, preprocessing, endpoint policy and evaluation protocol before signal access; record any access or partition change.",
+  "consumption_rule": "Any test used for tuning becomes development and cannot be restored to held-out status.",
+  "healthy_exposure_qualified": false
+}

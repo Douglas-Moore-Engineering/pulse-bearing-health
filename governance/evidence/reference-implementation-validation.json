@@ -1,0 +1,66 @@
+{
+  "increment": "0.4.0",
+  "recorded_on": "2026-10-11",
+  "scope": "Local generated-fixture software tests and offline infrastructure compilation; no cloud, learned-model or site validation",
+  "tests": {
+    "tests": 24,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_report": "governance/evidence/reference-tests.xml",
+  "demo_counts": {
+    "sources": 3,
+    "windows": 3,
+    "quarantine": 1,
+    "evidence": 3,
+    "decisions": 3
+  },
+  "bicep": {
+    "version": "0.48.1",
+    "compiler_sha256": "398af294cf16ac4becdbd008a77d148d0e8e91492309a6b60ec911b7e1cab082",
+    "result": "COMPILED_NO_DIAGNOSTICS",
+    "azure_validation": "NOT_EXECUTED",
+    "compiled_template_sha256": "ee1f35a1f430cf08ec673268a0c6ae170a6f37a5da63d10e4f324d5c88579045"
+  },
+  "viewer": {
+    "browser_check": "PASS: three cards, unavailable state and site limitation disclosure",
+    "visual_inspection": "PASS: rendered local viewer inspected; three unavailable cards, visible fixture/site disclosures and readable evidence IDs"
+  },
+  "diagrams": {
+    "rendered_views": 4,
+    "png_alpha_and_svg_checks": "governance/evidence/reference-diagram-exports.json",
+    "visual_inspection": "Four final rendered views inspected on a light surface; labels, arrows, groups and legends visible"
+  },
+  "limitations": [
+    "No qualified actual dataset or measured bearing-health performance",
+    "No model training, trained model loading, fault diagnosis or RUL",
+    "No actual Azure authentication, account validation, resource creation, cloud jobs or deployment",
+    "Offline approval helper uses caller-supplied trust; cloud promotion protection and real approval authentication absent",
+    "No independent assurance, ORR, CAR, site acceptance or gate approval"
+  ],
+  "artifact_sha256": {
+    "docs/diagrams/11_functional_capabilities.mmd": "6ee839fa74ee6ae52ac8a62dcb28dfca77b11b853795f76a5ac240285f2d1924",
+    "docs/diagrams/11_functional_capabilities.png": "d1d4908613a32ab707f61ae90e557fa821462c041bf5830c266ecc2fd2aec27c",
+    "docs/diagrams/11_functional_capabilities.svg": "c87c38af8e67ce67efc0ee1fbd7e5a320ea9ee4eb496816ec92d2b5c2cbed6a6",
+    "docs/diagrams/12_integration_architecture.mmd": "9ab70226caaad4589cd45768aa3a9b9219eb7f40d301b5487738507be691dff8",
+    "docs/diagrams/12_integration_architecture.png": "1b081dd9d173e0cdf7db2fc7e07764ca971bef158195815a1834709d023b8f2f",
+    "docs/diagrams/12_integration_architecture.svg": "605d513f0af91c7f2873b5c2ac64d5aec876cb14b8229a6e5f6be61ecec07e9a",
+    "docs/diagrams/13_threat_defense.mmd": "91c4e19d8dc9d625531644a1f5d6106c19a0e9e547c5c47918b253227de7acf6",
+    "docs/diagrams/13_threat_defense.png": "e0bec6ef60a9cf9f3cbce6fba8239df0b0b3f12135517346328a88c49b73cb7f",
+    "docs/diagrams/13_threat_defense.svg": "50c4df4c5125f288affc884660137651b44ef412ae0d92f86701c25222cf3c73",
+    "docs/diagrams/14_reference_runtime.mmd": "75876ebd332c486719919481c018f2cc80a3c9d83651a3ebe09f6f382a2431ef",
+    "docs/diagrams/14_reference_runtime.png": "ac5038a1beb02a54260189a82ee775e4689d10c809a3f7fee8244e52d27c4879",
+    "docs/diagrams/14_reference_runtime.svg": "7a7ae679705784ba8729d6e20c3dc15f7518dbc09ed5ee2fa2775706c8e6cb68",
+    "governance/evidence/reference-diagram-exports.json": "90520104074d10f3f4c0e98e127cfbabb979561ab1c1b525224e56903e10c865",
+    "governance/evidence/reference-tests.xml": "158382a0eeda6d3ebd164d65edfcab720c64ad35e264701f98c82776e18b4939",
+    "infra/azure/main.bicep": "10facc5f34eb1a6acc55722d0fcdd2240f8086e9a53f620c0baeee7c441370a2",
+    "pyproject.toml": "f52f0b78b86e78c0818c4cb8538207c57247a91ea050cabd30ce0b2dbe530d67",
+    "scripts/run_reference_demo.py": "1b1d50866360d4871e71d29c31e26edd92c74af2b7bcd91bba9dc0bf00ab7f16",
+    "src/pulse/__init__.py": "47112957d5d02d2ea98f3c5a0010c18519e6b9e0e36970296c9f9027ca6ab54b",
+    "src/pulse/core.py": "5fca171ad94acf1f374e52119d84028e2b26c5908d5759a7b4cd28a403305971",
+    "src/pulse/release.py": "e6c88b8277b3fd5b5982e58695880f03f7ce918b312f7ff7c45d7b7d8b98b1a5",
+    "tests/test_reference.py": "d88515bc4607a7019c200b4b284190b0eb9e27bb5919e7f62785045caf1b38ac"
+  },
+  "skill_snapshot": "27 Windows CRLF conversions restored to exact committed manifest-verified bytes; hashes and skill content unchanged; .gitattributes prevents conversion"
+}

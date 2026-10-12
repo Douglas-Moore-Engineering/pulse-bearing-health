@@ -1,0 +1,21 @@
+{
+  "eTag": "\"1dd599c300b572a\"",
+  "id": "/subscriptions/b31e9bd1-6179-4504-819b-f212ed36f609/resourceGroups/rg-pulse-reference/providers/Microsoft.Consumption/budgets/pulse-monthly-50",
+  "name": "pulse-monthly-50",
+  "properties": {
+    "amount": 50.0,
+    "category": "Cost",
+    "currentSpend": {
+      "amount": 0.0,
+      "unit": "USD"
+    },
+    "filter": {},
+    "notifications": {},
+    "timeGrain": "Monthly",
+    "timePeriod": {
+      "endDate": "2027-10-01T00:00:00Z",
+      "startDate": "2026-10-01T00:00:00Z"
+    }
+  },
+  "type": "Microsoft.Consumption/budgets"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "archive": "1st_test.rar",
+    "sha256": "c25241571583948462a3916d97dc11c984a839f38a0da0907fff18c958c0a484",
+    "inventory_entries": 2157,
+    "first_member": "1st_test/2003.10.22.12.06.24",
+    "last_member": "1st_test"
+  },
+  {
+    "archive": "3rd_test.rar",
+    "sha256": "01e9ec83c6c55adc0300a20003a261f9a2ac2b714aae4984050325e589252bc8",
+    "inventory_entries": 6326,
+    "first_member": "4th_test/txt/2004.03.04.09.27.46",
+    "last_member": "4th_test/txt/2004.04.18.02.32.55"
+  }
+]

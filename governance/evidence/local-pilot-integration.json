@@ -1,0 +1,18 @@
+{
+  "scope": "Synthetic local component exercise; not API, Azure, site, host-loss or capacity qualification",
+  "intake_windows": 1000,
+  "review_rows": 1100,
+  "corrections": 100,
+  "restored_histories_identical": true,
+  "integrity": "ok",
+  "retained_unresolved_subjects": 900,
+  "review_eligible_subjects": 100,
+  "records_deleted": 0,
+  "workload_seconds": 6.639406699978281,
+  "sequential_windows_per_second": 150.61586752974046,
+  "window_processing_ms_p95": 11.05559995630756,
+  "isolated_restore_seconds": 0.11805370001820847,
+  "database_bytes": 262144,
+  "backup_sha256": "5eff508c481ddcce56facc05ef6b78cea98a57520d6977706100668cb5c660fe",
+  "code_sha256": "faf540c0f6a2c59460f54ba530a10126afdcaef8e2fd2f2977073b45c723dd5f"
+}

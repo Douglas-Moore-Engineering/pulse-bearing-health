@@ -77,5 +77,63 @@
     "name": "10_traceability",
     "title": "Requirements, Risks and Evidence Trace",
     "purpose": "Join stakeholder needs and controls to evidence-bound review decisions."
+  },
+  {
+    "name": "11_functional_capabilities",
+    "title": "Functional Capability Decomposition",
+    "purpose": "Allocate source, analysis, policy and human responsibilities.",
+    "status": "Proposed architecture; local harness implements a subset.",
+    "version": "0.4",
+    "requirements": "PULSE-FR-001;PULSE-FR-003;PULSE-FR-004;PULSE-FR-007"
+  },
+  {
+    "name": "12_integration_architecture",
+    "title": "Integration Architecture",
+    "purpose": "Separate local contracts from deferred cloud and CMMS adapters.",
+    "status": "Local reference implemented; cloud and site paths deferred.",
+    "version": "0.4",
+    "requirements": "PULSE-FR-001;PULSE-FR-002;PULSE-FR-007;PULSE-FR-008"
+  },
+  {
+    "name": "13_threat_defense",
+    "title": "Threats and Defense in Depth",
+    "purpose": "Map input, integrity and access threats to bounded controls.",
+    "status": "Local controls exercised; Azure controls unverified.",
+    "version": "0.4",
+    "requirements": "PULSE-FR-002;PULSE-SR-001;PULSE-SR-002;PULSE-SR-004"
+  },
+  {
+    "name": "14_reference_runtime",
+    "title": "Critical Reference Runtime Path",
+    "purpose": "Show validation, persistence, abstention and human disposition order.",
+    "status": "Locally exercised generated fixtures; no trained model.",
+    "version": "0.4",
+    "requirements": "PULSE-FR-002;PULSE-FR-004;PULSE-FR-007;AIG-REQ-001"
+  },
+  {
+    "name": "15_aks_alert_runtime",
+    "title": "AKS Degradation Assessment Runtime",
+    "purpose": "Connect private requests, scaling and explicit capability limits.",
+    "status": "Local API exercised; proposed cloud deployment; alerts unavailable.",
+    "version": "0.5",
+    "requirements": "PULSE-NFR-001;PULSE-SR-002;PULSE-SR-003;AIG-REQ-003"
+  },
+  {
+    "name": "16_deployed_reference_runtime",
+    "title": "Deployed Azure Reference Runtime",
+    "purpose": "Show actual single-node access, persistence and capability limits.",
+    "status": "Deployed; live fixture and pod restart verified; alerts unavailable.",
+    "version": "0.6",
+    "requirements": "PULSE-NFR-001;PULSE-SR-002;PULSE-SR-003;AIG-REQ-003",
+    "footer": "PULSE reference | Deployed; no model or site qualification"
+  },
+  {
+    "name": "17_reference_detector_workflow",
+    "title": "Reference Detector and Simulated Inbox",
+    "purpose": "Trace benchmark replay through persistent reference decisions and acknowledgements.",
+    "status": "Deployed and replay-tested; detector unqualified; no external delivery.",
+    "version": "0.7",
+    "requirements": "PULSE-FR-003;PULSE-FR-007;PULSE-SR-002;AIG-REQ-003",
+    "footer": "PULSE reference | Fictional inbox; no production acceptance"
   }
 ]

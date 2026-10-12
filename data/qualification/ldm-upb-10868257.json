@@ -1,0 +1,492 @@
+{
+  "dataset_id": "DS-LDM-UPB-RTF",
+  "record_id": 10868257,
+  "doi": "10.5281/zenodo.10868257",
+  "review_date": "2026-10-11",
+  "status": "PARTIAL_SOURCE_INSPECTION_NOT_TRAINING_QUALIFIED",
+  "metadata_source": "https://zenodo.org/api/records/10868257",
+  "metadata_sha256": "7fd2539cf84a562af37f368f08abc44cca0834a59bffd146caf70d837f8e8c40",
+  "title": "Run-to-failure data set of ball bearings subjected to time-varying load and speed conditions",
+  "creator": [
+    {
+      "name": "Aimiyekagbon, Osarenren Kennedy",
+      "affiliation": "Chair of Dynamics and Mechatronics, Faculty of Mechanical Engineering, Paderborn University, 33098 Paderborn, Germany",
+      "orcid": "0000-0002-2956-1229"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "access_right": "open",
+  "publication_date": "2024-04-02",
+  "reported_version": "2023-04-02",
+  "version_conflict": "API version 2023-04-02; description revision 2024-04-02; PDF March 25 2024 v2. Preserve record ID and checksums.",
+  "description_pdf": {
+    "md5_verified": "7c6535acb48e620cb37b0f040cb9f83a",
+    "sha256": "949c855fa0cc6d2b12c83b476a03b7ab9498cf2ee4219ef50004e21ae0dd1b80",
+    "pages": 9,
+    "visual_review_pages": [
+      4,
+      6,
+      8,
+      9
+    ]
+  },
+  "archives": {
+    "count": 48,
+    "published_compressed_bytes": 152006165557,
+    "full_archives_downloaded": 0,
+    "full_archive_checksums_verified": 0
+  },
+  "files": [
+    {
+      "name": "B01.zip",
+      "bytes": 965866495,
+      "published_checksum": "md5:5e82d9d98f21e4a03a06c43b87858c6b",
+      "source": "https://zenodo.org/api/records/10868257/files/B01.zip/content"
+    },
+    {
+      "name": "B02.zip",
+      "bytes": 2725517006,
+      "published_checksum": "md5:a75354d8e41eee9b6adf55f0f6c532a8",
+      "source": "https://zenodo.org/api/records/10868257/files/B02.zip/content"
+    },
+    {
+      "name": "B03.zip",
+      "bytes": 1463649321,
+      "published_checksum": "md5:6c16eaa8d837b31da69fab1675521ddb",
+      "source": "https://zenodo.org/api/records/10868257/files/B03.zip/content"
+    },
+    {
+      "name": "B04.zip",
+      "bytes": 2844244761,
+      "published_checksum": "md5:9d7c11dc6a83424b440ae6d184064dcb",
+      "source": "https://zenodo.org/api/records/10868257/files/B04.zip/content"
+    },
+    {
+      "name": "B05.zip",
+      "bytes": 1243922707,
+      "published_checksum": "md5:2aa8a2e21af0b66ee357fc9ec8c33933",
+      "source": "https://zenodo.org/api/records/10868257/files/B05.zip/content"
+    },
+    {
+      "name": "B06_part1.zip",
+      "bytes": 5675704682,
+      "published_checksum": "md5:cba4b7e30e12086840351ac18b633da5",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part1.zip/content"
+    },
+    {
+      "name": "B06_part2.zip",
+      "bytes": 5766208720,
+      "published_checksum": "md5:7c0707d83fb8d610f14c1826ed3cada3",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part2.zip/content"
+    },
+    {
+      "name": "B06_part3.zip",
+      "bytes": 4615072830,
+      "published_checksum": "md5:fbdc1b8bf20c9c154786a48103352894",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part3.zip/content"
+    },
+    {
+      "name": "B06_part4.zip",
+      "bytes": 4621291667,
+      "published_checksum": "md5:9a84bd94d00f2b0fccce3c068c4795e7",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part4.zip/content"
+    },
+    {
+      "name": "B06_part5.zip",
+      "bytes": 4518003798,
+      "published_checksum": "md5:61b6a6092d55f80838a46bda3f6be8c3",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part5.zip/content"
+    },
+    {
+      "name": "B06_part6.zip",
+      "bytes": 2693572366,
+      "published_checksum": "md5:6e0c681f3c191290bc756ed44fafd7f0",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part6.zip/content"
+    },
+    {
+      "name": "B06_part7.zip",
+      "bytes": 2428811281,
+      "published_checksum": "md5:0b2421b7d6dcc3fc0f42ca61adfae185",
+      "source": "https://zenodo.org/api/records/10868257/files/B06_part7.zip/content"
+    },
+    {
+      "name": "B07_part1.zip",
+      "bytes": 3325113945,
+      "published_checksum": "md5:5825b52ab08f1f7b72edd160530949c7",
+      "source": "https://zenodo.org/api/records/10868257/files/B07_part1.zip/content"
+    },
+    {
+      "name": "B07_part2.zip",
+      "bytes": 3389946990,
+      "published_checksum": "md5:be04c623e7143ccd29041df0f89ffb1e",
+      "source": "https://zenodo.org/api/records/10868257/files/B07_part2.zip/content"
+    },
+    {
+      "name": "B07_part3.zip",
+      "bytes": 3115718287,
+      "published_checksum": "md5:05a382fc2a0bff594b9627bc5cb235f4",
+      "source": "https://zenodo.org/api/records/10868257/files/B07_part3.zip/content"
+    },
+    {
+      "name": "B07_part4.zip",
+      "bytes": 1342236725,
+      "published_checksum": "md5:987358138d2bd31fa1ea4f57c4d8dc97",
+      "source": "https://zenodo.org/api/records/10868257/files/B07_part4.zip/content"
+    },
+    {
+      "name": "B07_part5.zip",
+      "bytes": 3150500096,
+      "published_checksum": "md5:cf9ea80420900fb512fcb5f644ee8e60",
+      "source": "https://zenodo.org/api/records/10868257/files/B07_part5.zip/content"
+    },
+    {
+      "name": "B08.zip",
+      "bytes": 4483738608,
+      "published_checksum": "md5:26ca981adedcc4b18b1ffe0a89363ea4",
+      "source": "https://zenodo.org/api/records/10868257/files/B08.zip/content"
+    },
+    {
+      "name": "B09_part1.zip",
+      "bytes": 2369181297,
+      "published_checksum": "md5:5ff0f68c8a1e46712b6a30e390b6db4b",
+      "source": "https://zenodo.org/api/records/10868257/files/B09_part1.zip/content"
+    },
+    {
+      "name": "B09_part2.zip",
+      "bytes": 2708258795,
+      "published_checksum": "md5:a40739b3c4f0014a1c7ffdef2fb2fe56",
+      "source": "https://zenodo.org/api/records/10868257/files/B09_part2.zip/content"
+    },
+    {
+      "name": "B10.zip",
+      "bytes": 3946152290,
+      "published_checksum": "md5:f36593e43981d174fbcb841e664282fa",
+      "source": "https://zenodo.org/api/records/10868257/files/B10.zip/content"
+    },
+    {
+      "name": "B11.zip",
+      "bytes": 2601830594,
+      "published_checksum": "md5:9bf410383138c20356ba89c6f1dfe6d4",
+      "source": "https://zenodo.org/api/records/10868257/files/B11.zip/content"
+    },
+    {
+      "name": "B12.zip",
+      "bytes": 1123760656,
+      "published_checksum": "md5:27d740e9832eef7badaf0c0abc66cb51",
+      "source": "https://zenodo.org/api/records/10868257/files/B12.zip/content"
+    },
+    {
+      "name": "B13_part1.zip",
+      "bytes": 2998248795,
+      "published_checksum": "md5:8ed3a85990e16627221a98e6c598bf7e",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part1.zip/content"
+    },
+    {
+      "name": "B13_part2.zip",
+      "bytes": 3001067961,
+      "published_checksum": "md5:6c238166f9e0fe46a71f160ef458ac7d",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part2.zip/content"
+    },
+    {
+      "name": "B13_part3.zip",
+      "bytes": 3000315589,
+      "published_checksum": "md5:ca123453a0f5d79cfe276dd8fa8e7d4c",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part3.zip/content"
+    },
+    {
+      "name": "B13_part4.zip",
+      "bytes": 2987864989,
+      "published_checksum": "md5:2b0a6aa921d4d68619bc83858a0c10d0",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part4.zip/content"
+    },
+    {
+      "name": "B13_part5.zip",
+      "bytes": 2990783180,
+      "published_checksum": "md5:caefdaac0ab495db3fc4fc8ed0ef42b3",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part5.zip/content"
+    },
+    {
+      "name": "B13_part6.zip",
+      "bytes": 2991869153,
+      "published_checksum": "md5:6fcc8ad8b6c066674de3a94928eb5459",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part6.zip/content"
+    },
+    {
+      "name": "B13_part7.zip",
+      "bytes": 2983658589,
+      "published_checksum": "md5:df62381f0f02c666f34f1de4dd799025",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part7.zip/content"
+    },
+    {
+      "name": "B13_part8.zip",
+      "bytes": 2860740049,
+      "published_checksum": "md5:ca29c89171a8451836bf7bd7a416ec2e",
+      "source": "https://zenodo.org/api/records/10868257/files/B13_part8.zip/content"
+    },
+    {
+      "name": "B14_part1.zip",
+      "bytes": 3241614635,
+      "published_checksum": "md5:e1da5ece0670ab79a1991766045f99e5",
+      "source": "https://zenodo.org/api/records/10868257/files/B14_part1.zip/content"
+    },
+    {
+      "name": "B14_part2.zip",
+      "bytes": 3227089173,
+      "published_checksum": "md5:1be896a693f351181c9d27f08d1198ca",
+      "source": "https://zenodo.org/api/records/10868257/files/B14_part2.zip/content"
+    },
+    {
+      "name": "B14_part3.zip",
+      "bytes": 3219883469,
+      "published_checksum": "md5:a26f2cc1465508799e888b4a51febed5",
+      "source": "https://zenodo.org/api/records/10868257/files/B14_part3.zip/content"
+    },
+    {
+      "name": "B14_part4.zip",
+      "bytes": 3211951005,
+      "published_checksum": "md5:eb028debf876202b1a70fc812e244eb9",
+      "source": "https://zenodo.org/api/records/10868257/files/B14_part4.zip/content"
+    },
+    {
+      "name": "B14_part5.zip",
+      "bytes": 3129207700,
+      "published_checksum": "md5:3045153b447e3c88929d5e690b3300a0",
+      "source": "https://zenodo.org/api/records/10868257/files/B14_part5.zip/content"
+    },
+    {
+      "name": "B15_part1.zip",
+      "bytes": 3274227208,
+      "published_checksum": "md5:42037aea1a986d0b76a13aa536a29d5e",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part1.zip/content"
+    },
+    {
+      "name": "B15_part2.zip",
+      "bytes": 3265054427,
+      "published_checksum": "md5:16adbd73ff4e4dfe8ced471412e001c3",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part2.zip/content"
+    },
+    {
+      "name": "B15_part3.zip",
+      "bytes": 3259535279,
+      "published_checksum": "md5:73f81f7bfd95a97ef352e766ab0e97dd",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part3.zip/content"
+    },
+    {
+      "name": "B15_part4.zip",
+      "bytes": 3263398365,
+      "published_checksum": "md5:c4435450ae7dae16b2e5c174a405ea39",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part4.zip/content"
+    },
+    {
+      "name": "B15_part5.zip",
+      "bytes": 3257809458,
+      "published_checksum": "md5:857f4a1cad2d17ffb6d5420641a80d71",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part5.zip/content"
+    },
+    {
+      "name": "B15_part6.zip",
+      "bytes": 3252167101,
+      "published_checksum": "md5:d8cfb4942e6af51f0f884b2dc3580a7f",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part6.zip/content"
+    },
+    {
+      "name": "B15_part7.zip",
+      "bytes": 3260468239,
+      "published_checksum": "md5:41ef1e692e9f66d73c42e24ee8a093f0",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part7.zip/content"
+    },
+    {
+      "name": "B15_part8.zip",
+      "bytes": 3258944710,
+      "published_checksum": "md5:6ae866a6b69a9f7c0ae7b6def5484e47",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part8.zip/content"
+    },
+    {
+      "name": "B15_part9.zip",
+      "bytes": 3691322292,
+      "published_checksum": "md5:08b474efb9c36de5c917649f3b2150a1",
+      "source": "https://zenodo.org/api/records/10868257/files/B15_part9.zip/content"
+    },
+    {
+      "name": "B16_part1.zip",
+      "bytes": 3165982967,
+      "published_checksum": "md5:81205b64ad461ee1db24410eac8110ea",
+      "source": "https://zenodo.org/api/records/10868257/files/B16_part1.zip/content"
+    },
+    {
+      "name": "B16_part2.zip",
+      "bytes": 4446023000,
+      "published_checksum": "md5:0ab4cf2706167aceca13d002833bc183",
+      "source": "https://zenodo.org/api/records/10868257/files/B16_part2.zip/content"
+    },
+    {
+      "name": "B17.zip",
+      "bytes": 3648634307,
+      "published_checksum": "md5:efc887ba56be7df0db0a8e38c9c5ef7c",
+      "source": "https://zenodo.org/api/records/10868257/files/B17.zip/content"
+    },
+    {
+      "name": "LDM_UPB_Run-to-failure_data_set_of_ball_bearings.pdf",
+      "bytes": 2766702,
+      "published_checksum": "md5:7c6535acb48e620cb37b0f040cb9f83a",
+      "source": "https://zenodo.org/api/records/10868257/files/LDM_UPB_Run-to-failure_data_set_of_ball_bearings.pdf/content"
+    }
+  ],
+  "b02_inspection": {
+    "archive_members": 1120,
+    "mat_members": 1116,
+    "transferred_bytes": 4804475,
+    "full_archive_checksum_verified": false,
+    "selected_members": [
+      {
+        "member": "B02/B02_log.pdf",
+        "bytes": 171502,
+        "sha256": "5beffbeebd5ffa1ff62e6c83cee0b74a9ab53e0de4e31f932703ea81dbf522e7",
+        "crc32_verified": true
+      },
+      {
+        "member": "B02/B02_meanTemperatures.csv",
+        "bytes": 81170,
+        "sha256": "b83dd0b858362478fb43556ae5ddd55d11f628a04312e27e2077a86fa0a94c4a",
+        "crc32_verified": true
+      },
+      {
+        "member": "B02/B02_operatingConditions.csv",
+        "bytes": 135693,
+        "sha256": "446c343e9816dfcfba615acccfa324467fd628e1ca514a42d338193484fc6441",
+        "crc32_verified": true
+      },
+      {
+        "member": "B02/vibrationData/data_B02_M0001.mat",
+        "bytes": 1622536,
+        "sha256": "97f11dd7a76e95c16094c040f2e6bb1e024827e0d5b6e30a348c6d156850ca03",
+        "crc32_verified": true
+      },
+      {
+        "member": "B02/vibrationData/data_B02_M1116.mat",
+        "bytes": 3503269,
+        "sha256": "1df97a7bd67a045a003cad136d21420a9db3aa6efd23cb6340d1def3eab5ea6d",
+        "crc32_verified": true
+      }
+    ],
+    "sample_profiles": [
+      {
+        "file": "data_B02_M0001.mat",
+        "variables": {
+          "accHorizFrontal_C": {
+            "shape": [
+              204800,
+              1
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": -0.04700742,
+            "max": 0.052262872,
+            "rms_volts": 0.012058732165572784,
+            "rms_g_using_B02_log": 0.12058732165572783
+          },
+          "accHorizRear_A": {
+            "shape": [
+              204800,
+              1
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": -0.060535758,
+            "max": 0.064918222,
+            "rms_volts": 0.01592995264915386,
+            "rms_g_using_B02_log": 0.1592995264915386
+          },
+          "measTime": {
+            "shape": [
+              204800,
+              1
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": 0.0,
+            "max": 1.5999921875
+          }
+        }
+      },
+      {
+        "file": "data_B02_M1116.mat",
+        "variables": {
+          "accHorizFrontal_C": {
+            "shape": [
+              204800,
+              1
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": -1.438084932,
+            "max": 1.7327440040000002,
+            "rms_volts": 0.41508279823958444,
+            "rms_g_using_B02_log": 4.150827982395844
+          },
+          "accHorizRear_A": {
+            "shape": [
+              204800,
+              1
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": -3.017110998,
+            "max": 2.977843237,
+            "rms_volts": 0.6935890726034041,
+            "rms_g_using_B02_log": 6.9358907260340406
+          },
+          "measTime": {
+            "shape": [
+              204800,
+              1
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": 0.0,
+            "max": 1.5999921875
+          }
+        }
+      }
+    ],
+    "csv_time_profile": {
+      "rows_per_csv": 1116,
+      "timestamp_column": "Time",
+      "temperature_room_column": "Mean Room Temp. / \u00b0C",
+      "time_columns_equal": true,
+      "timezone": "NOT_PROVIDED",
+      "first": "25-Oct-2021 08:59:35",
+      "last": "25-Oct-2021 14:36:36",
+      "elapsed_seconds": 20221,
+      "gap_seconds": {
+        "min": 11,
+        "median": 18,
+        "max": 282
+      },
+      "duplicates": 0,
+      "nonpositive_gaps": 0,
+      "set_speed_below_1500rpm_rows": 51
+    },
+    "calibration": {
+      "g_per_volt": 10,
+      "gain_db": 0,
+      "sample_rate_hz": 128000,
+      "scope": "B02 only; log pages 1-2 inspected",
+      "duration_seconds": 1.6
+    },
+    "runtime": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "pymupdf": "1.26.4"
+    }
+  },
+  "limitations": [
+    "Only first and last MAT measurements inspected",
+    "Member CRC and local SHA256 verified; complete archive MD5 unverified",
+    "No UTC timezone inferred",
+    "No event-time/censor target or model validated",
+    "No dataset partition, training, deployment or site authorization"
+  ]
+}

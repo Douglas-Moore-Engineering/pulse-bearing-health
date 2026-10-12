@@ -67,3 +67,7 @@ Next update: scope/hosting/architecture review, before implementation commitment
 ## Pre-Azure engineering supplement — 2026-10-10
 
 See [engineering review handoff](07-pre-azure-engineering-handoff.md) and [work breakdown](06-engineering-cost-work-breakdown.md). Preserve this record's existing version and fictional source statements; the new design package v0.1 is a separate prepared increment. No Azure connection, accepted design, actual approval or financial closure is inferred.
+
+## AKS scale increment - 2026-10-11
+
+PULSE-LCC-001 remains authoritative. [AKS capacity/cost analysis](../docs/AKS_CAPACITY_AND_RELEASE.md) supplies dated retail rates and partial monthly floors of $1,213.62 at minimum pools and $1,758.93 at maximum pools. These are subordinate to PULSE-COST-007, not additive duplicate costs or complete TCO. Networking, disks, security, observability, durable alert services and operations remain unpriced. Actual spending approval is pending; inherited fictional ceilings grant no spending authority. No cloud construction expense is claimed.

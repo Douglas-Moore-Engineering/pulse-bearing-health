@@ -14,3 +14,7 @@ Fictional customer scenario; proposed design, not implementation or customer app
 | Retirement/transfer | Service/sponsor/rights owner | Settle customer export, access, retention/holds, deletion and dependencies before exit | Reviewed plan and executed evidence later |
 
 These are procedures to detail and exercise before operation, not evidence that controls work. Support after Year 1, response windows and actual operator competence remain unresolved.
+
+## Implemented reference procedures
+
+[Reference operations](reference-operations.md) records the deployed asset controls, health/backup timers, successful manual off-host restore and unresolved host-loss/retention conditions. The earlier table remains the broader planned production lifecycle.

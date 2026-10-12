@@ -6,3 +6,14 @@ data/private/
 outputs/private/
 *.pem
 *.key
+.pytest_cache/
+*.egg-info/
+outputs/reference-*/
+infra/azure/execution-inputs.local.json
+infra/aks/*.local.json
+outputs/reference-aks-template.json
+outputs/reference-single-node-foundation.json
+
+# Generated artifacts, private backups, and nested working copies
+outputs/
+pulse-bearing-health/

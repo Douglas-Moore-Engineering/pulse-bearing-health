@@ -1,0 +1,9 @@
+{
+  "target": "vm-pulse-k3s",
+  "ports": {
+    "80": "not_reachable_from_operator_workstation",
+    "8000": "not_reachable_from_operator_workstation",
+    "6443": "not_reachable_from_operator_workstation"
+  },
+  "scope": "TCP reachability only; not a penetration test"
+}

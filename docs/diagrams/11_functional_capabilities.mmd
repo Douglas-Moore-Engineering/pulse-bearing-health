@@ -1,0 +1,43 @@
+%% Functional capabilities | Proposed architecture; local harness implements a subset | v0.4
+flowchart TD
+subgraph inputs["Source responsibilities"]
+ source["Register authorized sources"]
+ quality["Validate and quarantine"]
+end
+subgraph analysis["Reference analysis"]
+ groups["Separate bearing groups"]
+ features["Compute RMS and kurtosis"]
+ eligible{"Validated capability?"}
+ unavailable["Return unavailable with reason"]
+ infer["Run qualified model later"]
+end
+subgraph people["Evidence and human authority"]
+ evidence[("Versioned evidence")]
+ review["Review and record disposition"]
+end
+source -->|"source bytes and rights"| quality
+quality -->|"accepted observations only"| groups
+groups -->|"partitioned observations"| features
+features -->|"features and operating context"| eligible
+eligible -->|"no: current harness"| unavailable
+eligible -.->|"yes: future qualified release"| infer
+unavailable -->|"reason and exact versions"| evidence
+infer -.->|"bounded results and limitations"| evidence
+evidence -->|"supports human review"| review
+class source source
+class quality,groups data
+class features,infer model
+class eligible,unavailable policy
+class evidence evidence
+class review human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style inputs fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style analysis fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style people fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

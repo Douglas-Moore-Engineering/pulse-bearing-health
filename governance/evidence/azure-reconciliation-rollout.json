@@ -1,0 +1,14 @@
+{
+  "imageId": "sha256:bb730a3254e0db0f1e35569d1ac25b3b9a4489c9c52e5219e2acb086a3e4379c",
+  "imageTag": "pulse-api:sha256-bb730a3254e0db0f1e35569d1ac25b3b9a4489c9c52e5219e2acb086a3e4379c",
+  "archiveSha256": "9d47da619001369d0b2da321824b0e61e13904e9ec29172316e6c4f2277f9ad1",
+  "manifestsSha256": "7db45fbde0b379902ffecce95bc68c12e4869a8c35826b6a0d316dd9bb850ccc",
+  "scope": "single-node reference; qualified alerts unavailable",
+  "cloudDeployed": true,
+  "serverSideValidated": true,
+  "commitEvidenceRowsRecovered": 1,
+  "timerEnabled": true,
+  "scheduledExecutionObserved": false,
+  "manualJobPassed": true,
+  "noAdditionalPaidResources": true
+}

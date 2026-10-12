@@ -1,0 +1,2020 @@
+[
+  {
+    "locations": [
+      "AustraliaCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "AustraliaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "AustraliaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "AustraliaCentral2"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "AustraliaCentral2"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "AustraliaCentral2"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "australiaeast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "australiaeast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "australiaeast"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "australiaeast"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "australiaeast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "australiasoutheast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "australiasoutheast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "australiasoutheast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "AustriaEast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "AustriaEast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "AustriaEast"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "AustriaEast"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "AustriaEast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "BelgiumCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "BelgiumCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "BelgiumCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "BelgiumCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "BelgiumCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "brazilsouth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "brazilsouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "brazilsouth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "brazilsouth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "brazilsouth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "BrazilSoutheast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "BrazilSoutheast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "BrazilSoutheast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "CanadaCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "CanadaCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "CanadaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "CanadaEast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaEast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "CanadaEast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "CentralIndia"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CentralIndia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "CentralIndia"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CentralIndia"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "CentralIndia"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "centralus"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "centralus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "centralus"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "centralus"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "centralus"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "CentralUSEUAP"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CentralUSEUAP"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "CentralUSEUAP"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "ChileCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "ChileCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "ChileCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "ChileCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "ChileCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "DenmarkEast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "eastasia"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastasia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "eastasia"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastasia"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastasia"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "eastus"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "eastus"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus"
+          ],
+          "zones": [
+            "3",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastus"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "eastus2"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus2"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "eastus2"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus2"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastus2"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "EastUS2EUAP"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "EastUS2EUAP"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "EastUS2EUAP"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "EastUS2EUAP"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "EastUS2EUAP"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "EastUS3"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "EastUSSLV"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "EastUSSTG"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "FranceCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "FranceCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "FranceCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "FranceCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "FranceCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "FranceSouth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "FranceSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "FranceSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "GermanyNorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "GermanyNorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "GermanyNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "GermanyWestCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "GermanyWestCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "GermanyWestCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "GermanyWestCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "GermanyWestCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "IndiaSouthCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "IndonesiaCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "IndonesiaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "IndonesiaCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "IndonesiaCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "IndonesiaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "IsraelCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "IsraelCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "IsraelCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "IsraelCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "IsraelCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "IsraelNorthwest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "ItalyNorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "ItalyNorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "ItalyNorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "ItalyNorth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "ItalyNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "japaneast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japaneast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "japaneast"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japaneast"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "japaneast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "japanwest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japanwest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "japanwest"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japanwest"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "japanwest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "JioIndiaCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "JioIndiaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "JioIndiaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "JioIndiaWest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "JioIndiaWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "JioIndiaWest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "KoreaCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "KoreaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "KoreaCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "KoreaCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "KoreaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "KoreaSouth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "KoreaSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "KoreaSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "MalaysiaSouth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MalaysiaSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "MalaysiaSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "MalaysiaWest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MalaysiaWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "MalaysiaWest"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MalaysiaWest"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "MalaysiaWest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "MexicoCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MexicoCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "MexicoCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MexicoCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "MexicoCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "NewZealandNorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NewZealandNorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "NewZealandNorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NewZealandNorth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "NewZealandNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "northcentralus"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northcentralus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "northcentralus"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "NortheastUS5"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "northeurope"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northeurope"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "northeurope"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northeurope"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "northeurope"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "NorwayEast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayEast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "NorwayEast"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayEast"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "NorwayEast"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "NorwayWest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "NorwayWest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "PolandCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "PolandCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "PolandCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "PolandCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "PolandCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "QatarCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "QatarCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "QatarCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "QatarCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "QatarCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SaudiArabiaEast"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SouthAfricaNorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SouthAfricaNorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SouthAfricaNorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SouthAfricaNorth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SouthAfricaNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SouthAfricaWest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SouthAfricaWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SouthAfricaWest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "southcentralus"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southcentralus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "southcentralus"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southcentralus"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "southcentralus"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SouthCentralUS2"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SouthCentralUSSTG"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "southeastasia"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southeastasia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "southeastasia"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southeastasia"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "southeastasia"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SoutheastAsia3"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SoutheastUS"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SoutheastUS3"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SoutheastUS5"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SouthIndia"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SouthIndia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SouthIndia"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SouthwestUS"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "SpainCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SpainCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SpainCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SpainCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SpainCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SwedenCentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwedenCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SwedenCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwedenCentral"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SwedenCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SwedenSouth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwedenSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SwedenSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SwitzerlandNorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwitzerlandNorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SwitzerlandNorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwitzerlandNorth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SwitzerlandNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "SwitzerlandWest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwitzerlandWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SwitzerlandWest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "TaiwanNorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "TaiwanNorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "TaiwanNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "TaiwanNorthwest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "TaiwanNorthwest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "TaiwanNorthwest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "UAECentral"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAECentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "UAECentral"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "UAENorth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAENorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "UAENorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAENorth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "UAENorth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "uksouth"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "uksouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "uksouth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "uksouth"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "uksouth"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "ukwest"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "ukwest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "ukwest"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "westcentralus"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westcentralus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "westcentralus"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "WestCentralUSFRE"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": []
+  },
+  {
+    "locations": [
+      "westeurope"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westeurope"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "westeurope"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westeurope"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "westeurope"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "WestIndia"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "WestIndia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "WestIndia"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "westus"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "westus"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "westus2"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus2"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "westus2"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus2"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "westus2"
+        ]
+      }
+    ]
+  },
+  {
+    "locations": [
+      "WestUS3"
+    ],
+    "name": "Standard_B2s",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "WestUS3"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "WestUS3"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "WestUS3"
+          ],
+          "zones": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "WestUS3"
+        ]
+      }
+    ]
+  }
+]

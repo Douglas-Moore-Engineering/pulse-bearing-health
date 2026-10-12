@@ -1,0 +1,12 @@
+{
+  "executed_at": "20261011T201433Z",
+  "online_backup": true,
+  "off_host_copy": true,
+  "isolated_restore_integrity": "ok",
+  "receipt_count": 3149,
+  "backup_sha256": "7fdcd76e1e5040af9c7e8a2add1437815c04fd51e539a49d584a3a333b495684",
+  "bytes": 3768320,
+  "live_database_replaced": false,
+  "scheduled_backup": false,
+  "limits": "Manual operator backup; no disaster RTO/RPO or automated retention claimed"
+}

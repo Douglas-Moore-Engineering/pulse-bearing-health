@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "2a92ee105ecd811c89bfebfbadf2f622585c37865552f3769871e93d4f72bc5d",
+  "candidate_sha256": "4453f7ffd22042d17bb64ed49b49aaacf475f105948cd9224c044b44714a6403",
+  "test_signals_accessed": false,
+  "validation_replay_code_sha256": "47c13be61cae48d19ebb9c55ee129486f65cb4680284f416847eb56efa0278da",
+  "final_adapter_code_sha256": "7833c02c5724d454c0f4bec58f3bdd8d009f29a7fb0959e55290ea468ce5bdf1",
+  "adapter_hash_recorded_before_native_profile_execution": true
+}

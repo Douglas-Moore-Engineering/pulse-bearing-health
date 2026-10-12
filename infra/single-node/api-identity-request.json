@@ -1,0 +1,13 @@
+{
+  "displayName": "Pulse Reference Assessment API",
+  "signInAudience": "AzureADMyOrg",
+  "api": { "requestedAccessTokenVersion": 2 },
+  "appRoles": [{
+    "allowedMemberTypes": ["Application"],
+    "description": "Submit bearing assessment windows to the isolated Pulse reference API",
+    "displayName": "Submit Pulse assessments",
+    "id": "cb205492-5f2d-4f16-94a0-44ecb3510cc3",
+    "isEnabled": true,
+    "value": "Pulse.Assess"
+  }]
+}

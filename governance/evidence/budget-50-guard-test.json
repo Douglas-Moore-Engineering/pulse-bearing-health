@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-11",
+  "result": "passed",
+  "assertion": "Execute rejected at USD 50 policy before reading inputs or invoking Azure",
+  "azureInvoked": false
+}

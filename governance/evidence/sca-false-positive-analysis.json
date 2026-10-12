@@ -1,0 +1,79 @@
+{
+  "scope": "Consumed-case diagnostic attribution; no causal or independent validation claim",
+  "code_sha256": "96a5c4563cb86a1b34a0ce5ffb938dd4ffab9c7ceb56a351182e9f5e684c50f7",
+  "results": [
+    {
+      "case": "2",
+      "placement": "DS",
+      "reference_rpm_range": [
+        1162.0,
+        1162.0
+      ],
+      "false_positive_patterns": {},
+      "false_positives": 0,
+      "false_positives_outside_reference_speed": 0,
+      "true_negatives_outside_reference_speed": 0,
+      "false_positive_rpm_range": null,
+      "first_false_positive": null,
+      "last_false_positive": null
+    },
+    {
+      "case": "2",
+      "placement": "FS",
+      "reference_rpm_range": [
+        1162.0,
+        1162.0
+      ],
+      "false_positive_patterns": {
+        "BPFOMultiple": 65,
+        "BPFIMultiple+BPFOMultiple": 29,
+        "BPFMultiple": 34,
+        "BPFOMultiple+BPFMultiple": 1
+      },
+      "false_positives": 129,
+      "false_positives_outside_reference_speed": 0,
+      "true_negatives_outside_reference_speed": 0,
+      "false_positive_rpm_range": [
+        1162.0,
+        1162.0
+      ],
+      "first_false_positive": "2021-12-01T17:00:03.95",
+      "last_false_positive": "2022-02-28T10:43:54.85"
+    },
+    {
+      "case": "11",
+      "placement": "DS",
+      "reference_rpm_range": [
+        1174.63525,
+        1185.356
+      ],
+      "false_positive_patterns": {
+        "BPFMultiple": 1
+      },
+      "false_positives": 1,
+      "false_positives_outside_reference_speed": 1,
+      "true_negatives_outside_reference_speed": 18,
+      "false_positive_rpm_range": [
+        1215.93274,
+        1215.93274
+      ],
+      "first_false_positive": "2022-05-07T21:00:51.13",
+      "last_false_positive": "2022-05-07T21:00:51.13"
+    },
+    {
+      "case": "11",
+      "placement": "FS",
+      "reference_rpm_range": [
+        1174.10815,
+        1185.06116
+      ],
+      "false_positive_patterns": {},
+      "false_positives": 0,
+      "false_positives_outside_reference_speed": 0,
+      "true_negatives_outside_reference_speed": 19,
+      "false_positive_rpm_range": null,
+      "first_false_positive": null,
+      "last_false_positive": null
+    }
+  ]
+}

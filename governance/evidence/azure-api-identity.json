@@ -1,0 +1,29 @@
+{
+  "api": {
+    "acceptMappedClaims": null,
+    "knownClientApplications": [],
+    "oauth2PermissionScopes": [],
+    "preAuthorizedApplications": [],
+    "requestedAccessTokenVersion": 2
+  },
+  "appId": "a7064e03-b8e9-46d7-bb0d-52f030b2a39a",
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Submit bearing assessment windows to the isolated Pulse reference API",
+      "displayName": "Submit Pulse assessments",
+      "id": "cb205492-5f2d-4f16-94a0-44ecb3510cc3",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "Pulse.Assess"
+    }
+  ],
+  "displayName": "Pulse Reference Assessment API",
+  "id": "4dc96d14-7813-4f23-af3d-6958ee18edfe",
+  "identifierUris": [
+    "api://a7064e03-b8e9-46d7-bb0d-52f030b2a39a"
+  ],
+  "signInAudience": "AzureADMyOrg"
+}

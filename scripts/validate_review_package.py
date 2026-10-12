@@ -3,12 +3,24 @@ from pathlib import Path
 import csv
 import hashlib
 import json
+import os
 import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 checks = []
+
+def project_files():
+    """Exclude local environments, generated runs and independent nested checkouts."""
+    excluded = {'.git', '.venv', '.pytest_cache', '__pycache__', 'node_modules', 'outputs'}
+    for directory, folders, files in os.walk(ROOT):
+        folders[:] = [name for name in folders if name not in excluded
+                      and not (Path(directory) / name / '.git').exists()]
+        for name in files:
+            yield Path(directory) / name
+
+files = list(project_files())
 
 def rows(name):
     with (ROOT / name).open(newline='') as f:
@@ -36,8 +48,8 @@ if sorted(derived, key=lambda r:r['Requirement_ID']) != sorted(requirements, key
 checks.append({'check':'requirement and V&V referential integrity','count':len(ids)})
 
 link_count = 0
-for p in ROOT.rglob('*.md'):
-    for target in re.findall(r'\]\(([^)]+)\)', p.read_text()):
+for p in (p for p in files if p.suffix == '.md'):
+    for target in re.findall(r'\]\(([^)]+)\)', p.read_text(encoding='utf-8')):
         if target.startswith(('https:', 'http:', 'mailto:', '#')):
             continue
         target = target.split('#')[0]
@@ -47,9 +59,9 @@ for p in ROOT.rglob('*.md'):
         link_count += 1
 checks.append({'check':'local Markdown links exist','count':link_count})
 
-for p in ROOT.rglob('*.json'):
+for p in (p for p in files if p.suffix == '.json'):
     try:
-        json.loads(p.read_text())
+        json.loads(p.read_text(encoding='utf-8'))
     except Exception as exc:
         errors.append(f'JSON parse failure {p.relative_to(ROOT)}: {exc}')
 checks.append({'check':'JSON syntax','scope':'Includes draft contracts; not schema runtime validation'})
@@ -88,9 +100,10 @@ checks.append({'check':'data-layer identities and requirement trace','count':len
 for r in rows('governance/cloud_entry_criteria.csv'):
     if r['Status'] != 'BLOCKED':
         errors.append(f"Unexpected cloud entry state {r['Criterion_ID']}")
-if 'Stop before any Azure connection or provisioning' not in (ROOT/'README.md').read_text():
-    errors.append('Missing root stop boundary')
-checks.append({'check':'design-only boundary retained','scope':'Documentation consistency; not technical enforcement'})
+if not (ROOT/'customer/08-deployment-execution.md').exists():
+    errors.append('Missing current deployment scope and unresolved execution limits')
+checks.append({'check':'unresolved cloud gates and current execution handoff retained',
+               'scope':'Documentation consistency; no authorization or technical enforcement'})
 
 expected_skills = {
     'customer-delivery-service-operations',
@@ -134,10 +147,10 @@ except (OSError, ValueError, KeyError, TypeError) as exc:
     errors.append(f'DME skill bundle validation failure: {exc}')
 
 digests = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
-           for p in sorted(ROOT.rglob('*')) if p.is_file()
+           for p in sorted(files) if p.is_file()
            and p.relative_to(ROOT).as_posix() not in ['governance/evidence/design-validation.json']
            and '.git' not in p.parts and '__pycache__' not in p.parts}
-report = {'package':'Pulse pre-Azure v0.3','result':'PASS' if not errors else 'FAIL',
+report = {'package':'Pulse reference implementation v0.4','result':'PASS' if not errors else 'FAIL',
           'scope':'Offline design consistency only; no runtime V&V, independent assurance or cloud gate approval',
           'checks':checks,'errors':errors,'artifact_sha256':digests}
 output = ROOT/'governance/evidence/design-validation.json'

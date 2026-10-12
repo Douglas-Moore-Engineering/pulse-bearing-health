@@ -1,5 +1,7 @@
 # Cloud Entry Review — Stop Before Azure
 
+Current increment: see the [2026-10-11 execution handoff](../customer/08-deployment-execution.md). The pre-Azure statements below describe the historical design baseline. The user has since authorized Azure access/deployment subject to limits; account/spending inputs and evidence gates remain unresolved. No cloud deployment or gate approval is claimed.
+
 PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 
 Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.

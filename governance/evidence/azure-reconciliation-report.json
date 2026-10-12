@@ -1,0 +1,69 @@
+{
+  "requirement_id": "PULSE-NFR-002",
+  "day": "2026-10-10",
+  "plant_timezone": "America/New_York",
+  "deadline_utc": "2026-10-11T10:00:00+00:00",
+  "as_of_utc": "2026-10-12T00:21:50.530826+00:00",
+  "deadline_reached": true,
+  "assets": [
+    {
+      "asset_id": "generated-validation-bearing",
+      "status": "TIMING_UNKNOWN"
+    },
+    {
+      "asset_id": "generated-capacity-bearing",
+      "status": "TIMING_UNKNOWN"
+    },
+    {
+      "asset_id": "fictional-bearing-03",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-04",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-05",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-06",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-07",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-08",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-09",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-10",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-11",
+      "status": "MISSING"
+    },
+    {
+      "asset_id": "fictional-bearing-12",
+      "status": "MISSING"
+    }
+  ],
+  "signal_coverage_verified": false,
+  "scheduled_execution_verified": false,
+  "timing_basis": "post_commit_upper_bound",
+  "tenant": "add03129-5b4d-4ed0-96bc-bd56141358cd",
+  "caller": "13bb4877-31e5-49bd-966f-61b24f1fd185",
+  "legacy_timing_unknown_assets": [
+    "generated-capacity-bearing",
+    "generated-validation-bearing"
+  ],
+  "executed_at": "2026-10-11T20:21:50.530826-04:00",
+  "execution": "host systemd service; fictional reference fleet"
+}

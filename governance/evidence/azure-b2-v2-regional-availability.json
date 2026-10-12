@@ -1,0 +1,2273 @@
+[
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "AustraliaCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "AustraliaCentral2"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "australiaeast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "australiasoutheast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "australiasoutheast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "australiasoutheast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "AustriaEast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "BelgiumCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "brazilsouth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "brazilsouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "brazilsouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "BrazilSoutheast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "BrazilSoutheast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "BrazilSoutheast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "CanadaCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "CanadaCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaCentral"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "CanadaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "CanadaEast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "CentralIndia"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CentralIndia"
+          ],
+          "zones": [
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "CentralIndia"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "centralus"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "CentralUSEUAP"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "ChileCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "DenmarkEast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "eastasia"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "eastus"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "eastus"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastus"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "eastus2"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus2"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "eastus2"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus2"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastus2"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "EastUS2EUAP"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "EastUS2EUAP"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "EastUS2EUAP"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "EastUS2EUAP"
+          ],
+          "zones": [
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "EastUS2EUAP"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "EastUS3"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "FranceCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "FranceCentral"
+          ],
+          "zones": [
+            "3",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "FranceCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "FranceSouth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "GermanyNorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "GermanyWestCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "GermanyWestCentral"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "GermanyWestCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "IndiaSouthCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "IndonesiaCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "IsraelCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "IsraelNorthwest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "ItalyNorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "japaneast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japaneast"
+          ],
+          "zones": [
+            "3",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "japaneast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "japanwest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japanwest"
+          ],
+          "zones": [
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "japanwest"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "JioIndiaCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "JioIndiaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "JioIndiaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "JioIndiaWest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "JioIndiaWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "JioIndiaWest"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "KoreaCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "KoreaSouth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "MalaysiaSouth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MalaysiaSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "MalaysiaSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "MalaysiaWest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "MexicoCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MexicoCentral"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "MexicoCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "NewZealandNorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "northcentralus"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "northeurope"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northeurope"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "northeurope"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northeurope"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "northeurope"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "NorwayEast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayEast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "NorwayEast"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayEast"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "NorwayEast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "NorwayWest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "PolandCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SaudiArabiaEast"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SouthAfricaNorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SouthAfricaWest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "southcentralus"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SouthCentralUSSTG"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "southeastasia"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southeastasia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "southeastasia"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southeastasia"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "southeastasia"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SoutheastAsia3"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SouthIndia"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SpainCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SpainCentral"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SpainCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SwedenCentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SwedenSouth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwedenSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SwedenSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SwitzerlandNorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwitzerlandNorth"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SwitzerlandNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "SwitzerlandWest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "TaiwanNorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "UAECentral"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAECentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "UAECentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "UAENorth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAENorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "UAENorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAENorth"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "UAENorth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "uksouth"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "uksouth"
+          ],
+          "zones": [
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "uksouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "ukwest"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "westcentralus"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "WestCentralUSFRE"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "westeurope"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westeurope"
+          ],
+          "zones": [
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "westeurope"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "westus"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "westus"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "westus2"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus2"
+          ],
+          "zones": [
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "westus2"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBasv2Family",
+    "locations": [
+      "WestUS3"
+    ],
+    "name": "Standard_B2als_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "AustraliaCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "AustraliaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "AustraliaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "AustraliaCentral2"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "australiaeast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "australiasoutheast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "australiasoutheast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "australiasoutheast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "AustriaEast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "BelgiumCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "brazilsouth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "brazilsouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "brazilsouth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "brazilsouth"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "brazilsouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "BrazilSoutheast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "BrazilSoutheast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "BrazilSoutheast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "CanadaCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "CanadaCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "CanadaCentral"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "CanadaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "CanadaEast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "CentralIndia"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "centralus"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "CentralUSEUAP"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "ChileCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "DenmarkEast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "eastasia"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "eastus"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "eastus"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastus"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "eastus2"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "eastus2"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "eastus2"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "EastUS2EUAP"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "EastUS2EUAP"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "EastUS2EUAP"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "EastUS2EUAP"
+          ],
+          "zones": [
+            "2",
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "EastUS2EUAP"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "EastUS3"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "FranceCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "FranceCentral"
+          ],
+          "zones": [
+            "3",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "FranceCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "FranceSouth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "GermanyNorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "GermanyWestCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "GermanyWestCentral"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "GermanyWestCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "IndiaSouthCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "IndonesiaCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "IsraelCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "IsraelNorthwest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "ItalyNorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "japaneast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japaneast"
+          ],
+          "zones": [
+            "3"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "japaneast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "japanwest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "japanwest"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "japanwest"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "JioIndiaCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "JioIndiaCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "JioIndiaCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "JioIndiaWest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "JioIndiaWest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "JioIndiaWest"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "KoreaCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "KoreaSouth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "MalaysiaSouth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MalaysiaSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "MalaysiaSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "MalaysiaWest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "MexicoCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "MexicoCentral"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "MexicoCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "NewZealandNorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "northcentralus"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northcentralus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "northcentralus"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "NortheastUS5"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "northeurope"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "northeurope"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "northeurope"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "NorwayEast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayEast"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "NorwayEast"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "NorwayEast"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "NorwayEast"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "NorwayWest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "PolandCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "QatarCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "QatarCentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "QatarCentral"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "QatarCentral"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "QatarCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SaudiArabiaEast"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SouthAfricaNorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SouthAfricaWest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "southcentralus"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SouthCentralUS2"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SouthCentralUSSTG"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "southeastasia"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southeastasia"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "southeastasia"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "southeastasia"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "southeastasia"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SoutheastAsia3"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SoutheastUS"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SoutheastUS3"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SoutheastUS5"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SouthIndia"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SouthwestUS"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SpainCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SpainCentral"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SpainCentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SwedenCentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SwedenSouth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwedenSouth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "SwedenSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SwitzerlandNorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "SwitzerlandNorth"
+          ],
+          "zones": [
+            "1"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "SwitzerlandNorth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "SwitzerlandWest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "TaiwanNorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "TaiwanNorthwest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "TaiwanNorthwest"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "TaiwanNorthwest"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "UAECentral"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAECentral"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "UAECentral"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "UAENorth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAENorth"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "UAENorth"
+        ]
+      },
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "UAENorth"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "UAENorth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "uksouth"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "uksouth"
+          ],
+          "zones": [
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "uksouth"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "ukwest"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "westcentralus"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "WestCentralUSFRE"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "westeurope"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westeurope"
+          ],
+          "zones": [
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "westeurope"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "westus"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus"
+          ]
+        },
+        "type": "Location",
+        "values": [
+          "westus"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "westus2"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": [
+      {
+        "reasonCode": "NotAvailableForSubscription",
+        "restrictionInfo": {
+          "locations": [
+            "westus2"
+          ],
+          "zones": [
+            "3",
+            "1",
+            "2"
+          ]
+        },
+        "type": "Zone",
+        "values": [
+          "westus2"
+        ]
+      }
+    ]
+  },
+  {
+    "family": "standardBsv2Family",
+    "locations": [
+      "WestUS3"
+    ],
+    "name": "Standard_B2ls_v2",
+    "restrictions": []
+  }
+]

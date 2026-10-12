@@ -1,0 +1,14 @@
+{
+  "imageId": "sha256:a441b89d9faa8698a2eccca3cdf1fa109700468cd17f2b4f7935d9839350129f",
+  "imageTag": "pulse-api:sha256-a441b89d9faa8698a2eccca3cdf1fa109700468cd17f2b4f7935d9839350129f",
+  "archiveSha256": "52f74ba17bd49843d55d9d20657d3ce147cb97caa2395986941093a1282e816b",
+  "manifestsSha256": "ae704f3fd966c2e4bfb15630f11351212e1b184ef67bb988d5dd421da2418d4f",
+  "scope": "single-node reference; qualified alerts unavailable",
+  "cloudDeployed": true,
+  "serverSideValidated": true,
+  "readyReplicas": 1,
+  "reviewRoleAssigned": true,
+  "reviewRoleInManagedIdentityToken": false,
+  "reviewRecoveryTested": false,
+  "additionalPaidResourcesCreated": false
+}

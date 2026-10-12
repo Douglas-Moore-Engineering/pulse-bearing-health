@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-11T23:08:16.305921+00:00",
+  "before": "Case 2/11 acquisition and signal inspection",
+  "hashes": {
+    "config/sca-envelope-validation.json": "21ec59eabad0d7b69c85d0ea4596067b6208b273854f4c8207543ff523dc991d",
+    "scripts/validate_sca_envelope.py": "a44e434de2960c136d1d798d4b642032a46ced0d6206f2e51fb3073a58813642",
+    "scripts/evaluate_sca_spectral.py": "19ecf4df11521499571c382d690065d494acd3b352b08390654f398fff2d555b",
+    "data/qualification/sca-source-inventory.json": "4db8a39132c1e25ae072f46adde0e8821c4d159c894dcddce6d5c25853f03cfe"
+  }
+}

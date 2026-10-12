@@ -1,0 +1,15 @@
+{
+  "token_roles_observed": [
+    "Pulse.Assess"
+  ],
+  "token_expires_at": 1791849066,
+  "executed_at": "2026-10-12T00:09:57.489419+00:00",
+  "fixture_only": true,
+  "qualified_detector": false,
+  "intake_validated": true,
+  "anonymous_status": 401,
+  "cross_asset_status": 403,
+  "review_status": 403,
+  "review_check_pending": "Managed identity review access not yet available",
+  "token_expires_at_utc": "2026-10-12T23:51:06+00:00"
+}

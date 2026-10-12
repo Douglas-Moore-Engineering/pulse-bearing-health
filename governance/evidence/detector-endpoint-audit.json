@@ -1,0 +1,78 @@
+{
+  "scope": "Retrospective endpoint audit of consumed evidence; no change to frozen evaluation or accepted event definition",
+  "code_sha256": "2600de7658875f26d88b56fde1d0a613793ceca15254a60e385eb90bd9f063ef",
+  "metric_code_sha256": "559e4d6cbbf3d2fff772e7aa5d6654b1efe9227453a888854e58eac1b1bde2fb",
+  "qualified_detector": false,
+  "release_disposition": "NOT_PROMOTED",
+  "results": [
+    {
+      "run": "B04",
+      "event_kind": "logged_accelerometer_limit_stop",
+      "source": "https://zenodo.org/records/10868257",
+      "log_sha256": "051a09c4de0780604f05fa3aeb327a13ed54e786f974beee24759fa56a9081fb",
+      "replay_sha256": "bd9b4ee60b76226ebd7e414cf93d3d36a04a99924dddea8e8872397c08059e20",
+      "logged_stop": "2021-11-17T18:26:00",
+      "first_alert": "2021-11-17T14:58:43",
+      "timing_assumption": "Sensitivity interval +/- 60 seconds; not a source-certified error bound. Same experiment clock assumed; timezone unknown.",
+      "conditional_stop_warning": {
+        "status": "PASS",
+        "lead_minutes_lower": 206.28333333333333,
+        "lead_minutes_upper": 208.28333333333333
+      },
+      "physical_failure_warning": {
+        "status": "INCONCLUSIVE",
+        "reason": "Missing endpoint interval"
+      },
+      "nuisance": {
+        "status": "INCONCLUSIVE",
+        "reason": "No independently verified healthy operating exposure"
+      }
+    },
+    {
+      "run": "B12",
+      "event_kind": "logged_accelerometer_limit_stop",
+      "source": "https://zenodo.org/records/10868257",
+      "log_sha256": "c19d7195b13f65780c667b47a01ea615a41199b4588f5551389d25432e43882f",
+      "replay_sha256": "031f95d7f3bb3702a2ed03311615165b59586597b9e57560bf86ca17523b845b",
+      "logged_stop": "2022-08-24T11:22:00",
+      "first_alert": "2022-08-24T09:09:59",
+      "timing_assumption": "Sensitivity interval +/- 60 seconds; not a source-certified error bound. Same experiment clock assumed; timezone unknown.",
+      "conditional_stop_warning": {
+        "status": "PASS",
+        "lead_minutes_lower": 131.01666666666668,
+        "lead_minutes_upper": 133.01666666666668
+      },
+      "physical_failure_warning": {
+        "status": "INCONCLUSIVE",
+        "reason": "Missing endpoint interval"
+      },
+      "nuisance": {
+        "status": "INCONCLUSIVE",
+        "reason": "No independently verified healthy operating exposure"
+      }
+    },
+    {
+      "run": "B17",
+      "event_kind": "logged_accelerometer_limit_stop",
+      "source": "https://zenodo.org/records/10868257",
+      "log_sha256": "959df129b910df4c000056f8738a9ff0842e092a0563d919d5fd7244960919a6",
+      "replay_sha256": "c93345134034d3b29e29b885bd5b83c8c0daf1767cdd1df2f27d9099fb7f221c",
+      "logged_stop": "2022-11-05T01:28:00",
+      "first_alert": "2022-11-04T22:12:37",
+      "timing_assumption": "Sensitivity interval +/- 60 seconds; not a source-certified error bound. Same experiment clock assumed; timezone unknown.",
+      "conditional_stop_warning": {
+        "status": "PASS",
+        "lead_minutes_lower": 194.38333333333333,
+        "lead_minutes_upper": 196.38333333333333
+      },
+      "physical_failure_warning": {
+        "status": "INCONCLUSIVE",
+        "reason": "Missing endpoint interval"
+      },
+      "nuisance": {
+        "status": "INCONCLUSIVE",
+        "reason": "No independently verified healthy operating exposure"
+      }
+    }
+  ]
+}

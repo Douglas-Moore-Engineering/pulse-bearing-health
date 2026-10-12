@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "file": "B12.zip",
+      "bytes": 1123760656,
+      "sha256": "4926c6bd9330496e91aef995c1c3d86f3af8931cc2820a29463949a50d9ce640",
+      "md5": "27d740e9832eef7badaf0c0abc66cb51",
+      "publisher_md5_verified": true
+    },
+    {
+      "file": "B17.zip",
+      "bytes": 3648634307,
+      "sha256": "30618e6d929d0b35db15350aa46426c1e8a611c15acdd7f2826bb78d0843929b",
+      "md5": "efc887ba56be7df0db0a8e38c9c5ef7c",
+      "publisher_md5_verified": true
+    }
+  ],
+  "consumed_final_test_runs": [
+    "LDM B12",
+    "LDM B17"
+  ],
+  "still_reserved": [
+    "UNSW Test 3",
+    "UNSW Test 4"
+  ],
+  "threshold_retuned_on_final_tests": false,
+  "deployed_rule_changed": false
+}

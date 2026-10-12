@@ -1,0 +1,34 @@
+{
+  "scope": "Four v0.4 exports; not a review of the thirteen historical views",
+  "result": "PASS",
+  "checks": [
+    {
+      "view": "11_functional_capabilities",
+      "width": 1000,
+      "height": 1294,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "view": "12_integration_architecture",
+      "width": 1000,
+      "height": 1294,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "view": "13_threat_defense",
+      "width": 1000,
+      "height": 1294,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "view": "14_reference_runtime",
+      "width": 1000,
+      "height": 1294,
+      "alpha_min": 0,
+      "alpha_max": 255
+    }
+  ]
+}

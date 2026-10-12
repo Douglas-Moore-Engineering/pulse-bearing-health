@@ -1,0 +1,15 @@
+{
+  "version": "ims-rms-exploratory-v1",
+  "dataset": "DS-IMS",
+  "run": "2nd_test",
+  "scope": "offline exploratory research; no production promotion",
+  "baseline_snapshots": 100,
+  "baseline_assumption": "early reference segment, not independently verified healthy",
+  "feature": "uncentered RMS in unknown native amplitude units",
+  "threshold_ratio": 3.0,
+  "consecutive_snapshots": 3,
+  "maximum_gap_seconds": 900,
+  "selection": "fixed before measurement-file feature evaluation; no threshold tuning",
+  "split": "chronological baseline and monitoring within one experiment; not independent held-out evaluation",
+  "prohibited_claims": ["fault-onset accuracy", "false-positive rate", "RUL", "site validation", "independent generalization"]
+}

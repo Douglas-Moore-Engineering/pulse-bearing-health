@@ -1,0 +1,12 @@
+{
+  "recorded_date": "2026-10-11",
+  "status": "prospective_research_partition",
+  "development": ["KAIST-5hcdd3tdvb-v6-entire-run", "UNSW-h4df4mgrfb-v3-Test-1"],
+  "validation": ["UNSW-h4df4mgrfb-v3-Test-2"],
+  "reserved_test": ["UNSW-h4df4mgrfb-v3-Test-3", "UNSW-h4df4mgrfb-v3-Test-4"],
+  "partition_unit": "entire_experiment_including_all_speeds_channels_and_windows",
+  "signals_inspected_at_assignment": false,
+  "test_access_condition": "Freeze preprocessing, detector parameters, endpoint interpretation and evaluation protocol before reading test signals.",
+  "healthy_exposure_qualified": false,
+  "endpoint_qualification_complete": false
+}

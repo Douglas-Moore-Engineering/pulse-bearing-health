@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-11T15:47:34.851526+00:00",
+  "runtime": "Windows-10-10.0.26300-SP0",
+  "python": "3.10.11",
+  "scope": "One API process and separate load-generator process over loopback; generated RS256 tokens and signals",
+  "limitations": [
+    "No AKS/container resource limits, TLS, ingress or remote identity-key retrieval",
+    "No model, durable persistence or notification delivery",
+    "Load generator shares host with server; not a six-hour soak"
+  ],
+  "api_source_sha256": "6124e8841f2091b89188b2b4a203946cadb82b6382d445c6e32e71f06095cec8",
+  "stages": [
+    {
+      "offered_rps": 70,
+      "duration_seconds": 20,
+      "elapsed_seconds": 19.99413549999008,
+      "request_bytes": 22797,
+      "samples": 4096,
+      "completed": 1400,
+      "failed": 0,
+      "dropped": 0,
+      "achieved_rps": 70.02053177046312,
+      "p95_ms": 62.302200007252395,
+      "provisional_check_passed": true
+    },
+    {
+      "offered_rps": 174,
+      "duration_seconds": 20,
+      "elapsed_seconds": 20.36353999999119,
+      "request_bytes": 22797,
+      "samples": 4096,
+      "completed": 2154,
+      "failed": 0,
+      "dropped": 1326,
+      "achieved_rps": 105.77728626756114,
+      "p95_ms": 1292.2708000114653,
+      "provisional_check_passed": false
+    },
+    {
+      "offered_rps": 350,
+      "duration_seconds": 20,
+      "elapsed_seconds": 20.351918800006388,
+      "request_bytes": 22797,
+      "samples": 4096,
+      "completed": 2095,
+      "failed": 0,
+      "dropped": 4905,
+      "achieved_rps": 102.93869686623074,
+      "p95_ms": 1356.3297000073362,
+      "provisional_check_passed": false
+    }
+  ]
+}

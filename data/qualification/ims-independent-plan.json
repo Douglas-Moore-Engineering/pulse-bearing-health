@@ -1,0 +1,13 @@
+{
+  "version": "ims-independent-runs-v1",
+  "purpose": "evaluate the unchanged run-2 rule on previously uninspected experiments",
+  "rule": {"baseline_snapshots": 100, "threshold_ratio": 3.0, "consecutive_snapshots": 3, "maximum_gap_seconds": 900},
+  "runs": {
+    "1st_test": {"snapshots": 2156, "channels": 8, "documented_failed_bearings": [3, 4]},
+    "3rd_test": {"snapshots": 4448, "channels": 4, "documented_failed_bearings": [3]}
+  },
+  "commissioning": "Each channel uses its own first 100 snapshots; this evaluates a commissioning procedure, not transfer of a fitted run-2 amplitude baseline.",
+  "selection": "No retuning after inspecting either run; report missing data and failures.",
+  "labels": "Endpoint observations only; no healthy-window or fault-onset labels.",
+  "release": "Research evaluation only. Production acceptance thresholds and independent assurance remain unresolved."
+}

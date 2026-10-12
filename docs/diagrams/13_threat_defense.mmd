@@ -1,0 +1,41 @@
+%% Threat and defense mapping | Local controls tested; Azure controls unverified | v0.4
+flowchart TD
+subgraph source["Input trust boundary"]
+ bytes["Untrusted source records"]
+ validate["Schema, range and source-digest checks"]
+end
+subgraph processing["Processing integrity"]
+ group["Bearing partition and replay checks"]
+ policy["Abstain without qualified evidence"]
+ reject[("Quarantine reasons")]
+end
+subgraph authority["Access and authority"]
+ human["Local OS-authorized operator"]
+ cloud["Future Entra roles and private access"]
+ records[("Evidence and backup")]
+end
+bytes -->|"malformed or substituted payload"| validate
+validate -->|"invalid input: no scoring"| reject
+validate -->|"accepted source-bound windows"| group
+group -->|"reject leakage or conflicting replay"| reject
+group -->|"accepted observations"| policy
+policy -->|"unavailable result and provenance"| records
+policy -->|"discloses unavailable status"| human
+human -->|"record disposition; no equipment write"| records
+cloud -.->|"future tested access restriction"| records
+class bytes source
+class validate,group,cloud security
+class policy policy
+class reject,records evidence
+class human human
+classDef source fill:#EAF3F8,stroke:#356079,stroke-width:1.5px,color:#111111
+classDef data fill:#E5F4F2,stroke:#32746E,stroke-width:1.5px,color:#111111
+classDef model fill:#EDF0FA,stroke:#42558B,stroke-width:1.5px,color:#111111
+classDef policy fill:#F8F2E4,stroke:#876A2D,stroke-width:1.5px,color:#111111
+classDef human fill:#EFF6EB,stroke:#4C713E,stroke-width:1.5px,color:#111111
+classDef evidence fill:#F3F0F8,stroke:#6E5B85,stroke-width:1.5px,color:#111111
+classDef security fill:#FBEFED,stroke:#9B534C,stroke-width:1.5px,color:#111111
+style source fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style processing fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+style authority fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
+linkStyle default stroke:#425466,stroke-width:1.5px

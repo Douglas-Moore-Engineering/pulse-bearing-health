@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-11",
+  "ceilingUsd": 100,
+  "region": "eastus2",
+  "candidateSku": "Standard_D2as_v6",
+  "hours": 744,
+  "vmHourlyUsd": 0.0908,
+  "premiumP4DiskMonthlyUsd": 4.8001,
+  "publicIPv4HourlyUsd": 0.005,
+  "chargedOutboundGB": 50,
+  "outboundUsdPerGB": 0.087,
+  "monthlyEstimateUsd": 80.4253,
+  "securityPricingTier": "Free",
+  "taxAndContingencyReserveUsd": 19.5747,
+  "highAvailability": false,
+  "capacityQualified": false,
+  "allocationVerified": true,
+  "status": "host_deployed",
+  "zone": "1",
+  "vmName": "vm-pulse-k3s"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "source": "https://prices.azure.com/api/retail/prices?%24filter=armRegionName+eq+%27eastus2%27+and+armSkuName+eq+%27Standard_B2s%27+and+priceType+eq+%27Consumption%27",
+    "sku": "Standard_B2s",
+    "items": [
+      {
+        "currencyCode": "USD",
+        "tierMinimumUnits": 0.0,
+        "retailPrice": 0.0416,
+        "unitPrice": 0.0416,
+        "armRegionName": "eastus2",
+        "location": "US East 2",
+        "effectiveStartDate": "2025-10-01T00:00:00Z",
+        "meterId": "bde9d646-f26e-44c1-ad01-249ba2bfa8bf",
+        "meterName": "B2s",
+        "productId": "DZH318Z0BQ35",
+        "skuId": "DZH318Z0BQ35/00J1",
+        "productName": "Virtual Machines BS Series",
+        "skuName": "B2s",
+        "serviceName": "Virtual Machines",
+        "serviceId": "DZH313Z7MMC8",
+        "serviceFamily": "Compute",
+        "unitOfMeasure": "1 Hour",
+        "type": "Consumption",
+        "isPrimaryMeterRegion": true,
+        "armSkuName": "Standard_B2s"
+      }
+    ]
+  },
+  {
+    "source": "https://prices.azure.com/api/retail/prices?%24filter=armRegionName+eq+%27eastus2%27+and+armSkuName+eq+%27Standard_D4ds_v6%27+and+priceType+eq+%27Consumption%27",
+    "sku": "Standard_D4ds_v6",
+    "items": [
+      {
+        "currencyCode": "USD",
+        "tierMinimumUnits": 0.0,
+        "retailPrice": 0.249,
+        "unitPrice": 0.249,
+        "armRegionName": "eastus2",
+        "location": "US East 2",
+        "effectiveStartDate": "2024-10-01T00:00:00Z",
+        "meterId": "0d632e9c-193d-5e76-81bf-c541d1c4b1c9",
+        "meterName": "D4ds v6",
+        "productId": "DZH318Z0GNHJ",
+        "skuId": "DZH318Z0GNHJ/005N",
+        "productName": "Virtual Machines Ddsv6 Series",
+        "skuName": "D4ds v6",
+        "serviceName": "Virtual Machines",
+        "serviceId": "DZH313Z7MMC8",
+        "serviceFamily": "Compute",
+        "unitOfMeasure": "1 Hour",
+        "type": "Consumption",
+        "isPrimaryMeterRegion": true,
+        "armSkuName": "Standard_D4ds_v6"
+      }
+    ]
+  }
+]

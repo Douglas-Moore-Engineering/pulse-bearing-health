@@ -1,0 +1,233 @@
+{
+  "source_record": "https://zenodo.org/records/10868257",
+  "review_date": "2026-10-11",
+  "signals_downloaded": false,
+  "full_archive_checksums_verified": false,
+  "runs": [
+    {
+      "run": "B03",
+      "archive": "B03.zip",
+      "published_archive_checksum": "md5:6c16eaa8d837b31da69fab1675521ddb",
+      "transferred_bytes": 267269,
+      "members": [
+        {
+          "member": "B03/B03_log.pdf",
+          "bytes": 170549,
+          "sha256": "caa9c543658ff37474eaa643275fdb7c2fb61d697e770445733325484ff41d2f",
+          "crc32_verified": true
+        },
+        {
+          "member": "B03/B03_meanTemperatures.csv",
+          "bytes": 44688,
+          "sha256": "2ff946717c40c273a971a0f86491c604e2b908010c449acbed1baac052f7dcb5",
+          "crc32_verified": true
+        },
+        {
+          "member": "B03/B03_operatingConditions.csv",
+          "bytes": 75830,
+          "sha256": "32171a4b7d8c5d8861d25e9d0774e5bdb0e443a4b9afd7cc00b9eb6fa191caa9",
+          "crc32_verified": true
+        }
+      ],
+      "mat_inventory_count": 614,
+      "operating_rows": 614,
+      "temperature_rows": 614,
+      "timestamps_aligned": true,
+      "first_timestamp": "2021-11-05 15:10:43",
+      "last_timestamp": "2021-11-05 18:23:40",
+      "timezone": "unknown",
+      "elapsed_hours": 3.2158333333333333,
+      "gap_seconds_min_median_max": [
+        14.0,
+        19.0,
+        24.0
+      ],
+      "nonpositive_gaps": 0,
+      "below_1500rpm_rows": 0,
+      "calibration_g_per_volt": 10,
+      "gain_db": 0,
+      "sample_rate_hz": 128000,
+      "inventory_sha256": "b46f374a1642009465c63e8b20362dcd5d7d73ba4a5f7a188cd58dfee8214601"
+    },
+    {
+      "run": "B04",
+      "archive": "B04.zip",
+      "published_archive_checksum": "md5:9d7c11dc6a83424b440ae6d184064dcb",
+      "transferred_bytes": 351114,
+      "members": [
+        {
+          "member": "B04/B04_log.pdf",
+          "bytes": 172255,
+          "sha256": "84ea2506dbeaaa14741cd3fe330424463b13db2db561a3c4dabbe4a33d2964da",
+          "crc32_verified": true
+        },
+        {
+          "member": "B04/B04_meanTemperatures.csv",
+          "bytes": 81032,
+          "sha256": "f462fc819751576991de96398f707b8e0ef9c005303316e0f4b5f5491838172a",
+          "crc32_verified": true
+        },
+        {
+          "member": "B04/B04_operatingConditions.csv",
+          "bytes": 135537,
+          "sha256": "549a6913143f444b87fafac7ed57c891d58d5772b6511724998143d54c89fbe1",
+          "crc32_verified": true
+        }
+      ],
+      "mat_inventory_count": 1114,
+      "operating_rows": 1114,
+      "temperature_rows": 1114,
+      "timestamps_aligned": true,
+      "first_timestamp": "2021-11-17 12:45:09",
+      "last_timestamp": "2021-11-17 18:26:58",
+      "timezone": "unknown",
+      "elapsed_hours": 5.696944444444444,
+      "gap_seconds_min_median_max": [
+        12.0,
+        18.0,
+        24.0
+      ],
+      "nonpositive_gaps": 0,
+      "below_1500rpm_rows": 50,
+      "calibration_g_per_volt": 10,
+      "gain_db": 0,
+      "sample_rate_hz": 128000,
+      "inventory_sha256": "cbf4a14ddc6eb2d673cf29ca4a3fa8f4c8a37eb7d0b14090144f7d53692dae14"
+    },
+    {
+      "run": "B11",
+      "archive": "B11.zip",
+      "published_archive_checksum": "md5:9bf410383138c20356ba89c6f1dfe6d4",
+      "transferred_bytes": 446960,
+      "members": [
+        {
+          "member": "B11/B11_log.pdf",
+          "bytes": 169936,
+          "sha256": "c46192ddb09bdef9c073ef723b774789a278e682f27ffbfa118cb304a468cefe",
+          "crc32_verified": true
+        },
+        {
+          "member": "B11/B11_meanTemperatures.csv",
+          "bytes": 141917,
+          "sha256": "6f150b8ba5a482f85351d925c72f06225255ebaa3cd73d8a5e5327197c8bb1bd",
+          "crc32_verified": true
+        },
+        {
+          "member": "B11/B11_operatingConditions.csv",
+          "bytes": 185506,
+          "sha256": "c0c7eb9cad39131eed489cc7c5fc58216239b39693d618568f380be8de050dda",
+          "crc32_verified": true
+        }
+      ],
+      "mat_inventory_count": 1953,
+      "operating_rows": 1953,
+      "temperature_rows": 1953,
+      "timestamps_aligned": true,
+      "first_timestamp": "2022-08-17 09:26:32",
+      "last_timestamp": "2022-08-17 18:17:01",
+      "timezone": "unknown",
+      "elapsed_hours": 8.841388888888888,
+      "gap_seconds_min_median_max": [
+        14.0,
+        16.0,
+        38.0
+      ],
+      "nonpositive_gaps": 0,
+      "below_1500rpm_rows": 0,
+      "calibration_g_per_volt": 10,
+      "gain_db": 0,
+      "sample_rate_hz": 64000,
+      "inventory_sha256": "ea32609d4cd62388aa0e49922890301865caaae83eced04ba85213c3e1ecbb82"
+    },
+    {
+      "run": "B12",
+      "archive": "B12.zip",
+      "published_archive_checksum": "md5:27d740e9832eef7badaf0c0abc66cb51",
+      "transferred_bytes": 274608,
+      "members": [
+        {
+          "member": "B12/B12_log.pdf",
+          "bytes": 169640,
+          "sha256": "15ca339e9b6be6dfe997764bcc0c438898ce7b1bc8ad1a0ebb2ff44cee381500",
+          "crc32_verified": true
+        },
+        {
+          "member": "B12/B12_meanTemperatures.csv",
+          "bytes": 55806,
+          "sha256": "2987104c06fa29bf00dcb0234b0a0c655eaf4943f0dd670b32d30150beb4d034",
+          "crc32_verified": true
+        },
+        {
+          "member": "B12/B12_operatingConditions.csv",
+          "bytes": 72982,
+          "sha256": "9f263b1749ead38e6448a95c99d8d04ec543f4e55bc19c3b5bde75f377f951cf",
+          "crc32_verified": true
+        }
+      ],
+      "mat_inventory_count": 767,
+      "operating_rows": 767,
+      "temperature_rows": 767,
+      "timestamps_aligned": true,
+      "first_timestamp": "2022-08-24 08:49:23",
+      "last_timestamp": "2022-08-24 11:22:23",
+      "timezone": "unknown",
+      "elapsed_hours": 2.55,
+      "gap_seconds_min_median_max": [
+        11.0,
+        12.0,
+        14.0
+      ],
+      "nonpositive_gaps": 0,
+      "below_1500rpm_rows": 0,
+      "calibration_g_per_volt": 10,
+      "gain_db": 0,
+      "sample_rate_hz": 64000,
+      "inventory_sha256": "6cac2ab25b1960fef23af746ffc777e276f87f4cf33049cf5fc8423db235bdd3"
+    },
+    {
+      "run": "B17",
+      "archive": "B17.zip",
+      "published_archive_checksum": "md5:efc887ba56be7df0db0a8e38c9c5ef7c",
+      "transferred_bytes": 554026,
+      "members": [
+        {
+          "member": "B17/B17_log.pdf",
+          "bytes": 169943,
+          "sha256": "e204f5b722ede76f8393564add4336e309e74a90bf122334264864b39a01a20b",
+          "crc32_verified": true
+        },
+        {
+          "member": "B17/B17_meanTemperatures.csv",
+          "bytes": 198648,
+          "sha256": "ce3e346753ae5b5f81b7a71d831efd7b2c8c8c69cd80ede27be2f1bc9872d8d1",
+          "crc32_verified": true
+        },
+        {
+          "member": "B17/B17_operatingConditions.csv",
+          "bytes": 261977,
+          "sha256": "b07cc55d293d9496b392ab99ff2a4ffdca228205a2d3b74ad7a8561243f297e4",
+          "crc32_verified": true
+        }
+      ],
+      "mat_inventory_count": 2733,
+      "operating_rows": 2733,
+      "temperature_rows": 2733,
+      "timestamps_aligned": true,
+      "first_timestamp": "2022-11-04 09:02:50",
+      "last_timestamp": "2022-11-05 01:28:31",
+      "timezone": "unknown",
+      "elapsed_hours": 16.428055555555556,
+      "gap_seconds_min_median_max": [
+        14.0,
+        21.0,
+        62.0
+      ],
+      "nonpositive_gaps": 0,
+      "below_1500rpm_rows": 0,
+      "calibration_g_per_volt": 10,
+      "gain_db": 0,
+      "sample_rate_hz": 64000,
+      "inventory_sha256": "56e04531d66f33415c1ae2b9e2ff32ce4e265c77f77915648fb9b99729d74582"
+    }
+  ]
+}

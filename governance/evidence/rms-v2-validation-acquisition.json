@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "file": "B04.zip",
+      "bytes": 2844244761,
+      "sha256": "6a49dce35aa7b23182762f40d3a1e7701d5474d046e6389fb631e97ee1e8b43a",
+      "md5": "9d7c11dc6a83424b440ae6d184064dcb",
+      "publisher_md5_verified": true
+    },
+    {
+      "file": "Test 2.7z",
+      "bytes": 3026157873,
+      "sha256": "f60dfcb97ee5ca0ec2635a1a44b7ba9adcd02988001fc30a1d85970cb0da4b8a",
+      "publisher_sha256_verified": true
+    }
+  ],
+  "validation_runs_accessed": [
+    "LDM B04",
+    "UNSW Test 2 / 6Hz"
+  ],
+  "reserved_test_runs_accessed": false,
+  "reserved_test_runs": [
+    "LDM B12",
+    "LDM B17",
+    "UNSW Test 3",
+    "UNSW Test 4"
+  ],
+  "protocol_sha256": "2431f87de3f7afe2747225b3a510ab401cae70f82e9ed922e912531dc485f996",
+  "acquisition_bytes": 5870402634,
+  "cloud_resources_changed": false
+}

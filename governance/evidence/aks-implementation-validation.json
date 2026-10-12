@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-11T15:59:54.675387+00:00",
+  "status": "LOCAL_IMPLEMENTATION_AND_PREFLIGHT_ONLY",
+  "tests": {
+    "passed": 60,
+    "failed": 0,
+    "junit": "governance/evidence/aks-api-tests.xml"
+  },
+  "bicep": {
+    "compiler": "0.48.1",
+    "result": "compiled without diagnostics",
+    "source": "infra/aks/main.bicep",
+    "arm_validation": "not yet established"
+  },
+  "diagram": {
+    "view": "docs/diagrams/15_aks_alert_runtime",
+    "visually_inspected": true,
+    "width": 1000,
+    "height": 1294,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  "limitations": [
+    "No AKS deployment",
+    "No qualified degradation model or durable alert delivery",
+    "No six-hour cloud load or recovery result"
+  ],
+  "sha256": {
+    "src/pulse/api.py": "6124e8841f2091b89188b2b4a203946cadb82b6382d445c6e32e71f06095cec8",
+    "Dockerfile": "611a43292f6727047d1950b8fb10e350ba037c20c5841c05bc9ad7db987a2e9a",
+    "requirements/aks-api.lock.txt": "98ffbfefd33a0001c6ce5d93fbc32ffe5fc13428228f30f4d48c1e706d63b810",
+    "infra/aks/main.bicep": "81cdbf97231f0a005d6df4d1ec9de61ae88ecf1a24c418991f90b18e9227a47d",
+    "scripts/render_aks_manifests.py": "556677d502de3830c9a46387e2f991bb43b5f10cab7afaa3d3d9daabcae5993b",
+    "scripts/benchmark_api.py": "eaa51238d7a56d187e53263d2519ff2342da401976a777c07ff557bd2dfc93cf",
+    "governance/evidence/aks-api-tests.xml": "b4ffd1dcf6bcb42fcc54fd2f8b39ba12042f40169be88726237ffb72c4817ea1",
+    "governance/evidence/aks-api-loopback-three-replicas.json": "5e52f49ad3719781e8a4ae49fe83aa8ac63dfd78046d6b81111bd6a1d6ec7280",
+    "infra/aks/subscription.bicep": "814e295c32ca3fae5c0a7ce5f416caa481664e673529c2e10b306b6d911be78b",
+    "infra/aks/Deploy-Aks.ps1": "97a8fa1fb239323b8b42d10df68506d3a100826a2616930723babc8b93041987",
+    "governance/evidence/aks-container-smoke.json": "cdb1a8937b56b47965d00afc791e5f819a1c444ac877ec4ce6b1fb798468b63b"
+  },
+  "azure_what_if": {
+    "status": "Succeeded",
+    "error": null,
+    "template": "infra/aks/subscription.bicep",
+    "scope": "Read-only proposed creation in rg-pulse-aks-reference; no deployment executed; does not resolve quota/allocation or runtime readiness"
+  },
+  "container_smoke": "governance/evidence/aks-container-smoke.json",
+  "entra_discovery": {
+    "name_prefix": "Pulse",
+    "matching_apps": 0,
+    "scope": "Read-only app registration query; none created"
+  }
+}

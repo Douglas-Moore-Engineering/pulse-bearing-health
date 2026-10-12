@@ -1,0 +1,19 @@
+{
+  "tenant": "add03129-5b4d-4ed0-96bc-bd56141358cd",
+  "caller": "13bb4877-31e5-49bd-966f-61b24f1fd185",
+  "plant_timezone": "America/New_York",
+  "assets": [
+    "generated-validation-bearing",
+    "generated-capacity-bearing",
+    "fictional-bearing-03",
+    "fictional-bearing-04",
+    "fictional-bearing-05",
+    "fictional-bearing-06",
+    "fictional-bearing-07",
+    "fictional-bearing-08",
+    "fictional-bearing-09",
+    "fictional-bearing-10",
+    "fictional-bearing-11",
+    "fictional-bearing-12"
+  ]
+}

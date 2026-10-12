@@ -1,0 +1,198 @@
+{
+  "scope": "Consumed-case metadata and timing only; no new detector score",
+  "code_sha256": "9c83d3a22553ff9b1b2b5e652cfcaf396bc0adde9e9d1d997d14b8be99705b66",
+  "results": [
+    {
+      "case": "1",
+      "file": "test.mat",
+      "native_id": 1,
+      "asset_description": "Roller",
+      "fault_origin": "DS",
+      "bearing_DS": "SKF22320 E",
+      "bearing_FS": "SKF22320 E",
+      "frequency_multiples_DS": {
+        "FTFMultiple": 0.0326264054,
+        "BPFMultiple": 0.213265285,
+        "BPFOMultiple": 0.5244098,
+        "BPFIMultiple": 0.7488158
+      },
+      "frequency_multiples_FS": {
+        "FTFMultiple": 0.0326264054,
+        "BPFMultiple": 0.213265285,
+        "BPFOMultiple": 0.5244098,
+        "BPFIMultiple": 0.7488158
+      },
+      "records_DS": 124,
+      "records_FS": 135,
+      "mutual_nearest_pairs": 124,
+      "pairs_within_seconds": {
+        "1": 1,
+        "60": 110,
+        "300": 124,
+        "3600": 124
+      },
+      "median_mutual_separation_seconds": 27.860000000102445,
+      "timezone": "Unspecified; same-clock assumption only"
+    },
+    {
+      "case": "1",
+      "file": "train.mat",
+      "native_id": 1,
+      "asset_description": "Roller",
+      "fault_origin": "DS",
+      "bearing_DS": "SKF22320 E",
+      "bearing_FS": "SKF22320 E",
+      "frequency_multiples_DS": {
+        "FTFMultiple": 0.0326264054,
+        "BPFMultiple": 0.213265285,
+        "BPFOMultiple": 0.5244098,
+        "BPFIMultiple": 0.7488158
+      },
+      "frequency_multiples_FS": {
+        "FTFMultiple": 0.0326264054,
+        "BPFMultiple": 0.213265285,
+        "BPFOMultiple": 0.5244098,
+        "BPFIMultiple": 0.7488158
+      },
+      "records_DS": 127,
+      "records_FS": 127,
+      "mutual_nearest_pairs": 127,
+      "pairs_within_seconds": {
+        "1": 3,
+        "60": 113,
+        "300": 127,
+        "3600": 127
+      },
+      "median_mutual_separation_seconds": 24.37000000011176,
+      "timezone": "Unspecified; same-clock assumption only"
+    },
+    {
+      "case": "2",
+      "file": "test.mat",
+      "native_id": 2,
+      "asset_description": "Engine",
+      "fault_origin": "DS",
+      "bearing_DS": "SKF6310",
+      "bearing_FS": "SKF6209",
+      "frequency_multiples_DS": {
+        "FTFMultiple": 0.38,
+        "BPFMultiple": 1.98,
+        "BPFOMultiple": 3.05,
+        "BPFIMultiple": 4.95
+      },
+      "frequency_multiples_FS": {
+        "FTFMultiple": 0.41,
+        "BPFMultiple": 2.55,
+        "BPFOMultiple": 4.05,
+        "BPFIMultiple": 5.95
+      },
+      "records_DS": 94,
+      "records_FS": 296,
+      "mutual_nearest_pairs": 93,
+      "pairs_within_seconds": {
+        "1": 24,
+        "60": 91,
+        "300": 91,
+        "3600": 93
+      },
+      "median_mutual_separation_seconds": 2.7400000002235174,
+      "timezone": "Unspecified; same-clock assumption only"
+    },
+    {
+      "case": "2",
+      "file": "train.mat",
+      "native_id": 2,
+      "asset_description": "Engine",
+      "fault_origin": "DS",
+      "bearing_DS": "SKF6310",
+      "bearing_FS": "SKF6209",
+      "frequency_multiples_DS": {
+        "FTFMultiple": 0.38,
+        "BPFMultiple": 1.98,
+        "BPFOMultiple": 3.05,
+        "BPFIMultiple": 4.95
+      },
+      "frequency_multiples_FS": {
+        "FTFMultiple": 0.41,
+        "BPFMultiple": 2.55,
+        "BPFOMultiple": 4.05,
+        "BPFIMultiple": 5.95
+      },
+      "records_DS": 124,
+      "records_FS": 124,
+      "mutual_nearest_pairs": 124,
+      "pairs_within_seconds": {
+        "1": 20,
+        "60": 124,
+        "300": 124,
+        "3600": 124
+      },
+      "median_mutual_separation_seconds": 3.9449999993667006,
+      "timezone": "Unspecified; same-clock assumption only"
+    },
+    {
+      "case": "11",
+      "file": "test.mat",
+      "native_id": 14,
+      "asset_description": "Engine",
+      "fault_origin": "DS",
+      "bearing_DS": "SKF6226",
+      "bearing_FS": "SKF6226",
+      "frequency_multiples_DS": {
+        "FTFMultiple": 0.41,
+        "BPFMultiple": 2.75,
+        "BPFOMultiple": 3.71,
+        "BPFIMultiple": 5.29
+      },
+      "frequency_multiples_FS": {
+        "FTFMultiple": 0.41,
+        "BPFMultiple": 2.75,
+        "BPFOMultiple": 3.71,
+        "BPFIMultiple": 5.29
+      },
+      "records_DS": 19,
+      "records_FS": 19,
+      "mutual_nearest_pairs": 19,
+      "pairs_within_seconds": {
+        "1": 0,
+        "60": 19,
+        "300": 19,
+        "3600": 19
+      },
+      "median_mutual_separation_seconds": 17.029999999998836,
+      "timezone": "Unspecified; same-clock assumption only"
+    },
+    {
+      "case": "11",
+      "file": "train.mat",
+      "native_id": 14,
+      "asset_description": "Engine",
+      "fault_origin": "DS",
+      "bearing_DS": "SKF6226",
+      "bearing_FS": "SKF6226",
+      "frequency_multiples_DS": {
+        "FTFMultiple": 0.41,
+        "BPFMultiple": 2.75,
+        "BPFOMultiple": 3.71,
+        "BPFIMultiple": 5.29
+      },
+      "frequency_multiples_FS": {
+        "FTFMultiple": 0.41,
+        "BPFMultiple": 2.75,
+        "BPFOMultiple": 3.71,
+        "BPFIMultiple": 5.29
+      },
+      "records_DS": 129,
+      "records_FS": 129,
+      "mutual_nearest_pairs": 129,
+      "pairs_within_seconds": {
+        "1": 1,
+        "60": 127,
+        "300": 129,
+        "3600": 129
+      },
+      "median_mutual_separation_seconds": 19.080000000074506,
+      "timezone": "Unspecified; same-clock assumption only"
+    }
+  ]
+}

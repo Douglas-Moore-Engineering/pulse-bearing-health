@@ -1,0 +1,20 @@
+{
+  "version": "kaist-development-v1",
+  "purpose": "Exploratory development replay; not accepted warning performance",
+  "frozen_before_full_profile_results": true,
+  "max_nonfinite_fraction_per_vibration_channel": 0.001,
+  "max_contiguous_nonfinite_samples": 256,
+  "missingness_treatment": "Finite-only per-channel RMS; no interpolation, no concatenation for spectra; retain native row positions and counts",
+  "extra_row_treatment": "Retain every native row; duration is observed row count divided by documented sample rate; cause unresolved",
+  "reference_recordings": 10,
+  "reference_statistic": "median of eligible early-recording RMS for each vibration channel",
+  "reference_health_verified": false,
+  "threshold_ratio_strictly_greater_than": 3,
+  "consecutive_recordings": 3,
+  "gap_reset_seconds": 5400,
+  "abstention_resets_persistence": true,
+  "alert_channel_combination": "Either channel independently satisfies persistence",
+  "endpoint": "Last acquisition timestamp; descriptive lead only, not verified damage onset or exact stop time",
+  "timezone": "unknown",
+  "deployment_authorized_by_this_policy": false
+}
