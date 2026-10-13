@@ -1,9 +1,9 @@
 # Security and Data Handling
 
-PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
+Private reference system for a fictional customer. Consult [current status](PROJECT_STATUS.md) and [execution evidence](customer/08-deployment-execution.md) for the implemented boundary and unresolved controls; the original pre-Azure design is historical.
 
-Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
+Never commit credentials, subscription secrets, customer operational/personal data, private backups or raw benchmark files without appropriate rights and authorization. Record approved locators and digests; do not commit signed access URLs. Keep the repository private unless publication is explicitly authorized.
 
-This private repository holds fictional scenario and proposed reference design only. Never commit credentials, subscription secrets, customer operational/personal data or raw benchmark files without appropriate rights and authorization. Reference source pages and record digests instead of redistributing data by default.
+Preserve advisory-only authority and read-oriented OT boundaries. Do not add machine-control writes, bypass equipment protection or convert reference output into a production diagnosis. Use the existing threat register, identity/access tests and release gates when changing controls. Recorded tests do not imply complete security assurance.
 
-Security controls are planned in docs/06-security-and-threat-model.md and governance/threat_register.csv. No network/identity/role has been created or verified. Public source retrieval is not approval of commercial data use. Report findings privately to Dr. Moore through an agreed channel; no external message is authorized by this record. Current user boundary prohibits any Azure connection or provisioning.
+Report findings privately to Dr. Moore through an agreed channel. A repository instruction does not authorize external communication, Azure access, spending or production release.

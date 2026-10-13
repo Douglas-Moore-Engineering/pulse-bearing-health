@@ -1,0 +1,14 @@
+measurement_id,kpi_id,measurement_status,criterion_result,acceptance_disposition,record
+MEAS-PULSE-001,PULSE-KPI-012,measured,pass,pending review,MEAS-PULSE-001.md
+MEAS-PULSE-002,PULSE-KPI-013,measured,fail,pending review,MEAS-PULSE-002.md
+MEAS-PULSE-PLAN-001,PULSE-KPI-001,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-001
+MEAS-PULSE-PLAN-002,PULSE-KPI-002,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-002
+MEAS-PULSE-PLAN-003,PULSE-KPI-003,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-003
+MEAS-PULSE-PLAN-004,PULSE-KPI-004,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-004
+MEAS-PULSE-PLAN-005,PULSE-KPI-005,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-005
+MEAS-PULSE-PLAN-006,PULSE-KPI-006,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-006
+MEAS-PULSE-PLAN-007,PULSE-KPI-007,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-007
+MEAS-PULSE-PLAN-008,PULSE-KPI-008,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-008
+MEAS-PULSE-PLAN-009,PULSE-KPI-009,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-009
+MEAS-PULSE-PLAN-010,PULSE-KPI-010,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-010
+MEAS-PULSE-PLAN-011,PULSE-KPI-011,not measured,not evaluated,pending review,planned-kpis.md#meas-pulse-plan-011

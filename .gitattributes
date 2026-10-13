@@ -1,2 +1,1 @@
-# Preserve the byte-identical authored skill snapshot on Windows checkouts.
-/.agents/skills/** -text
+# Reusable skill packages are maintained outside this repository.

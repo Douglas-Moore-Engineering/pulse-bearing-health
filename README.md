@@ -1,30 +1,48 @@
-# Pulse - Bearing Health
+# Pulse — Bearing Health
 
-Current Phase 10 preparation: [demo readiness and launch checklist](customer/10-demo-readiness.md). Locally verified on 2026-10-12: 180 software tests passed, three benchmark selections functionally checked, and synthetic replay completed. Ready for guided offline demonstration; actual review/acceptance and production qualification remain open.
+**Private reference system.** An authenticated maintenance-review workflow has recorded Azure deployment evidence. The production detector remains **NOT_PROMOTED**. [Current status](PROJECT_STATUS.md).
 
-A bearing-health reference system that turns vibration windows into traceable assessments and an authenticated maintenance-review workflow. Built for a fictional industrial customer; deployed on a single Azure VM running K3s.
+## Operational problem
 
-**Status:** reference deployment previously verified; production detector **NOT_PROMOTED**. Public benchmark evaluation exposed missed faults and false positives. Those results are retained rather than presented as production success. See [current status](PROJECT_STATUS.md).
+Bearing degradation can lead to unplanned equipment stops. Pulse connects vibration observations, supporting evidence and human review so a reliability engineer can investigate a potential problem and a maintenance planner can decide what work is justified. The customer scenario is fictional; reduced downtime or avoided loss has not been demonstrated.
 
-## For prospective clients
+## Users and decisions
 
-Start with the [15-minute review guide](customer/11-client-review-guide.md). This fictional reference demonstrates traceable software and delivery practices; it is not a customer endorsement or a qualified production detector.
+Reliability engineers investigate assessments, operators acknowledge notifications, and maintenance planners authorize work. Pulse provides advisory evidence and a reference inbox; it does not control machinery or authorize maintenance. Fault diagnosis and remaining useful life are unavailable unless separately qualified.
 
-## Explore the system
+## What currently works
 
-- Open [the benchmark demo](customer/benchmark-demo.html) in a browser for a local walkthrough. It is not a live dashboard.
-- Review the [deployed architecture](docs/diagrams/16_deployed_reference_runtime.svg) and [architecture decisions](docs/12-architecture-decisions.md).
-- Inspect [runtime code](src/pulse), [tests](tests), [deployment tooling](infra/single-node), and [measured evidence](governance/evidence).
+- Authenticated assessment API with asset permissions, durable SQLite receipts and idempotent submission handling: [implementation](src/pulse/api.py), [recorded identity checks](governance/evidence/azure-asset-authorization.json).
+- Benchmark assessment, anomaly-inbox and simulated acknowledgement workflow: [reference replay](governance/evidence/azure-reference-detector-replay.json). This demonstrates application behavior, not a qualified degradation detector.
+- Isolated recovery of an Azure Blob snapshot into a local container: [MEAS-PULSE-001](governance/measurements/MEAS-PULSE-001.md).
+- Guided offline benchmark and synthetic demonstrations: [readiness and limitations](customer/10-demo-readiness.md).
 
-Current engineering work: [backlog](docs/CURRENT_ENGINEERING_BACKLOG.md), [capacity evidence](docs/CAPACITY_STATUS.md), and [detector status](data/qualification/DETECTOR_STATUS.md).
+The deployed reference topology is a single Azure VM with K3s and private operator access. See [the deployment decision](architecture/adr/011-single-node-reference-deployment.md) and [operating procedure](runbooks/reference-operations.md). Deployment evidence is historical; this documentation review did not reconnect to Azure.
 
-## Run locally
+## Measured results and conditions
 
-Python 3.10 or newer. From a fresh checkout:
+| Metric | Recorded result / denominator | Context | Measurement record |
+|---|---|---|---|
+| Recovered assessment receipts | 3,150 / 3,150; counts preserved after container startup | One Azure Blob snapshot restored into an isolated local container | [MEAS-PULSE-001](governance/measurements/MEAS-PULSE-001.md) |
+| SCA paired candidate decision coverage | Case 1 DS: 104/117 (88.9%); FS: 104/126 (82.5%). Case 2 DS: 91/94 (96.8%); FS: 91/296 (30.7%). Case 11: 19/19 on each side | Consumed development cases; retrospective 95% coverage criterion fails | [MEAS-PULSE-002](governance/measurements/MEAS-PULSE-002.md) |
+| Qualified warning lead time and nuisance episodes per operating exposure | **Not measured** for the intended operating use | Physical endpoints and verified healthy operating exposure remain insufficient | [Open measurements](governance/measurements/planned-kpis.md) |
+| Customer downtime reduction and attributable avoided loss | **Not measured** | No actual customer intervention, comparator or follow-up outcomes | [Open measurements](governance/measurements/planned-kpis.md) |
+
+The frozen RMS rule missed documented damaged IMS bearing 4. Its complete-policy assessment is **INCONCLUSIVE**, while the paired SCA candidate is **FAIL**. Later experimental candidates are distinct and remain unpromoted. [Current detector disposition](data/qualification/DETECTOR_STATUS.md). These findings are retained; repeated windows do not constitute independent bearings or operating hours.
+
+## Qualification gaps and next work
+
+Production detector performance, qualified failure warning, nuisance-alert burden, sustained capacity, service availability, full host-loss recovery and actual customer acceptance remain open. Receipt recovery does not establish host-loss RPO/RTO or nonempty review/closure recovery. See the [engineering backlog](docs/CURRENT_ENGINEERING_BACKLOG.md) and [capacity status](docs/CAPACITY_STATUS.md).
+
+The next bounded activity is offline demonstration and evidence review, followed by the existing detector/data qualification sequence. Site exposure and production promotion require their separate evidence and authorization. The spending ceiling in the deployment decision is not a measured monthly cost.
+
+## Run a demonstration or inspect the implementation
+
+Use Python 3.10 or newer and an isolated environment. From the repository root:
 
 ```sh
 python -m venv .venv
-# Windows: .venv\Scripts\Activate.ps1
+# Windows PowerShell: .venv\Scripts\Activate.ps1
 # macOS/Linux: source .venv/bin/activate
 python -m pip install -e ".[test,data,api,deploy]"
 python -m pytest -q
@@ -32,37 +50,18 @@ python scripts/run_reference_demo.py --output outputs/reference-quickstart
 python scripts/validate_review_package.py
 ```
 
-Use a fresh output directory for each demo run. This workflow uses synthetic fixtures and needs no Azure account, credentials, or dataset downloads. The authenticated cloud API is private and requires operator access; no public endpoint or cloud deployment is created by these commands.
+Use a fresh output directory. The executable demo uses synthetic fixtures and requires no Azure account or dataset download. The [offline benchmark HTML](customer/benchmark-demo.html) can be opened locally; it is not a live dashboard. Preparation checks and their execution dates are recorded in [demo readiness](customer/10-demo-readiness.md). The private cloud API requires separately authorized operator access.
 
-## What is implemented
+## Engineering documentation
 
-| Capability | Evidence and boundary |
+| Review need | Authoritative entry point |
 |---|---|
-| Authenticated assessment API | Entra application identity, asset grants, durable SQLite receipts, idempotency; no qualified degradation prediction |
-| Reference anomaly workflow | Frozen IMS rule, simulated inbox and acknowledgement; [884-window replay](governance/evidence/azure-reference-detector-replay.json) |
-| Pilot review routes | Deployed; real-token review GET passed; closure role and nonempty workflow recovery remain pending |
-| Daily reconciliation | Fictional 12-asset timer, persistent reports, missing/unknown timing handling; [rollout](governance/evidence/azure-reconciliation-rollout.json); automatic deadline compliance not yet observed |
-| Recovery | Three consecutive half-hour backups observed; actual Blob-to-container recovery passed for 3,150 receipts; [recovery evidence](governance/evidence/blob-container-recovery.json) |
-| Detector evaluation | [Recorded rejection and limitations](data/qualification/detector-candidate-disposition.md); no held-out success invented |
+| Business scope and users | [Discovery](customer/01-discovery-record.md), [client review guide](customer/11-client-review-guide.md) |
+| Architecture and decisions | [Architecture index](docs/architecture/README.md), [ADRs](docs/12-architecture-decisions.md) |
+| Requirements and verification | [Requirements](requirements/requirements.csv), [V&V matrix](governance/verification_validation_matrix.csv) |
+| KPIs, measurements and decisions | [KPI dictionary](docs/appendix-a-kpi-dictionary.md), [measurement index](governance/measurements/README.md), [release gates](governance/release_gates.md) |
+| Implementation and operations | [Source](src/pulse), [tests](tests), [runbooks](runbooks/README.md) |
+| Current handoff and history | [Current status](PROJECT_STATUS.md), [lifecycle review](docs/SKILL_COMPLETION_REVIEW.md), [history](PROJECT_HISTORY.md) |
+| Complete documentation | [Documentation index](docs/README.md), [contributing](CONTRIBUTING.md), [external DME skills](docs/DME_SKILLS.md) |
 
-Latest recorded software suite: **180 passed**. [Test evidence](governance/evidence/phase10-demo-tests.xml). CI runs software tests, the synthetic demo and document/register validation. These checks do not establish customer acceptance or model performance.
-
-## Engineering decisions and limits
-
-The USD 100/month ceiling led to a [single-node reference deployment](architecture/adr/011-single-node-reference-deployment.md), with SQLite and private operator access. This is not a managed AKS production cluster or a high-availability design. The budget is a spending boundary, not proof of actual monthly cost.
-
-The requested 1.5 million requests/day has **not** been qualified. Sustained load, one-hour host-loss RPO, production availability, real plant validation and independent acceptance remain open. Public bearing datasets do not establish useful warning time or nuisance-alert performance at a customer site. See [capacity evidence](docs/AKS_CAPACITY_AND_RELEASE.md), [operations](runbooks/reference-operations.md), and [remaining work](docs/CURRENT_ENGINEERING_BACKLOG.md).
-
-## Repository guide
-
-| Directory | Purpose |
-|---|---|
-| `src/`, `tests/`, `scripts/` | Implementation, verification and reproducible exercises |
-| `infra/`, `runbooks/` | Deployment and operating procedures |
-| `data/qualification/` | Dataset suitability, experiment protocols and detector results |
-| `requirements/`, `architecture/`, `governance/` | Requirement trace, decisions, risks and measured evidence |
-| `customer/` | Fictional customer scope and demonstration package |
-
-[Historical status records](PROJECT_HISTORY.md) preserve earlier increments and superseded plans. [Contributing](CONTRIBUTING.md) describes evidence rules. Keep this repository private unless publication is explicitly authorized. Credentials, private backups and raw dataset bytes are excluded; source references do not imply redistribution rights.
-
-Current detector evidence: [consolidated status](data/qualification/DETECTOR_STATUS.md). RMS: INCONCLUSIVE under the complete policy, with the documented missed bearing retained. Paired SCA: FAIL. Neither is promoted.
+Private DME engineering repository. Keep credentials, private backups, customer data and unauthorized raw datasets out of Git. Dataset citations do not grant redistribution rights.
