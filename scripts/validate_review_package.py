@@ -105,46 +105,10 @@ if not (ROOT/'customer/08-deployment-execution.md').exists():
 checks.append({'check':'unresolved cloud gates and current execution handoff retained',
                'scope':'Documentation consistency; no authorization or technical enforcement'})
 
-expected_skills = {
-    'customer-delivery-service-operations',
-    'systems-engineering-standards-assurance',
-    'build-production-ai-systems',
-    'ai-governance-and-assurance',
-    'dme-diagram-standard',
-}
-try:
-    bundle = json.loads((ROOT / '.agents/skills-manifest.json').read_text(encoding='utf-8'))
-    entries = bundle['skills']
-    if len(entries) != 5 or {entry['name'] for entry in entries} != expected_skills:
-        errors.append('DME skill inventory must contain the five expected packages')
-    discovered = {p.parent.name for p in (ROOT / '.agents/skills').glob('*/SKILL.md')}
-    if discovered != expected_skills:
-        errors.append('DME skill directory inventory differs from expected packages')
-    if not re.fullmatch(r'[0-9a-f]{40}', bundle['source_git_commit']):
-        errors.append('DME source commit provenance is missing or malformed')
-    skill_file_count = 0
-    for entry in entries:
-        relative = '.agents/skills/' + entry['name']
-        if entry['path'] != relative or entry['name'] not in expected_skills:
-            errors.append('Invalid DME skill package path')
-            continue
-        folder = ROOT / relative
-        actual = {p.relative_to(folder).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
-                  for p in folder.rglob('*') if p.is_file() and '__pycache__' not in p.parts}
-        if actual != entry['file_sha256']:
-            errors.append(f"DME skill files/hash mismatch: {entry['name']}")
-        text = (folder / 'SKILL.md').read_text(encoding='utf-8')
-        header = re.match(r'\A---\n(.*?)\n---(?:\n|$)', text, re.S)
-        if not header or not re.search(r'^name: ' + re.escape(entry['name']) + r'$', header[1], re.M):
-            errors.append(f"DME frontmatter name mismatch: {entry['name']}")
-        if not header or not re.search(r'^description: \S.+$', header[1], re.M):
-            errors.append(f"Missing DME skill description: {entry['name']}")
-        skill_file_count += len(actual)
-    checks.append({'check':'DME skill inventory, frontmatter names and pinned file hashes',
-                   'skills':len(entries), 'files':skill_file_count,
-                   'scope':'Files and provenance format only; not IDE discovery or workflow execution'})
-except (OSError, ValueError, KeyError, TypeError) as exc:
-    errors.append(f'DME skill bundle validation failure: {exc}')
+from check_repository_contract import validate_contract
+errors.extend(validate_contract(ROOT))
+checks.append({'check':'README order, measurement index/links and external skill placement',
+               'scope':'Structural consistency only; not measurement truth, approval or IDE installation'})
 
 digests = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
            for p in sorted(files) if p.is_file()

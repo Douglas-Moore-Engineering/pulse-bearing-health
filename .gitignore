@@ -17,3 +17,9 @@ outputs/reference-single-node-foundation.json
 # Generated artifacts, private backups, and nested working copies
 outputs/
 pulse-bearing-health/
+
+# DME reusable skill instructions live outside project repositories.
+**/SKILL.md
+**/.agents/skills/
+**/.codex/skills/
+/.agents/skills-manifest.json

@@ -36,3 +36,9 @@ If browser execution fails, present the [recorded grouping evidence](../governan
 ## Exit and next handoff
 
 Phase 10 meeting outcome remains unrecorded. Capture stakeholder feedback, intended maintenance decision, candidate asset scope, data rights, calibration, acceptance definitions, owners and whether a shadow pilot is useful in the existing discovery record. Phase 11 site adaptation starts only with actual authorized site inputs. No additional capacity tuning is required to conduct this bounded offline demonstration; performance and production qualification remain separate engineering work.
+
+## Measurement and README handoff — 2026-10-12
+
+Repository-maintenance increment: the [measurement index](../governance/measurements/README.md) and [open KPI plans](../governance/measurements/planned-kpis.md) now bind the README claims to existing evidence and decisions. They are retrospective records, not new model/cloud runs or new acceptance. Definitions and requirement IDs are preserved; reusable skills are external to the project.
+
+Receiving owner: Dr. Douglas Moore, DME engineering lead. Actual independent/customer review remains unassigned. Continue the existing offline review and qualification backlog; obtain missing provenance and authorized site inputs before dependent claims or release decisions. This increment changes no model, threshold, deployment, customer acceptance or production authority.

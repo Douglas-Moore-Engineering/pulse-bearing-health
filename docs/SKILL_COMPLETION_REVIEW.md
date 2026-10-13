@@ -63,3 +63,9 @@ No row is an assertion that all lifecycle phases or all requirements have passed
 | Actual site/independent acceptance absent | Qualified domain/release reviewers: applicable ORR/CAR and independent review, with real signatures/evidence | Site/production authorization |
 
 Budget authority remains USD 100/month. No paid resources were added by this increment. Existing spending estimates remain estimates; the Azure budget is not a hard stop. No support ticket, source-owner message or external notification was sent; one simulated inbox event was persisted and acknowledged by the automated reference client.
+
+## Measurement and README handoff — 2026-10-12
+
+Repository-maintenance increment: the [measurement index](../governance/measurements/README.md) and [open KPI plans](../governance/measurements/planned-kpis.md) now bind the README claims to existing evidence and decisions. They are retrospective records, not new model/cloud runs or new acceptance. Definitions and requirement IDs are preserved; reusable skills are external to the project.
+
+Receiving owner: Dr. Douglas Moore, DME engineering lead. Actual independent/customer review remains unassigned. Continue the existing offline review and qualification backlog; obtain missing provenance and authorized site inputs before dependent claims or release decisions. This increment changes no model, threshold, deployment, customer acceptance or production authority.

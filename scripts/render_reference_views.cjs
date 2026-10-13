@@ -5,10 +5,15 @@ const {execFileSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const toolsRoot = process.argv[2];
 if (!toolsRoot) throw new Error('Supply temporary Mermaid installation directory');
+const renderConfig = process.env.DME_MERMAID_CONFIG;
+if (!renderConfig || !path.isAbsolute(renderConfig) || !fs.existsSync(renderConfig)) {
+  throw new Error('Set DME_MERMAID_CONFIG to the approved external diagram skill mermaid-config.json');
+}
 const puppeteer = require(path.join(toolsRoot, 'node_modules', 'puppeteer'));
 const cli = path.join(toolsRoot, 'node_modules', '@mermaid-js', 'mermaid-cli', 'src', 'cli.js');
 const executablePath = process.env.PULSE_BROWSER || 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe';
 const browserConfig = path.join(root,'outputs/reference-v0.4/puppeteer.json');
+fs.mkdirSync(path.dirname(browserConfig), {recursive:true});
 fs.writeFileSync(browserConfig,JSON.stringify({executablePath,headless:true}));
 const palette = [
   ['source','Blue','Sources','#EAF3F8','#356079'], ['data','Teal','Data foundation','#E5F4F2','#32746E'],
@@ -23,7 +28,7 @@ const escape = s => s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll(
   try {
     for (const view of views) {
       const base = path.join(root,'docs/diagrams',view.name);
-      execFileSync(process.execPath,[cli,'-i',base+'.mmd','-o',base+'.svg','-c',path.join(root,'.agents/skills/dme-diagram-standard/assets/mermaid-config.json'),'-p',browserConfig,'-b','transparent'],{stdio:'pipe',windowsHide:true});
+      execFileSync(process.execPath,[cli,'-i',base+'.mmd','-o',base+'.svg','-c',renderConfig,'-p',browserConfig,'-b','transparent'],{stdio:'pipe',windowsHide:true});
       let svg = fs.readFileSync(base+'.svg','utf8');
       const svgId = svg.match(/<svg[^>]*\bid="([^"]+)"/)[1];
       const bounds = svg.match(/viewBox="([^"]+)"/)[1].split(/\s+/).map(Number);

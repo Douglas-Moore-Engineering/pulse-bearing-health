@@ -21,3 +21,9 @@ Actual Azure Blob-to-local-container recovery passed for 3,150 receipts, 884 ref
 Capacity experiments remain local and harness-only; production persistence is unchanged. Use the [capacity status](docs/CAPACITY_STATUS.md) for the current result, comparison and next action. Historical measurements remain in the [protocol](runbooks/sustained-capacity-protocol.md) and evidence JSON files.
 
 Start with this page for release state, the [engineering backlog](docs/CURRENT_ENGINEERING_BACKLOG.md) for remaining work, and the [skill review](docs/SKILL_COMPLETION_REVIEW.md) for lifecycle position. Historical execution entries are evidence records, not competing current plans.
+
+## Measurement and README handoff — 2026-10-12
+
+Repository-maintenance increment: the [measurement index](governance/measurements/README.md) and [open KPI plans](governance/measurements/planned-kpis.md) now bind the README claims to existing evidence and decisions. They are retrospective records, not new model/cloud runs or new acceptance. Definitions and requirement IDs are preserved; reusable skills are external to the project.
+
+Receiving owner: Dr. Douglas Moore, DME engineering lead. Actual independent/customer review remains unassigned. Continue the existing offline review and qualification backlog; obtain missing provenance and authorized site inputs before dependent claims or release decisions. This increment changes no model, threshold, deployment, customer acceptance or production authority.

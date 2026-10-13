@@ -1,8 +1,6 @@
 # Engineering Documentation Index
 
-PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
-
-Fictional customer scenario; proposed design, not implementation or customer approval. Stop boundary: no Azure connection, provisioning, paid resources, site access or production release.
+Current navigation for the private reference system. See [project status](../PROJECT_STATUS.md) for implementation and release state. Dated pre-Azure documents below remain historical design evidence, not a current deployment inventory or authorization.
 
 - [DME skills and VS Code setup](DME_SKILLS.md)
 - [Repository agent instructions](../AGENTS.md)
@@ -62,3 +60,11 @@ Fictional customer scenario; proposed design, not implementation or customer app
 
 - [AKS capacity and release evidence](AKS_CAPACITY_AND_RELEASE.md)
 - [AKS deployment runbook](../infra/aks/README.md)
+
+## Measurement evidence
+
+- [Versioned measurement index](../governance/measurements/README.md)
+- [KPI dictionary](appendix-a-kpi-dictionary.md)
+- [Open KPI measurement plans](../governance/measurements/planned-kpis.md)
+
+The index connects the README results to original evidence, evaluated versions, limitations and existing acceptance decisions. Measurement, criterion result and authorized acceptance remain separate.
