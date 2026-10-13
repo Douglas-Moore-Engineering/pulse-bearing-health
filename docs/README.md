@@ -2,7 +2,6 @@
 
 Current navigation for the private reference system. See [project status](../PROJECT_STATUS.md) for implementation and release state. Dated pre-Azure documents below remain historical design evidence, not a current deployment inventory or authorization.
 
-- [DME skills and VS Code setup](DME_SKILLS.md)
 - [Repository agent instructions](../AGENTS.md)
 - [CHANGELOG.md](../CHANGELOG.md)
 - [CONTRIBUTING.md](../CONTRIBUTING.md)

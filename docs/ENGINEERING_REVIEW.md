@@ -1,8 +1,8 @@
-# DME skill completion review
+# Engineering lifecycle review
 
 Current Phase 10 preparation: [demo readiness and launch checklist](../customer/10-demo-readiness.md). Locally verified on 2026-10-12: 180 software tests passed, three benchmark selections functionally checked, and synthetic replay completed. Ready for guided offline demonstration; actual review/acceptance and production qualification remain open.
 
-Review date: 2026-10-11. Scope: the authorized private reference system, Azure single-node demo within USD 100/month, and offline detector research. Customer/site production acceptance and independent assurance are not established. The backup export was initially rejected by automatic approval review; the user then explicitly authorized it, and the test passed. The five skill packages are present and listed in this session; their pinned contents were not edited for this increment.
+Review date: 2026-10-11. Scope: the authorized private reference system, Azure single-node demo within USD 100/month, and offline detector research. Customer/site production acceptance and independent assurance are not established. The backup export was initially rejected by automatic approval review; the user then explicitly authorized it, and the test passed.
 
 ## Current position and verified increment
 
@@ -30,13 +30,13 @@ The user explicitly authorized inventing fictional customer criteria and notific
 
 ## Applied workflows and evidence
 
-| Skill | Work completed in the reference scope | Remaining condition |
+| Engineering discipline | Work completed in the reference scope | Remaining condition |
 |---|---|---|
-| customer-delivery-service-operations | Existing discovery, scope, authority and USD 100 budget retained; technical increments returned through the [execution handoff](../customer/08-deployment-execution.md) | Fictional criteria and simulated inbox are recorded; actual site ORR/CAR and service acceptance are outside the exercised reference scope; future retirement is not an activity to execute now |
-| systems-engineering-standards-assurance | Requirement IDs, viewpoints, source/edition limitations and V&V trace preserved; failed and partial evidence recorded without changing acceptance criteria | No independent standards conformity, domain review or site validation; [V&V matrix](../governance/verification_validation_matrix.csv) retains unmet criteria |
-| build-production-ai-systems | Authenticated persistent API deployed; asset-specific authorization added and live-tested; local health and half-hour Blob backup timers enabled; actual Blob-to-container restore verified; reproducible baseline tested on IMS runs 2 and 1 | Reference-only detector, durable inbox and acknowledgement deployed and replay-tested; detector qualification, primary-data retention at scale, sustained workload and host-loss recovery remain incomplete |
-| ai-governance-and-assurance | Frozen plans, input/code hashes, held-out-use accounting, limitations and non-promotion recorded in the [model card](../governance/model/MODEL_SYSTEM_CARD.md) | Fictional warning/nuisance criteria established; no measured pass against them, qualified detector, production authorization or actual independent review |
-| dme-diagram-standard | 20-view package includes rendered and visually reviewed [reference workflow view 17](diagrams/17_reference_detector_workflow.mmd); transparency checked | Diagram consistency does not establish detector qualification; view 16 retains the earlier assessment path and view 17 adds the reference workflow |
+| Customer delivery and service operations | Existing discovery, scope, authority and USD 100 budget retained; technical increments returned through the [execution handoff](../customer/08-deployment-execution.md) | Fictional criteria and simulated inbox are recorded; actual site ORR/CAR and service acceptance are outside the exercised reference scope; future retirement is not an activity to execute now |
+| Systems engineering and standards assurance | Requirement IDs, viewpoints, source/edition limitations and V&V trace preserved; failed and partial evidence recorded without changing acceptance criteria | No independent standards conformity, domain review or site validation; [V&V matrix](../governance/verification_validation_matrix.csv) retains unmet criteria |
+| System implementation and operations | Authenticated persistent API deployed; asset-specific authorization added and live-tested; local health and half-hour Blob backup timers enabled; actual Blob-to-container restore verified; reproducible baseline tested on IMS runs 2 and 1 | Reference-only detector, durable inbox and acknowledgement deployed and replay-tested; detector qualification, primary-data retention at scale, sustained workload and host-loss recovery remain incomplete |
+| AI governance and assurance | Frozen plans, input/code hashes, held-out-use accounting, limitations and non-promotion recorded in the [model card](../governance/model/MODEL_SYSTEM_CARD.md) | Fictional warning/nuisance criteria established; no measured pass against them, qualified detector, production authorization or actual independent review |
+| Architecture documentation | 20-view package includes rendered and visually reviewed [reference workflow view 17](diagrams/17_reference_detector_workflow.mmd); transparency checked | Diagram consistency does not establish detector qualification; view 16 retains the earlier assessment path and view 17 adds the reference workflow |
 
 No row is an assertion that all lifecycle phases or all requirements have passed. The user authorized execution; missing evidence is not replaced with a fictional approval.
 
@@ -47,7 +47,7 @@ No row is an assertion that all lifecycle phases or all requirements have passed
 - [Periodic host health](../governance/evidence/azure-runtime-health.json): API readiness, ready replica and disk reserve. This does not measure model quality or send external alerts.
 - [Run 2 results](../data/qualification/ims-run2-results.md) and [independent-run findings](../data/qualification/ims-independent-results.md): native schema checks and frozen rule, including its missed bearing and archive discrepancy.
 - [Backup/restore evidence](../governance/evidence/azure-receipt-backup-restore.json): 3,149 receipts recovered into an isolated database with integrity `ok`; live data unchanged. The private backup is restricted to the current Windows user. Daily on-host backups retain at most seven 50 MiB snapshots; they do not replace off-host disaster recovery.
-- Offline repository validation checks links, registers, diagrams and pinned skill hashes. It does not approve a gate.
+- Offline repository validation checks links, registers, diagrams and measurement records. It does not approve a gate.
 
 ## Conditions preventing completion
 
@@ -66,6 +66,6 @@ Budget authority remains USD 100/month. No paid resources were added by this inc
 
 ## Measurement and README handoff — 2026-10-12
 
-Repository-maintenance increment: the [measurement index](../governance/measurements/README.md) and [open KPI plans](../governance/measurements/planned-kpis.md) now bind the README claims to existing evidence and decisions. They are retrospective records, not new model/cloud runs or new acceptance. Definitions and requirement IDs are preserved; reusable skills are external to the project.
+Repository-maintenance increment: the [measurement index](../governance/measurements/README.md) and [open KPI plans](../governance/measurements/planned-kpis.md) now bind the README claims to existing evidence and decisions. They are retrospective records, not new model/cloud runs or new acceptance. Definitions and requirement IDs are preserved.
 
 Receiving owner: Dr. Douglas Moore, DME engineering lead. Actual independent/customer review remains unassigned. Continue the existing offline review and qualification backlog; obtain missing provenance and authorized site inputs before dependent claims or release decisions. This increment changes no model, threshold, deployment, customer acceptance or production authority.

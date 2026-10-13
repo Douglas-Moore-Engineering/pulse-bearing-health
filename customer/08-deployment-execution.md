@@ -35,9 +35,7 @@ The user requested end-to-end implementation and explicitly selected “Authoriz
 
 Current executable scope includes local implementation, tests, deployment preparation and read-only Azure inspection. Existing tenant/subscription context and live access are verified in [connection evidence](../governance/evidence/azure-connection-check.json). Paid provisioning awaits a spending ceiling and applicable deployment evidence. Reference development is the engineering default from the existing platform plan; actual site exposure, real CMMS writes and equipment control remain excluded. Public source rights and downloaded dataset qualification are not inferred from this change.
 
-## Skill handoff and return evidence
-
-All five DME packages are discoverable in this session. Their entry points and required references have been read. The pinned packages are not being modified.
+## Engineering handoff and return evidence
 
 | Sender → receiver | Existing inputs | Work and expected return |
 |---|---|---|
@@ -70,7 +68,6 @@ The V&V matrix records partial fixture exercise without changing acceptance crit
 Next required external input: owner-authorized spending ceiling; the existing tenant/subscription and live read access are verified. Engineering proposes an isolated reference environment, `rg-pulse-reference`, `eastus2` subject to account policy, and no training compute until data and cost qualification. Client private networking, actual scoped roles, monitoring connectivity, cloud policy/what-if, data qualification, models, authenticated application, protected promotion and operational acceptance remain unfinished. No fixture success is a substitute for those inputs or tests. The authored CI workflow is local-test-only; it has not been pushed or run by GitHub.
 
 
-Repository validation initially identified CRLF checkout conversion in all five pinned skill packages. Each affected file was compared against its Git blob and manifest digest before restoring its exact authored bytes. No skill semantics or manifest hashes changed; `.gitattributes` prevents recurrence.
 
 
 ## Data qualification return - 2026-10-11
@@ -91,7 +88,7 @@ Registered DS-HUST-DIAG version 3 for diagnosis/robustness feasibility after sou
 
 ## Kubernetes scope and engineering return - 2026-10-11
 
-Dr. Moore requests Kubernetes for 1.5 million daily bearing-degradation requests and identifies peak hours as 09:00-15:00. Returned [capacity/cost evidence](../docs/AKS_CAPACITY_AND_RELEASE.md), [deployment runbook](../infra/aks/README.md), [ADR-010](../architecture/adr/010-aks-alert-capacity.md) and the new AKS architecture view. Local API and deployment safeguards are tested; Bicep compiled and short loopback load measured. Linux image build and restricted smoke passed; Azure read-only what-if succeeded. No real degradation policy, durable delivery or cloud performance is qualified. Read-only Azure inspection establishes quota/allocation and CLI constraints. Spending ceiling remains requested under prior bounded authorization. No paid resource was created and no skill/gate is falsely marked complete.
+Dr. Moore requests Kubernetes for 1.5 million daily bearing-degradation requests and identifies peak hours as 09:00-15:00. Returned [capacity/cost evidence](../docs/AKS_CAPACITY_AND_RELEASE.md), [deployment runbook](../infra/aks/README.md), [ADR-010](../architecture/adr/010-aks-alert-capacity.md) and the new AKS architecture view. Local API and deployment safeguards are tested; Bicep compiled and short loopback load measured. Linux image build and restricted smoke passed; Azure read-only what-if succeeded. No real degradation policy, durable delivery or cloud performance is qualified. Read-only Azure inspection establishes quota/allocation and CLI constraints. Spending ceiling remains requested under prior bounded authorization. No paid resource was created and no gate is falsely marked complete.
 
 ## Single-server budget evaluation return
 
@@ -105,7 +102,7 @@ Receiving disciplines: customer delivery, technical engineering, standards assur
 
 ## Returned reference controls and independent evaluation - 2026-10-11
 
-The user requested completion of the DME workflows. [Completion review](../docs/SKILL_COMPLETION_REVIEW.md) records actual progress and remaining conditions for all five skills. The unchanged baseline missed run-1 bearing 4; the third archive conflicts with its description. Detector promotion is blocked by evidence, not by a missing Azure execution permission.
+[Engineering review](../docs/ENGINEERING_REVIEW.md) records actual progress and remaining conditions across the engineering disciplines. The unchanged baseline missed run-1 bearing 4; the third archive conflicts with its description. Detector promotion is blocked by evidence, not by a missing Azure execution permission.
 
 Asset-level authorization was deployed and verified (valid token, 401 anonymous, 403 unassigned asset, durable replay). Local health and daily bounded backup timers were installed. The user explicitly authorized private off-host backup/restore after automatic approval review required export authority; 3,149 receipts restored with integrity ok. No live data was replaced. A durable alert ledger and acknowledgement component is implemented and fixture-tested offline, without detector integration or external transport. 81 tests passed. USD 100 remains the ceiling; no paid resource was added. No independent reviewer, customer acceptance or production approval was fabricated.
 
@@ -195,7 +192,7 @@ Implemented and tested uncertainty-aware endpoint and descriptive nuisance scori
 
 ## Engineering status reconciliation
 
-[Skill completion review](../docs/SKILL_COMPLETION_REVIEW.md) now separates the current 107-test milestone from historical 84/96-test evidence. [Prioritized backlog](../docs/CURRENT_ENGINEERING_BACKLOG.md) separates immediately implementable intake/adjudication/retention work from customer-dependent validation. No gate, detector or cloud resource changed.
+[engineering review](../docs/ENGINEERING_REVIEW.md) now separates the current 107-test milestone from historical 84/96-test evidence. [Prioritized backlog](../docs/CURRENT_ENGINEERING_BACKLOG.md) separates immediately implementable intake/adjudication/retention work from customer-dependent validation. No gate, detector or cloud resource changed.
 
 ## Offline intake validation
 
@@ -267,7 +264,7 @@ Trend temporal tests completed: short-pulse filtering, delayed eight-record-puls
 Incident lifecycle increment: durable explicit closure added to the existing alert ledger, requiring prior acknowledgement and actor/rationale/evidence. 168 tests passed. Not deployed; authenticated closure integration and closure-specific recovery remain open. [Runbook](../runbooks/incident-lifecycle.md).
 
 
-Skill handoff ? incident API integration: authenticated closure route and scoped role checks implemented locally; 169 tests passed. Backup comparison now covers closure rows with an explicit nonempty guard. Build/governance boundaries retained: no live role assignment, deployment, real maintenance disposition or model promotion in this increment. [Handoff details](../runbooks/incident-lifecycle.md).
+Engineering handoff — incident API integration: authenticated closure route and scoped role checks implemented locally; 169 tests passed. Backup comparison now covers closure rows with an explicit nonempty guard. Build/governance boundaries retained: no live role assignment, deployment, real maintenance disposition or model promotion in this increment. [Handoff details](../runbooks/incident-lifecycle.md).
 
 
 Incident closure deployed October 11 Eastern: image/server validation, receipt regression and private recovery passed. Role assigned but current token lacks review/closure claims; live closure correctly denied. No live incident closed; nonempty closure recovery pending. [Rollout handoff](../runbooks/incident-lifecycle.md).
@@ -349,7 +346,7 @@ The actual latest recorded Blob restored into a private local container with 3,1
 
 ## Repository reconciliation and backup cadence
 
-Updated README, project status, skill review and current backlog to reflect 174 offline tests, local Kubernetes/network evidence, successful real-token review reads and actual Blob-to-container recovery. Preserved pending closure permission, nonempty workflow recovery, host-loss RPO/RTO, capacity and detector/site gates. Read-only VM journal inspection confirmed scheduled service success at 9:30, 10:00 and 10:30 PM Eastern on October 11, 2026. [Cadence evidence](../governance/evidence/azure-backup-cadence.json). Three completions over one hour are not long-term reliability or accepted-record RPO qualification. No live mutation or additional cloud resource occurred.
+Updated README, project status, engineering review and current backlog to reflect 174 offline tests, local Kubernetes/network evidence, successful real-token review reads and actual Blob-to-container recovery. Preserved pending closure permission, nonempty workflow recovery, host-loss RPO/RTO, capacity and detector/site gates. Read-only VM journal inspection confirmed scheduled service success at 9:30, 10:00 and 10:30 PM Eastern on October 11, 2026. [Cadence evidence](../governance/evidence/azure-backup-cadence.json). Three completions over one hour are not long-term reliability or accepted-record RPO qualification. No live mutation or additional cloud resource occurred.
 
 ## Read-only verification tooling and capacity preparation
 

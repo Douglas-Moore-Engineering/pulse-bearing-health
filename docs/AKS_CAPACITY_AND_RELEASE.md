@@ -38,9 +38,9 @@ The observed Azure CLI is 2.80.0; Microsoft's [managed Gateway API instructions]
 
 These are **partial cost floors**, not a full estimate or hard cap. Excluded/unpriced items include managed disks, load balancer/public outbound IP, private endpoint/DNS, log ingestion/retention, Defender, certificate services, connectivity/build agents, bandwidth, durable evidence/notification services and engineering/operations labor. Node maxima do not cap metered logs/network/storage. Minimum listed components alone total $14,563.44/year, leaving little of the fictional $18,000 annual envelope for missing costs; that envelope is not actual spending authorization. Keep all LCC-OPEN conditions open. Update the governed cost ledger before financial reliance or paid execution.
 
-## Completion gates and skill return
+## Completion gates and engineering evidence
 
-The DME packages remain pinned; “complete the skill” means executing applicable work and returning evidence, not editing SKILL.md to mark success. Standards and AI governance remain active. This increment returns implemented/tested API behavior and compiled deployment intent; it cannot pass deployment, model or site gates.
+Completion requires evidence for the applicable engineering work. Standards and AI governance remain active. This increment returns implemented/tested API behavior and compiled deployment intent; it cannot pass deployment, model or site gates.
 
 Before paid deployment: resolve actual owner spending scope, full forecast, quota/allocation, region/network/policy, client identity/TLS, image build/scanning/signing and private runner access. Then validate ARM/what-if, deploy the isolated foundation, verify managed routing, and run server-side manifest checks. No fictional approval substitutes for these results.
 

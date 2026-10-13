@@ -1126,3 +1126,7 @@ style runtime fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
 style operations fill:none,stroke:#657588,stroke-width:1.5px,color:#111111
 linkStyle default stroke:#425466,stroke-width:1.5px
 ```
+
+## Render reference views
+
+`scripts/render_reference_views.cjs` uses the project configuration in `docs/diagrams/mermaid-config.json`. Pass a temporary Mermaid tooling directory as the first argument and, optionally, a view name as the second. Set `PULSE_BROWSER` to the browser executable when the default Windows Edge path is unavailable. `DME_MERMAID_CONFIG` optionally selects another configuration by absolute path.

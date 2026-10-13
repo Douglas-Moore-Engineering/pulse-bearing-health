@@ -1,6 +1,6 @@
 # Pulse — Bearing Health
 
-Current engineering plan: [prioritized backlog](docs/CURRENT_ENGINEERING_BACKLOG.md) and [reconciled skill review](docs/SKILL_COMPLETION_REVIEW.md). Latest recorded full suite: 143 tests passed. Pilot API deployed; live intake passed; review-role token propagation remains pending. Reference demonstration prepared; production detector remains NOT_PROMOTED.
+Current engineering plan: [prioritized backlog](docs/CURRENT_ENGINEERING_BACKLOG.md) and [reconciled engineering review](docs/ENGINEERING_REVIEW.md). Latest recorded full suite: 143 tests passed. Pilot API deployed; live intake passed; review-role token propagation remains pending. Reference demonstration prepared; production detector remains NOT_PROMOTED.
 
 Current decision: [detector candidate NOT_PROMOTED](data/qualification/detector-candidate-disposition.md). Consumed-case testing is complete for this increment; production detector qualification is not complete. Cases 3-10 remain reserved.
 
@@ -20,7 +20,7 @@ Prepared for a guided customer demo and discovery meeting. Open the [interactive
 
 The offline grouping prototype reduces LDM B04/B12/B17 episodes from 3/26/9 to 1/1/1 without changing the first alert. This is development on consumed evidence, not independent validation or proven nuisance reduction. [Evidence](governance/evidence/customer-demo-stability.json). The separate live Azure reference rule is unchanged; neither physical-failure warning nor nuisance-alert acceptance has been established.
 
-96 software tests passed. The demo was rendered and all three run selections checked in Edge. Existing Azure health was checked healthy on 2026-10-11. Single-node availability, host-loss recovery, primary retention and sustained 1.5-million-request/day capacity remain unqualified. The USD 100/month ceiling remains; no paid resources were added. [Operations](runbooks/reference-operations.md) and [skill review](docs/SKILL_COMPLETION_REVIEW.md).
+96 software tests passed. The demo was rendered and all three run selections checked in Edge. Existing Azure health was checked healthy on 2026-10-11. Single-node availability, host-loss recovery, primary retention and sustained 1.5-million-request/day capacity remain unqualified. The USD 100/month ceiling remains; no paid resources were added. [Operations](runbooks/reference-operations.md) and [engineering review](docs/ENGINEERING_REVIEW.md).
 
 <details>
 <summary>Previous status records (historical)</summary>
@@ -32,7 +32,7 @@ The fictional-customer reference workflow is deployed on Azure K3s: authenticate
 
 The rule is explicitly **unqualified**. Independent IMS run-1 evaluation missed damaged bearing 4 and flagged bearing 3 only ten minutes before the final snapshot. [Independent results](data/qualification/ims-independent-results.md). The user authorized invented requirements for this fictional customer; [recorded assumptions](config/fictional-reference-acceptance.json) set a 60-minute warning target, one nuisance alert per bearing per 30 operating days and a simulated internal inbox. These assumptions do not turn measured failures into a pass or authorize external messaging.
 
-Asset authorization, local monitoring and daily bounded backups are deployed. The authorized off-host restore recovered 3,149 original receipts, all 884 reference decisions and the acknowledged episode. [Operations](runbooks/reference-operations.md) ? [Workflow diagram](docs/diagrams/17_reference_detector_workflow.svg) ? [Skill review](docs/SKILL_COMPLETION_REVIEW.md) ? [Architecture index](docs/architecture/README.md).
+Asset authorization, local monitoring and daily bounded backups are deployed. The authorized off-host restore recovered 3,149 original receipts, all 884 reference decisions and the acknowledged episode. [Operations](runbooks/reference-operations.md) ? [Workflow diagram](docs/diagrams/17_reference_detector_workflow.svg) ? [engineering review](docs/ENGINEERING_REVIEW.md) ? [Architecture index](docs/architecture/README.md).
 
 **84 tests passed.** The Azure ceiling remains USD 100/month; no paid resource was added. Qualified detector performance, primary-data retention at scale, six-hour/full-day capacity and actual site/production assurance remain incomplete. Earlier increments below are historical.
 
@@ -103,7 +103,7 @@ Douglas Moore Engineering, LLC · Private fictional customer portfolio engagemen
 ## Contents
 
 - [Start here: pre-Azure review](docs/PRE_AZURE_REVIEW.md)
-- [DME skills and VS Code setup](docs/DME_SKILLS.md) and [repository agent instructions](AGENTS.md)
+- [Repository instructions](AGENTS.md)
 - [Customer discovery](customer/01-discovery-record.md), [review](customer/02-customer-review-handoff.md), [open items](customer/03-open-items.md)
 - [Lifecycle cost model](customer/04-lifecycle-cost-model.md), [business case](customer/05-business-case.md), [work breakdown](customer/06-engineering-cost-work-breakdown.md)
 - [Engineering handoff](customer/07-pre-azure-engineering-handoff.md)
@@ -133,7 +133,7 @@ Dr. Douglas Moore is DME's sole founder, architect, engineer and delivery lead. 
 
 customer/ holds governed engagement/economic records; docs/ holds engineering plans and Mermaid views; requirements/ and architecture/ hold registers/ADRs; governance/ holds standards, risk, V&V and gate records; data/ holds draft contracts/qualification; infra/azure/ holds an unprovisioned plan; runbooks/ holds proposed procedures; scripts/ validates this design package. No production data/model code or deployment automation is included at this boundary.
 
-Open pulse.code-workspace in VS Code. Five DME skills are bundled under `.agents/skills/`; follow [DME skills setup](docs/DME_SKILLS.md) to verify their availability in Codex. Run `python scripts/validate_review_package.py` to check document/schema/register consistency. The check is offline and connects to no cloud service. It does not execute runtime V&V tests or grant gate approval.
+Open pulse.code-workspace in VS Code. Run `python scripts/validate_review_package.py` to check document/schema/register consistency. The check is offline and connects to no cloud service. It does not execute runtime V&V tests or grant gate approval.
 
 ## Next phase
 
@@ -164,7 +164,7 @@ Reference system deployed on Azure K3s. Production detector: **NOT_PROMOTED**. T
 - Bounded half-hour backups now upload to Azure Blob and verify isolated restoration. Three consecutive automatic service runs completed; actual Blob recovery restored 3,150 receipts. Sustained cadence, complete host replacement and one-hour host-loss RPO remain unqualified.
 - Latest recorded full software suite: 174 passed. Sustained daily capacity, production availability, detector qualification and actual customer validation remain open.
 
-See [README](README.md), [engineering backlog](docs/CURRENT_ENGINEERING_BACKLOG.md), [execution record](customer/08-deployment-execution.md), [skill review](docs/SKILL_COMPLETION_REVIEW.md) and [historical status](PROJECT_HISTORY.md). Records distinguish implemented, tested and approved states; no production gate is promoted by this summary.
+See [README](README.md), [engineering backlog](docs/CURRENT_ENGINEERING_BACKLOG.md), [execution record](customer/08-deployment-execution.md), [engineering review](docs/ENGINEERING_REVIEW.md) and [historical status](PROJECT_HISTORY.md). Records distinguish implemented, tested and approved states; no production gate is promoted by this summary.
 
 Current detector evidence: [consolidated status](data/qualification/DETECTOR_STATUS.md). RMS: INCONCLUSIVE under the complete policy, with the documented missed bearing retained. Paired SCA: FAIL. Neither is promoted.
 

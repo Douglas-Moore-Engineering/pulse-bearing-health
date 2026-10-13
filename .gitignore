@@ -18,7 +18,7 @@ outputs/reference-single-node-foundation.json
 outputs/
 pulse-bearing-health/
 
-# DME reusable skill instructions live outside project repositories.
+# Local automation configuration
 **/SKILL.md
 **/.agents/skills/
 **/.codex/skills/

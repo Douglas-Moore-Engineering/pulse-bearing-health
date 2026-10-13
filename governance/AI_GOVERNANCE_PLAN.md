@@ -32,7 +32,7 @@ The user raised the Azure ceiling to USD 100/month. The restricted single-node K
 
 [Independent IMS evaluation](../data/qualification/ims-independent-results.md) consumed run 1 under the frozen rule and found a missed documented damaged bearing. Do not present a future tuned rule as held-out on this same run. The mismatched third archive is excluded from labeled evaluation. No detector was promoted.
 
-[Live asset authorization](evidence/azure-asset-authorization.json), [authorized backup/restore](evidence/azure-receipt-backup-restore.json) and local monitoring add bounded implementation evidence. The offline alert-ledger component has fixture tests only; no external message or qualified alert is emitted. [Skill review](../docs/SKILL_COMPLETION_REVIEW.md) retains actual authority, acceptance gaps and trace. Gates remain blocked where criteria are unmet.
+[Live asset authorization](evidence/azure-asset-authorization.json), [authorized backup/restore](evidence/azure-receipt-backup-restore.json) and local monitoring add bounded implementation evidence. The offline alert-ledger component has fixture tests only; no external message or qualified alert is emitted. [engineering review](../docs/ENGINEERING_REVIEW.md) retains actual authority, acceptance gaps and trace. Gates remain blocked where criteria are unmet.
 
 ## Fictional-reference workflow boundary
 

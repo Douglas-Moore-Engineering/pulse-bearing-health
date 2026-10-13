@@ -1,6 +1,6 @@
 # Engineering Release Gates
 
-Current reference evidence: [skill completion review](../docs/SKILL_COMPLETION_REVIEW.md). The authenticated Azure assessment service is deployed under the explicit USD 100 authorization. Production/detector gates below remain blocked by their actual criteria; historical pre-Azure boundaries do not revoke that bounded authorization.
+Current reference evidence: [engineering review](../docs/ENGINEERING_REVIEW.md). The authenticated Azure assessment service is deployed under the explicit USD 100 authorization. Production/detector gates below remain blocked by their actual criteria; historical pre-Azure boundaries do not revoke that bounded authorization.
 
 PULSE pre-Azure review v0.1 · 2026-10-10 · Owner: Dr. Douglas Moore · Prepared for review
 

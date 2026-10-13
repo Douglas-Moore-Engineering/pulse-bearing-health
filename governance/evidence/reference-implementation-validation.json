@@ -62,5 +62,9 @@
     "src/pulse/release.py": "e6c88b8277b3fd5b5982e58695880f03f7ce918b312f7ff7c45d7b7d8b98b1a5",
     "tests/test_reference.py": "d88515bc4607a7019c200b4b284190b0eb9e27bb5919e7f62785045caf1b38ac"
   },
-  "skill_snapshot": "27 Windows CRLF conversions restored to exact committed manifest-verified bytes; hashes and skill content unchanged; .gitattributes prevents conversion"
+  "record_maintenance": {
+    "date": "2026-10-13",
+    "change": "Removed obsolete repository tooling metadata; original test results and artifact digests retained.",
+    "original_commit": "14385817ccfa01548797b17f463fd5c71fe65b6e"
+  }
 }

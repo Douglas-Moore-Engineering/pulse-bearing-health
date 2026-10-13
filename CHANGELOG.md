@@ -2,11 +2,8 @@
 
 ## measurement-evidence-v1 — 2026-10-12
 
-Reordered the README around operational purpose, users, implemented behavior, measured evidence, gaps, demonstration and engineering navigation. Added project measurement records and open KPI plans without changing detector or release decisions. Removed reusable skill copies and the bundle manifest; updated validation and external rendering configuration. Historical skill-installation and execution records remain unchanged below.
+Reordered the README around operational purpose, users, implemented behavior, measured evidence, gaps, demonstration and engineering navigation. Added project measurement records and open KPI plans without changing detector or release decisions.
 
-## dme-skills-bundle-v1 — 2026-10-11
-
-Added all five existing DME skill packages to `.agents/skills/`, preserving source content, references, metadata and approved diagram assets. Added root agent instructions, an explicit skill inventory, source-commit/file-hash manifest, VS Code refresh steps, and offline inventory/integrity checks. This fixes missing repository skill distribution; IDE discovery still requires verification in the user's session. Pre-Azure design remains v0.3 and no authorization or gate changed.
 
 ## pre-azure-data-v0.3 — 2026-10-10
 

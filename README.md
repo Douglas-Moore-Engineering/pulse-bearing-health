@@ -61,7 +61,7 @@ Use a fresh output directory. The executable demo uses synthetic fixtures and re
 | Requirements and verification | [Requirements](requirements/requirements.csv), [verification and validation matrix](governance/verification_validation_matrix.csv) |
 | Performance indicators, measurements and decisions | [Indicator dictionary](docs/appendix-a-kpi-dictionary.md), [measurement index](governance/measurements/README.md), [release gates](governance/release_gates.md) |
 | Implementation and operations | [Source](src/pulse), [tests](tests), [runbooks](runbooks/README.md) |
-| Current handoff and history | [Current status](PROJECT_STATUS.md), [lifecycle review](docs/SKILL_COMPLETION_REVIEW.md), [history](PROJECT_HISTORY.md) |
-| Complete documentation | [Documentation index](docs/README.md), [contributing](CONTRIBUTING.md), [external DME skills](docs/DME_SKILLS.md) |
+| Current handoff and history | [Current status](PROJECT_STATUS.md), [lifecycle review](docs/ENGINEERING_REVIEW.md), [history](PROJECT_HISTORY.md) |
+| Complete documentation | [Documentation index](docs/README.md), [contributing](CONTRIBUTING.md) |
 
 Private DME engineering repository. Keep credentials, private backups, customer data and unauthorized raw datasets out of Git. Dataset citations do not grant redistribution rights.

@@ -15,7 +15,7 @@ Pinned links identify the exact repository evidence snapshot reviewed. A reposit
 
 No real customer outcomes or independent sign-off are established. Each unmeasured plan has a DME owner and next action; its dependent acceptance remains open. Record corrections as new versions with rationale and retain their Git history; actual reruns receive new IDs.
 
-Existing decisions: [detector status](../../data/qualification/DETECTOR_STATUS.md), [release gates](../release_gates.md). Existing lifecycle/handoff: [skill completion review](../../docs/SKILL_COMPLETION_REVIEW.md), [demo readiness](../../customer/10-demo-readiness.md), [current status](../../PROJECT_STATUS.md). Receipt recovery is a supporting engineering check, not host-loss acceptance.
+Existing decisions: [detector status](../../data/qualification/DETECTOR_STATUS.md), [release gates](../release_gates.md). Existing lifecycle/handoff: [engineering review](../../docs/ENGINEERING_REVIEW.md), [demo readiness](../../customer/10-demo-readiness.md), [current status](../../PROJECT_STATUS.md). Receipt recovery is a supporting engineering check, not host-loss acceptance.
 
 ## Unquantified claims
 

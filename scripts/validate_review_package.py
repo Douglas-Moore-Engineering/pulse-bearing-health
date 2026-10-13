@@ -107,8 +107,8 @@ checks.append({'check':'unresolved cloud gates and current execution handoff ret
 
 from check_repository_contract import validate_contract
 errors.extend(validate_contract(ROOT))
-checks.append({'check':'README order, measurement index/links and external skill placement',
-               'scope':'Structural consistency only; not measurement truth, approval or IDE installation'})
+checks.append({'check':'README order, measurement index/links and repository hygiene',
+               'scope':'Structural consistency only; not measurement truth, approval'})
 
 digests = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
            for p in sorted(files) if p.is_file()

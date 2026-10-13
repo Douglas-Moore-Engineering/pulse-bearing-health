@@ -5,9 +5,9 @@ const {execFileSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const toolsRoot = process.argv[2];
 if (!toolsRoot) throw new Error('Supply temporary Mermaid installation directory');
-const renderConfig = process.env.DME_MERMAID_CONFIG;
+const renderConfig = process.env.DME_MERMAID_CONFIG || path.join(root, 'docs/diagrams/mermaid-config.json');
 if (!renderConfig || !path.isAbsolute(renderConfig) || !fs.existsSync(renderConfig)) {
-  throw new Error('Set DME_MERMAID_CONFIG to the approved external diagram skill mermaid-config.json');
+  throw new Error('Diagram configuration must be an existing absolute path; check docs/diagrams/mermaid-config.json or DME_MERMAID_CONFIG');
 }
 const puppeteer = require(path.join(toolsRoot, 'node_modules', 'puppeteer'));
 const cli = path.join(toolsRoot, 'node_modules', '@mermaid-js', 'mermaid-cli', 'src', 'cli.js');
