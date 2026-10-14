@@ -1,5 +1,7 @@
 # Engineering Documentation Index
 
+**Start here:** [1. Demo](demo.md) → [2. Code walkthrough](code-walkthrough.md) → [3. Results](results.md)
+
 Current navigation for the private reference system. See [project status](../PROJECT_STATUS.md) for implementation and release state. Dated pre-Azure documents below remain historical design evidence, not a current deployment inventory or authorization.
 
 - [Repository agent instructions](../AGENTS.md)
@@ -67,3 +69,4 @@ Current navigation for the private reference system. See [project status](../PRO
 - [Open KPI measurement plans](../governance/measurements/planned-kpis.md)
 
 The index connects the README results to original evidence, evaluated versions, limitations and existing acceptance decisions. Measurement, criterion result and authorized acceptance remain separate.
+
