@@ -26,3 +26,8 @@ The local source snapshot was partial. Full repository validation and clean-run 
 ## Remaining engineering and delivery work
 
 Owner: Dr. Douglas Moore. Preserve the existing qualification backlog and release disposition. Raw-data EDA and new baseline/candidate comparisons need their actual source inputs and a defined evaluation protocol; this notebook does not substitute for them. Verified MLflow experiment/registry run links remain open and no tracking run was created here. Full notebook browser inspection, complete environment reproducibility and repository-level security/review-control verification are not established by this increment. CI changes cover bounded notebook execution and review-document links; they do not establish comprehensive security scanning.
+
+
+## GitHub verification follow-up
+
+The [initial CI run](https://github.com/Douglas-Moore-Engineering/pulse-bearing-health/actions/runs/38641127103) passed all 180 tests, the fixture demo and repository validation. Notebook dependency installation failed because ipykernel 7.4 requires Python 3.11 while Pulse supports Python 3.10. The notebook requirement is corrected to 7.3.0; the updated pull-request workflow records the rerun outcome.
