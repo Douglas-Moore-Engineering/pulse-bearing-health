@@ -2,6 +2,8 @@
 
 **Private reference system.** An authenticated maintenance-review workflow has recorded Azure deployment evidence. The production detector remains **NOT_PROMOTED**. [Current status](PROJECT_STATUS.md).
 
+**Review in order:** [1. Demo](docs/demo.md) → [2. Code walkthrough](docs/code-walkthrough.md) → [3. Results](docs/results.md)
+
 ## Operational problem
 
 Bearing degradation can lead to unplanned equipment stops. Pulse connects vibration observations, supporting evidence and human review so a reliability engineer can investigate a potential problem and a maintenance planner can decide what work is justified. The customer scenario is fictional.
@@ -65,3 +67,4 @@ Use a fresh output directory. The executable demo uses synthetic fixtures and re
 | Complete documentation | [Documentation index](docs/README.md), [contributing](CONTRIBUTING.md) |
 
 Private DME engineering repository. Keep credentials, private backups, customer data and unauthorized raw datasets out of Git. Dataset citations do not grant redistribution rights.
+

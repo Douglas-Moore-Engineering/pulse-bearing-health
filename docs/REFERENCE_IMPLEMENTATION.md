@@ -1,6 +1,6 @@
 # Reference implementation 0.4.0
 
-Local software exercise with generated fixtures. No trained model, qualified public dataset, site validation or Azure deployment.
+This page describes the local generated-fixture harness only. It does not train a model or validate a site. The wider project has separate recorded Azure deployment and detector-research evidence; see [current status](../PROJECT_STATUS.md). Start with the ordered [demonstration](demo.md).
 
 ## Run and inspect
 
@@ -37,7 +37,7 @@ Tests cover malformed input, source substitution/tampering, changed samples, bea
 
 The local store is a single-operator reference harness under operating-system file access. It is not a multiuser service, immutable audit store or production data pipeline. The caller must freeze bearing assignments with `assign_groups` before ingestion; reassignment is rejected. A qualified dataset adapter must establish the complete group split before windowing. Training/validation/test fixture labels do not imply model fitting or held-out performance evaluation. No representative workload, availability, recovery SLA, predictive performance, independent assurance or cloud access control is established.
 
-[Azure foundation](../infra/azure/README.md) is separate infrastructure source. The current [execution handoff](../customer/08-deployment-execution.md) records expanded authorization and the still-missing account and spending limits. Four added [architecture views](architecture/README.md) distinguish implemented reference behavior from proposed cloud/site functions.
+[Azure foundation](../infra/azure/README.md) is separate infrastructure source. The current [execution handoff](../customer/08-deployment-execution.md) records deployment execution and the applicable authorization history; consult [current status](../PROJECT_STATUS.md) for present conditions. Four added [architecture views](architecture/README.md) distinguish implemented reference behavior from proposed cloud/site functions.
 
 ## Operator and recovery procedure
 
@@ -46,3 +46,4 @@ The local store is a single-operator reference harness under operating-system fi
 3. Call `ReferenceStore.backup(path)` for a consistent SQLite snapshot. Restore by opening the snapshot with `ReferenceStore`, running SQLite `PRAGMA integrity_check`, reconciling counts and verifying referenced source/evidence digests. Local automated recovery tests do not establish cloud RTO/RPO.
 4. On integrity failure, stop consuming the affected report, preserve its database/report and return unavailable. No model fallback or automatic promotion is available.
 5. Retain or remove generated run directories only under the local owner's retention decision. No automatic cleanup deletes evidence, source data or cloud resources.
+
