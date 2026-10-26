@@ -66,5 +66,5 @@ Use a fresh output directory. The executable demo uses synthetic fixtures and re
 | Current handoff and history | [Current status](PROJECT_STATUS.md), [lifecycle review](docs/ENGINEERING_REVIEW.md), [history](PROJECT_HISTORY.md) |
 | Complete documentation | [Documentation index](docs/README.md), [contributing](CONTRIBUTING.md) |
 
-Private DME engineering repository. Keep credentials, private backups, customer data and unauthorized raw datasets out of Git. Dataset citations do not grant redistribution rights.
+Public DME engineering repository. Keep credentials, private backups, customer data and unauthorized raw datasets out of Git. Dataset citations do not grant redistribution rights.
 
